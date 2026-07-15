@@ -2500,7 +2500,7 @@
       "sources": [
         "ARIEL-1994 · interview footage corpus / follow-up study trail"
       ],
-      "sourceLabel": "Interview corpus",
+      "sourceLabel": "Interview corpus + witness drawings",
       "sourceLocator": "ARIEL-1994",
       "relatedCaseIds": [
         "BF-1966-WS-01",
@@ -2508,6 +2508,12 @@
       ],
       "heroFact": "Sixty child witnesses, filmed within days, telling structurally consistent accounts that have held up in adult re-interviews — the strongest mass-witness testimony corpus in the record.",
       "image": "assets/source_previews/BF-1994-AR-01_source_image.jpg",
+      "evidenceImages": [
+        "assets/evidence/ARIEL-1994/ArielSchool_child_drawing.jpg",
+        "assets/evidence/ARIEL-1994/ArielSchool_witness_children.jpg",
+        "assets/evidence/ARIEL-1994/ArielSchool_sketch_sheet.jpg",
+        "assets/evidence/ARIEL-1994/ArielSchool_grounds.jpg"
+      ],
       "x": 58.01,
       "y": 36.08,
       "coordinateGenerated": true,
