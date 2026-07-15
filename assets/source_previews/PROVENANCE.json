@@ -1,0 +1,319 @@
+{
+ "generatedAt": "2026-07-15",
+ "sweep": "atlas image verification sweep, 2026-07-15 (Claude, this session)",
+ "note": "Original 46 corpus cases use rendered pages from the HONEY DEW / WAR.GOV release corpus and FOIA PDFs; entries here cover the 2026-07 expansion cases and prior-session replacements.",
+ "entries": {
+  "BF-1947-RW-01": {
+   "file": "assets/source_previews/BF-1947-RW-01_source_image.jpg",
+   "kind": "archival-document-photo",
+   "subject": "Roswell Daily Record front page, July 8, 1947 ('RAAF Captures Flying Saucer')",
+   "status": "verified"
+  },
+  "BF-SF-05": {
+   "file": "assets/source_previews/BF-SF-05_source_image.jpg",
+   "kind": "archival-document",
+   "subject": "FBI Vault MJ-12 Eisenhower Briefing page with handwritten BOGUS annotation, file 65-8110-1",
+   "status": "verified"
+  },
+  "BF-1952-DC-01": {
+   "file": "assets/source_previews/BF-1952-DC-01_source_image.png",
+   "kind": "archival-document",
+   "subject": "Project Blue Book chart: Frequency of UFO Reports June-Sept 1952 with Washington D.C. incident annotations",
+   "status": "verified"
+  },
+  "BF-1957-LV-01": {
+   "file": "assets/source_previews/BF-1957-LV-01_source_image.jpg",
+   "kind": "archival-document",
+   "subject": "Project Blue Book (10073) record card, Levelland Nov 2-3 1957, 'ball lightning' conclusion",
+   "status": "verified"
+  },
+  "BF-1958-TR-01": {
+   "file": "assets/source_previews/BF-1958-TR-01_source_image.jpg",
+   "kind": "archival-document",
+   "subject": "O Globo newspaper page on the Trindade photographs and Navy testimony, 1958",
+   "status": "verified"
+  },
+  "BF-1978-KK-01": {
+   "file": "assets/source_previews/BF-1978-KK-01_source_image.jpg",
+   "kind": "archival-document",
+   "subject": "NZ MFA savingram, Wellington 23 Jan 1979: DSIR/RNZAF analysis of Kaikoura films and radar",
+   "status": "verified"
+  },
+  "BF-1948-AZ-01": {
+   "file": "assets/source_previews/BF-1948-AZ-01_source_image.jpg",
+   "kind": "archival-document",
+   "subject": "FBI Guy Hottel memo, March 22 1950 - second-hand retelling of the Aztec-genre saucers claim (moved here from SF-11)",
+   "status": "verified"
+  },
+  "BF-1946-GR-01": {
+   "file": "assets/source_previews/BF-1946-GR-01_source_image.jpg",
+   "kind": "period-photo",
+   "subject": "Swedish military listening equipment during the Lake Kolmjarv ghost-rocket search, 1946",
+   "status": "verified"
+  },
+  "BF-1944-FF-01": {
+   "file": "assets/source_previews/BF-1944-FF-01_source_image.png",
+   "kind": "period-photo",
+   "subject": "Widely circulated WWII bomber-formation photo with unidentified light dots; provenance debated",
+   "status": "verified-with-caveat"
+  },
+  "BF-1957-RB-01": {
+   "file": "assets/source_previews/BF-1957-RB-01_source_image.jpg",
+   "kind": "period-photo",
+   "subject": "USAF B-47 flight line, period context for the RB-47H ELINT case",
+   "status": "verified"
+  },
+  "BF-SF-02": {
+   "file": "assets/source_previews/BF-SF-02_source_image.jpg",
+   "kind": "artifact-photo",
+   "subject": "VZ-9AV Avrocar airframe at the National Museum of the USAF",
+   "status": "verified"
+  },
+  "BF-SF-10": {
+   "file": "assets/source_previews/BF-SF-10_source_image.png",
+   "kind": "broadcast-still",
+   "subject": "David Grusch testifying, House Oversight subcommittee, July 26 2023",
+   "status": "verified"
+  },
+  "BF-SF-08": {
+   "file": "assets/source_previews/BF-SF-08_source_image.png",
+   "kind": "secondary-document",
+   "subject": "Gildas Bourdais summary article page on the COMETA report",
+   "status": "verified-secondary"
+  },
+  "BF-1961-BH-01": {
+   "file": "assets/source_previews/BF-1961-BH-01_source_image.png",
+   "kind": "witness-artifact",
+   "subject": "Betty Hill star-map sketch with Marjorie Fish Zeta Reticuli interpretation (contested artifact)",
+   "status": "verified"
+  },
+  "BF-1965-KB-01": {
+   "file": "assets/source_previews/BF-1965-KB-01_source_image.jpg",
+   "kind": "replica-photo",
+   "subject": "Acorn-object replica displayed at Kecksburg, PA (TV-prop replica, not the object)",
+   "status": "verified-context"
+  },
+  "BF-1996-VG-01": {
+   "file": "assets/source_previews/BF-1996-VG-01_source_image.jpg",
+   "kind": "landmark-photo",
+   "subject": "Varginha's municipal flying-saucer water tower landmark",
+   "status": "verified-context"
+  },
+  "BF-1975-TW-01": {
+   "file": "assets/source_previews/BF-1975-TW-01_source_image.jpg",
+   "kind": "witness-photo",
+   "subject": "Travis Walton at a UFO conference",
+   "status": "verified"
+  },
+  "BF-1973-PG-01": {
+   "file": "assets/source_previews/BF-1973-PG-01_source_image.jpg",
+   "kind": "witness-photo",
+   "subject": "Convention photo, identification as Calvin Parker unconfirmed - replace when sheriff's-tape material is acquired",
+   "status": "unverified-identification"
+  },
+  "BF-2023-LG-01": {
+   "file": "assets/source_previews/BF-2023-LG-01_source_image.jpg",
+   "kind": "context-photo",
+   "subject": "Langley AFB runway 08 aerial, location context",
+   "status": "verified-context"
+  },
+  "BF-1947-KA-01": {
+   "file": "assets/source_previews/BF-1947-KA-01_source_image.png",
+   "kind": "reconstruction",
+   "subject": "CGI reconstruction of Arnold's nine crescent objects (standard enwiki illustration)",
+   "status": "verified-reconstruction"
+  },
+  "BF-1964-SC-01": {
+   "file": "assets/source_previews/BF-1964-SC-01_source_image.jpg",
+   "kind": "reconstruction",
+   "subject": "CGI reconstruction of the Zamora egg-shaped craft and figures",
+   "status": "verified-reconstruction"
+  },
+  "BF-1947-MI-01": {
+   "file": "assets/source_previews/BF-1947-MI-01_source_image.jpg",
+   "kind": "period-illustration",
+   "subject": "Fate-era pulp illustration of the Maury Island doughnut craft",
+   "status": "verified-illustration"
+  },
+  "BF-SF-12": {
+   "file": "assets/source_previews/BF-SF-12_source_image.jpg",
+   "kind": "prop-photo",
+   "subject": "Alien-autopsy style prop/museum recreation photo; apt for an admitted-recreation case, not the Santilli original",
+   "status": "verified-with-caveat"
+  },
+  "BF-SF-01": {
+   "file": "assets/source_previews/BF-SF-01_source_image.jpg",
+   "kind": "context-photo",
+   "subject": "Groom Lake / Papoose Lake public location imagery + Area 51 gate (Wikimedia)",
+   "status": "verified-context (prior session)"
+  },
+  "BF-1990-CV-01": {
+   "file": "assets/source_previews/BF-1990-CV-01_source_image.jpg",
+   "kind": "archival-photo",
+   "subject": "Calvine photograph + VuFoil + MoD desk note (enwiki-hosted source files)",
+   "status": "verified (prior session)"
+  },
+  "BF-1948-MT-01": {
+   "file": "assets/source_previews/BF-1948-MT-01_source_image.jpg",
+   "kind": "period-photo-set",
+   "subject": "Mantell portrait, F-51s, Skyhook release, reconstruction (Wikimedia/PD)",
+   "status": "verified (prior session)"
+  },
+  "BF-1987-GB-01": {
+   "file": "assets/source_previews/BF-1987-GB-01_source_image.jpg",
+   "kind": "artifact-photo",
+   "subject": "Gulf Breeze model photo + prior craft illustration",
+   "status": "verified (prior session)"
+  },
+  "BF-1980-CLD-01": {
+   "file": "assets/source_previews/BF-1980-CLD-01_source_image.jpg",
+   "kind": "illustration",
+   "subject": "Cash-Landrum reference illustration, labeled",
+   "status": "verified (prior session)"
+  },
+  "BF-1966-WS-01": {
+   "file": "assets/source_previews/BF-1966-WS-01_source_image.jpg",
+   "kind": "archival-set",
+   "subject": "Westall: Clayton Calendar drawing, Dandenong Journal pages, AFSR note",
+   "status": "verified (prior session)"
+  },
+  "BF-1967-SH-01": {
+   "file": "assets/source_previews/BF-1967-SH-01_source_image.jpg",
+   "kind": "context-set",
+   "subject": "Shag Harbour map, aerial, incident park",
+   "status": "verified (prior session)"
+  },
+  "BF-1977-CL-01": {
+   "file": "assets/source_previews/BF-1977-CL-01_source_image.jpg",
+   "kind": "archival-set",
+   "subject": "Operation Prato pages: object photos, sketches, flap map (Bob Pratt archive)",
+   "status": "verified"
+  },
+  "BF-1994-AR-01": {
+   "file": "assets/source_previews/BF-1994-AR-01_source_image.jpg",
+   "kind": "archival-set",
+   "subject": "Ariel School: child drawings, witness stills, grounds (Cynthia Hind/UFO AFRINEWS)",
+   "status": "verified"
+  },
+  "BF-1978-VL-01": {
+   "file": "assets/source_previews/BF-1978-VL-01_source_image.jpg",
+   "kind": "context-photo",
+   "subject": "Bass Strait context panel + DoT transcript reference",
+   "status": "verified-context (prior session)"
+  },
+  "BF-SF-03": {
+   "file": "assets/source_previews/BF-SF-03_source_image.jpg",
+   "kind": "reference-card",
+   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
+   "status": "generated"
+  },
+  "BF-SF-04": {
+   "file": "assets/source_previews/BF-SF-04_source_image.jpg",
+   "kind": "reference-card",
+   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
+   "status": "generated"
+  },
+  "BF-SF-06": {
+   "file": "assets/source_previews/BF-SF-06_source_image.jpg",
+   "kind": "reference-card",
+   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
+   "status": "generated"
+  },
+  "BF-SF-07": {
+   "file": "assets/source_previews/BF-SF-07_source_image.jpg",
+   "kind": "reference-card",
+   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
+   "status": "generated"
+  },
+  "BF-SF-13": {
+   "file": "assets/source_previews/BF-SF-13_source_image.jpg",
+   "kind": "reference-card",
+   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
+   "status": "generated"
+  },
+  "BF-1981-TP-01": {
+   "file": "assets/source_previews/BF-1981-TP-01_source_image.jpg",
+   "kind": "reference-card",
+   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
+   "status": "generated"
+  },
+  "BF-1980-PE-01": {
+   "file": "assets/source_previews/BF-1980-PE-01_source_image.jpg",
+   "kind": "reference-card",
+   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
+   "status": "generated"
+  },
+  "BF-2006-OH-01": {
+   "file": "assets/source_previews/BF-2006-OH-01_source_image.jpg",
+   "kind": "reference-card",
+   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
+   "status": "generated"
+  },
+  "BF-1948-CW-01": {
+   "file": "assets/source_previews/BF-1948-CW-01_source_image.jpg",
+   "kind": "reference-card",
+   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
+   "status": "generated"
+  },
+  "BF-1948-GD-01": {
+   "file": "assets/source_previews/BF-1948-GD-01_source_image.jpg",
+   "kind": "reference-card",
+   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
+   "status": "generated"
+  },
+  "BF-1950-GF-01": {
+   "file": "assets/source_previews/BF-1950-GF-01_source_image.jpg",
+   "kind": "reference-card",
+   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
+   "status": "generated"
+  },
+  "BF-1952-TM-01": {
+   "file": "assets/source_previews/BF-1952-TM-01_source_image.jpg",
+   "kind": "reference-card",
+   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
+   "status": "generated"
+  },
+  "BF-1933-MG-01": {
+   "file": "assets/source_previews/BF-1933-MG-01_source_manifest.svg",
+   "kind": "manifest-card",
+   "subject": "Reverted to manifest card - previous image was an MJ-12 page (wrong case)",
+   "status": "quarantined-replaced"
+  },
+  "BF-1973-CY-01": {
+   "file": "assets/source_previews/BF-1973-CY-01_source_manifest.svg",
+   "kind": "manifest-card",
+   "subject": "Reverted to manifest card - previous image was a 1964 Montana hoax Blue Book card (wrong case; no Blue Book card can exist for a 1973 event)",
+   "status": "quarantined-replaced"
+  },
+  "BF-2008-SV-01": {
+   "file": "assets/source_previews/BF-2008-SV-01_source_manifest.svg",
+   "kind": "manifest-card",
+   "subject": "Reverted to manifest card - previous image was a Bush/Merkel Crawford press photo (thematic only)",
+   "status": "quarantined-replaced"
+  },
+  "BF-2014-CH-01": {
+   "file": "assets/source_previews/BF-2014-CH-01_source_manifest.svg",
+   "kind": "manifest-card",
+   "subject": "Reverted to manifest card - previous image was a 1991 CIA Moscow media list (unrelated)",
+   "status": "quarantined-replaced"
+  },
+  "BF-2019-OM-01": {
+   "file": "assets/source_previews/BF-2019-OM-01_source_manifest.svg",
+   "kind": "manifest-card",
+   "subject": "Reverted to manifest card - previous image was a Tic Tac CGI depicting the 2004 Nimitz object",
+   "status": "quarantined-replaced"
+  },
+  "BF-SF-09": {
+   "file": "assets/source_previews/BF-SF-09_source_manifest.svg",
+   "kind": "manifest-card",
+   "subject": "Reverted to manifest card - previous image was an unidentifiable person",
+   "status": "quarantined-replaced"
+  },
+  "BF-SF-11": {
+   "file": "assets/source_previews/BF-SF-11_source_manifest.svg",
+   "kind": "manifest-card",
+   "subject": "Reverted to manifest card - previous image was the 1950 Hottel memo, reassigned to the Aztec case where it belongs",
+   "status": "quarantined-replaced"
+  }
+ }
+}
