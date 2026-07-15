@@ -3467,10 +3467,10 @@
       "summary": "'UFOs and Defense: What Should We Prepare For?' — a 1999 report by a private committee of French generals, admirals, and senior engineers associated with the IHEDN defense institute — reviewed the best-documented cases and judged the extraterrestrial hypothesis the most plausible remaining candidate, urging defense preparedness. It was delivered to France's President and Prime Minister.",
       "keyFact": "Senior defense establishment figures of a NATO-allied state put their names on a report calling the ET hypothesis the leading unexcluded explanation.",
       "official": "The French government accepted delivery without endorsement; GEIPAN continues as the state's operational UAP office.",
-      "gap": "This dossier's own OCR-blocker inventory flags the full COMETA text as a missing record in the corpus — the primary document should be acquired and mapped.",
+      "gap": "The full English text is now held in the atlas corpus (COMETA-1999 file set); the remaining gap is the committee's underlying case dossiers, which were never published.",
       "whyItMatters": "COMETA is the strongest institutional-credibility artifact in the field: not a leak, not anonymous — signed, delivered, and never retracted.",
       "sources": [
-        "COMETA-1999 · report text / IHEDN-associated authorship record"
+        "COMETA-1999 · report text (English translation, archive.org mirror) / IHEDN-associated authorship record"
       ],
       "sourceLabel": "COMETA report",
       "sourceLocator": "COMETA-1999",
@@ -3560,7 +3560,7 @@
       "gap": "The ICIG complaint substance and the named-program evidence Grusch says he provided remain sealed — the exact gap the file tracks.",
       "whyItMatters": "This is the atlas's living case: the same government producing both the claim channel and the denial channel, in public, simultaneously.",
       "sources": [
-        "GRUSCH-2023 · hearing transcript / ODNI 2021 assessment / AARO 2024 review"
+        "GRUSCH-2023 · House hearing transcript (govinfo, Serial 118-53) / ODNI 2021 assessment / AARO 2024 Historical Record Report Vol. 1"
       ],
       "sourceLabel": "Congressional record",
       "sourceLocator": "GRUSCH-2023",
