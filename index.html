@@ -223,23 +223,30 @@ svg#atlasSvg:active{cursor:grabbing}
 .atlas-marker{cursor:pointer;pointer-events:auto;overflow:visible;transition:filter .18s ease,opacity .18s ease}
 .atlas-marker:not(.selected){opacity:.82}
 .atlas-marker:hover{opacity:1;filter:drop-shadow(0 0 4px rgba(255,255,255,.35))}
-.marker-core,.marker-ring,.marker-halo,.radar-sweep,.selected-spark,.target-reticle{vector-effect:non-scaling-stroke}
+.marker-core,.marker-ring,.marker-halo,.selection-wave,.selection-reticle,.selection-bracket,.selection-spark,.selection-label-stem{vector-effect:non-scaling-stroke}
 .marker-core{fill:currentColor;stroke:rgba(255,255,255,.75);stroke-width:.11;filter:drop-shadow(0 0 1.2px currentColor)}
 .marker-ring{fill:none;stroke:currentColor;stroke-width:.14;opacity:.7}
 .marker-halo{fill:currentColor;opacity:.15}
 .marker-exact{color:var(--cyan)}.marker-unresolved{color:var(--amber)}.marker-redacted{color:var(--violet)}.marker-orbital{color:var(--white)}.marker-institutional{color:var(--silver)}
-.atlas-marker.selected{opacity:1;filter:drop-shadow(0 0 5px rgba(95,212,242,.85)) drop-shadow(0 0 16px rgba(95,212,242,.3))}
-.atlas-marker.selected .marker-core{fill:#F4FDFF;stroke:#fff;stroke-width:.16}
-.atlas-marker.selected .marker-ring{stroke:var(--accent);stroke-width:.22;opacity:1}
-.atlas-marker.selected .marker-halo{fill:var(--accent);opacity:.3}
-.target-reticle{fill:none;stroke:var(--accent);stroke-width:.11;stroke-dasharray:.38 .22;opacity:.72;animation:reticlePulse 2.2s ease-in-out infinite}
-.radar-sweep{fill:none;stroke:var(--accent);stroke-width:.09;opacity:.3;animation:radarPulse 2.4s cubic-bezier(.16,1,.3,1) infinite}
-.radar-sweep-2{animation-delay:1.1s}
-.radar-wedge{display:none}
-.selected-spark{fill:#fff;filter:drop-shadow(0 0 5px rgba(95,212,242,.95));animation:spark 1.9s ease-in-out infinite}
-@keyframes radarPulse{0%{transform:scale(.78);opacity:.4}100%{transform:scale(3.4);opacity:0}}
-@keyframes reticlePulse{0%,100%{opacity:.52;transform:scale(.98)}50%{opacity:.88;transform:scale(1.045)}}
-@keyframes spark{0%,100%{opacity:.78;transform:scale(1)}50%{opacity:1;transform:scale(1.22)}}
+.atlas-marker.selected{opacity:1;filter:drop-shadow(0 0 7px rgba(244,253,255,.92)) drop-shadow(0 0 20px rgba(95,212,242,.42))}
+.atlas-marker.selected .marker-core{fill:#F8FEFF;stroke:#fff;stroke-width:.18}
+.atlas-marker.selected .marker-ring{stroke:#F8FEFF;stroke-width:.24;opacity:1}
+.atlas-marker.selected .marker-halo{fill:var(--accent);opacity:.42}
+.selection-layer{pointer-events:none;overflow:visible}
+.selection-beacon{pointer-events:none;overflow:visible;filter:drop-shadow(0 0 7px rgba(95,212,242,.62)) drop-shadow(0 0 22px rgba(95,212,242,.22))}
+.selection-wave{fill:none;stroke:rgba(95,212,242,.78);stroke-width:.13;opacity:0;animation:selectionWave 1.72s cubic-bezier(.16,1,.3,1) 1;transform-origin:center}
+.selection-reticle{fill:none;stroke-linecap:round;opacity:.9;animation:selectionReticle 2.35s ease-in-out infinite;transform-origin:center}
+.selection-reticle-outer{stroke:rgba(244,253,255,.9);stroke-width:.12;stroke-dasharray:.62 .42}
+.selection-reticle-inner{stroke:rgba(95,212,242,.82);stroke-width:.11;stroke-dasharray:.34 .24;animation-delay:.2s}
+.selection-bracket{fill:none;stroke:#F8FEFF;stroke-width:.18;stroke-linecap:round;stroke-linejoin:round;opacity:.96;filter:drop-shadow(0 0 4px rgba(95,212,242,.75))}
+.selection-spark{fill:#fff;filter:drop-shadow(0 0 7px rgba(95,212,242,.95));animation:selectionSpark 1.75s ease-in-out infinite}
+.selection-label-stem{stroke:rgba(95,212,242,.58);stroke-width:.1;stroke-linecap:round}
+.selection-label-bg{fill:rgba(3,7,12,.9);stroke:rgba(95,212,242,.62);stroke-width:.09;filter:drop-shadow(0 0 8px rgba(95,212,242,.24))}
+.selection-label-kicker{font-family:var(--mono);font-size:.64px;font-weight:700;letter-spacing:.2em;text-anchor:middle;fill:rgba(95,212,242,.78)}
+.selection-label-id{font-family:var(--mono);font-size:.88px;font-weight:800;letter-spacing:.06em;text-anchor:middle;fill:#F8FEFF;paint-order:stroke;stroke:rgba(3,7,12,.68);stroke-width:.08}
+@keyframes selectionWave{0%{transform:scale(.65);opacity:.44}64%{opacity:.13}100%{transform:scale(18);opacity:0}}
+@keyframes selectionReticle{0%,100%{opacity:.68;transform:scale(.98)}50%{opacity:1;transform:scale(1.055)}}
+@keyframes selectionSpark{0%,100%{opacity:.78;transform:scale(1)}50%{opacity:1;transform:scale(1.32)}}
 
 /* clusters */
 .cluster-badge{cursor:pointer;pointer-events:auto;filter:drop-shadow(0 0 6px rgba(95,212,242,.16))}
@@ -514,7 +521,7 @@ svg#atlasSvg:active{cursor:grabbing}
 }
 @media(prefers-reduced-motion:reduce){
   *{scroll-behavior:auto!important}
-  .radar-sweep,.selected-spark,.target-reticle{animation:none!important}
+  .selection-wave,.selection-reticle,.selection-spark{animation:none!important}
   .event,.case-row,.cta,.cta:before,.iconbtn,.drawer-backdrop,.case-drawer{animation:none!important;transition:none!important}
 }
 
@@ -943,6 +950,7 @@ svg#atlasSvg:active{cursor:grabbing}
         <g id="labels"></g>
         <g id="clusters"></g>
         <g id="markers"></g>
+        <g id="selectionLayer" class="selection-layer"></g>
       </svg>
       <div class="legend"><span><i class="dot" style="background:var(--cyan)"></i>Exact</span><span><i class="dot" style="background:var(--amber)"></i>Unresolved</span><span><i class="dot" style="background:var(--violet)"></i>Redacted</span><span><i class="dot" style="background:var(--white)"></i>Orbital</span><span><i class="dot" style="background:var(--silver)"></i>Institutional</span></div>
     </div></section>
@@ -963,6 +971,7 @@ const cases = atlasData.cases.slice().sort((a,b)=>a.year-b.year || a.id.localeCo
 const events = atlasData.timeline.slice().sort((a,b)=>a.year-b.year || a.id.localeCompare(b.id));
 const svg = document.getElementById('atlasSvg');
 const markersG = document.getElementById('markers');
+const selectionLayer = document.getElementById('selectionLayer');
 const clustersG = document.getElementById('clusters');
 const labelsG = document.getElementById('labels');
 const stateLinesG = document.getElementById('stateLines');
@@ -983,6 +992,7 @@ const sourceFileIndex = {"CIA-UAP-002": ["/Users/cortana/uap-final-dossier/ufo-w
 function clamp(v,min,max){return Math.max(min,Math.min(max,v));}
 function currentZoom(){return 100 / state.view.w;}
 function markerScale(){return clamp(1/state.zoom,0.22,1);}
+function selectedMarkerScale(){return markerScale()*1.85;}
 function setView(x,y,w){
   state.view={x,y,w,h:w*0.62};
   svg.setAttribute('viewBox',`${x} ${y} ${w} ${w*0.62}`);
@@ -996,15 +1006,15 @@ function setView(x,y,w){
   const ms=markerScale();
   document.querySelectorAll('.atlas-marker').forEach(el=>{
     const mx=el.dataset.x, my=el.dataset.y;
-    if(mx&&my) el.setAttribute('transform',`translate(${mx},${my}) scale(${ms})`);
+    const sc=el.classList.contains('selected')&&!el.classList.contains('orbital-aggregate')?selectedMarkerScale():ms;
+    if(mx&&my) el.setAttribute('transform',`translate(${mx},${my}) scale(${sc})`);
   });
   document.querySelectorAll('.cluster-badge').forEach(el=>{
     const mx=el.dataset.x, my=el.dataset.y;
     if(mx&&my) el.setAttribute('transform',`translate(${mx},${my}) scale(${ms})`);
   });
   renderClusters();
-  const sel=document.querySelector('.atlas-marker.selected');
-  if(sel) addRadarSweep(sel);
+  updateSelectionBeaconTransform();
 }
 let viewAnim=null, viewAnimGuard=null;
 function cancelViewAnim(){
@@ -1065,8 +1075,9 @@ function typeClass(t){return t==='official-position'?'official-position':t;}
 function renderTimeline(){const visible=events.filter(ev=>state.institutional || ev.type!=='official-position'); const era=state.filters.era; const inEra=ev=>era==='all'||Math.floor(ev.year/10)*10===era; timeline.innerHTML = visible.map(ev=>`<div class="event ${typeClass(ev.type)} ${ev.id===state.selectedEventId?'selected':''} ${inEra(ev)?'':'era-out'}" data-case="${ev.caseId}" data-event="${ev.id}"><div class="date">${ev.date}</div><div class="dot"></div><div class="title">${ev.title}</div></div>`).join(''); timeline.querySelectorAll('.event').forEach(el=>el.addEventListener('click',()=>{state.selectedEventId=el.dataset.event; selectCase(el.dataset.case,true);})); const hdr=document.getElementById('timelineHeader'); if(era==='all'){hdr.textContent=`${events[0].year}—${events[events.length-1].year} · ${visible.length} EVENTS`;}else{const n=visibleStackCases().length; hdr.textContent=`${era}s · ${n} ${state.stackMode==='orbital'?'ORBITAL ':'CASE'}${n===1?'':'S'} IN VIEW`;} }
 function markerEl(c){
   const cls=colorByMode[markerStatus(c)];
-  const sc=markerScale();
-  return `<g class="atlas-marker ${cls} ${c.id===state.selectedCaseId?'selected':''}" data-id="${c.id}" data-x="${c.x}" data-y="${c.y}" transform="translate(${c.x},${c.y}) scale(${sc})"><circle class="marker-halo" r="1.0"/><circle class="marker-ring" r="0.7"/><circle class="marker-core" r="0.4"/></g>`;
+  const selected=c.id===state.selectedCaseId;
+  const sc=selected?selectedMarkerScale():markerScale();
+  return `<g class="atlas-marker ${cls} ${selected?'selected':''}" data-id="${c.id}" data-x="${c.x}" data-y="${c.y}" transform="translate(${c.x},${c.y}) scale(${sc})"><circle class="marker-halo" r="1.0"/><circle class="marker-ring" r="0.7"/><circle class="marker-core" r="0.4"/></g>`;
 }
 function orbitalAggregateEl(orbitals){
   if(!orbitals.length) return '';
@@ -1080,7 +1091,9 @@ function renderMarkers(){
   const visible=cases.filter(matchesFilters);
   const orbitals=visible.filter(c=>markerStatus(c)==='orbital');
   const terrestrial=visible.filter(c=>markerStatus(c)!=='orbital');
-  markersG.innerHTML = terrestrial.map(markerEl).join('') + orbitalAggregateEl(orbitals);
+  const selectedTerrestrial=terrestrial.filter(c=>c.id===state.selectedCaseId);
+  const regularTerrestrial=terrestrial.filter(c=>c.id!==state.selectedCaseId);
+  markersG.innerHTML = regularTerrestrial.map(markerEl).join('') + orbitalAggregateEl(orbitals) + selectedTerrestrial.map(markerEl).join('');
   markersG.querySelectorAll('.atlas-marker').forEach(el=>el.addEventListener('click',()=>{
     const c=cases.find(c=>c.id===el.dataset.id);
     if(c && markerStatus(c)==='orbital') return selectOrbitalAggregate(el.dataset.id);
@@ -1127,24 +1140,31 @@ function renderClusters(){
   }));
 }
 
-function addRadarSweep(markerG){
-  markerG.querySelectorAll('.radar-sweep,.radar-wedge,.selected-spark,.target-reticle').forEach(el=>el.remove());
-  const ns='http://www.w3.org/2000/svg';
-  const ring=(cls,r,delay='0s')=>{
-    const c=document.createElementNS(ns,'circle');
-    c.setAttribute('class',cls);
-    c.setAttribute('cx','0'); c.setAttribute('cy','0'); c.setAttribute('r',String(r));
-    c.setAttribute('fill','none'); c.setAttribute('stroke','var(--accent)');
-    c.setAttribute('stroke-width','0.11'); c.setAttribute('vector-effect','non-scaling-stroke');
-    c.style.animationDelay=delay;
-    markerG.insertBefore(c, markerG.firstChild);
-  };
-  ring('target-reticle',1.42,'0s');
-  ring('radar-sweep',1.05,'0s');
-  ring('radar-sweep radar-sweep-2',1.05,'1.1s');
-  const spark=document.createElementNS(ns,'circle');
-  spark.setAttribute('class','selected-spark'); spark.setAttribute('r','0.18'); spark.setAttribute('cx','0'); spark.setAttribute('cy','0');
-  markerG.appendChild(spark);
+function updateSelectionBeaconTransform(){
+  if(!selectionLayer) return;
+  const beacon=selectionLayer.querySelector('.selection-beacon');
+  if(!beacon) return;
+  const x=beacon.dataset.x, y=beacon.dataset.y;
+  if(x&&y) beacon.setAttribute('transform',`translate(${x},${y}) scale(${markerScale()})`);
+}
+function selectionAnchorCase(){
+  const c=cases.find(x=>x.id===state.selectedCaseId);
+  if(!c) return null;
+  if(!cases.filter(matchesFilters).some(x=>x.id===c.id)) return null;
+  return c;
+}
+function renderSelectionBeacon(pulse=false){
+  if(!selectionLayer) return;
+  const c=selectionAnchorCase();
+  if(!c){selectionLayer.innerHTML=''; return;}
+  const above=Number(c.y)>12;
+  const labelY=above?-5.35:4.15;
+  const lineStart=above?-2.78:2.58;
+  const lineEnd=above?-4.02:3.42;
+  const w=clamp(String(c.id).length*.48+2.65,5.4,11.8);
+  const labelX=-w/2;
+  const wave=pulse?'<circle class="selection-wave" r="1.12"/>':'';
+  selectionLayer.innerHTML=`<g class="selection-beacon" data-x="${esc(c.x)}" data-y="${esc(c.y)}" transform="translate(${esc(c.x)},${esc(c.y)}) scale(${markerScale()})">${wave}<circle class="selection-reticle selection-reticle-outer" r="2.75"/><circle class="selection-reticle selection-reticle-inner" r="1.42"/><path class="selection-bracket" d="M -2.95 -1.55 L -2.95 -2.95 L -1.55 -2.95 M 1.55 -2.95 L 2.95 -2.95 L 2.95 -1.55 M 2.95 1.55 L 2.95 2.95 L 1.55 2.95 M -1.55 2.95 L -2.95 2.95 L -2.95 1.55"/><circle class="selection-spark" r=".2"/><line class="selection-label-stem" x1="0" y1="${lineStart}" x2="0" y2="${lineEnd}"/><g class="selection-label" transform="translate(${labelX},${labelY})"><rect class="selection-label-bg" x="0" y="0" width="${w}" height="2.35" rx=".56"/><text class="selection-label-kicker" x="${w/2}" y=".78">SELECTED</text><text class="selection-label-id" x="${w/2}" y="1.72">${esc(c.id)}</text></g></g>`;
 }
 
 
@@ -1342,9 +1362,8 @@ function selectCase(id,zoom){
   if(zoom){ if(markerStatus(c)==='orbital') resetView(); else zoomToCase(c.x,c.y,6.25); }
   renderAll();
   highlightRow(id);
+  renderSelectionBeacon(Boolean(zoom));
   setTimeout(()=>{
-    const sel=document.querySelector('.atlas-marker.selected');
-    if(sel) addRadarSweep(sel);
     const row=document.querySelector(`.case-row[data-id="${CSS.escape(id)}"]`);
     if(row){row.scrollIntoView({block:'start',inline:'nearest'}); const rr=row.getBoundingClientRect(), lr=caseList.getBoundingClientRect(); if(rr.top<lr.top) caseList.scrollTop -= (lr.top-rr.top+8);}
     const ev=document.querySelector(`.event[data-case="${CSS.escape(id)}"]`);
@@ -1352,7 +1371,7 @@ function selectCase(id,zoom){
   },50);
 }
 function highlightRow(id){caseList.querySelectorAll('.case-row').forEach(el=>el.classList.toggle('active', el.dataset.id===id)); timeline.querySelectorAll('.event').forEach(el=>el.classList.toggle('selected', el.dataset.case===id)); markersG.querySelectorAll('.atlas-marker').forEach(el=>el.classList.toggle('selected', el.dataset.id===id));}
-function renderAll(){renderMarkers(); renderClusters(); renderCaseList(); renderTimeline(); renderDetail(); highlightRow(state.selectedCaseId);}
+function renderAll(){renderMarkers(); renderClusters(); renderCaseList(); renderTimeline(); renderDetail(); highlightRow(state.selectedCaseId); renderSelectionBeacon(false);}
 function applyFilters(){state.filters.agency=agencyFilter.value; state.filters.domain=domainFilter.value; state.filters.precision=precisionFilter.value; renderAll(); updateUrl();}
 agencyFilter.addEventListener('change',applyFilters); domainFilter.addEventListener('change',applyFilters); precisionFilter.addEventListener('change',applyFilters); if(stackReturn) stackReturn.addEventListener('click',()=>{resetStackFilters(); setStackMode('main');}); toggleInstitutional.addEventListener('click',()=>{state.institutional=!state.institutional; toggleInstitutional.textContent = `Institutional: ${state.institutional?'ON':'OFF'}`; renderTimeline(); updateUrl();});
 svg.addEventListener('wheel',e=>{e.preventDefault(); cancelViewAnim(); const pt = svg.createSVGPoint(); pt.x=e.clientX; pt.y=e.clientY; const ctm=svg.getScreenCTM().inverse(); const p=pt.matrixTransform(ctm); const factor = e.deltaY>0 ? 1.12 : 0.89; const nw = clamp(state.view.w*factor, 8, 100); const nh = nw*0.62; const mx = (p.x-state.view.x)/state.view.w, my = (p.y-state.view.y)/state.view.h; const x = clamp(p.x - mx*nw, 0, 100-nw); const y = clamp(p.y - my*nh, 0, 62-nh); setView(x,y,nw);},{passive:false});
