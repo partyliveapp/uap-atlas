@@ -226,10 +226,10 @@
    "status": "verified"
   },
   "BF-SF-13": {
-   "file": "assets/evidence/MEIER-1975/MEIER-1975-Billy-Meier-portrait.jpg",
-   "kind": "witness-photo",
-   "subject": "Billy Meier portrait (Commons; low resolution)",
-   "status": "verified"
+   "file": "assets/evidence/MEIER-1975/MEIER-1975-Photo66-Fuchsbuel-FAIRUSE.jpg",
+   "kind": "contested-photograph-fairuse",
+   "subject": "Meier photo Nr. 66, July 9 1975, Fuchsbuel-Hofhalden (c) FIGU — the 'beamship' image associated with the X-Files 'I Want to Believe' poster. NON-FREE: hosted low-resolution under fair-use identification of the contested work itself; not evidence of any craft.",
+   "status": "verified-fairuse"
   },
   "BF-1981-TP-01": {
    "file": "assets/evidence/GEPAN-1981/GEPAN-1981-Note-Technique-16-Trans-en-Provence_page_001.png",
@@ -244,16 +244,16 @@
    "status": "verified"
   },
   "BF-2006-OH-01": {
-   "file": "assets/source_previews/BF-2006-OH-01_source_image.jpg",
-   "kind": "reference-card",
-   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
-   "status": "generated"
+   "file": "assets/evidence/OHARE-2006/OHARE-2006-NARCAP-TR10-Case18-page1.png",
+   "kind": "primary-report",
+   "subject": "NARCAP Technical Report 10, Case 18 (Haines et al.), page 1 — full 155-page PDF hosted (recovered via Wayback Machine)",
+   "status": "verified"
   },
   "BF-1948-CW-01": {
-   "file": "assets/source_previews/BF-1948-CW-01_source_image.jpg",
-   "kind": "reference-card",
-   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
-   "status": "generated"
+   "file": "assets/evidence/CHILES-1948/CHILES-1948-Project-Grudge-cover.png",
+   "kind": "archival-document",
+   "subject": "Project Grudge Technical Report cover (Aug 1949), AMC Wright-Patterson, NARA scan — the study containing the Chiles-Whitted Incident 144 analysis; Parts 1 & 4 hosted",
+   "status": "verified"
   },
   "BF-1948-GD-01": {
    "file": "assets/evidence/GORMAN-1948/GORMAN-1948-NDak-NG-F51D-Mustang.jpg",
@@ -310,10 +310,10 @@
    "status": "verified"
   },
   "BF-SF-11": {
-   "file": "assets/source_previews/BF-SF-11_source_manifest.svg",
-   "kind": "manifest-card",
-   "subject": "Reverted to manifest card - previous image was the 1950 Hottel memo, reassigned to the Aztec case where it belongs",
-   "status": "quarantined-replaced"
+   "file": "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-Aquarius-forgery-cover.png",
+   "kind": "forgery-artifact",
+   "subject": "'Project Aquarius' TOP SECRET executive briefing cover — FABRICATED document from the forgery family seeded through the Bennewitz-era AFOSI disinformation channel; hosted as an artifact of the affair, not an authentic record",
+   "status": "verified-as-forgery"
   }
  }
 }
