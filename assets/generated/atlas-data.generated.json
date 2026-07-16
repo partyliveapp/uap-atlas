@@ -2765,7 +2765,7 @@
       "gap": "Some Project 1794-adjacent propulsion studies remain unlocated in declassified collections.",
       "whyItMatters": "The Avrocar calibrates every 'it was ours' hypothesis: real saucer programs existed, left complete paper trails, and fell far short of reported UAP performance.",
       "sources": [
-        "AVROCAR-1959 · declassified USAF/Army evaluation reports / NARA trail"
+        "AVROCAR-1959 · Project Silver Bug ATIC-WADC report TR-AC-47 (1955) / Project 1794 Final Development Report (declassified, NARA via archive.org)"
       ],
       "sourceLabel": "Declassified USAF file",
       "sourceLocator": "AVROCAR-1959",
@@ -3119,7 +3119,7 @@
       "gap": "The complete raw laboratory data behind Technical Note 16 has never been fully released for independent reanalysis.",
       "whyItMatters": "Trans-en-Provence is the world benchmark for trace-case methodology — what every landing report should have been subjected to, done exactly once.",
       "sources": [
-        "GEPAN-1981 · GEPAN Technical Note 16 / CNES record"
+        "GEPAN-1981 · Note Technique No 16, 'Enquête 81/01 — Analyse d'une Trace' (CNES/GEIPAN official PDF)"
       ],
       "sourceLabel": "GEPAN Technical Note 16",
       "sourceLocator": "GEPAN-1981",
@@ -3128,7 +3128,7 @@
         "BF-SF-08"
       ],
       "heroFact": "A state space-agency laboratory analyzed the landing site and published anomalous soil and plant findings under its own name.",
-      "image": "assets/source_previews/BF-1981-TP-01_source_image.jpg",
+      "image": "assets/evidence/GEPAN-1981/GEPAN-1981-Note-Technique-16-Trans-en-Provence_page_001.png",
       "x": 51.45,
       "y": 17.31,
       "coordinateGenerated": true,
@@ -3355,11 +3355,11 @@
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": null,
-      "quoteSource": null,
-      "quoteConfidence": "not-yet-selected",
+      "keyQuote": "The FAP tried to intercept and destroy the UFO, but without success.",
+      "quoteSource": "DIA/JCS Message Center report IR 6 876 0146 80, USDAO Lima, received June 3, 1980",
+      "quoteConfidence": "confirmed primary-source quotation",
       "significance": "High significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Primary record",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1980-PE-01",
@@ -3382,7 +3382,7 @@
       "gap": "Gun-camera film and Peruvian AF engagement reports have never been released.",
       "whyItMatters": "It moves the 'weapons response' question from hypothesis to record: an interceptor engaged, the rounds were spent, and the object remained.",
       "sources": [
-        "LAJOYA-1980 · DIA message traffic (1980) / Santa María testimony, Citizen Hearing 2013"
+        "LAJOYA-1980 · DIA/JCS message IR 6 876 0146 80 (declassified, Black Vault DIA collection) / Santa María testimony, Citizen Hearing 2013"
       ],
       "sourceLabel": "DIA message record",
       "sourceLocator": "LAJOYA-1980",
@@ -3391,7 +3391,7 @@
         "BF-1989-BW-01"
       ],
       "heroFact": "The only named military pilot on record who fired on a UAP — with the engagement noted in U.S. defense-intelligence message traffic.",
-      "image": "assets/source_previews/BF-1980-PE-01_source_image.jpg",
+      "image": "assets/evidence/LAJOYA-1980/LAJOYA-1980-DIA-message_Peru_page.png",
       "x": 31.19,
       "y": 35.75,
       "coordinateGenerated": true,

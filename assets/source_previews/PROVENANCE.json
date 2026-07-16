@@ -232,16 +232,16 @@
    "status": "generated"
   },
   "BF-1981-TP-01": {
-   "file": "assets/source_previews/BF-1981-TP-01_source_image.jpg",
-   "kind": "reference-card",
-   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
-   "status": "generated"
+   "file": "assets/evidence/GEPAN-1981/GEPAN-1981-Note-Technique-16-Trans-en-Provence_page_001.png",
+   "kind": "archival-document",
+   "subject": "CNES/GEPAN Note Technique No 16 cover, 'Enquête 81/01 — Analyse d'une Trace' (1983)",
+   "status": "verified"
   },
   "BF-1980-PE-01": {
-   "file": "assets/source_previews/BF-1980-PE-01_source_image.jpg",
-   "kind": "reference-card",
-   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
-   "status": "generated"
+   "file": "assets/evidence/LAJOYA-1980/LAJOYA-1980-DIA-message_Peru_page.png",
+   "kind": "archival-document",
+   "subject": "DIA/JCS message IR 6 876 0146 80: 'UFO SIGHTED IN PERU', USDAO Lima, June 1980 — the case's primary record",
+   "status": "verified"
   },
   "BF-2006-OH-01": {
    "file": "assets/source_previews/BF-2006-OH-01_source_image.jpg",
