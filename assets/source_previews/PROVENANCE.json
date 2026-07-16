@@ -202,34 +202,34 @@
    "status": "verified-context (prior session)"
   },
   "BF-SF-03": {
-   "file": "assets/source_previews/BF-SF-03_source_image.jpg",
-   "kind": "reference-card",
-   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
-   "status": "generated"
+   "file": "assets/evidence/WINTERHAVEN-1952/WINTERHAVEN-1952-Brown-US1974483-sheet1.png",
+   "kind": "archival-document",
+   "subject": "T.T. Brown US Patent 1,974,483 'Electrostatic Motor' sheet 1, filed 1930 (PD)",
+   "status": "verified"
   },
   "BF-SF-04": {
-   "file": "assets/source_previews/BF-SF-04_source_image.jpg",
-   "kind": "reference-card",
-   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
-   "status": "generated"
+   "file": "assets/evidence/CHAPELHILL-1957/CHAPELHILL-1957-GR1-proceedings-title.png",
+   "kind": "primary-report",
+   "subject": "GR1 proceedings title page, Edition Open Access (full PDF hosted, CC)",
+   "status": "verified"
   },
   "BF-SF-06": {
-   "file": "assets/source_previews/BF-SF-06_source_image.jpg",
-   "kind": "reference-card",
-   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
-   "status": "generated"
+   "file": "assets/evidence/VICTOR-1997/VICTOR-1997-Area51-gate-context.jpg",
+   "kind": "location-photo",
+   "subject": "Area 51 gate, public location imagery — claimed-provenance context only",
+   "status": "verified-context"
   },
   "BF-SF-07": {
-   "file": "assets/source_previews/BF-SF-07_source_image.jpg",
-   "kind": "reference-card",
-   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
-   "status": "generated"
+   "file": "assets/evidence/ESTIMATE-1948/ESTIMATE-1948-Ruppelt-Report-half-title.png",
+   "kind": "archival-document",
+   "subject": "Half-title of Ruppelt's 'The Report on Unidentified Flying Objects' (1956, PD scan) — the insider account documenting the Estimate",
+   "status": "verified"
   },
   "BF-SF-13": {
-   "file": "assets/source_previews/BF-SF-13_source_image.jpg",
-   "kind": "reference-card",
-   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
-   "status": "generated"
+   "file": "assets/evidence/MEIER-1975/MEIER-1975-Billy-Meier-portrait.jpg",
+   "kind": "witness-photo",
+   "subject": "Billy Meier portrait (Commons; low resolution)",
+   "status": "verified"
   },
   "BF-1981-TP-01": {
    "file": "assets/evidence/GEPAN-1981/GEPAN-1981-Note-Technique-16-Trans-en-Provence_page_001.png",
@@ -256,58 +256,58 @@
    "status": "generated"
   },
   "BF-1948-GD-01": {
-   "file": "assets/source_previews/BF-1948-GD-01_source_image.jpg",
-   "kind": "reference-card",
-   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
-   "status": "generated"
+   "file": "assets/evidence/GORMAN-1948/GORMAN-1948-NDak-NG-F51D-Mustang.jpg",
+   "kind": "period-photo",
+   "subject": "F-51D Mustang in North Dakota NG markings — Gorman's unit (Commons/PD)",
+   "status": "verified"
   },
   "BF-1950-GF-01": {
-   "file": "assets/source_previews/BF-1950-GF-01_source_image.jpg",
-   "kind": "reference-card",
-   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
-   "status": "generated"
+   "file": "assets/evidence/GREATFALLS-1950/GREATFALLS-1950-BlueBook-record-card.png",
+   "kind": "archival-document",
+   "subject": "Project Blue Book record card, Great Falls 1950 (Commons/NARA scan); Mariana film hosted as evidence video",
+   "status": "verified"
   },
   "BF-1952-TM-01": {
-   "file": "assets/source_previews/BF-1952-TM-01_source_image.jpg",
-   "kind": "reference-card",
-   "subject": "Generated Source Reference Card from case data (no public-domain case imagery held)",
-   "status": "generated"
+   "file": "assets/evidence/TREMONTON-1952/TREMONTON-1952-Newhouse-case-sheet.png",
+   "kind": "archival-document",
+   "subject": "Blue Book case sheet for CPO Newhouse with pasted film frame, 'pillow balloons or birds' explanation",
+   "status": "verified"
   },
   "BF-1933-MG-01": {
-   "file": "assets/source_previews/BF-1933-MG-01_source_manifest.svg",
-   "kind": "manifest-card",
-   "subject": "Reverted to manifest card - previous image was an MJ-12 page (wrong case)",
-   "status": "quarantined-replaced"
+   "file": "assets/evidence/MAGENTA-1933/MAGENTA-1933-Magenta-piazza-context.jpg",
+   "kind": "location-photo",
+   "subject": "Piazza Liberazione, Magenta, Lombardy — location context; RS/33 papers remain unobtainable",
+   "status": "verified-context"
   },
   "BF-1973-CY-01": {
-   "file": "assets/source_previews/BF-1973-CY-01_source_manifest.svg",
-   "kind": "manifest-card",
-   "subject": "Reverted to manifest card - previous image was a 1964 Montana hoax Blue Book card (wrong case; no Blue Book card can exist for a 1973 event)",
-   "status": "quarantined-replaced"
+   "file": "assets/evidence/COYNE-1973/COYNE-1973-UH-1H-type-context.jpg",
+   "kind": "context-photo",
+   "subject": "UH-1H Iroquois, period type-context (US Army photo, PD); labeled context, not the incident aircraft",
+   "status": "verified-context"
   },
   "BF-2008-SV-01": {
-   "file": "assets/source_previews/BF-2008-SV-01_source_manifest.svg",
-   "kind": "manifest-card",
-   "subject": "Reverted to manifest card - previous image was a Bush/Merkel Crawford press photo (thematic only)",
-   "status": "quarantined-replaced"
+   "file": "assets/evidence/STEPHENVILLE-2008/STEPHENVILLE-2008-MUFON-report-cover.png",
+   "kind": "primary-report",
+   "subject": "MUFON Special Research Report cover, Stephenville 2008 (full PDF hosted)",
+   "status": "verified"
   },
   "BF-2014-CH-01": {
-   "file": "assets/source_previews/BF-2014-CH-01_source_manifest.svg",
-   "kind": "manifest-card",
-   "subject": "Reverted to manifest card - previous image was a 1991 CIA Moscow media list (unrelated)",
-   "status": "quarantined-replaced"
+   "file": "assets/evidence/CEFAA-2014/CEFAA-2014-Chilean-Navy-Cougar-platform.jpg",
+   "kind": "context-photo",
+   "subject": "Chilean Navy Cougar/Super Puma, US Navy photo — the platform type that filmed the 2014 IR video",
+   "status": "verified-context"
   },
   "BF-2019-OM-01": {
-   "file": "assets/source_previews/BF-2019-OM-01_source_manifest.svg",
-   "kind": "manifest-card",
-   "subject": "Reverted to manifest card - previous image was a Tic Tac CGI depicting the 2004 Nimitz object",
-   "status": "quarantined-replaced"
+   "file": "assets/evidence/OMAHA-2019/OMAHA-2019-USS-Omaha-LCS12.jpg",
+   "kind": "context-photo",
+   "subject": "USS Omaha (LCS-12) commissioning, US Navy photo — the ship that recorded the footage",
+   "status": "verified-context"
   },
   "BF-SF-09": {
-   "file": "assets/source_previews/BF-SF-09_source_manifest.svg",
-   "kind": "manifest-card",
-   "subject": "Reverted to manifest card - previous image was an unidentifiable person",
-   "status": "quarantined-replaced"
+   "file": "assets/evidence/AAWSAP-2008/AAWSAP-2008-Skinwalker-Ranch-gate.jpg",
+   "kind": "location-photo",
+   "subject": "Skinwalker Ranch posted gate, Uintah Basin (Commons)",
+   "status": "verified"
   },
   "BF-SF-11": {
    "file": "assets/source_previews/BF-SF-11_source_manifest.svg",

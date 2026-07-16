@@ -2819,7 +2819,7 @@
         "BF-SF-02"
       ],
       "heroFact": "The documented root of 'antigravity' lore: real experiments, a real Pentagon proposal, filmed demonstrations — and a conventional electrohydrodynamic explanation.",
-      "image": "assets/source_previews/BF-SF-03_source_image.jpg",
+      "image": "assets/evidence/WINTERHAVEN-1952/WINTERHAVEN-1952-Brown-US1974483-sheet1.png",
       "x": 30.06,
       "y": 19.56,
       "coordinateGenerated": true,
@@ -2863,7 +2863,7 @@
         "BF-SF-02"
       ],
       "heroFact": "A genuine landmark physics conference, bankrolled by aviation-industry gravity-control enthusiasm and archived by the Air Force — the factual kernel inside every 1950s antigravity-program narrative.",
-      "image": "assets/source_previews/BF-SF-04_source_image.jpg",
+      "image": "assets/evidence/CHAPELHILL-1957/CHAPELHILL-1957-GR1-proceedings-title.png",
       "x": 30.34,
       "y": 19.62,
       "coordinateGenerated": true,
@@ -2952,7 +2952,7 @@
         "BF-SF-05"
       ],
       "heroFact": "Footage whose entire evidentiary weight rests on an anonymous source who withheld provenance by design — content that cannot be promoted to evidence no matter how it looks.",
-      "image": "assets/source_previews/BF-SF-06_source_image.jpg",
+      "image": "assets/evidence/VICTOR-1997/VICTOR-1997-Area51-gate-context.jpg",
       "x": 20.44,
       "y": 20.19,
       "coordinateGenerated": true,
@@ -3085,7 +3085,7 @@
         "BF-1973-PG-01"
       ],
       "heroFact": "Four military crew members under flight discipline signed matching statements describing an unexplained near-collision and an uncommanded 1,800-foot climb.",
-      "image": "assets/source_previews/BF-1973-CY-01_source_manifest.svg",
+      "image": "assets/evidence/COYNE-1973/COYNE-1973-UH-1H-type-context.jpg",
       "x": 29.89,
       "y": 18.14,
       "coordinateGenerated": true,
@@ -3306,7 +3306,7 @@
         "BF-2006-OH-01"
       ],
       "heroFact": "A civilian FOIA request produced government radar returns matching the witness track — and forced a reversal of the initial official denial.",
-      "image": "assets/source_previews/BF-2008-SV-01_source_manifest.svg",
+      "image": "assets/evidence/STEPHENVILLE-2008/STEPHENVILLE-2008-MUFON-report-cover.png",
       "x": 25.28,
       "y": 20.75,
       "coordinateGenerated": true,
@@ -3436,7 +3436,7 @@
         "BF-SF-05"
       ],
       "heroFact": "The founding ghost of the archive: an official document whose existence is well-attested and whose destruction was itself the official act.",
-      "image": "assets/source_previews/BF-SF-07_source_image.jpg",
+      "image": "assets/evidence/ESTIMATE-1948/ESTIMATE-1948-Ruppelt-Report-half-title.png",
       "x": 29.43,
       "y": 18.43,
       "coordinateGenerated": true,
@@ -3525,7 +3525,7 @@
         "BF-SF-10"
       ],
       "heroFact": "The funding paper trail is real and public: a DIA program, a Senate patron, a contractor, and a ranch — the documented plumbing behind the 2017 disclosure era.",
-      "image": "assets/source_previews/BF-SF-09_source_manifest.svg",
+      "image": "assets/evidence/AAWSAP-2008/AAWSAP-2008-Skinwalker-Ranch-gate.jpg",
       "x": 23.19,
       "y": 18.29,
       "coordinateGenerated": true,
@@ -4075,7 +4075,7 @@
         "BF-1948-CW-01"
       ],
       "heroFact": "A 27-minute documented 'dogfight' whose balloon-plus-vertigo resolution became the template for how pursuit-of-light cases fail.",
-      "image": "assets/source_previews/BF-1948-GD-01_source_image.jpg",
+      "image": "assets/evidence/GORMAN-1948/GORMAN-1948-NDak-NG-F51D-Mustang.jpg",
       "x": 27.13,
       "y": 16.29,
       "coordinateGenerated": true,
@@ -4119,16 +4119,16 @@
         "BF-1952-TM-01"
       ],
       "heroFact": "One of the two films the Robertson Panel actually examined — with a timing conflict in the official explanation and a missing-frames dispute that was never settled.",
-      "image": "assets/source_previews/BF-1950-GF-01_source_image.jpg",
+      "image": "assets/evidence/GREATFALLS-1950/GREATFALLS-1950-BlueBook-record-card.png",
       "x": 23.8,
       "y": 16.1,
       "coordinateGenerated": true,
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": null,
-      "quoteSource": null,
-      "quoteConfidence": "not-yet-selected",
+      "keyQuote": "Explanation — pillow balloons or birds",
+      "quoteSource": "Project Blue Book case sheet, files 1377 & 1415, Tremonton, Utah, July 2, 1952",
+      "quoteConfidence": "confirmed primary-source quotation",
       "significance": "Case significance",
       "sourceQuality": "Primary record",
       "coordinateBasis": "Published public coordinate for the named location",
@@ -4163,7 +4163,7 @@
         "BF-1950-GF-01"
       ],
       "heroFact": "The Navy's own photographic laboratory and the CIA's panel reached opposite conclusions about the same frames — the clearest documented analyst split of the era.",
-      "image": "assets/source_previews/BF-1952-TM-01_source_image.jpg",
+      "image": "assets/evidence/TREMONTON-1952/TREMONTON-1952-Newhouse-case-sheet.png",
       "x": 22.82,
       "y": 17.85,
       "coordinateGenerated": true,
@@ -4206,7 +4206,7 @@
         "BF-2023-LG-01"
       ],
       "heroFact": "Pentagon-authenticated shipboard footage of a trans-medium candidate, inside a documented multi-ship swarm investigation — the modern case where authentication and identification fully separated.",
-      "image": "assets/source_previews/BF-2019-OM-01_source_manifest.svg",
+      "image": "assets/evidence/OMAHA-2019/OMAHA-2019-USS-Omaha-LCS12.jpg",
       "x": 20.09,
       "y": 20.67,
       "coordinateGenerated": true,
@@ -4248,7 +4248,7 @@
         "BF-1986-JAL-01"
       ],
       "heroFact": "A government office studied a video for two years and called it unexplained; open-source analysts identified it in days — the field's best documented lesson in method over authority.",
-      "image": "assets/source_previews/BF-2014-CH-01_source_manifest.svg",
+      "image": "assets/evidence/CEFAA-2014/CEFAA-2014-Chilean-Navy-Cougar-platform.jpg",
       "x": 31.83,
       "y": 40.78,
       "coordinateGenerated": true,
@@ -4337,7 +4337,7 @@
         "BF-SF-06"
       ],
       "heroFact": "The largest single-source evidence corpus in UFOlogy — and the most reproduced-by-model: volume of material is not weight of evidence.",
-      "image": "assets/source_previews/BF-SF-13_source_image.jpg",
+      "image": "assets/evidence/MEIER-1975/MEIER-1975-Billy-Meier-portrait.jpg",
       "x": 51.97,
       "y": 16.15,
       "coordinateGenerated": true,
@@ -4366,7 +4366,7 @@
       "sources": [
         "MAGENTA-1933 · Pinotti/Lissoni RS/33 document set (anonymous mail, 1996–) / Grusch citation record (2023)"
       ],
-      "image": "assets/source_previews/BF-1933-MG-01_source_manifest.svg",
+      "image": "assets/evidence/MAGENTA-1933/MAGENTA-1933-Magenta-piazza-context.jpg",
       "keyFact": "A pre-Roswell retrieval claim resting entirely on documents mailed anonymously in 1996 — revived when a sworn-era whistleblower cited it by name in 2023.",
       "heroFact": "A pre-Roswell retrieval claim resting entirely on documents mailed anonymously in 1996 — revived when a sworn-era whistleblower cited it by name in 2023.",
       "whyItMatters": "Magenta binds the modern testimony era to MJ-12-grade provenance: if the papers are real it is history's first retrieval, and if not, it shows sworn-era claims amplifying uncorroborated paper — either way the chain of custody is the whole case.",
