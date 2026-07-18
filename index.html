@@ -97,7 +97,7 @@ button:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid rgba
 .app{
   position:relative;z-index:1;overflow:hidden;
   height:calc(100vh - 20px);margin:10px;
-  display:grid;grid-template-rows:46px auto 104px minmax(0,1fr) 34px;gap:0;
+  display:grid;grid-template-rows:46px 104px minmax(0,1fr) 34px;gap:0;
   border-radius:var(--r-xl);border:1px solid rgba(170,214,244,.13);
   background:linear-gradient(180deg,rgba(10,17,26,.97),rgba(3,6,10,.985));
   box-shadow:0 34px 110px rgba(0,0,0,.6),inset 0 1px 0 rgba(255,255,255,.06);
@@ -603,7 +603,7 @@ svg#atlasSvg:active{cursor:grabbing}
 
 /* 13 — responsive / motion ------------------------------------- */
 @media(max-height:920px){
-  .app{grid-template-rows:44px auto 96px minmax(0,1fr) 32px}
+  .app{grid-template-rows:44px 96px minmax(0,1fr) 32px}
   .temporal-inner{height:96px}
   .topbar{padding:11px 26px 11px}.h1{font-size:27px}.sub{margin-top:5px;font-size:12px}
   .main{grid-template-rows:minmax(0,1fr) 196px;padding-top:10px}
@@ -750,16 +750,7 @@ select.fchip option{background:#0a1018;color:#e8eef3;font-size:11px}
     <div class="brand"><span class="aperture-logo" aria-hidden="true"></span><span class="brand-primary">Cortana</span><i></i><span class="brand-secondary">UAP Case Atlas</span></div>
     <div class="sysline"><span class="system-meta">Archive · Active</span><span class="system-meta">Rev 2.0</span><span class="secure-pill">Blackfile <b></b></span></div>
   </div>
-  <div class="topbar">
-    <div>
-      <div class="kicker">Atlas dossier</div>
-      <div class="h1">UAP Case Atlas</div>
-      <div class="sub">Source-linked intelligence map of institutional UAP records, case geography, chronology, and primary records.</div>
-    </div>
-    <div class="topbar-right">
-      <div class="data-strip" id="dataStrip" aria-label="Dataset totals"></div>
-    </div>
-  </div>
+ 
   <section class="temporal-band" aria-label="Temporal signal — full corpus chronology">
     <div class="temporal-inner">
       <div class="temporal-head">
