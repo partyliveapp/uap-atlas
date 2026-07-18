@@ -1,0 +1,15 @@
+{
+  "caseId": "BF-1978-KK-01",
+  "asset": "KAIKOURA-1978-Archives-New-Zealand-record.jpg",
+  "source": {
+    "repository": "Archives New Zealand",
+    "recordGroup": "ABHS 6958 W5579 Box 227, NYP 3/58/13 Part 1",
+    "fileTitle": "Political Affairs - Outer Space - Unidentified Flying Objects (UFO's) [07/1977-12/1982]",
+    "publicReproduction": "https://commons.wikimedia.org/wiki/File:Kaikoura_Lights,_December_31_1978_(23623047260).jpg",
+    "license": "CC BY-SA 2.0",
+    "retrieved": "2026-07-18"
+  },
+  "sha256": "d33c55efb6ecf6b2ef6fb5c1fcd31b996fc7130b2fc920ca0def89ab8a7e3a1f",
+  "dimensions": "2469x3493",
+  "evidentiaryBoundary": "Official investigation record; not event film imagery and not confirmation of an extraordinary cause."
+}

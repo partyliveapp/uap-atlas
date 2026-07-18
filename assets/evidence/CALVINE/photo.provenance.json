@@ -1,0 +1,15 @@
+{
+  "caseId": "BF-1990-CV-01",
+  "asset": "photo.jpg",
+  "embeddedCredit": "With permission of Craig Lindsay / Sheffield Hallam University",
+  "metadata": {
+    "scanCredit": "Andrew Robinson",
+    "scanDate": "2022-06-28",
+    "license": "CC BY-NC-SA 4.0",
+    "originalAuthor": "Unknown",
+    "softwareHistory": "Adobe Photoshop metadata present; local asset is a reduced reproduction"
+  },
+  "sha256": "b23509fa096df306f49b0aadd44952ab1e97cce272ac4f4899ab658d436bceed",
+  "dimensions": "353x282",
+  "evidentiaryBoundary": "Reproduction of a surviving print, not an original negative. The other reported images and a complete chain of custody are not present in the local corpus."
+}

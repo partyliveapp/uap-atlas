@@ -1,0 +1,26 @@
+{
+  "caseId": "BF-2014-CH-01",
+  "leadAsset": "CEFAA-2014-Chilean-Navy-IR-public-mirror-crop-490s.jpg",
+  "supportingFullFrame": "CEFAA-2014-Chilean-Navy-IR-public-mirror-frame-490s.jpg",
+  "derivedFrom": {
+    "title": "CEFAA - Chilean Navy UAP - November 2014",
+    "uploader": "UAP Archive",
+    "url": "https://www.youtube.com/watch?v=iK-xOvRaUm4",
+    "retrieved": "2026-07-18",
+    "durationSeconds": 561.974,
+    "videoSha256AtRetrieval": "d7ee5b5de24a65b8d00ddb66c39ee67ae8892cb5c879df38c6db7c7f5e5a0f42",
+    "videoDimensions": "854x480",
+    "custody": "Public YouTube mirror; not a native CEFAA or Chilean government master"
+  },
+  "extraction": {
+    "timestampSeconds": 490,
+    "method": "ffmpeg single-frame extraction followed by a display crop",
+    "fullFrameSha256": "b4f721cf1a42669a6d6af9f76ea9473d22d7695ebd28bced737790b153790e4d",
+    "fullFrameDimensions": "854x480",
+    "cropBoxPixels": [220, 170, 780, 350],
+    "cropSha256": "6ebf4cc4bcb59c23d6b4302c8204f02d398e61f14d5c84d264dfbaadccf82adc",
+    "cropDimensions": "560x180",
+    "edits": "No objects or image content added or removed beyond the disclosed rectangular crop"
+  },
+  "evidentiaryBoundary": "The crop is event-linked public mirror material. It does not establish object identity, authenticate an agency master, or resolve competing aircraft/plume analysis."
+}

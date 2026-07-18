@@ -1,0 +1,15 @@
+{
+  "caseId": "BF-1947-KA-01",
+  "asset": "ARNOLD-1947-Chicago-Sun-June-26-public-domain.jpg",
+  "source": {
+    "record": "Chicago Sun, page 2, June 26, 1947",
+    "headline": "Supersonic Flying Saucers Sighted by Idaho Pilot",
+    "wireCredit": "UPI",
+    "repository": "Chicago Sun microfilm at Chicago Public Library",
+    "publicReproduction": "https://commons.wikimedia.org/wiki/File:Chicago_Sun_1947-06-26-2_Flying_Saucer_headline-th.jpg",
+    "license": "Public domain",
+    "retrieved": "2026-07-18"
+  },
+  "sha256": "00619ebb5011d475654ae8e471cd57e8c22e7088ffe4f0208d2128e7f866325c",
+  "evidentiaryBoundary": "Contemporary reporting of Arnold's account; not event photography and not independent confirmation of object identity."
+}
