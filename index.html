@@ -115,7 +115,8 @@ button:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid rgba
   padding:0 22px;border-bottom:1px solid var(--hair);
   background:rgba(4,8,13,.7);backdrop-filter:saturate(150%) blur(20px);
 }
-.brand{display:flex;align-items:center;gap:11px;font-size:12px;font-weight:600;color:var(--text)}
+.brand{display:flex;align-items:center;gap:11px;padding:0;border:0;background:transparent;font:inherit;font-size:12px;font-weight:600;color:var(--text);cursor:pointer}
+.brand:focus-visible{outline:1px solid rgba(95,212,242,.62);outline-offset:7px;border-radius:4px}
 .brand i{width:1px;height:15px;background:rgba(198,224,246,.14)}
 .brand-primary{letter-spacing:.14em;text-transform:uppercase;color:#F5F9FC}
 .brand-secondary{font-weight:500;color:rgba(198,205,214,.66)}
@@ -772,12 +773,6 @@ body{overflow:hidden;-webkit-tap-highlight-color:transparent;}
 .mobile-only{display:none!important;}
 
 @media(max-width:1080px){
-  /* iOS WebKit can hide the selected reticle when SVG filter bounds are inferred off-screen. */
-  .selection-beacon,.selection-bracket,.selection-spark{filter:none}
-  .selection-reticle-outer{stroke:rgba(240,248,255,.98);stroke-width:.18}
-  .selection-reticle-inner{stroke:rgba(95,212,242,.96);stroke-width:.16}
-  .selection-bracket{stroke-width:.21}
-  .selection-label-bg{fill:rgba(3,7,12,.96);stroke:rgba(95,212,242,.86)}
   body:before{content:none!important;display:none!important;}
   .mobile-only{display:flex!important;}
   body{background:#020408;}
@@ -852,6 +847,8 @@ body{overflow:hidden;-webkit-tap-highlight-color:transparent;}
   .drawer-backdrop{display:none;opacity:1;pointer-events:auto;inset:0 0 var(--mobile-nav-h);padding:0;background:#020408;backdrop-filter:none;}
   body[data-mobile-page="dossier"] .drawer-backdrop.open{display:block;}
   .case-drawer{position:relative;inset:auto;width:100%;height:100%;max-width:none;padding:0 16px 28px;border:0;border-radius:0;background:linear-gradient(180deg,#071019,#020408 32%);box-shadow:none;overflow-x:hidden;overflow-y:auto;}
+  .mobile-dossier-home{position:sticky;top:0;z-index:14;width:calc(100% + 32px);height:52px;margin:0 -16px;padding:0 16px;display:flex;align-items:center;gap:8px;border:0;border-bottom:1px solid rgba(198,224,246,.08);background:rgba(3,7,12,.96);backdrop-filter:blur(20px);color:#F5F9FC;text-align:left}
+  .mobile-dossier-home .aperture-logo{width:20px;height:20px}.mobile-dossier-home .aperture-logo:before{font-size:18px}.mobile-dossier-home .brand-primary{font:600 11px var(--sans)}.mobile-dossier-home i{width:1px;height:13px;background:rgba(198,224,246,.14)}.mobile-dossier-home .brand-secondary{font:500 11px var(--sans)}
   .drawer-header{margin:0 -16px 10px;padding:calc(13px + env(safe-area-inset-top)) 16px 13px;grid-template-columns:minmax(0,1fr) auto;background:rgba(5,10,16,.94);border-bottom:1px solid rgba(198,224,246,.08);}
   .drawer-heading .eyebrow{font-size:9px;line-height:1.35}.case-drawer .case-title{margin-top:5px;font-size:20px;line-height:1.12;letter-spacing:-.025em}.case-drawer .loc{font-size:11px;line-height:1.4;margin-top:5px;}
   .drawer-nav{align-self:start;gap:5px}.drawer-navbtn,.case-drawer .drawer-close{width:44px;height:44px;border-radius:12px}.drawer-pos{display:none}.case-drawer .drawer-close{display:none;}
@@ -928,10 +925,10 @@ body.map-immersive .legend{bottom:calc(10px + env(safe-area-inset-bottom));}
 <body>
 <div class="app">
   <div class="securebar" aria-label="Cortana Blackfile Atlas header">
-    <div class="brand"><span class="aperture-logo" aria-hidden="true"></span><span class="brand-primary">Cortana</span><i></i><span class="brand-secondary">UAP Case Atlas</span></div>
+    <button class="brand" id="atlasHome" type="button" aria-label="Reset UAP Atlas to home"><span class="aperture-logo" aria-hidden="true"></span><span class="brand-primary">Cortana</span><i></i><span class="brand-secondary">UAP Case Atlas</span></button>
     <div class="sysline"><span class="system-meta">Archive · Active</span><span class="system-meta">Rev 2.0</span><span class="secure-pill">Blackfile <b></b></span></div>
   </div>
-
+ 
   <section class="temporal-band" aria-label="Temporal signal — full corpus chronology">
     <div class="temporal-inner">
       <div class="temporal-head">
@@ -1809,6 +1806,26 @@ function selectCase(id,zoom){
 }
 function highlightRow(id){caseList.querySelectorAll('.case-row').forEach(el=>el.classList.toggle('active', el.dataset.id===id)); nodeLayer.querySelectorAll('.signal-node').forEach(el=>el.classList.toggle('selected', el.dataset.event===state.selectedEventId)); markersG.querySelectorAll('.atlas-marker').forEach(el=>el.classList.toggle('selected', el.dataset.id===id));}
 function renderAll(){renderCaseGeometry(); renderMarkers(); renderClusters(); renderCaseList(); renderSignal(); renderDetail(); highlightRow(state.selectedCaseId); renderSelectionBeacon(false);}
+function resetAtlasHome(){
+  cancelViewAnim();
+  stopEraPlay();
+  resetStackFilters();
+  state.stackMode='main';
+  state.selectedCaseId=null;
+  state.selectedEventId=null;
+  state.institutional=true;
+  toggleInstitutional.textContent='Institutional: ON';
+  toggleInstitutional.classList.add('active');
+  urlCaseId=null;
+  document.getElementById('drawerBackdrop').classList.remove('open');
+  document.getElementById('imageLightbox')?.classList.remove('open');
+  document.dispatchEvent(new CustomEvent('atlas:home-reset'));
+  renderAll();
+  resetView();
+  updateUrl();
+}
+window.resetAtlasHome=resetAtlasHome;
+document.getElementById('atlasHome').addEventListener('click',resetAtlasHome);
 function applyFilters(){state.filters.agency=agencyFilter.value; state.filters.domain=domainFilter.value; state.filters.precision=precisionFilter.value; renderAll(); updateUrl();}
 agencyFilter.addEventListener('change',applyFilters); domainFilter.addEventListener('change',applyFilters); precisionFilter.addEventListener('change',applyFilters); if(stackReturn) stackReturn.addEventListener('click',()=>{resetStackFilters(); setStackMode('main');}); toggleInstitutional.addEventListener('click',()=>{state.institutional=!state.institutional; toggleInstitutional.textContent = `Institutional: ${state.institutional?'ON':'OFF'}`; toggleInstitutional.classList.toggle('active', state.institutional); renderSignal(); updateUrl();});
 svg.addEventListener('wheel',e=>{e.preventDefault(); cancelViewAnim(); const pt = svg.createSVGPoint(); pt.x=e.clientX; pt.y=e.clientY; const ctm=svg.getScreenCTM().inverse(); const p=pt.matrixTransform(ctm); const factor = e.deltaY>0 ? 1.12 : 0.89; const nw = clamp(state.view.w*factor, 8, 100); const nh = nw*0.62; const mx = (p.x-state.view.x)/state.view.w, my = (p.y-state.view.y)/state.view.h; const x = clamp(p.x - mx*nw, 0, 100-nw); const y = clamp(p.y - my*nh, 0, 62-nh); setView(x,y,nw);},{passive:false});
@@ -1896,12 +1913,15 @@ const mobilePages=new Set(['map','cases','dossier']);
 function renderMobilePeek(){
   const c=cases.find(x=>x.id===state.selectedCaseId);
   const meta=document.getElementById('peekMeta'), title=document.getElementById('peekTitle'), loc=document.getElementById('peekLoc');
-  if(!c||!meta||!title||!loc) return;
+  if(!meta||!title||!loc) return;
+  if(!c){meta.textContent='Select a case';title.textContent='Tap a map marker';loc.textContent='The selected file will appear here.';return;}
   meta.textContent=`${c.id} · ${c.date}`; title.textContent=c.title; loc.textContent=`${c.location} · ${c.agency}`;
 }
 function normalizeMobileDossier(){
   const drawer=document.getElementById('caseDrawer');
   if(!drawer) return;
+  if(!drawer.querySelector('.mobile-dossier-home')) drawer.insertAdjacentHTML('afterbegin','<button class="mobile-dossier-home" type="button" aria-label="Reset UAP Atlas to home"><span class="aperture-logo" aria-hidden="true"></span><span class="brand-primary">Cortana</span><i></i><span class="brand-secondary">UAP Case Atlas</span></button>');
+  drawer.querySelector('.mobile-dossier-home').onclick=resetAtlasHome;
   const brief=drawer.querySelector('[data-panel="brief"]');
   const official=drawer.querySelector('[data-panel="official"] .drawer-box');
   const gaps=drawer.querySelector('[data-panel="gaps"] .drawer-box');
@@ -1937,6 +1957,7 @@ function setMobilePage(page,{write=true}={}){
 }
 document.querySelectorAll('.mobile-nav [data-page]').forEach(btn=>btn.addEventListener('click',()=>setMobilePage(btn.dataset.page)));
 document.getElementById('peekOpen')?.addEventListener('click',()=>setMobilePage('dossier'));
+document.addEventListener('atlas:home-reset',()=>{mobilePage='map';syncMobileNav();renderMobilePeek();});
 caseList.addEventListener('click',e=>{
   const row=e.target.closest('.case-row'); if(!row) return;
   setTimeout(()=>{selectCase(row.dataset.id,false); setMobilePage('dossier');},0);
