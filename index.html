@@ -399,26 +399,14 @@ svg#atlasSvg:active{cursor:grabbing}
 }
 .drawer-close:hover{background:rgba(255,255,255,.07);border-color:var(--hair-2)}
 
-/* lead visual */
-.dossier-hero{margin:16px 0 12px;overflow:hidden;border-radius:14px;border:1px solid rgba(95,212,242,.18);background:#020508;box-shadow:inset 0 1px 0 rgba(255,255,255,.035)}
-.dossier-hero-stage{position:relative;height:clamp(220px,29vh,286px);display:grid;place-items:center;overflow:hidden;background:radial-gradient(circle at 50% 38%,rgba(95,212,242,.07),rgba(2,5,8,.95) 66%),#010204}
-.dossier-hero-stage:before{content:'';position:absolute;inset:-20px;background-image:var(--hero-bg);background-size:cover;background-position:center;filter:blur(24px) saturate(.55) brightness(.28);opacity:.52;transform:scale(1.08)}
-.dossier-hero-stage img{position:relative;z-index:1;width:100%;height:100%;object-fit:contain;display:block;cursor:zoom-in}
-.dossier-hero-caption{position:relative;z-index:2;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;align-items:center;padding:11px 13px;border-top:1px solid var(--hair);background:rgba(4,9,15,.96)}
-.hero-copy{min-width:0}.hero-type{display:inline-flex;align-items:center;gap:6px;margin-bottom:5px;font-family:var(--mono);font-size:9px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--accent)}
-.hero-type:before{content:'';width:5px;height:5px;border-radius:50%;background:var(--accent);box-shadow:0 0 8px rgba(95,212,242,.5)}
-.hero-copy strong{display:block;font-size:12px;line-height:1.35;color:#F0F5F8}.hero-copy span{display:block;margin-top:4px;font-size:10px;line-height:1.4;color:rgba(198,205,214,.6)}
-.hero-action{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:0 13px;border:1px solid rgba(95,212,242,.28);border-radius:var(--r-sm);background:rgba(95,212,242,.07);font-family:var(--mono);font-size:9px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#E8FAFF;text-decoration:none;white-space:nowrap}
-.hero-action:hover{background:rgba(95,212,242,.13);border-color:rgba(95,212,242,.48)}
-.hero-provenance{padding:9px 13px;border-top:1px solid var(--hair);font-family:var(--mono);font-size:9px;line-height:1.45;letter-spacing:.025em;color:rgba(150,163,176,.66);background:rgba(255,255,255,.015)}
-
-/* evidence carousel */
-.drawer-evidence{margin:10px 0 12px;overflow:hidden;border-radius:12px;border:1px solid var(--hair);background:#020508;box-shadow:inset 0 1px 0 rgba(255,255,255,.025)}
-.carousel-stage{position:relative;height:clamp(145px,18vh,172px);display:grid;place-items:center;background:radial-gradient(circle at 50% 36%,rgba(95,212,242,.04),rgba(2,5,8,.94) 62%),#010204}
+/* dossier media carousel — deliberate lead first, supporting evidence after */
+.drawer-evidence{margin:16px 0 12px;overflow:hidden;border-radius:14px;border:1px solid var(--hair);background:#020508;box-shadow:inset 0 1px 0 rgba(255,255,255,.03)}
+.drawer-evidence.has-lead{border-color:rgba(95,212,242,.18)}
+.carousel-stage{position:relative;height:clamp(220px,29vh,286px);display:grid;place-items:center;background:radial-gradient(circle at 50% 36%,rgba(95,212,242,.055),rgba(2,5,8,.95) 66%),#010204}
 .carousel-slot{width:100%;height:100%;display:grid;place-items:center;overflow:hidden}
 .carousel-stage img,.carousel-stage video{max-width:100%;max-height:100%;width:100%;height:100%;object-fit:contain;display:block}
 .carousel-stage img{cursor:zoom-in}
-.carousel-empty{height:150px;display:grid;place-items:center;font-size:13px;color:rgba(140,150,163,.6)}
+.carousel-empty{height:220px;display:grid;place-items:center;font-size:13px;color:rgba(140,150,163,.6)}
 .carousel-nav{
   position:absolute;top:50%;transform:translateY(-50%);z-index:4;width:40px;height:40px;cursor:pointer;
   border-radius:var(--r-sm);border:1px solid rgba(198,224,246,.12);background:rgba(2,5,8,.72);
@@ -427,13 +415,17 @@ svg#atlasSvg:active{cursor:grabbing}
 .carousel-nav:hover{border-color:rgba(95,212,242,.4);background:rgba(8,16,24,.9)}
 .carousel-prev{left:11px}.carousel-next{right:11px}
 .carousel-caption{
-  position:absolute;left:11px;right:11px;bottom:10px;z-index:3;display:grid;grid-template-columns:auto 1fr auto;gap:10px;align-items:center;
-  padding:8px 10px;border-radius:var(--r-sm);border:1px solid rgba(198,224,246,.08);background:rgba(2,5,8,.78);backdrop-filter:blur(12px);
-  font-size:10px;color:rgba(242,245,249,.74);
+  position:absolute;left:11px;right:11px;bottom:10px;z-index:3;display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:center;
+  padding:8px 10px;border-radius:var(--r-sm);border:1px solid rgba(198,224,246,.08);background:rgba(2,5,8,.8);backdrop-filter:blur(12px);
+  font-size:10px;color:rgba(242,245,249,.78);
 }
 .carousel-caption b{font-family:var(--mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
 .carousel-caption span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.carousel-type{font-family:var(--mono);font-style:normal;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:rgba(242,245,249,.7);border:1px solid rgba(198,224,246,.1);border-radius:999px;padding:3px 7px;background:rgba(255,255,255,.04)}
+.carousel-type{font-family:var(--mono);font-style:normal;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:rgba(242,245,249,.72);border:1px solid rgba(198,224,246,.1);border-radius:999px;padding:3px 7px;background:rgba(255,255,255,.04)}
+.carousel-context{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;min-height:48px;padding:9px 12px;border-top:1px solid var(--hair);background:rgba(4,9,15,.96)}
+.carousel-context span{font-size:10px;line-height:1.4;color:rgba(198,205,214,.62)}
+.carousel-action{display:inline-flex;align-items:center;justify-content:center;min-height:36px;padding:0 11px;border:1px solid rgba(95,212,242,.25);border-radius:var(--r-sm);background:rgba(95,212,242,.07);font-family:var(--mono);font-size:9px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#E8FAFF;text-decoration:none;white-space:nowrap}
+.carousel-action:hover{background:rgba(95,212,242,.13);border-color:rgba(95,212,242,.46)}
 .carousel-thumbs{display:flex;gap:7px;padding:9px 10px;overflow-x:auto;border-top:1px solid var(--hair);background:rgba(0,0,0,.24);scrollbar-width:none}
 .carousel-thumbs::-webkit-scrollbar{display:none}
 .carousel-thumb{position:relative;flex:0 0 auto;width:66px;height:46px;padding:0;overflow:hidden;cursor:pointer;border-radius:var(--r-xs);border:1px solid rgba(198,224,246,.1);background:rgba(255,255,255,.035);opacity:.6;transition:opacity .15s ease,border-color .15s ease}
@@ -441,6 +433,7 @@ svg#atlasSvg:active{cursor:grabbing}
 .carousel-thumb.active{opacity:1;border-color:rgba(95,212,242,.6);box-shadow:0 0 0 1px rgba(95,212,242,.15) inset}
 .carousel-thumb img{width:100%;height:100%;object-fit:cover;display:block}
 .carousel-thumb-label{position:absolute;left:4px;bottom:4px;padding:2px 5px;border-radius:999px;background:rgba(0,0,0,.68);font-family:var(--mono);font-size:8px;letter-spacing:.08em;text-transform:uppercase;color:#DFF6FF}
+.hero-provenance{padding:9px 13px;border-top:1px solid var(--hair);font-family:var(--mono);font-size:9px;line-height:1.45;letter-spacing:.025em;color:rgba(150,163,176,.66);background:rgba(255,255,255,.015)}
 
 /* drawer pills & tabs */
 .case-drawer .pills{gap:7px;margin:11px 0 12px}
@@ -1250,7 +1243,9 @@ function compactConfidence(v){const s=String(v||'').trim(); if(/^CONFIRMED RECOR
 function factMetaLine(c){const parts=[c.significance||'Case significance',c.sourceQuality||'Source record',c.sourceLocator||c.sourceLabel].filter(Boolean); return parts.length?`<div class="fact-meta">${parts.map(esc).join(' · ')}</div>`:'';}
 function briefFooterStrip(c){const files=filesForCase(c).length||evidenceItems(c).length; const cells=[['CONFIDENCE',compactConfidence(c.confidence)],['SOURCE',c.sourceLabel||c.agency||'Source record'],['FILES',String(files)],['DATE',c.date]]; return `<div class="dossier-strip">${cells.map(([k,v])=>`<div class="strip-cell"><b>${esc(k)}</b><span>${esc(v)}</span></div>`).join('')}</div>`;}
 function relatedRecordsHtml(c){const ids=(c.relatedCaseIds||[]).filter(id=>id!==c.id&&cases.some(x=>x.id===id)).slice(0,3); const links=ids.map(id=>{const r=cases.find(x=>x.id===id); return `<button class="related-chip" type="button" data-related-case="${esc(id)}">${esc(r.title)}</button>`;}).join(''); const ctx=(c.relatedContext||[]).map(label=>`<span class="related-chip">${esc(label)}</span>`).join(''); if(!links&&!ctx) return ''; return `<div class="related-records"><div class="label2">Related records</div><div class="related-scroll">${links}${ctx}</div></div>`;}
+function heroTypeLabel(v){return String(v||'lead visual').replaceAll('-',' ');}
 function evidenceTypeLabel(item){
+  if(item.role==='lead') return heroTypeLabel(item.visualType);
   const s=String(item.label||item.src||'');
   if(/__roi_/i.test(s)) return 'ROI';
   if(/contact/i.test(s)) return 'Contact';
@@ -1259,31 +1254,29 @@ function evidenceTypeLabel(item){
   if(/\.mp4|\.mov|\.webm/i.test(s)) return 'Video';
   return 'Image';
 }
-function heroTypeLabel(v){return String(v||'lead visual').replaceAll('-',' ');}
 function heroActionLabel(h){const u=String(h.mediaUrl||h.sourceUrl||h.src||''); if(/\.(mp4|mov|webm)($|\?)/i.test(u)||/(?:youtube\.com|youtu\.be|dvidshub\.net\/video)/i.test(u)) return 'Watch footage'; if(/\.pdf($|\?)/i.test(u)) return 'Open source file'; if(h.sourceUrl) return 'View source'; return 'Open image';}
-function heroVisualHtml(c){
-  const h=c.heroVisual; if(!h||!h.src) return '';
-  const action=h.mediaUrl||h.sourceUrl||h.src;
-  return `<div class="dossier-hero" data-hero-case="${esc(c.id)}"><div class="dossier-hero-stage" style="--hero-bg:url('${esc(h.src)}')"><img src="${esc(h.src)}" alt="${esc(h.caption||c.title)}" data-lightbox-src="${esc(h.src)}"></div><div class="dossier-hero-caption"><div class="hero-copy"><b class="hero-type">${esc(heroTypeLabel(h.visualType))}</b><strong>${esc(h.caption||'Case lead visual')}</strong><span>${esc(h.provenance||'Source provenance pending')}</span></div><a class="hero-action" href="${esc(linkUrl(action))}" target="_blank" rel="noopener">${esc(heroActionLabel(h))}</a></div><div class="hero-provenance">${esc(h.evidenceStatus||'Visual status not yet assessed.')}</div></div>`;
-}
 function evidenceItems(c){
-  const items=[]; const seen=new Set(); const heroSrc=String(c.heroVisual?.src||'');
-  const add=(src,label,kind='image',href=null,rank=50)=>{if(!src||src===heroSrc||seen.has(src)) return; seen.add(src); items.push({src,label:label||fileName(src),kind,href:href||src,rank});};
-  (c.sources||[]).forEach(src=>filesForSource(src).forEach(f=>{if(f.kind==='image') add(fileUrl(f.path),`${f.token} · ${fileName(f.path)}`,'image',fileUrl(f.path), /__roi_/i.test(f.path)?30:10);}));
-  (c.images||c.evidenceImages||[]).forEach((src,i)=>add(src,`Evidence image ${i+1}`,'image',src,20));
+  const items=[]; const seen=new Set();
+  const add=(src,label,kind='image',href=null,rank=50,meta={})=>{if(!src||seen.has(src)) return; seen.add(src); items.push({src,label:label||fileName(src),kind,href:href||src,rank,...meta});};
+  const h=c.heroVisual;
+  if(h?.src) add(h.src,h.caption||'Case lead visual',h.mediaType||'image',h.mediaUrl||h.sourceUrl||h.src,0,{role:'lead',visualType:h.visualType,provenance:h.provenance||'',evidenceStatus:h.evidenceStatus||'',actionLabel:heroActionLabel(h)});
+  (c.sources||[]).forEach(src=>filesForSource(src).forEach(f=>{if(f.kind==='image') add(fileUrl(f.path),`${f.token} · ${fileName(f.path)}`,'image',fileUrl(f.path), /__roi_/i.test(f.path)?30:10,{role:'evidence'});}));
+  (c.images||c.evidenceImages||[]).forEach((src,i)=>add(src,`Evidence image ${i+1}`,'image',src,20,{role:'evidence'}));
   if(!items.length && c.image){
     const label=/source_previews|robertson_panel/i.test(c.image) ? `Source-derived preview · ${fileName(c.image)}` : 'Atlas preview asset — reference only';
-    add(c.image,label,'image',c.image,90);
+    add(c.image,label,'image',c.image,90,{role:'reference'});
   }
   return items.sort((a,b)=>a.rank-b.rank || evidenceTypeLabel(a).localeCompare(evidenceTypeLabel(b)) || a.label.localeCompare(b.label));
 }
+function carouselMediaHtml(item){return item.kind==='video'?`<video class="carousel-media" controls src="${esc(item.src)}"></video>`:`<img class="carousel-media" src="${esc(item.src)}" alt="${esc(item.label)}" data-lightbox-src="${esc(item.src)}">`;}
+function carouselPositionLabel(item,index,total){return item.role==='lead'?`Lead · ${total}`:`Evidence ${index+1} · ${total}`;}
+function carouselContextHtml(item){const copy=item.role==='lead'?[item.provenance,item.evidenceStatus].filter(Boolean).join(' · '):'Supporting evidence — inspect source and provenance under Files / Sources'; const action=item.href?`<a class="carousel-action" href="${esc(linkUrl(item.href))}" target="_blank" rel="noopener">${esc(item.actionLabel||sourceActionLabel(item.kind,item.href))}</a>`:''; return `<span data-carousel-context-copy>${esc(copy)}</span>${action}`;}
 function evidenceCarousel(c){
   const items=evidenceItems(c);
   if(!items.length) return '<div class="drawer-evidence"><div class="carousel-empty">No visual evidence file mapped for this case yet.</div></div>';
   const first=items[0];
-  const media=first.kind==='video'?`<video class="carousel-media" controls src="${esc(first.src)}"></video>`:`<img class="carousel-media" src="${esc(first.src)}" alt="${esc(first.label)}" data-lightbox-src="${esc(first.src)}">`;
-  const thumbs=items.map((it,i)=>`<button class="carousel-thumb ${i===0?'active':''}" data-evidence-index="${i}" title="${esc(it.label)}"><img src="${esc(it.kind==='image'?it.src:(c.image||''))}" alt=""><span class="carousel-thumb-label">${esc(evidenceTypeLabel(it))}</span></button>`).join('');
-  return `<div class="drawer-evidence" data-carousel='${esc(JSON.stringify(items))}'><div class="carousel-stage">${items.length>1?'<button class="carousel-nav carousel-prev" data-carousel-step="-1">‹</button>':''}<div class="carousel-slot">${media}</div>${items.length>1?'<button class="carousel-nav carousel-next" data-carousel-step="1">›</button>':''}<div class="carousel-caption"><b>Supporting · ${items.length}</b><span data-carousel-caption>${esc(first.label)}</span><em class="carousel-type" data-carousel-type>${esc(evidenceTypeLabel(first))}</em></div></div>${items.length>1?`<div class="carousel-thumbs">${thumbs}</div>`:''}</div>`;
+  const thumbs=items.map((it,i)=>`<button class="carousel-thumb ${i===0?'active':''}" data-evidence-index="${i}" title="${esc(it.label)}"><img src="${esc(it.kind==='image'?it.src:(c.image||''))}" alt=""><span class="carousel-thumb-label">${esc(it.role==='lead'?'Lead':evidenceTypeLabel(it))}</span></button>`).join('');
+  return `<div class="drawer-evidence ${first.role==='lead'?'has-lead':''}" data-carousel="${esc(JSON.stringify(items))}"><div class="carousel-stage">${items.length>1?'<button class="carousel-nav carousel-prev" data-carousel-step="-1">‹</button>':''}<div class="carousel-slot">${carouselMediaHtml(first)}</div>${items.length>1?'<button class="carousel-nav carousel-next" data-carousel-step="1">›</button>':''}<div class="carousel-caption"><b data-carousel-position>${esc(carouselPositionLabel(first,0,items.length))}</b><span data-carousel-caption>${esc(first.label)}</span><em class="carousel-type" data-carousel-type>${esc(evidenceTypeLabel(first))}</em></div></div><div class="carousel-context" data-carousel-context>${carouselContextHtml(first)}</div>${items.length>1?`<div class="carousel-thumbs">${thumbs}</div>`:''}</div>`;
 }
 function sourceLinksHtml(c){
   const h=c.heroVisual;
@@ -1299,8 +1292,8 @@ function sourceLinksHtml(c){
 function initCarousel(drawer){
   const root=drawer.querySelector('[data-carousel]'); if(!root) return;
   const items=JSON.parse(root.dataset.carousel); let idx=0;
-  const slot=root.querySelector('.carousel-slot'), cap=root.querySelector('[data-carousel-caption]'), typ=root.querySelector('[data-carousel-type]');
-  const show=i=>{idx=(i+items.length)%items.length; const it=items[idx]; slot.innerHTML=it.kind==='video'?`<video class="carousel-media" controls src="${esc(it.src)}"></video>`:`<img class="carousel-media" src="${esc(it.src)}" alt="${esc(it.label)}" data-lightbox-src="${esc(it.src)}">`; cap.textContent=it.label; if(typ) typ.textContent=evidenceTypeLabel(it); root.querySelectorAll('[data-evidence-index]').forEach((b,n)=>b.classList.toggle('active',n===idx));};
+  const slot=root.querySelector('.carousel-slot'), pos=root.querySelector('[data-carousel-position]'), cap=root.querySelector('[data-carousel-caption]'), typ=root.querySelector('[data-carousel-type]'), context=root.querySelector('[data-carousel-context]');
+  const show=i=>{idx=(i+items.length)%items.length; const it=items[idx]; slot.innerHTML=carouselMediaHtml(it); if(pos) pos.textContent=carouselPositionLabel(it,idx,items.length); cap.textContent=it.label; if(typ) typ.textContent=evidenceTypeLabel(it); if(context) context.innerHTML=carouselContextHtml(it); root.classList.toggle('has-lead',it.role==='lead'); root.querySelectorAll('[data-evidence-index]').forEach((b,n)=>b.classList.toggle('active',n===idx));};
   root.querySelectorAll('[data-carousel-step]').forEach(btn=>btn.addEventListener('click',()=>show(idx+Number(btn.dataset.carouselStep))));
   root.querySelectorAll('[data-evidence-index]').forEach(btn=>btn.addEventListener('click',()=>show(Number(btn.dataset.evidenceIndex))));
   root.addEventListener('click',e=>{const img=e.target.closest('[data-lightbox-src]'); if(img) openLightbox(img.dataset.lightboxSrc, img.alt);});
@@ -1327,10 +1320,10 @@ function openFullCase(id){
   if(!backdrop.classList.contains('open')) drawerReturnFocus=document.activeElement;
   const navList=visibleStackCases();
   const navPos=navList.findIndex(x=>x.id===id);
-  drawer.innerHTML=`<div class="drawer-header"><div class="drawer-heading"><div class="eyebrow">${esc(c.id)} · ${esc(c.mode)} · ${esc(c.domain)}</div><div class="case-title">${esc(c.title)}</div><div class="loc">${esc(c.date)} · ${esc(c.location)} · ${esc(c.agency)}</div></div><div class="drawer-nav">${navPos>=0&&navList.length>1?`<button class="drawer-navbtn" type="button" data-drawer-nav="-1" aria-label="Previous case">‹</button><span class="drawer-pos">${navPos+1} / ${navList.length}</span><button class="drawer-navbtn" type="button" data-drawer-nav="1" aria-label="Next case">›</button>`:''}<button class="drawer-close" aria-label="Close full case file">×</button></div></div>${heroVisualHtml(c)}${evidenceCarousel(c)}<div class="pills"><span class="pill ${statusPill[markerStatus(c)]}">${esc(c.status)}</span><span class="pill">${esc(compactConfidence(c.confidence))}</span></div><div class="drawer-tabs"><button class="drawer-tab active" data-tab="brief">BRIEF</button><button class="drawer-tab" data-tab="timeline">TIMELINE</button><button class="drawer-tab" data-tab="official">OFFICIAL POSITION</button><button class="drawer-tab" data-tab="gaps">RECORD GAPS</button><button class="drawer-tab" data-tab="sources">FILES / SOURCES</button></div><section class="drawer-panel active" data-panel="brief">${keyFactHtml(c,true)}${briefFooterStrip(c)}${relatedRecordsHtml(c)}</section><section class="drawer-panel" data-panel="timeline">${drawerTimeline(c.id)}</section><section class="drawer-panel" data-panel="official"><div class="drawer-box"><h4>Public / official position</h4><p>${esc(c.official)}</p></div></section><section class="drawer-panel" data-panel="gaps"><div class="drawer-box"><h4>What is still missing</h4><p>${esc(c.gap)}</p></div></section><section class="drawer-panel" data-panel="sources">${sourceLinksHtml(c)}</section>`;
+  drawer.innerHTML=`<div class="drawer-header"><div class="drawer-heading"><div class="eyebrow">${esc(c.id)} · ${esc(c.mode)} · ${esc(c.domain)}</div><div class="case-title">${esc(c.title)}</div><div class="loc">${esc(c.date)} · ${esc(c.location)} · ${esc(c.agency)}</div></div><div class="drawer-nav">${navPos>=0&&navList.length>1?`<button class="drawer-navbtn" type="button" data-drawer-nav="-1" aria-label="Previous case">‹</button><span class="drawer-pos">${navPos+1} / ${navList.length}</span><button class="drawer-navbtn" type="button" data-drawer-nav="1" aria-label="Next case">›</button>`:''}<button class="drawer-close" aria-label="Close full case file">×</button></div></div>${evidenceCarousel(c)}<div class="pills"><span class="pill ${statusPill[markerStatus(c)]}">${esc(c.status)}</span><span class="pill">${esc(compactConfidence(c.confidence))}</span></div><div class="drawer-tabs"><button class="drawer-tab active" data-tab="brief">BRIEF</button><button class="drawer-tab" data-tab="timeline">TIMELINE</button><button class="drawer-tab" data-tab="official">OFFICIAL POSITION</button><button class="drawer-tab" data-tab="gaps">RECORD GAPS</button><button class="drawer-tab" data-tab="sources">FILES / SOURCES</button></div><section class="drawer-panel active" data-panel="brief">${keyFactHtml(c,true)}${briefFooterStrip(c)}${relatedRecordsHtml(c)}</section><section class="drawer-panel" data-panel="timeline">${drawerTimeline(c.id)}</section><section class="drawer-panel" data-panel="official"><div class="drawer-box"><h4>Public / official position</h4><p>${esc(c.official)}</p></div></section><section class="drawer-panel" data-panel="gaps"><div class="drawer-box"><h4>What is still missing</h4><p>${esc(c.gap)}</p></div></section><section class="drawer-panel" data-panel="sources">${sourceLinksHtml(c)}</section>`;
   backdrop.classList.add('open');
   initCarousel(drawer);
-  drawer.querySelectorAll('.dossier-hero [data-lightbox-src]').forEach(img=>img.addEventListener('click',()=>openLightbox(img.dataset.lightboxSrc,img.alt)));
+
   drawer.scrollTop=0;
   drawer.querySelector('.drawer-close').addEventListener('click',closeFullCase);
   drawer.querySelector('.drawer-close').focus({preventScroll:true});
