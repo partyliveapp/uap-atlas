@@ -97,7 +97,7 @@ button:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid rgba
 .app{
   position:relative;z-index:1;overflow:hidden;
   height:calc(100vh - 20px);margin:10px;
-  display:grid;grid-template-rows:46px auto minmax(0,1fr) 34px;gap:0;
+  display:grid;grid-template-rows:46px auto 104px minmax(0,1fr) 34px;gap:0;
   border-radius:var(--r-xl);border:1px solid rgba(170,214,244,.13);
   background:linear-gradient(180deg,rgba(10,17,26,.97),rgba(3,6,10,.985));
   box-shadow:0 34px 110px rgba(0,0,0,.6),inset 0 1px 0 rgba(255,255,255,.06);
@@ -139,22 +139,10 @@ button:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid rgba
 .kicker{font-family:var(--mono);font-size:9px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:rgba(140,150,163,.62)}
 .h1{margin-top:4px;font-size:30px;font-weight:600;letter-spacing:-.045em;line-height:1;color:#F5F8FB}
 .sub{margin-top:7px;max-width:64ch;font-size:13px;line-height:1.4;color:rgba(198,205,214,.62);text-wrap:pretty}
-.controls,.controls.filter-rail{display:grid;grid-template-columns:repeat(3,138px) 148px;gap:8px;align-self:end;margin:0 0 2px}
-.ctrl{
-  width:100%;min-width:0;height:40px;padding:0 12px;border-radius:var(--r-sm);
-  border:1px solid var(--hair);background:rgba(255,255,255,.026);
-  box-shadow:inset 0 1px 0 rgba(255,255,255,.03);
-  color:rgba(232,238,243,.9);font-size:12px;font-weight:500;outline:none;
-  transition:background .15s ease,border-color .15s ease;
-}
-.ctrl:hover{background:rgba(255,255,255,.05);border-color:var(--hair-2)}
-select.ctrl{
-  appearance:none;padding-right:30px;cursor:pointer;
-  background-image:linear-gradient(45deg,transparent 50%,rgba(198,205,214,.6) 50%),linear-gradient(135deg,rgba(198,205,214,.6) 50%,transparent 50%);
-  background-position:calc(100% - 16px) calc(50% - 2px),calc(100% - 11px) calc(50% - 2px);
-  background-size:5px 5px;background-repeat:no-repeat;
-}
-#toggleInstitutional{cursor:pointer;white-space:nowrap;background:rgba(255,255,255,.038)}
+/* KPI strip only — filters moved to Case Stack banner */
+.topbar-right{display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.data-strip{display:flex;gap:16px;padding-right:2px;font-family:var(--mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:rgba(140,150,163,.5)}
+.data-strip b{margin-right:4px;font-weight:600;color:rgba(198,224,246,.82)}
 .stat-strip{display:none}
 
 /* 05 — panels ------------------------------------------------ */
@@ -163,6 +151,8 @@ select.ctrl{
   display:grid;grid-template-columns:minmax(0,1.68fr) minmax(370px,.9fr);
   grid-template-rows:minmax(0,1fr) 206px;gap:12px;padding:12px 18px 14px;
 }
+/* Case Aperture spans both rows on the right — full vertical column */
+.main > .detail{grid-column:2;grid-row:1 / 3;}
 .panel{
   position:relative;min-width:0;min-height:0;overflow:hidden;
   border-radius:var(--r-lg);border:1px solid var(--hair);
@@ -342,28 +332,130 @@ svg#atlasSvg:active{cursor:grabbing}
 .row-actions{display:flex;align-items:center;gap:8px}
 .row-actions .pill{min-width:76px;height:26px;justify-content:center;padding:0 8px;border-radius:999px;font-size:8px}
 
-/* 09 — temporal signal ---------------------------------------- */
-.timeline-panel{display:flex;flex-direction:column;overflow:hidden;background:radial-gradient(circle at 52% 46%,rgba(95,212,242,.035),transparent 46%),rgba(255,255,255,.014)}
-.timeline-panel>.panel-inner{height:auto;flex:0 0 auto;padding-bottom:0}
-.timeline-fade-left,.timeline-fade-right{display:none}
-.timeline-wrap{
-  position:relative;flex:1;min-height:118px;overflow-x:auto;overflow-y:hidden;padding-bottom:8px;
-  scroll-padding-inline:90px;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.12) transparent;
-  mask-image:linear-gradient(90deg,transparent 0%,black 8%,black 92%,transparent 100%);
-  -webkit-mask-image:linear-gradient(90deg,transparent 0%,black 8%,black 92%,transparent 100%);
+/* 09 — temporal signal band (top strip) ------------------------ */
+.temporal-band{
+  position:relative;z-index:3;overflow:hidden;
+  border-top:1px solid rgba(198,224,246,.05);
+  border-bottom:1px solid rgba(198,224,246,.05);
+  background:
+    radial-gradient(ellipse at 50% 60%,rgba(95,212,242,.045),transparent 55%),
+    linear-gradient(180deg,rgba(6,11,18,.6),rgba(3,6,10,.7));
 }
-.timeline{position:relative;display:inline-flex;align-items:center;height:118px;min-width:max-content;gap:42px;padding:2px 66px 14px}
-.timeline::before{content:'';position:absolute;left:34px;right:34px;top:52px;height:1px;background:linear-gradient(90deg,transparent,rgba(95,212,242,.12),rgba(95,212,242,.55),rgba(95,212,242,.1),transparent)}
-.event{position:relative;display:flex;flex-direction:column;align-items:center;gap:8px;min-width:130px;cursor:pointer;opacity:.5;transition:opacity .16s ease,transform .16s ease}
-.event:hover{opacity:1;transform:translateY(-1px)}
-.event .date{font-family:var(--mono);font-size:9px;color:rgba(140,150,163,.55)}
-.event .title{max-width:150px;font-size:11px;line-height:1.3;text-align:center;color:rgba(242,245,249,.66)}
-.event .dot{width:9px;height:9px;margin:0;border:2px solid currentColor;border-radius:50%;background:#060A10;box-shadow:0 0 0 4px rgba(255,255,255,.02)}
-.event.incident{color:var(--cyan)}.event.investigation{color:var(--silver)}.event.official-position{color:var(--amber)}.event.contradiction{color:var(--red)}.event.release{color:var(--green)}
-.event.selected{opacity:1}
-.event.selected .dot{box-shadow:0 0 0 5px rgba(95,212,242,.12),0 0 16px rgba(95,212,242,.32)}
-.event.selected .date{color:rgba(198,205,214,.85)}
-.event.selected .title{color:#fff;text-shadow:0 0 14px rgba(95,212,242,.2)}
+.temporal-inner{
+  height:104px;display:grid;grid-template-rows:28px 1fr;
+  padding:0 18px;
+}
+.temporal-head{
+  display:flex;align-items:center;justify-content:space-between;gap:14px;
+  border-bottom:1px solid rgba(198,224,246,.04);
+}
+.temporal-head .left{display:flex;align-items:baseline;gap:12px;min-width:0}
+.temporal-title{
+  font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.2em;
+  text-transform:uppercase;color:rgba(242,245,249,.86);
+}
+.temporal-meta{
+  font-family:var(--mono);font-size:9px;letter-spacing:.09em;text-transform:uppercase;
+  color:rgba(140,150,163,.55);
+}
+/* era rail now lives in the temporal head */
+.temporal-head .era-rail{max-width:62%}
+
+/* signal canvas */
+.signal-wrap{
+  position:relative;min-height:0;overflow:hidden;
+}
+.signal-canvas{
+  position:absolute;inset:0;
+}
+/* corpus spine — luminous hairline */
+.signal-spine{
+  position:absolute;left:0;right:0;top:50%;height:1px;width:100%;
+  background:linear-gradient(90deg,transparent,rgba(95,212,242,.1) 4%,rgba(95,212,242,.45) 50%,rgba(95,212,242,.1) 96%,transparent);
+  animation:spineBreathe 4s ease-in-out infinite;
+}
+@keyframes spineBreathe{0%,100%{opacity:.5}50%{opacity:.72}}
+@media(prefers-reduced-motion:reduce){.signal-spine{animation:none;opacity:.6}}
+
+/* decade ticks */
+.decade-ticks{
+  position:absolute;inset:0;pointer-events:none;
+}
+.decade-tick{
+  position:absolute;top:50%;width:1px;height:10px;
+  background:rgba(160,210,255,.16);transform:translateY(-50%);
+}
+.decade-tick .year{
+  position:absolute;top:14px;left:50%;transform:translateX(-50%);
+  font-family:var(--mono);font-size:9px;letter-spacing:.09em;
+  color:rgba(140,150,163,.42);white-space:nowrap;
+}
+.decade-tick.anchor .year{color:rgba(140,150,163,.55)}
+
+/* corpus dots — ambient layer (all events) */
+.corpus-dot{
+  position:absolute;top:50%;width:4px;height:4px;border-radius:50%;
+  transform:translate(-50%,-50%);
+  opacity:.22;transition:opacity .16s ease,transform .16s ease;
+  cursor:pointer;pointer-events:auto;
+}
+.corpus-dot:hover{opacity:.6;transform:translate(-50%,-50%) scale(1.4)}
+.corpus-dot.t-incident{background:#5fc9e8}
+.corpus-dot.t-investigation{background:#aeb8c2}
+.corpus-dot.t-official-position{background:#f2b84b}
+.corpus-dot.t-contradiction{background:#e55a6e}
+.corpus-dot.t-release{background:#5bd8a0}
+.corpus-dot.t-orbital{background:#eaf6ff}
+.corpus-dot.t-case{background:#5fc9e8}
+.corpus-dot.t-other{background:#8e6cff}
+.corpus-dot.era-out{opacity:.08;pointer-events:none}
+
+/* case nodes — selected case events */
+.signal-node{
+  position:absolute;top:50%;transform:translate(-50%,-50%);
+  pointer-events:auto;cursor:pointer;
+}
+.signal-node .node-dot{
+  width:9px;height:9px;border-radius:50%;border:2px solid currentColor;
+  background:#060A10;transition:box-shadow .2s ease,transform .2s ease;
+}
+.signal-node:hover .node-dot{transform:translateY(-1px)}
+.signal-node.t-incident{color:#5fc9e8}.signal-node.t-investigation{color:#aeb8c2}
+.signal-node.t-official-position{color:#f2b84b}.signal-node.t-contradiction{color:#e55a6e}
+.signal-node.t-release{color:#5bd8a0}.signal-node.t-orbital{color:#eaf6ff}
+.signal-node.t-case{color:#5fc9e8}.signal-node.t-other{color:#8e6cff}
+.signal-node.selected .node-dot{
+  box-shadow:0 0 0 5px rgba(95,212,242,.12),0 0 16px rgba(95,212,242,.32);
+  transform:scale(1.15);
+}
+.signal-node .node-label{
+  position:absolute;left:50%;transform:translateX(-50%);
+  display:flex;flex-direction:column;align-items:center;gap:1px;
+  white-space:nowrap;pointer-events:none;
+}
+.signal-node .node-date{
+  font-family:var(--mono);font-size:9px;color:rgba(198,205,214,.85);
+  bottom:14px;position:absolute;left:50%;transform:translateX(-50%);
+}
+.signal-node .node-title{
+  position:absolute;top:14px;left:50%;transform:translateX(-50%);
+  max-width:120px;font-size:10.5px;line-height:1.25;text-align:center;
+  color:rgba(242,245,249,.88);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.signal-node.era-out{opacity:.15}
+
+/* hover tooltip for corpus dots */
+.signal-tooltip{
+  position:absolute;pointer-events:none;z-index:10;
+  padding:6px 10px;border-radius:6px;
+  background:rgba(8,14,22,.92);backdrop-filter:blur(12px);
+  border:1px solid rgba(95,212,242,.2);
+  font-size:10px;line-height:1.3;color:rgba(242,245,249,.9);
+  white-space:nowrap;opacity:0;transition:opacity .12s ease;
+  transform:translate(-50%,-100%);margin-top:-8px;
+}
+.signal-tooltip.show{opacity:1}
+.signal-tooltip .tt-date{font-family:var(--mono);font-size:9px;color:rgba(95,212,242,.8);display:block;margin-bottom:2px}
 
 /* 10 — console footer ----------------------------------------- */
 .console-footer{
@@ -520,7 +612,6 @@ svg#atlasSvg:active{cursor:grabbing}
   .preview-why p{-webkit-line-clamp:3}
   .cta{height:41px;min-height:41px;margin-top:11px}
   .case-drawer{padding:20px 22px 26px}.carousel-stage{height:150px}.case-drawer .case-title{font-size:22px}
-  .timeline-wrap{min-height:108px}.timeline{height:108px}.timeline::before{top:47px}
 }
 @media(max-width:1080px){
   body:before{content:'Atlas requires a desktop workspace';position:fixed;inset:0;z-index:9999;display:grid;place-items:center;background:#020407;color:var(--text);font:500 14px var(--sans);letter-spacing:.02em}
@@ -541,25 +632,45 @@ svg#atlasSvg:active{cursor:grabbing}
    KPI strip, case search, map tooltip + zoom readout, evidence
    band in the detail rail, sticky dossier header with case nav. */
 
-/* topbar KPI strip */
-.topbar-right{display:flex;flex-direction:column;align-items:flex-end;gap:8px}
-.topbar-right .controls{align-self:auto;margin:0}
-.data-strip{display:flex;gap:16px;padding-right:2px;font-family:var(--mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:rgba(140,150,163,.5)}
-.data-strip b{margin-right:4px;font-weight:600;color:rgba(198,224,246,.82)}
+/* topbar KPI strip — filters moved to Case Stack banner */
+.topbar-right .controls{display:none}
 
-/* case search */
-.stack-tools{display:flex;align-items:center;gap:12px}
-.stack-return{height:30px;padding:0 10px;border-radius:var(--r-xs);border:1px solid rgba(95,212,242,.22);background:rgba(95,212,242,.06);color:rgba(242,245,249,.78);font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;transition:border-color .15s ease,background .15s ease,color .15s ease}
+/* filter capsule chips — compact, era-rail-consistent */
+.filter-chips{display:flex;align-items:center;gap:5px;flex-wrap:nowrap}
+.fchip{
+  flex:0 0 auto;height:26px;padding:0 9px;cursor:pointer;border-radius:999px;
+  border:1px solid var(--hair);background:rgba(255,255,255,.02);
+  font-family:var(--mono);font-size:9px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;
+  color:rgba(198,205,214,.72);outline:none;white-space:nowrap;
+  transition:color .15s ease,border-color .15s ease,background .15s ease;
+}
+.fchip:hover{color:rgba(232,238,243,.92);border-color:var(--hair-2);background:rgba(255,255,255,.04)}
+.fchip.active{color:#F0FBFF;border-color:rgba(95,212,242,.36);background:var(--accent-soft)}
+select.fchip{
+  appearance:none;padding-right:22px;
+  background-image:linear-gradient(45deg,transparent 50%,rgba(198,205,214,.55) 50%),linear-gradient(135deg,rgba(198,205,214,.55) 50%,transparent 50%);
+  background-position:calc(100% - 13px) calc(50% - 1px),calc(100% - 9px) calc(50% - 1px);
+  background-size:4px 4px;background-repeat:no-repeat;
+}
+select.fchip option{background:#0a1018;color:#e8eef3;font-size:11px}
+
+/* case stack banner — title row + filter row, compact */
+.list-panel .panel-head{display:flex;flex-direction:column;gap:5px;min-height:0;margin-bottom:6px;padding-bottom:7px}
+.stack-banner-row{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:26px}
+.stack-banner-left{display:flex;align-items:center;gap:8px;min-width:0}
+.stack-banner-right{display:flex;align-items:center;gap:6px;flex-shrink:0}
+.stack-tools{display:flex;align-items:center;gap:6px}
+.stack-return{height:26px;padding:0 9px;border-radius:999px;border:1px solid rgba(95,212,242,.22);background:rgba(95,212,242,.06);color:rgba(242,245,249,.78);font-family:var(--mono);font-size:9px;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;transition:border-color .15s ease,background .15s ease,color .15s ease}
 .stack-return:hover{border-color:rgba(95,212,242,.42);background:rgba(95,212,242,.11);color:#F2F5F9}
 .stack-return[hidden]{display:none}
 .case-search{
-  width:186px;height:30px;padding:0 10px;border-radius:var(--r-xs);
+  width:130px;height:26px;padding:0 9px;border-radius:999px;
   border:1px solid var(--hair);background:rgba(255,255,255,.024);
-  color:var(--text);font-size:11.5px;outline:none;
+  color:var(--text);font-size:11px;outline:none;
   transition:border-color .15s ease,background .15s ease,width .2s ease;
 }
 .case-search::placeholder{color:rgba(140,150,163,.5)}
-.case-search:focus{width:216px;border-color:rgba(95,212,242,.38);background:rgba(95,212,242,.05)}
+.case-search:focus{width:160px;border-color:rgba(95,212,242,.38);background:rgba(95,212,242,.05)}
 .case-search::-webkit-search-cancel-button{-webkit-appearance:none}
 
 /* map zoom readout + hover tooltip */
@@ -609,7 +720,7 @@ svg#atlasSvg:active{cursor:grabbing}
 .era-chip{
   flex:0 0 auto;height:24px;padding:0 8px;cursor:pointer;border-radius:999px;
   border:1px solid var(--hair);background:rgba(255,255,255,.02);
-  font-family:var(--mono);font-size:8.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:rgba(140,150,163,.66);
+  font-family:var(--mono);font-size:9px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:rgba(140,150,163,.66);
   transition:color .15s ease,border-color .15s ease,background .15s ease;
 }
 .era-chip:hover{color:rgba(232,238,243,.9);border-color:var(--hair-2)}
@@ -621,7 +732,6 @@ svg#atlasSvg:active{cursor:grabbing}
 }
 .era-play:hover{color:#F0FBFF;border-color:rgba(95,212,242,.34)}
 .era-play.on{color:#F0FBFF;border-color:rgba(95,212,242,.44);background:var(--accent-soft)}
-.event.era-out{opacity:.12;pointer-events:none}
 #markers.era-anim .atlas-marker{animation:markerIn .55s cubic-bezier(.16,1,.3,1) backwards}
 @keyframes markerIn{from{opacity:0}}
 @media(prefers-reduced-motion:reduce){#markers.era-anim .atlas-marker{animation:none!important}}
@@ -646,15 +756,29 @@ svg#atlasSvg:active{cursor:grabbing}
       <div class="sub">Source-linked intelligence map of institutional UAP records, case geography, chronology, and primary records.</div>
     </div>
     <div class="topbar-right">
-      <div class="controls filter-rail">
-        <select class="ctrl" id="agencyFilter"></select>
-        <select class="ctrl" id="domainFilter"></select>
-        <select class="ctrl" id="precisionFilter"></select>
-        <button class="ctrl" id="toggleInstitutional">Institutional: ON</button>
-      </div>
       <div class="data-strip" id="dataStrip" aria-label="Dataset totals"></div>
     </div>
   </div>
+  <section class="temporal-band" aria-label="Temporal signal — full corpus chronology">
+    <div class="temporal-inner">
+      <div class="temporal-head">
+        <div class="left">
+          <div class="temporal-title">Temporal Signal</div>
+          <div class="temporal-meta" id="timelineHeader">1933—2025 · 123 EVENTS</div>
+        </div>
+        <div class="era-rail" id="eraRail" aria-label="Filter by decade"></div>
+      </div>
+      <div class="signal-wrap" id="signalWrap">
+        <div class="signal-canvas" id="signalCanvas">
+          <div class="signal-spine"></div>
+          <div class="decade-ticks" id="decadeTicks"></div>
+          <div class="corpus-layer" id="corpusLayer"></div>
+          <div class="node-layer" id="nodeLayer"></div>
+          <div class="signal-tooltip" id="signalTooltip"><span class="tt-date"></span><span class="tt-title"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
   <div class="main">
     <section class="panel map-panel"><div class="panel-inner map-shell" id="mapShell">
       <div class="map-title">Global case map</div>
@@ -968,8 +1092,7 @@ svg#atlasSvg:active{cursor:grabbing}
       <div class="legend"><span><i class="dot" style="background:var(--cyan)"></i>Exact</span><span><i class="dot" style="background:var(--amber)"></i>Unresolved</span><span><i class="dot" style="background:var(--violet)"></i>Redacted</span><span><i class="dot" style="background:var(--white)"></i>Orbital</span><span><i class="dot" style="background:var(--silver)"></i>Institutional</span></div>
     </div></section>
     <aside class="panel detail"><div class="detail-inner" id="detail"></div></aside>
-    <section class="panel list-panel"><div class="panel-inner"><div class="panel-head"><div><div class="panel-title" id="stackTitle">Case Stack</div><div class="count" id="stackSubtitle">Sorted by date · main records</div></div><div class="stack-tools"><button class="stack-return" id="stackReturn" type="button" hidden>← Main Stack</button><input class="case-search" id="caseSearch" type="search" placeholder="Search cases…" autocomplete="off" spellcheck="false" aria-label="Search cases"><div class="count" id="caseCount"></div></div></div><div class="case-list" id="caseList"></div></div></section>
-    <section class="panel timeline-panel"><div class="panel-inner"><div class="panel-head"><div><div class="panel-title">Temporal Signal</div><div class="count" id="timelineHeader">1949—2026 · 48 EVENTS</div></div><div class="era-rail" id="eraRail" aria-label="Filter by decade"></div></div></div><div class="timeline-fade-left"></div><div class="timeline-fade-right"></div><div class="timeline-wrap" id="timelineWrap"><div class="timeline" id="timeline"></div></div></section>
+    <section class="panel list-panel"><div class="panel-inner"><div class="panel-head"><div class="stack-banner-row"><div class="stack-banner-left"><div class="panel-title" id="stackTitle">Case Stack</div><div class="count" id="stackSubtitle">Sorted by date · main records</div></div><div class="count" id="caseCount"></div></div><div class="stack-banner-row"><div class="filter-chips"><select class="fchip" id="agencyFilter"></select><select class="fchip" id="domainFilter"></select><select class="fchip" id="precisionFilter"></select><button class="fchip active" id="toggleInstitutional">Institutional: ON</button></div><div class="stack-banner-right"><button class="stack-return" id="stackReturn" type="button" hidden>← Main Stack</button><input class="case-search" id="caseSearch" type="search" placeholder="Search cases…" autocomplete="off" spellcheck="false" aria-label="Search cases"></div></div></div><div class="case-list" id="caseList"></div></div></section>
   </div>
 <div class="console-footer"><span>Classification&nbsp;&nbsp;//&nbsp;&nbsp;<b>Restricted</b></span><span>◎ Data sources verified</span><span>Last sync&nbsp;&nbsp;<b id="syncClock">--:--:--</b></span></div>
 </div>
@@ -991,7 +1114,12 @@ const labelsG = document.getElementById('labels');
 const stateLinesG = document.getElementById('stateLines');
 const detail = document.getElementById('detail');
 const caseList = document.getElementById('caseList');
-const timeline = document.getElementById('timeline');
+const timeline = document.getElementById('signalCanvas');
+const corpusLayer = document.getElementById('corpusLayer');
+const nodeLayer = document.getElementById('nodeLayer');
+const decadeTicks = document.getElementById('decadeTicks');
+const signalWrap = document.getElementById('signalWrap');
+const signalTooltip = document.getElementById('signalTooltip');
 const caseCount = document.getElementById('caseCount');
 const stackTitle = document.getElementById('stackTitle');
 const stackSubtitle = document.getElementById('stackSubtitle');
@@ -1088,7 +1216,86 @@ function quoteHtml(c,caption=true){if(!c.keyQuote) return ''; const source=capti
 function keyFactHtml(c,includeWhy=false){const hero=includeWhy; const quote=hero?quoteHtml(c,false):''; const meta=hero?factMetaLine(c):''; const why=hero&&c.whyItMatters?`<div class="why-card"><b>Why it matters</b><p>${esc(c.whyItMatters)}</p></div>`:''; return `<div class="case-intel ${hero?'fact-hero':''}"><div class="label2">Key finding</div><div class="key-fact-copy">${esc(c.heroFact||c.keyFact||c.summary)}</div>${quote}${meta}</div>${why}`;}
 function renderDetail(){const c = cases.find(x=>x.id===state.selectedCaseId); if(!c){detail.innerHTML = '<div class="empty">Select a case from the map, list, or timeline.</div>'; return;} const files=filesForCase(c).length||evidenceItems(c).length; detail.innerHTML = `<div class="preview-context"><div class="eyebrow">${esc(c.mode)} · ${esc(c.domain)}</div><div class="meta">${esc(c.id)} · ${esc(c.date)}</div></div><div class="case-title">${esc(c.title)}</div><div class="loc">${esc(c.location)} · ${esc(c.agency)}</div>${c.mapGeometry?`<div class="geometry-context">Map overlay · ${esc(c.mapGeometry.isObjectTrack?'object track':(['LineString','MultiLineString'].includes(c.mapGeometry.type)?'reference route':'approximate area'))} · ${esc(c.mapGeometry.confidence||'approximate')}</div>`:''}${c.image?`<button class="detail-media" type="button" data-open-case="${esc(c.id)}" aria-label="Open dossier evidence"><img src="${esc(c.image)}" alt="" loading="lazy"><span class="detail-media-tag">Evidence · ${esc(String(files))} file${files===1?'':'s'}</span></button>`:''}<div class="pills preview-pills"><span class="pill ${statusPill[markerStatus(c)]}">${esc(c.status)}</span><span class="pill">${esc(compactConfidence(c.confidence))}</span></div>${keyFactHtml(c,false)}${c.whyItMatters?`<div class="preview-why"><b>Why it matters</b><p>${esc(c.whyItMatters)}</p></div>`:''}<div class="preview-meta-line"><span><b>Source</b>${esc(c.sourceLabel||c.agency)}</span><span><b>Files</b>${esc(String(files))}</span><span><b>Date</b>${esc(c.date)}</span></div><button class="cta" type="button" data-open-case="${esc(c.id)}">Open Dossier <span aria-hidden="true">→</span></button>`; detail.querySelectorAll('[data-open-case]').forEach(btn=>btn.addEventListener('click',()=>openFullCase(btn.dataset.openCase)));}
 function typeClass(t){return t==='official-position'?'official-position':t;}
-function renderTimeline(){const visible=events.filter(ev=>state.institutional || ev.type!=='official-position'); const era=state.filters.era; const inEra=ev=>era==='all'||Math.floor(ev.year/10)*10===era; timeline.innerHTML = visible.map(ev=>`<div class="event ${typeClass(ev.type)} ${ev.id===state.selectedEventId?'selected':''} ${inEra(ev)?'':'era-out'}" data-case="${ev.caseId}" data-event="${ev.id}"><div class="date">${ev.date}</div><div class="dot"></div><div class="title">${ev.title}</div></div>`).join(''); timeline.querySelectorAll('.event').forEach(el=>el.addEventListener('click',()=>{state.selectedEventId=el.dataset.event; selectCase(el.dataset.case,true);})); const hdr=document.getElementById('timelineHeader'); if(era==='all'){hdr.textContent=`${events[0].year}—${events[events.length-1].year} · ${visible.length} EVENTS`;}else{const n=visibleStackCases().length; hdr.textContent=`${era}s · ${n} ${state.stackMode==='orbital'?'ORBITAL ':'CASE'}${n===1?'':'S'} IN VIEW`;} }
+/* Normalize 10 raw event types into 7 visual color buckets */
+function signalTypeClass(t){
+  if(t==='incident'||t==='case') return 't-case';
+  if(t==='investigation') return 't-investigation';
+  if(t==='official-position') return 't-official-position';
+  if(t==='contradiction') return 't-contradiction';
+  if(t==='release') return 't-release';
+  if(t==='orbital') return 't-orbital';
+  return 't-other';
+}
+/* Position an event on the horizontal axis as a percentage of the full year range */
+function eventX(ev){
+  const minY=events[0].year, maxY=events[events.length-1].year;
+  const pad=0.018;
+  const span=Math.max(1,maxY-minY);
+  return pad+(ev.year-minY)/span*(1-2*pad);
+}
+function renderDecadeTicks(){
+  if(!decadeTicks) return;
+  const minY=events[0].year, maxY=events[events.length-1].year;
+  const firstDec=Math.floor(minY/10)*10;
+  const lastDec=Math.floor(maxY/10)*10;
+  let html='';
+  for(let d=firstDec; d<=lastDec; d+=10){
+    const dummy={year:d};
+    const x=eventX(dummy);
+    const isAnchor=(d===minY);
+    html+=`<div class="decade-tick ${isAnchor?'anchor':''}" style="left:${(x*100).toFixed(2)}%"><span class="year">${d}</span></div>`;
+  }
+  decadeTicks.innerHTML=html;
+}
+function renderSignal(){
+  const visible=events.filter(ev=>state.institutional || ev.type!=='official-position');
+  const era=state.filters.era;
+  const inEra=ev=>era==='all'||Math.floor(ev.year/10)*10===era;
+  renderDecadeTicks();
+  if(corpusLayer){
+    corpusLayer.innerHTML=visible.map(ev=>{
+      const x=eventX(ev)*100;
+      return `<div class="corpus-dot ${signalTypeClass(ev.type)} ${inEra(ev)?'':'era-out'}" style="left:${x.toFixed(2)}%" data-case="${esc(ev.caseId)}" data-event="${esc(ev.id)}" data-date="${esc(ev.date)}" data-title="${esc(ev.title)}"></div>`;
+    }).join('');
+    corpusLayer.querySelectorAll('.corpus-dot').forEach(el=>{
+      el.addEventListener('click',()=>{state.selectedEventId=el.dataset.event; selectCase(el.dataset.case,true);});
+      el.addEventListener('mouseenter',e=>showSignalTooltip(el));
+      el.addEventListener('mouseleave',hideSignalTooltip);
+    });
+  }
+  if(nodeLayer){
+    const sel=state.selectedCaseId;
+    if(!sel){ nodeLayer.innerHTML=''; }
+    else{
+      const nodes=visible.filter(ev=>ev.caseId===sel);
+      nodeLayer.innerHTML=nodes.map(ev=>{
+        const x=eventX(ev)*100;
+        return `<div class="signal-node ${signalTypeClass(ev.type)} ${ev.id===state.selectedEventId?'selected':''} ${inEra(ev)?'':'era-out'}" style="left:${x.toFixed(2)}%" data-case="${esc(ev.caseId)}" data-event="${esc(ev.id)}"><div class="node-dot"></div><div class="node-date">${esc(ev.date)}</div><div class="node-title">${esc(ev.title)}</div></div>`;
+      }).join('');
+      nodeLayer.querySelectorAll('.signal-node').forEach(el=>{
+        el.addEventListener('click',()=>{state.selectedEventId=el.dataset.event; selectCase(el.dataset.case,true);});
+      });
+    }
+  }
+  const hdr=document.getElementById('timelineHeader');
+  if(hdr){
+    if(era==='all'){ hdr.textContent=`${events[0].year}—${events[events.length-1].year} · ${visible.length} EVENTS`; }
+    else{ const n=visibleStackCases().length; hdr.textContent=`${era}s · ${n} ${state.stackMode==='orbital'?'ORBITAL ':'CASE'}${n===1?'':'S'} IN VIEW`; }
+  }
+}
+function showSignalTooltip(el){
+  if(!signalTooltip) return;
+  const rect=el.getBoundingClientRect();
+  const wrapRect=signalWrap.getBoundingClientRect();
+  signalTooltip.querySelector('.tt-date').textContent=el.dataset.date||'';
+  signalTooltip.querySelector('.tt-title').textContent=el.dataset.title||'';
+  const x=rect.left-wrapRect.left+rect.width/2;
+  const y=rect.top-wrapRect.top;
+  signalTooltip.style.left=`${x}px`;
+  signalTooltip.style.top=`${y}px`;
+  signalTooltip.classList.add('show');
+}
+function hideSignalTooltip(){ if(signalTooltip) signalTooltip.classList.remove('show'); }
 function markerEl(c){
   const cls=colorByMode[markerStatus(c)];
   const selected=c.id===state.selectedCaseId;
@@ -1363,7 +1570,7 @@ window.addEventListener('hashchange',()=>{
   state.filters={agency:'all',domain:'all',precision:'all',q:'',era:'all'};
   state.stackMode='main';
   const cs=document.getElementById('caseSearch'); if(cs) cs.value='';
-  state.institutional=true; toggleInstitutional.textContent='Institutional: ON';
+  state.institutional=true; toggleInstitutional.textContent='Institutional: ON'; toggleInstitutional.classList.add('active');
   urlCaseId=null;
   parseUrlState();
   if(typeof buildEraRail==='function') buildEraRail();
@@ -1403,14 +1610,13 @@ function selectCase(id,zoom){
   setTimeout(()=>{
     const row=document.querySelector(`.case-row[data-id="${CSS.escape(id)}"]`);
     if(row){row.scrollIntoView({block:'start',inline:'nearest'}); const rr=row.getBoundingClientRect(), lr=caseList.getBoundingClientRect(); if(rr.top<lr.top) caseList.scrollTop -= (lr.top-rr.top+8);}
-    const ev=document.querySelector(`.event[data-case="${CSS.escape(id)}"]`);
-    if(ev) ev.scrollIntoView({block:'nearest',inline:'center'});
+    /* No scrollIntoView for timeline nodes — the signal band spans full width, no scroll */
   },50);
 }
-function highlightRow(id){caseList.querySelectorAll('.case-row').forEach(el=>el.classList.toggle('active', el.dataset.id===id)); timeline.querySelectorAll('.event').forEach(el=>el.classList.toggle('selected', el.dataset.case===id)); markersG.querySelectorAll('.atlas-marker').forEach(el=>el.classList.toggle('selected', el.dataset.id===id));}
-function renderAll(){renderCaseGeometry(); renderMarkers(); renderClusters(); renderCaseList(); renderTimeline(); renderDetail(); highlightRow(state.selectedCaseId); renderSelectionBeacon(false);}
+function highlightRow(id){caseList.querySelectorAll('.case-row').forEach(el=>el.classList.toggle('active', el.dataset.id===id)); nodeLayer.querySelectorAll('.signal-node').forEach(el=>el.classList.toggle('selected', el.dataset.event===state.selectedEventId)); markersG.querySelectorAll('.atlas-marker').forEach(el=>el.classList.toggle('selected', el.dataset.id===id));}
+function renderAll(){renderCaseGeometry(); renderMarkers(); renderClusters(); renderCaseList(); renderSignal(); renderDetail(); highlightRow(state.selectedCaseId); renderSelectionBeacon(false);}
 function applyFilters(){state.filters.agency=agencyFilter.value; state.filters.domain=domainFilter.value; state.filters.precision=precisionFilter.value; renderAll(); updateUrl();}
-agencyFilter.addEventListener('change',applyFilters); domainFilter.addEventListener('change',applyFilters); precisionFilter.addEventListener('change',applyFilters); if(stackReturn) stackReturn.addEventListener('click',()=>{resetStackFilters(); setStackMode('main');}); toggleInstitutional.addEventListener('click',()=>{state.institutional=!state.institutional; toggleInstitutional.textContent = `Institutional: ${state.institutional?'ON':'OFF'}`; renderTimeline(); updateUrl();});
+agencyFilter.addEventListener('change',applyFilters); domainFilter.addEventListener('change',applyFilters); precisionFilter.addEventListener('change',applyFilters); if(stackReturn) stackReturn.addEventListener('click',()=>{resetStackFilters(); setStackMode('main');}); toggleInstitutional.addEventListener('click',()=>{state.institutional=!state.institutional; toggleInstitutional.textContent = `Institutional: ${state.institutional?'ON':'OFF'}`; toggleInstitutional.classList.toggle('active', state.institutional); renderSignal(); updateUrl();});
 svg.addEventListener('wheel',e=>{e.preventDefault(); cancelViewAnim(); const pt = svg.createSVGPoint(); pt.x=e.clientX; pt.y=e.clientY; const ctm=svg.getScreenCTM().inverse(); const p=pt.matrixTransform(ctm); const factor = e.deltaY>0 ? 1.12 : 0.89; const nw = clamp(state.view.w*factor, 8, 100); const nh = nw*0.62; const mx = (p.x-state.view.x)/state.view.w, my = (p.y-state.view.y)/state.view.h; const x = clamp(p.x - mx*nw, 0, 100-nw); const y = clamp(p.y - my*nh, 0, 62-nh); setView(x,y,nw);},{passive:false});
 svg.addEventListener('mousedown',e=>{cancelViewAnim(); hideMapTip(); state.dragging=true; state.dragStart={x:e.clientX,y:e.clientY,view:{...state.view}};}); window.addEventListener('mousemove',e=>{if(!state.dragging) return; const dx=(e.clientX-state.dragStart.x)/svg.clientWidth*state.dragStart.view.w; const dy=(e.clientY-state.dragStart.y)/svg.clientHeight*state.dragStart.view.h; setView(clamp(state.dragStart.view.x-dx,0,100-state.dragStart.view.w), clamp(state.dragStart.view.y-dy,0,62-state.dragStart.view.h), state.dragStart.view.w);}); window.addEventListener('mouseup',()=>state.dragging=false);
 document.querySelectorAll('[data-zoom]').forEach(btn=>btn.addEventListener('click',()=>{if(btn.dataset.zoom==='reset') return resetView(); if(btn.dataset.zoom==='in') zoomToCase(state.view.x+state.view.w/2,state.view.y+state.view.h/2, currentZoom()*1.35); else zoomToCase(state.view.x+state.view.w/2,state.view.y+state.view.h/2, currentZoom()/1.35);}));
@@ -1463,8 +1669,7 @@ function setEra(era){
   renderAll(); updateUrl();
   eraRail.querySelectorAll('.era-chip').forEach(b=>b.classList.toggle('active', b.dataset.era===String(era)));
   if(era!=='all'){
-    const first=timeline.querySelector('.event:not(.era-out)');
-    if(first) first.scrollIntoView({inline:'start',block:'nearest',behavior:'smooth'});
+    /* No horizontal scroll in the new band; the signal canvas spans full width */
   }
 }
 function toggleEraPlay(){
