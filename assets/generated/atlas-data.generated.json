@@ -2751,16 +2751,17 @@
       "y": 24.97,
       "agency": "CBP / AARO",
       "domain": "AVIATION / IR SENSOR",
-      "status": "OFFICIAL IMAGERY",
+      "status": "OFFICIAL IMAGERY / RESOLVED BY AARO",
       "confidence": "CONFIRMED RECORD",
-      "summary": "A Customs and Border Protection infrared platform recorded an object near Rafael Hernández Airport; the footage became one of the most discussed official UAP videos.",
-      "official": "AARO assesses with high confidence that the object did not demonstrate anomalous speed or flight behavior, but the imagery remains a key official case record.",
-      "gap": "Complete platform geometry, raw sensor file, wind/environmental model, and operator notes are required for independent assessment.",
+      "summary": "A U.S. Customs and Border Protection aircraft recorded infrared imagery near Rafael Hernández Airport. AARO’s 2025 reconstruction concluded that two slow-moving objects remained over land; the earlier SCU model inferred high-speed, transmedium motion from a different trajectory solution.",
+      "official": "AARO assesses with high confidence that the objects did not exhibit anomalous behavior or transmedium capabilities and with moderate confidence that they were sky lanterns. AARO modeled approximately 3.6 m/s motion over land, consistent with the reported wind direction and speed.",
+      "gap": "The public package does not include AARO’s complete reproducible STK scene, raw platform telemetry, calibrated sensor model, synchronized airport/ATC records, or all wind inputs. Those records are needed to test the official and SCU trajectories from identical inputs.",
       "sources": [
-        "AGUADILLA-2013 · AARO Puerto Rico object video/case resolution",
-        "DOD_110692805 · Puerto Rico Objects local video"
+        "DOD-110692805-AGUADILLA · Official Puerto Rico objects video",
+        "AARO-PUERTO-RICO-2025 · AARO Puerto Rico case resolution",
+        "SCU-AGUADILLA-2015 · Independent Aguadilla analysis v8"
       ],
-      "image": "assets/source_previews/BF-2013-AG-01_DOD_110692805-1920x1080-9000k_frame.jpg",
+      "image": "assets/source_previews/DOD-110692805-aguadilla-frame.jpg",
       "lon": -67.129,
       "lat": 18.494,
       "expectedCountry": "Puerto Rico",
@@ -2768,20 +2769,21 @@
       "coordinatePrecision": "site",
       "previousProjection": "atlas-svg-calibrated-naturalearth-x-mercator-y-100x62",
       "coordinateBasis": "Aguadilla/Rafael Hernández Airport public coordinate",
-      "keyFact": "Aguadilla is important because official IR footage, later official resolution claims, and independent geometry disputes all attach to the same record.",
-      "whyItMatters": "The case lets the dossier compare official resolution language against the underlying IR record and unresolved geometry questions.",
-      "keyQuote": null,
-      "quoteSource": null,
-      "quoteConfidence": "not-yet-selected",
-      "heroFact": "Official IR footage, later official resolution claims, and independent geometry disputes all attach to the same Aguadilla record.",
+      "keyFact": "AARO and SCU do not merely interpret the same track differently; they reconstruct materially different tracks from the same line-of-sight imagery.",
+      "whyItMatters": "Aguadilla demonstrates how a transmedium claim can rise or fall on modeled geometry, contrast loss, and assumptions about whether the target remained over land.",
+      "keyQuote": "AARO assesses with high confidence that the objects did not exhibit anomalous behavior or transmedium capabilities.",
+      "quoteSource": "AARO Puerto Rico UAP Case Resolution, PDF p. 1",
+      "quoteConfidence": "verified",
+      "heroFact": "The central dispute is the reconstructed ground track: AARO keeps two objects over land, while SCU’s earlier model sends an object across and into the ocean.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
-      "sourceLabel": "AARO release",
-      "sourceLocator": "AGUADILLA-2013",
+      "sourceQuality": "Primary imagery plus competing analyses",
+      "sourceLabel": "CBP / AARO",
+      "sourceLocator": "AARO resolution pp. 1–7; SCU v8",
       "relatedCaseIds": [
-        "BF-2004-NM-01",
         "BF-2015-NAV-01",
-        "BF-2024-ECS-01"
+        "BF-2015-GIMBAL-01",
+        "BF-2015-GOFAST-01",
+        "BF-2004-NM-01"
       ],
       "caseTypes": [
         "aviation-encounter"
@@ -2789,15 +2791,18 @@
       "evidenceModes": [
         "infrared",
         "sensor",
-        "video"
+        "video",
+        "modeled-trajectory"
       ],
       "environment": [
-        "airborne"
+        "airborne",
+        "airport-vicinity",
+        "coastal"
       ],
-      "outcome": "documented",
+      "outcome": "officially-resolved-contested",
       "confidenceModel": {
         "record": "confirmed",
-        "anomaly": "not-assessed",
+        "anomaly": "officially-resolved-contested",
         "provenance": "primary-record"
       },
       "temporal": {
@@ -2805,8 +2810,8 @@
         "year": 2013,
         "startDateTime": null,
         "endDateTime": null,
-        "timezone": null,
-        "durationSeconds": null,
+        "timezone": "UTC / local-date boundary",
+        "durationSeconds": 234,
         "precision": "month",
         "eventForm": "single-event"
       },
@@ -2825,20 +2830,192 @@
       },
       "sourceRecords": [
         {
-          "citation": "AGUADILLA-2013 · AARO Puerto Rico object video/case resolution",
+          "citation": "DOD-110692805-AGUADILLA · Official Puerto Rico objects video",
           "sourceType": "primary-record",
-          "provenance": "Primary record",
-          "locator": "AGUADILLA-2013",
-          "supports": [],
-          "limitations": []
+          "provenance": "Primary official imagery",
+          "locator": "DVIDS 944204; local web-optimized MP4",
+          "supports": [
+            "infrared video",
+            "displayed platform/sensor symbology",
+            "official custody"
+          ],
+          "limitations": [
+            "deployed local copy is a web-optimized derivative; original and derivative hashes are documented; neither is a complete raw telemetry and calibration package"
+          ]
         },
         {
-          "citation": "DOD_110692805 · Puerto Rico Objects local video",
+          "citation": "AARO-PUERTO-RICO-2025 · AARO Puerto Rico case resolution",
+          "sourceType": "official-analysis",
+          "provenance": "Official analytical report",
+          "locator": "PDF pp. 1–7",
+          "supports": [
+            "two-object interpretation",
+            "over-land track",
+            "3.6 m/s model",
+            "moderate-confidence sky-lantern attribution"
+          ],
+          "limitations": [
+            "report does not release the complete STK scene or every model input; it states it is not finished intelligence"
+          ]
+        },
+        {
+          "citation": "SCU-AGUADILLA-2015 · Independent Aguadilla analysis v8",
+          "sourceType": "independent-analysis",
+          "provenance": "Independent technical report",
+          "locator": "Executive Summary and technical appendices",
+          "supports": [
+            "alternative trajectory",
+            "high-speed and water-entry interpretation"
+          ],
+          "limitations": [
+            "predates AARO’s reconstruction and depends on a materially different ground-track solution"
+          ]
+        }
+      ],
+      "phenomena": {
+        "shapes": [
+          "small infrared signatures"
+        ],
+        "objectCount": 2,
+        "luminosity": "thermal contrast",
+        "motion": [
+          "apparent high-speed motion",
+          "apparent separation",
+          "contrast loss against ocean background"
+        ],
+        "effects": []
+      },
+      "observation": {
+        "witnessCount": null,
+        "witnessRoles": [
+          "CBP aircrew"
+        ],
+        "sensors": [
+          "airborne infrared video"
+        ],
+        "durationSeconds": 234,
+        "independentWitnessGroups": null
+      },
+      "images": [
+        "assets/source_previews/DOD-110692805-aguadilla-frame.jpg",
+        "assets/source_previews/AARO-PUERTO-RICO-2025-p001-resolution.jpg"
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
+    },
+    {
+      "id": "BF-2015-NAV-01",
+      "title": "2015 Atlantic Navy Video Series",
+      "date": "JAN 2015",
+      "year": 2015,
+      "location": "U.S. East Coast training range",
+      "mode": "approximate",
+      "x": 30.84,
+      "y": 20.21,
+      "agency": "USN / AARO",
+      "domain": "MILITARY / SENSOR",
+      "status": "SERIES INDEX",
+      "confidence": "CONFIRMED RECORD",
+      "summary": "Index record connecting the distinct Gimbal and GoFast Navy sensor events without treating two clips as one incident.",
+      "official": "The Department of Defense authorized public release of both videos in April 2020. The clips have separate evidentiary questions and are modeled as separate child events.",
+      "gap": "The public record still lacks the complete mission chronology, original sensor files, aircraft tracks, range-quality metadata, radar data, and contemporaneous debriefs needed to reconstruct the wider operational series.",
+      "sources": [
+        "DOD-NAVY-VIDEOS-2020 · Defense Department release statement",
+        "AARO-IMAGERY · Official UAP Imagery index"
+      ],
+      "image": "assets/source_previews/DOD-110891172-gimbal-frame.jpg",
+      "lon": -76.5,
+      "lat": 34,
+      "geometryExpectation": "offshore",
+      "coordinatePrecision": "regional",
+      "previousProjection": "atlas-svg-lower48-state-calibrated-naturalearth-x-mercator-y-100x62",
+      "coordinateBasis": "US East Coast training range approximate offshore centroid; lower-48 calibrated to embedded Atlas USA geometry",
+      "keyFact": "Gimbal and GoFast are distinct sensor events; combining them conceals different dates, geometries, official assessments, and evidentiary limits.",
+      "whyItMatters": "The index preserves the operational relationship while forcing each clip to stand on its own evidence.",
+      "keyQuote": "The aerial phenomena observed in the videos remain characterized as ‘unidentified.’",
+      "quoteSource": "Department of Defense release statement, 27 April 2020",
+      "quoteConfidence": "verified",
+      "heroFact": "Gimbal and GoFast are related disclosure artifacts, not a single incident.",
+      "significance": "High significance",
+      "sourceQuality": "Primary release record",
+      "sourceLabel": "Department of Defense",
+      "sourceLocator": "DOD-NAVY-VIDEOS-2020",
+      "relatedCaseIds": [
+        "BF-2015-GIMBAL-01",
+        "BF-2015-GOFAST-01",
+        "BF-2004-NM-01",
+        "BF-2013-AG-01"
+      ],
+      "images": [
+        "assets/source_previews/DOD-110891172-gimbal-frame.jpg",
+        "assets/source_previews/DOD-110886776-gofast-frame.jpg"
+      ],
+      "caseTypes": [
+        "series-index"
+      ],
+      "evidenceModes": [
+        "sensor",
+        "video"
+      ],
+      "environment": [
+        "military-airspace"
+      ],
+      "outcome": "documented-series",
+      "confidenceModel": {
+        "record": "confirmed",
+        "anomaly": "mixed-child-assessments",
+        "provenance": "primary-record"
+      },
+      "temporal": {
+        "dateLabel": "JAN 2015",
+        "year": 2015,
+        "startDateTime": null,
+        "endDateTime": null,
+        "timezone": null,
+        "durationSeconds": null,
+        "precision": "month",
+        "eventForm": "series-index"
+      },
+      "geospatial": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -76.5,
+            34
+          ]
+        },
+        "role": "representative-centroid",
+        "precision": "regional",
+        "uncertaintyKm": 250,
+        "basis": "US East Coast training range approximate offshore centroid; lower-48 calibrated to embedded Atlas USA geometry"
+      },
+      "sourceRecords": [
+        {
+          "citation": "DOD-NAVY-VIDEOS-2020 · Defense Department release statement",
           "sourceType": "primary-record",
-          "provenance": "Primary record",
-          "locator": "AGUADILLA-2013",
-          "supports": [],
-          "limitations": []
+          "provenance": "Primary official release",
+          "locator": "27 April 2020 statement",
+          "supports": [
+            "official release chain",
+            "government characterization"
+          ],
+          "limitations": [
+            "statement authenticates the release but does not identify the objects"
+          ]
+        },
+        {
+          "citation": "AARO-IMAGERY · Official UAP Imagery index",
+          "sourceType": "primary-record",
+          "provenance": "Primary official index",
+          "locator": "Gimbal and GoFast entries",
+          "supports": [
+            "official imagery custody",
+            "child-event separation"
+          ],
+          "limitations": [
+            "index descriptions do not provide raw sensor or mission data"
+          ]
         }
       ],
       "phenomena": {
@@ -2855,14 +3032,20 @@
         "durationSeconds": null,
         "independentWitnessGroups": null
       },
+      "countInCaseTotals": false,
+      "childCaseIds": [
+        "BF-2015-GIMBAL-01",
+        "BF-2015-GOFAST-01"
+      ],
+      "recordRole": "series-parent",
       "mapGeometry": null,
       "coordinateGenerated": true,
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "id": "BF-2015-NAV-01",
-      "title": "Gimbal / GoFast Navy Video Cluster",
-      "date": "2015",
+      "id": "BF-2015-GIMBAL-01",
+      "title": "Gimbal Navy Sensor Event",
+      "date": "JAN 2015",
       "year": 2015,
       "location": "U.S. East Coast training range",
       "mode": "approximate",
@@ -2870,68 +3053,71 @@
       "y": 20.21,
       "agency": "USN / AARO",
       "domain": "MILITARY / SENSOR",
-      "status": "OFFICIAL IMAGERY",
+      "status": "OFFICIAL IMAGERY / UNRESOLVED",
       "confidence": "CONFIRMED RECORD",
-      "summary": "The Gimbal and GoFast Navy videos became central public disclosure artifacts after official acknowledgment and later AARO case-resolution work.",
-      "official": "AARO has published explanatory analysis for GoFast and treats the imagery as official UAP case material; Gimbal remains publicly framed through official imagery and Navy context.",
-      "gap": "Full sensor tracks, range data, original files, pilot debriefs, and complete event chronology are needed to evaluate the cluster as operational data rather than isolated clips.",
+      "summary": "A U.S. Navy F/A-18 sensor recorded a rotating infrared signature during an Atlantic training mission; AARO’s official imagery catalog states that the object remains unresolved.",
+      "official": "The video is an authenticated Department of Defense release. AARO’s public imagery entry says the object remains unresolved; no public case-resolution report equivalent to GoFast was located in AARO’s resolution library.",
+      "gap": "The public clip does not supply a verified object range, original uncompressed sensor file, radar track, complete aircraft track, wind field, sensor-mode history, or contemporaneous debrief package. Geometry reconstructions therefore depend heavily on assumed range and motion.",
       "sources": [
+        "DOD-110891172-GIMBAL · Official Gimbal video",
         "AARO-IMAGERY · Official UAP Imagery index",
-        "DOD_110886776 · GoFast",
-        "DOD_110891172 · Gimbal"
+        "DOD-NAVY-VIDEOS-2020 · Defense Department release statement",
+        "PEINGS-GIMBAL-2023 · Competing three-dimensional reconstructions"
       ],
-      "image": "assets/source_previews/BF-2015-NAV-01_source_image.jpg",
+      "image": "assets/source_previews/DOD-110891172-gimbal-frame.jpg",
       "lon": -76.5,
       "lat": 34,
       "geometryExpectation": "offshore",
       "coordinatePrecision": "regional",
       "previousProjection": "atlas-svg-lower48-state-calibrated-naturalearth-x-mercator-y-100x62",
       "coordinateBasis": "US East Coast training range approximate offshore centroid; lower-48 calibrated to embedded Atlas USA geometry",
-      "keyFact": "The public Navy videos are not enough by themselves; the decisive record is the unreleased range, track, pilot, and event chronology around them.",
-      "whyItMatters": "The videos became disclosure symbols, but real evaluation still requires the operational metadata around them.",
-      "keyQuote": null,
-      "quoteSource": null,
-      "quoteConfidence": "not-yet-selected",
-      "heroFact": "The decisive record is not the public Navy clips alone, but the unreleased range, track, pilot, and event chronology around them.",
+      "keyFact": "The public Gimbal clip establishes an authenticated infrared observation, but not object range; the most divergent reconstructions are range-dependent models.",
+      "whyItMatters": "Gimbal tests whether the Atlas can distinguish sensor authentication from claims about rotation, distance, trajectory, and performance.",
+      "keyQuote": "The object in this video remains unresolved.",
+      "quoteSource": "AARO official imagery entry / DVIDS 956955",
+      "quoteConfidence": "verified",
+      "heroFact": "Authenticated imagery does not settle whether the apparent rotation belongs to an object, glare, or the sensor system.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
-      "sourceLabel": "CIA archive",
-      "sourceLocator": "AARO-IMAGERY",
+      "sourceQuality": "Primary imagery plus independent modeling",
+      "sourceLabel": "AARO / DVIDS",
+      "sourceLocator": "DVIDS 956955; local DOD_110891172",
       "relatedCaseIds": [
+        "BF-2015-NAV-01",
+        "BF-2015-GOFAST-01",
         "BF-2004-NM-01",
-        "BF-2013-AG-01",
-        "BF-2020-AS-01"
+        "BF-2013-AG-01"
       ],
       "images": [
-        "assets/evidence/DOD_110891172/DOD_110891172__contact.jpg",
-        "assets/evidence/DOD_110886776/DOD_110886776__contact.jpg",
-        "assets/evidence/DOD_110891172/DOD_110891172__t000022_6.jpg",
-        "assets/evidence/DOD_110886776/DOD_110886776__t000022_6.jpg"
+        "assets/source_previews/DOD-110891172-gimbal-frame.jpg",
+        "assets/source_previews/PEINGS-GIMBAL-2023-p001.jpg"
       ],
       "caseTypes": [
         "military-encounter"
       ],
       "evidenceModes": [
+        "infrared",
         "sensor",
-        "video"
+        "video",
+        "aircrew-audio"
       ],
       "environment": [
-        "military-airspace"
+        "military-airspace",
+        "offshore"
       ],
-      "outcome": "documented",
+      "outcome": "unresolved",
       "confidenceModel": {
         "record": "confirmed",
-        "anomaly": "not-assessed",
+        "anomaly": "unresolved-range-dependent",
         "provenance": "primary-record"
       },
       "temporal": {
-        "dateLabel": "2015",
+        "dateLabel": "JAN 2015",
         "year": 2015,
         "startDateTime": null,
         "endDateTime": null,
         "timezone": null,
-        "durationSeconds": null,
-        "precision": "year",
+        "durationSeconds": 34,
+        "precision": "month",
         "eventForm": "single-event"
       },
       "geospatial": {
@@ -2949,44 +3135,239 @@
       },
       "sourceRecords": [
         {
+          "citation": "DOD-110891172-GIMBAL · Official Gimbal video",
+          "sourceType": "primary-record",
+          "provenance": "Primary official imagery",
+          "locator": "DVIDS 956955; local MP4",
+          "supports": [
+            "sensor display",
+            "aircrew audio",
+            "official custody"
+          ],
+          "limitations": [
+            "public copy lacks original metadata and companion radar/track data"
+          ]
+        },
+        {
           "citation": "AARO-IMAGERY · Official UAP Imagery index",
           "sourceType": "primary-record",
-          "provenance": "Primary record",
-          "locator": "AARO-IMAGERY",
-          "supports": [],
-          "limitations": []
+          "provenance": "Primary official index",
+          "locator": "Gimbal entry",
+          "supports": [
+            "official unresolved status"
+          ],
+          "limitations": [
+            "entry does not publish a case-resolution methodology"
+          ]
         },
         {
-          "citation": "DOD_110886776 · GoFast",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
-          "locator": "AARO-IMAGERY",
-          "supports": [],
-          "limitations": []
-        },
-        {
-          "citation": "DOD_110891172 · Gimbal",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
-          "locator": "AARO-IMAGERY",
-          "supports": [],
-          "limitations": []
+          "citation": "PEINGS-GIMBAL-2023 · Competing three-dimensional reconstructions",
+          "sourceType": "independent-analysis",
+          "provenance": "Independent preprint",
+          "locator": "pp. 1, 16–20",
+          "supports": [
+            "range-dependent anomalous and distant-aircraft hypotheses"
+          ],
+          "limitations": [
+            "not an official reconstruction; solutions depend on assumed range, wind, and trajectories"
+          ]
         }
       ],
       "phenomena": {
-        "shapes": [],
-        "objectCount": null,
-        "luminosity": null,
-        "motion": [],
+        "shapes": [
+          "irregular infrared signature"
+        ],
+        "objectCount": 1,
+        "luminosity": "infrared contrast only",
+        "motion": [
+          "apparent rotation",
+          "tracked motion"
+        ],
         "effects": []
       },
       "observation": {
         "witnessCount": null,
-        "witnessRoles": [],
-        "sensors": [],
-        "durationSeconds": null,
+        "witnessRoles": [
+          "naval aviators"
+        ],
+        "sensors": [
+          "ATFLIR infrared video",
+          "aircrew situational display reported but unreleased"
+        ],
+        "durationSeconds": 34,
         "independentWitnessGroups": null
       },
+      "countInCaseTotals": true,
+      "recordRole": "series-child",
+      "seriesId": "BF-2015-NAV-01",
+      "seriesOrder": 1,
+      "parentCaseId": "BF-2015-NAV-01",
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
+    },
+    {
+      "id": "BF-2015-GOFAST-01",
+      "title": "GoFast Navy Sensor Event",
+      "date": "JAN 2015",
+      "year": 2015,
+      "location": "U.S. East Coast training range",
+      "mode": "approximate",
+      "x": 30.84,
+      "y": 20.21,
+      "agency": "USN / AARO",
+      "domain": "MILITARY / SENSOR",
+      "status": "OFFICIAL IMAGERY / RESOLVED BY AARO",
+      "confidence": "CONFIRMED RECORD",
+      "summary": "A U.S. Navy infrared clip created the impression of a small object moving rapidly above the ocean. NASA and AARO analyses concluded that platform motion and parallax can explain the apparent speed without extraordinary performance.",
+      "official": "AARO assesses with high confidence that GoFast did not exhibit anomalous behavior. Its reconstruction places the object near 13,000 feet and models a wind-speed-compatible range of motion; NASA independently estimated about 40 mph while explicitly noting neglected wind effects and resulting uncertainty.",
+      "gap": "AARO’s published result is model-based. The public record does not include the original uncompressed sensor file, complete aircraft track, full vertical wind profile, range-quality provenance, or reproducible model package needed to independently rerun every assumption.",
+      "sources": [
+        "DOD-110886776-GOFAST · Official GoFast video",
+        "AARO-GOFAST-2025 · AARO GoFast resolution and methodology",
+        "NASA-UAP-2023 · NASA independent study GoFast analysis",
+        "DOD-NAVY-VIDEOS-2020 · Defense Department release statement"
+      ],
+      "image": "assets/source_previews/DOD-110886776-gofast-frame.jpg",
+      "lon": -76.5,
+      "lat": 34,
+      "geometryExpectation": "offshore",
+      "coordinatePrecision": "regional",
+      "previousProjection": "atlas-svg-lower48-state-calibrated-naturalearth-x-mercator-y-100x62",
+      "coordinateBasis": "US East Coast training range approximate offshore centroid; lower-48 calibrated to embedded Atlas USA geometry",
+      "keyFact": "The extreme apparent speed is not a direct measurement; published government analyses infer a slower object after reconstructing platform motion, range, and parallax.",
+      "whyItMatters": "GoFast is a clean example of why displayed symbology, measured quantities, and modeled assumptions must be separated.",
+      "keyQuote": "But the analysis reveals that the object need not be moving at an extraordinary velocity.",
+      "quoteSource": "NASA UAP Independent Study Report, PDF p. 30",
+      "quoteConfidence": "verified",
+      "heroFact": "GoFast’s apparent speed is observational; its true speed is reconstructed and uncertainty remains model-dependent.",
+      "significance": "High significance",
+      "sourceQuality": "Primary imagery plus official analysis",
+      "sourceLabel": "AARO / NASA",
+      "sourceLocator": "AARO methodology; NASA PDF p. 30",
+      "relatedCaseIds": [
+        "BF-2015-NAV-01",
+        "BF-2015-GIMBAL-01",
+        "BF-2004-NM-01",
+        "BF-2013-AG-01"
+      ],
+      "images": [
+        "assets/source_previews/DOD-110886776-gofast-frame.jpg",
+        "assets/source_previews/NASA-UAP-2023-p030-gofast.jpg"
+      ],
+      "caseTypes": [
+        "military-encounter"
+      ],
+      "evidenceModes": [
+        "infrared",
+        "sensor",
+        "video",
+        "aircrew-audio"
+      ],
+      "environment": [
+        "military-airspace",
+        "offshore"
+      ],
+      "outcome": "officially-resolved",
+      "confidenceModel": {
+        "record": "confirmed",
+        "anomaly": "officially-resolved-non-anomalous",
+        "provenance": "primary-record"
+      },
+      "temporal": {
+        "dateLabel": "JAN 2015",
+        "year": 2015,
+        "startDateTime": null,
+        "endDateTime": null,
+        "timezone": null,
+        "durationSeconds": 34,
+        "precision": "month",
+        "eventForm": "single-event"
+      },
+      "geospatial": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -76.5,
+            34
+          ]
+        },
+        "role": "representative-centroid",
+        "precision": "regional",
+        "uncertaintyKm": 250,
+        "basis": "US East Coast training range approximate offshore centroid; lower-48 calibrated to embedded Atlas USA geometry"
+      },
+      "sourceRecords": [
+        {
+          "citation": "DOD-110886776-GOFAST · Official GoFast video",
+          "sourceType": "primary-record",
+          "provenance": "Primary official imagery",
+          "locator": "DVIDS 956683; local MP4",
+          "supports": [
+            "sensor display",
+            "aircrew audio",
+            "official custody"
+          ],
+          "limitations": [
+            "public copy lacks original metadata and complete platform track"
+          ]
+        },
+        {
+          "citation": "AARO-GOFAST-2025 · AARO GoFast resolution and methodology",
+          "sourceType": "official-analysis",
+          "provenance": "Official analytical report",
+          "locator": "6 February 2025 methodology report",
+          "supports": [
+            "official resolution",
+            "modeled speed and altitude",
+            "parallax analysis"
+          ],
+          "limitations": [
+            "public report summarizes a model but does not release the complete reproducible input package"
+          ]
+        },
+        {
+          "citation": "NASA-UAP-2023 · NASA independent study GoFast analysis",
+          "sourceType": "official-analysis",
+          "provenance": "Independent federal study",
+          "locator": "PDF p. 30",
+          "supports": [
+            "approximately 40 mph reconstruction",
+            "parallax explanation"
+          ],
+          "limitations": [
+            "NASA explicitly notes that its calculation neglects wind effects on the aircraft"
+          ]
+        }
+      ],
+      "phenomena": {
+        "shapes": [
+          "small infrared point"
+        ],
+        "objectCount": 1,
+        "luminosity": "cold infrared contrast",
+        "motion": [
+          "apparent rapid motion",
+          "tracked motion"
+        ],
+        "effects": []
+      },
+      "observation": {
+        "witnessCount": null,
+        "witnessRoles": [
+          "naval aviators"
+        ],
+        "sensors": [
+          "ATFLIR infrared video"
+        ],
+        "durationSeconds": 34,
+        "independentWitnessGroups": null
+      },
+      "countInCaseTotals": true,
+      "recordRole": "series-child",
+      "seriesId": "BF-2015-NAV-01",
+      "seriesOrder": 2,
+      "parentCaseId": "BF-2015-NAV-01",
       "mapGeometry": null,
       "coordinateGenerated": true,
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
@@ -12922,6 +13303,66 @@
       "desc": "RCMP officers watch an object enter the water; Canadian records log an unexplained 'dark object' report."
     },
     {
+      "id": "T-1968-HIM-01",
+      "caseId": "BF-1968-HIM-02",
+      "date": "19 FEB 1968",
+      "year": 1968,
+      "type": "CIA / EVENT REPORT",
+      "title": "Northeast Nepal / North Sikkim Correlated Report",
+      "desc": "The table records contemporaneous reports over northeast Nepal and north Sikkim and explicitly says the date, timing, and likely northeast-to-southwest direction coincide.",
+      "seriesId": "BF-1968-HIM-01"
+    },
+    {
+      "id": "T-1968-HIM-02",
+      "caseId": "BF-1968-HIM-03",
+      "date": "21 FEB 1968",
+      "year": 1968,
+      "type": "CIA / EVENT REPORT",
+      "title": "Thimphu Bluish Object Report",
+      "desc": "The report describes a bluish object moving rapidly and silently over Thimphu, bright enough to illuminate the area; the document itself questions the stated east-to-west direction.",
+      "seriesId": "BF-1968-HIM-01"
+    },
+    {
+      "id": "T-1968-HIM-03",
+      "caseId": "BF-1968-HIM-04",
+      "date": "04 MAR 1968",
+      "year": 1968,
+      "type": "CIA / EVENT REPORT",
+      "title": "Chang La–Fukche–Koyul Light and Blasts",
+      "desc": "The report records an east-to-west white light, two blasting sounds, and a reddish light followed by white smoke across named Ladakh locations.",
+      "seriesId": "BF-1968-HIM-01"
+    },
+    {
+      "id": "T-1968-HIM-04",
+      "caseId": "BF-1968-HIM-05",
+      "date": "04 MAR 1968",
+      "year": 1968,
+      "type": "CIA / EVENT REPORT",
+      "title": "Ane La Circular-Path Object",
+      "desc": "A separate Ladakh row at the same reported time describes an object following a circular path and leaving smoke.",
+      "seriesId": "BF-1968-HIM-01"
+    },
+    {
+      "id": "T-1968-HIM-05",
+      "caseId": "BF-1968-HIM-06",
+      "date": "25 MAR 1968",
+      "year": 1968,
+      "type": "CIA / EVENT REPORT",
+      "title": "Fukche–Koyul–Demchok Rocket-Like Object",
+      "desc": "The report describes a north-to-south rocket-like object moving from the Chang La side toward Demchok with a white-yellow trail at a reported altitude of 20,000–25,000 feet.",
+      "seriesId": "BF-1968-HIM-01"
+    },
+    {
+      "id": "T-1968-HIM-06",
+      "caseId": "BF-1968-HIM-07",
+      "date": "25 MAR 1968",
+      "year": 1968,
+      "type": "CIA / EVENT REPORT",
+      "title": "Kaski Blazing Object and Disc-Retrieval Claim",
+      "desc": "The table alleges a flashing blazing object disintegrated over Kaski and that metallic disc-shaped debris was found near Baltichaur and elsewhere; no photographs, custody records, or physical analysis accompany the claim.",
+      "seriesId": "BF-1968-HIM-01"
+    },
+    {
       "id": "EV-NASA-D001",
       "caseId": "BF-NASA-D001",
       "date": "1969",
@@ -13046,6 +13487,15 @@
       "type": "case",
       "title": "Skylab Technical Crew Debriefing",
       "desc": "Skylab technical crew debriefing released in the NASA/UAP corpus."
+    },
+    {
+      "id": "T-1973-SARY-SHAGAN",
+      "caseId": "BF-1973-SS-01",
+      "date": "LATE SUMMER 1973",
+      "year": 1973,
+      "type": "CIA / STRATEGIC SITE",
+      "title": "Sary Shagan Green Circular Phenomenon",
+      "desc": "A CIA intelligence report records a former Soviet range worker observing a bright green circular object or mass west of Site 7 during late summer 1973; concentric green circles briefly formed around it before the coloring disappeared."
     },
     {
       "id": "TL-1973B",
@@ -13354,13 +13804,26 @@
       "desc": "CEFAA studies the footage for two years and calls it unexplained; open-source analysts identify a contrail."
     },
     {
-      "id": "EV-2015-NAV-01",
-      "caseId": "BF-2015-NAV-01",
-      "date": "2015",
+      "id": "EV-2015-GIMBAL-01",
+      "caseId": "BF-2015-GIMBAL-01",
+      "date": "JAN 2015",
       "year": 2015,
       "type": "case",
-      "title": "Gimbal / GoFast Navy Video Cluster",
-      "desc": "The Gimbal and GoFast Navy videos became central public disclosure artifacts after official acknowledgment and later AAR"
+      "title": "Gimbal Navy Sensor Event",
+      "desc": "Authenticated Navy infrared imagery remains publicly unresolved; missing range and track data drive competing reconstructions.",
+      "seriesId": "BF-2015-NAV-01",
+      "seriesOrder": 1
+    },
+    {
+      "id": "EV-2015-GOFAST-01",
+      "caseId": "BF-2015-GOFAST-01",
+      "date": "JAN 2015",
+      "year": 2015,
+      "type": "case",
+      "title": "GoFast Navy Sensor Event",
+      "desc": "NASA and AARO analyses attribute the apparent speed to reconstructed platform motion, range, and parallax.",
+      "seriesId": "BF-2015-NAV-01",
+      "seriesOrder": 2
     },
     {
       "id": "TL-2015",
@@ -13390,6 +13853,15 @@
       "desc": "Round cold IR object with abrupt directional changes."
     },
     {
+      "id": "T-2022-IQ-D12",
+      "caseId": "BF-2022-IQ-02",
+      "date": "20 MAY 2022",
+      "year": 2022,
+      "type": "MILITARY / ISR",
+      "title": "Iraq ISR Object — No Positive Identification",
+      "desc": "A declassified USCENTCOM mission report records one UAP first contacted at 20:43Z; the ISR platform followed it north to northeast as long as possible, and the screener could not obtain a positive identification."
+    },
+    {
       "id": "TL-2022A",
       "year": 2022,
       "date": "15 FEB 2022",
@@ -13406,6 +13878,15 @@
       "caseId": "BF-2022-ME-01",
       "title": "Middle East multi-UAP observation",
       "desc": "Five sensor observations over approximately four hours."
+    },
+    {
+      "id": "T-2023-BRONZE-CIGAR",
+      "caseId": "BF-2023-BC-01",
+      "date": "SEP 2023",
+      "year": 2023,
+      "type": "FBI / WITNESS",
+      "title": "Restricted-Facility Bronze Cigar Object",
+      "desc": "An FBI FD-302 records at least two witnesses at a restricted military facility describing a silent metallic-bronze cigar-shaped object with an intense diamond-white light, moving slowly before disappearing after five to ten seconds."
     },
     {
       "id": "TL-2023C",
@@ -13471,42 +13952,6 @@
       "desc": "Site surveys, collected media and agent observations."
     },
     {
-      "id": "TL-2025",
-      "year": 2025,
-      "date": "2025",
-      "type": "incident",
-      "caseId": "BF-2025-YS-01",
-      "title": "Yellow Sea IR case",
-      "desc": "Unresolved area of contrast released."
-    },
-    {
-      "id": "T-2022-IQ-D12",
-      "caseId": "BF-2022-IQ-02",
-      "date": "20 MAY 2022",
-      "year": 2022,
-      "type": "MILITARY / ISR",
-      "title": "Iraq ISR Object — No Positive Identification",
-      "desc": "A declassified USCENTCOM mission report records one UAP first contacted at 20:43Z; the ISR platform followed it north to northeast as long as possible, and the screener could not obtain a positive identification."
-    },
-    {
-      "id": "T-2023-BRONZE-CIGAR",
-      "caseId": "BF-2023-BC-01",
-      "date": "SEP 2023",
-      "year": 2023,
-      "type": "FBI / WITNESS",
-      "title": "Restricted-Facility Bronze Cigar Object",
-      "desc": "An FBI FD-302 records at least two witnesses at a restricted military facility describing a silent metallic-bronze cigar-shaped object with an intense diamond-white light, moving slowly before disappearing after five to ten seconds."
-    },
-    {
-      "id": "T-1973-SARY-SHAGAN",
-      "caseId": "BF-1973-SS-01",
-      "date": "LATE SUMMER 1973",
-      "year": 1973,
-      "type": "CIA / STRATEGIC SITE",
-      "title": "Sary Shagan Green Circular Phenomenon",
-      "desc": "A CIA intelligence report records a former Soviet range worker observing a bright green circular object or mass west of Site 7 during late summer 1973; concentric green circles briefly formed around it before the coloring disappeared."
-    },
-    {
       "id": "T-2025-USIC-ORB",
       "caseId": "BF-2025-USIC-01",
       "date": "LATE 2025",
@@ -13516,64 +13961,13 @@
       "desc": "A released narrative attributed to a senior U.S. intelligence officer describes more than an hour of helicopter encounters with orange orb-like objects, including claimed radar cueing, FLIR and NVG observations, ground teams, pilots, and nearby fighters."
     },
     {
-      "id": "T-1968-HIM-01",
-      "caseId": "BF-1968-HIM-02",
-      "date": "19 FEB 1968",
-      "year": 1968,
-      "type": "CIA / EVENT REPORT",
-      "title": "Northeast Nepal / North Sikkim Correlated Report",
-      "desc": "The table records contemporaneous reports over northeast Nepal and north Sikkim and explicitly says the date, timing, and likely northeast-to-southwest direction coincide.",
-      "seriesId": "BF-1968-HIM-01"
-    },
-    {
-      "id": "T-1968-HIM-02",
-      "caseId": "BF-1968-HIM-03",
-      "date": "21 FEB 1968",
-      "year": 1968,
-      "type": "CIA / EVENT REPORT",
-      "title": "Thimphu Bluish Object Report",
-      "desc": "The report describes a bluish object moving rapidly and silently over Thimphu, bright enough to illuminate the area; the document itself questions the stated east-to-west direction.",
-      "seriesId": "BF-1968-HIM-01"
-    },
-    {
-      "id": "T-1968-HIM-03",
-      "caseId": "BF-1968-HIM-04",
-      "date": "04 MAR 1968",
-      "year": 1968,
-      "type": "CIA / EVENT REPORT",
-      "title": "Chang La–Fukche–Koyul Light and Blasts",
-      "desc": "The report records an east-to-west white light, two blasting sounds, and a reddish light followed by white smoke across named Ladakh locations.",
-      "seriesId": "BF-1968-HIM-01"
-    },
-    {
-      "id": "T-1968-HIM-04",
-      "caseId": "BF-1968-HIM-05",
-      "date": "04 MAR 1968",
-      "year": 1968,
-      "type": "CIA / EVENT REPORT",
-      "title": "Ane La Circular-Path Object",
-      "desc": "A separate Ladakh row at the same reported time describes an object following a circular path and leaving smoke.",
-      "seriesId": "BF-1968-HIM-01"
-    },
-    {
-      "id": "T-1968-HIM-05",
-      "caseId": "BF-1968-HIM-06",
-      "date": "25 MAR 1968",
-      "year": 1968,
-      "type": "CIA / EVENT REPORT",
-      "title": "Fukche–Koyul–Demchok Rocket-Like Object",
-      "desc": "The report describes a north-to-south rocket-like object moving from the Chang La side toward Demchok with a white-yellow trail at a reported altitude of 20,000–25,000 feet.",
-      "seriesId": "BF-1968-HIM-01"
-    },
-    {
-      "id": "T-1968-HIM-06",
-      "caseId": "BF-1968-HIM-07",
-      "date": "25 MAR 1968",
-      "year": 1968,
-      "type": "CIA / EVENT REPORT",
-      "title": "Kaski Blazing Object and Disc-Retrieval Claim",
-      "desc": "The table alleges a flashing blazing object disintegrated over Kaski and that metallic disc-shaped debris was found near Baltichaur and elsewhere; no photographs, custody records, or physical analysis accompany the claim.",
-      "seriesId": "BF-1968-HIM-01"
+      "id": "TL-2025",
+      "year": 2025,
+      "date": "2025",
+      "type": "incident",
+      "caseId": "BF-2025-YS-01",
+      "title": "Yellow Sea IR case",
+      "desc": "Unresolved area of contrast released."
     }
   ],
   "schemaVersion": 2,

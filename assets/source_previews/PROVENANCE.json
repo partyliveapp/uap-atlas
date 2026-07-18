@@ -380,6 +380,30 @@
       "kind": "official-narrative-page",
       "subject": "Rendered page from the ODNI-UAP-D001 senior-USIC narrative. The document records testimony; it does not independently validate the encounters.",
       "status": "verified"
+    },
+    "BF-2015-NAV-01": {
+      "file": "assets/source_previews/DOD-110891172-gimbal-frame.jpg",
+      "kind": "official-video-frame",
+      "subject": "Representative Gimbal infrared frame from the officially released Navy video",
+      "status": "verified"
+    },
+    "BF-2015-GIMBAL-01": {
+      "file": "assets/source_previews/DOD-110891172-gimbal-frame.jpg",
+      "kind": "official-video-frame",
+      "subject": "Gimbal target and ATFLIR symbology, local DOD_110891172 release copy",
+      "status": "verified"
+    },
+    "BF-2015-GOFAST-01": {
+      "file": "assets/source_previews/DOD-110886776-gofast-frame.jpg",
+      "kind": "official-video-frame",
+      "subject": "GoFast tracked point and ATFLIR symbology, local DOD_110886776 release copy",
+      "status": "verified"
+    },
+    "BF-2013-AG-01": {
+      "file": "assets/source_previews/DOD-110692805-aguadilla-frame.jpg",
+      "kind": "official-video-frame",
+      "subject": "Aguadilla infrared target and sensor symbology, extracted from the checksummed web derivative of local DOD_110692805 release copy",
+      "status": "verified"
     }
   }
 }

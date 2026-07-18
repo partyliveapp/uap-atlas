@@ -15,10 +15,10 @@
     ],
     "countrySource": "data/geo/ne_50m_admin_0_countries.geojson",
     "admin1Source": "data/geo/ne_50m_admin_1_states_provinces.geojson",
-    "generatedAt": "2026-07-18T03:44:40.406Z",
+    "generatedAt": "2026-07-18T04:28:19.478Z",
     "countryCount": 242,
     "admin1Count": 51,
-    "projectedCaseCount": 85,
+    "projectedCaseCount": 87,
     "orbitalAggregateCount": 24
   },
   "countries": [
@@ -1909,6 +1909,30 @@
     },
     {
       "id": "BF-2015-NAV-01",
+      "x": 30.84,
+      "y": 20.21,
+      "lon": -76.5,
+      "lat": 34,
+      "mode": "approximate",
+      "geometryExpectation": "offshore",
+      "mapGeometry": null,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1",
+      "coordinateGenerated": true
+    },
+    {
+      "id": "BF-2015-GIMBAL-01",
+      "x": 30.84,
+      "y": 20.21,
+      "lon": -76.5,
+      "lat": 34,
+      "mode": "approximate",
+      "geometryExpectation": "offshore",
+      "mapGeometry": null,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1",
+      "coordinateGenerated": true
+    },
+    {
+      "id": "BF-2015-GOFAST-01",
       "x": 30.84,
       "y": 20.21,
       "lon": -76.5,
