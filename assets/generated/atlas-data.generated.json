@@ -11,13 +11,15 @@
       "y": 19.63,
       "agency": "DOE / AEC",
       "domain": "NUCLEAR",
-      "status": "DOCUMENTED",
-      "confidence": "CONFIRMED RECORD",
-      "summary": "A government record documents a Los Alamos conference on aerial phenomena during the early postwar period.",
-      "official": "The record proves a Secret-cleared interagency scientific conference occurred; it is not itself a single sighting report and does not establish an exotic cause.",
-      "gap": "Underlying pilot reports, full transcript, physical samples, trajectory calculations and the complete LaPaz analysis are needed to evaluate individual events.",
+      "status": "DOCUMENTED SECRET-CONFERENCE TRANSCRIPT",
+      "confidence": "CONFIRMED RECORD / INTERPRETATION UNRESOLVED",
+      "summary": "A 25-page Atomic Energy Commission transcript records a Secret-cleared 16 February 1949 Los Alamos conference involving Army, Navy, FBI, AEC, university, and laboratory personnel. Participants debated green-fireball reports, meteor explanations, sound and trajectory problems, and the Air Force's linkage of the New Mexico phenomena to Project Grudge.",
+      "official": "The transcript proves the conference and its classified institutional treatment. It preserves scientific disagreement rather than a settled conclusion: meteor, material-body, electron, psychological, observational, and other possibilities were discussed, while the final page still called the long horizontal paths and absence of noise puzzling.",
+      "gap": "The packet does not include the underlying pilot and OSI reports, LaPaz's complete report, maps examined in the room, spectra or photographs, Teller's blackboard calculations, the cited Air Materiel Command letter, Project Grudge follow-up, or a final disposition memorandum. Several transcript passages are inaudible or blank because of recording noise.",
       "sources": [
-        "DOE-UAP-D004"
+        "DOE-UAP-D004-TRANSMITTAL · AEC transmittal, 22 Mar 1949",
+        "DOE-UAP-D004-CONFERENCE · Conference on Aerial Phenomena transcript, 16 Feb 1949",
+        "DOE-UAP-D004-DEBATE · Analytical discussion and Project Grudge reference, internal pp. 18–24"
       ],
       "image": "assets/source_previews/BF-1949-LA-00_source_image.jpg",
       "lon": -106.3031,
@@ -28,16 +30,16 @@
       "geometryExpectation": "admin1",
       "coordinatePrecision": "site/city",
       "previousProjection": "atlas-svg-lower48-state-calibrated-naturalearth-x-mercator-y-100x62",
-      "keyFact": "A government record documents a Los Alamos conference on aerial phenomena during the early postwar period.",
-      "whyItMatters": "It shows that official attention to aerial phenomena reached nuclear-science institutions early, but the surviving public record is still too thin to resolve what was assessed.",
+      "keyFact": "The complete released transcript documents high-level scientific attention and disagreement; it does not document an agreed extraordinary explanation.",
+      "whyItMatters": "It places aerial-phenomena analysis inside a nuclear-science institution in 1949 and exposes what the surviving file still lacks.",
       "keyQuote": "It all started back in December, 1948, when we first received some reports from some airline pilots that these green fireballs were sighted.",
-      "quoteSource": "Los Alamos Conference on Aerial Phenomena, February 16, 1949, p. 2",
-      "quoteConfidence": "verified-document-transcription",
-      "heroFact": "A government record documents a Los Alamos conference on aerial phenomena during the early postwar period.",
-      "significance": "High significance",
-      "sourceQuality": "Primary record",
-      "sourceLabel": "DOE record",
-      "sourceLocator": "DOE-UAP-D004, conference transcript p. 2",
+      "quoteSource": "Conference on Aerial Phenomena, 16 Feb 1949, opening page (PDF p. 2)",
+      "quoteConfidence": "verified",
+      "heroFact": "A 25-page Secret-conference transcript survives; the discussion ends unresolved.",
+      "significance": "High historical and nuclear-institutional significance",
+      "sourceQuality": "Primary AEC transmittal and complete released transcript",
+      "sourceLabel": "AEC/DOE record",
+      "sourceLocator": "DOE-UAP-D004-CONFERENCE",
       "relatedCaseIds": [
         "BF-1967-MA-01",
         "BF-2015-PX-04",
@@ -47,22 +49,29 @@
         "assets/evidence/DOE-UAP-D004/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949__page_001.png",
         "assets/evidence/DOE-UAP-D004/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949__page_002.png",
         "assets/evidence/DOE-UAP-D004/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949__page_003.png",
+        "assets/evidence/DOE-UAP-D004/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949__page_019.png",
+        "assets/evidence/DOE-UAP-D004/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949__page_025.png",
         "assets/evidence/DOE-UAP-D004/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949__page_001__roi_04.jpg"
       ],
       "caseTypes": [
-        "nuclear-site"
+        "nuclear-institution",
+        "classified-scientific-conference",
+        "green-fireball-investigation"
       ],
       "evidenceModes": [
+        "conference-transcript",
+        "scientific-analysis",
+        "witness-report-synthesis",
         "documentary-record"
       ],
       "environment": [
         "nuclear-facility"
       ],
-      "outcome": "documented",
+      "outcome": "documented-conference-unresolved-interpretation",
       "confidenceModel": {
         "record": "confirmed",
-        "anomaly": "not-assessed",
-        "provenance": "primary-record"
+        "anomaly": "interpretation-unresolved",
+        "provenance": "official-declassified-transcript"
       },
       "temporal": {
         "dateLabel": "1949",
@@ -89,20 +98,52 @@
       },
       "sourceRecords": [
         {
-          "citation": "Los Alamos Conference on Aerial Phenomena",
-          "sourceType": "official-conference-transcript",
-          "provenance": "Atomic Energy Commission/DOE declassified record",
-          "locator": "p. 2",
+          "citation": "DOE-UAP-D004-TRANSMITTAL · AEC transmittal of Los Alamos conference minutes",
+          "sourceType": "primary-record",
+          "provenance": "Atomic Energy Commission, Santa Fe Directed Operations",
+          "locator": "22 Mar 1949; PDF p. 1",
           "supports": [
-            "conference-date",
-            "participants",
-            "Secret-classification",
-            "airline-pilot-report-context"
+            "official custody",
+            "conference date and subject",
+            "transmission to Sandia Base"
           ],
           "limitations": [
-            "not-a-single-event-record",
-            "held-scan-incomplete",
-            "underlying-reports-not-attached"
+            "administrative cover only",
+            "underlying reports not attached"
+          ]
+        },
+        {
+          "citation": "DOE-UAP-D004-CONFERENCE · Conference on Aerial Phenomena",
+          "sourceType": "primary-record",
+          "provenance": "AEC transcript of the Los Alamos Scientific Laboratory meeting",
+          "locator": "16 Feb 1949; internal opening page through p. 24; PDF pp. 2–25",
+          "supports": [
+            "participants",
+            "Secret classification statement",
+            "green-fireball report history",
+            "scientific debate"
+          ],
+          "limitations": [
+            "not a single-event report",
+            "recording gaps",
+            "maps and cited reports absent",
+            "transcript does not establish object identity"
+          ]
+        },
+        {
+          "citation": "DOE-UAP-D004-DEBATE · Project Grudge linkage and closing analytical exchange",
+          "sourceType": "primary-record-excerpt",
+          "provenance": "Page-specific portions of the AEC conference transcript",
+          "locator": "Internal pp. 18 and 24; PDF pp. 19 and 25",
+          "supports": [
+            "Air Force grouping of flying discs and fireballs",
+            "Project Sign-to-Grudge reference",
+            "Teller and Bradbury closing uncertainty"
+          ],
+          "limitations": [
+            "participants report their understanding rather than attach the cited Air Force letter",
+            "no consensus conclusion",
+            "blackboard calculations not preserved"
           ]
         }
       ],
@@ -469,7 +510,7 @@
     {
       "id": "BF-2015-PX-04",
       "title": "Pantex Unidentified Object Report",
-      "date": "2015",
+      "date": "1–2 SEP 2015",
       "year": 2015,
       "location": "Pantex Plant, Texas",
       "mode": "exact",
@@ -477,13 +518,15 @@
       "y": 19.8,
       "agency": "DOE",
       "domain": "NUCLEAR",
-      "status": "DOCUMENTED",
-      "confidence": "CONFIRMED RECORD",
-      "summary": "A DOE record documents an unidentified-object incident at a nuclear-weapons assembly and disassembly site.",
-      "official": "Pantex security treated the object under its UAS response plan; the report records radar and visual observation but the held excerpt does not provide a final identification.",
-      "gap": "Complete radar track data, photographs, remaining report pages and final disposition are needed to distinguish a balloon, drone or other object.",
+      "status": "DOCUMENTED SENSOR + VISUAL INCIDENT; IDENTITY UNRESOLVED",
+      "confidence": "CONFIRMED RECORD / UNRESOLVED IDENTITY",
+      "summary": "A seven-page Pantex security packet documents ground-surveillance-radar detection, protective-force observations, CROWS-camera tracking, tower video, and Sandia-enhanced images of an unidentified airborne object. The packet conflicts internally on whether the incident occurred on 1 or 2 September 2015 and supplies no final identification.",
+      "official": "Pantex treated the object under its approved UAS response plan, secured sensitive-area gates, followed it offsite, sent video to Sandia National Laboratories, and transferred incident evidence to an FBI agent. The report says the object was not threatening and did not approach sensitive assets.",
+      "gap": "Still missing are native radar-track data, original tower and CROWS video, original image files, Sandia's analytical product, complete witness statements, the FBI receipt and investigative file, and a final attribution or closure memorandum. The released pages reproduce imagery but do not provide enough resolution or analysis to identify the object.",
       "sources": [
-        "DOE-UAP-D005"
+        "DOE-UAP-D005-TRANSMITTAL · Pantex transmittal letter, 9 Sep 2015",
+        "DOE-UAP-D005-NARRATIVE · Pantex Unidentified Object Incident Report, internal pp. 2–3",
+        "DOE-UAP-D005-IMAGERY · Radar map, tower frame, and Sandia-enhanced images, internal pp. 4–6"
       ],
       "image": "assets/source_previews/BF-2015-PX-04_source_image.jpg",
       "lon": -101.561,
@@ -494,16 +537,16 @@
       "geometryExpectation": "admin1",
       "coordinatePrecision": "site",
       "previousProjection": "atlas-svg-lower48-state-calibrated-naturalearth-x-mercator-y-100x62",
-      "keyFact": "A DOE record places an unidentified-object report at a nuclear-weapons assembly and disassembly site, making the missing security/sensor disposition unusually important.",
-      "whyItMatters": "Nuclear-weapons infrastructure changes the evidentiary standard: security logs, sensors, and incident disposition should exist if the public record is complete.",
-      "keyQuote": "On September 1, 2015 at approximately 0710 hours, the Pantex Ground Surveillance Radar (GSR) detection system identified an unknown object flying in a non-threatening manner west of Pantex facilities in a northerly trajectory.",
-      "quoteSource": "Pantex Unidentified Object Incident Report, p. 2 of 6",
-      "quoteConfidence": "verbatim-document-quote",
-      "heroFact": "A DOE record places an unidentified-object report at a nuclear weapons site, making the missing security/sensor disposition critical.",
-      "significance": "High significance",
-      "sourceQuality": "Primary record",
-      "sourceLabel": "DOE record",
-      "sourceLocator": "DOE-UAP-D005, incident report p. 2 of 6",
+      "keyFact": "The released packet contains radar, visual, camera, and image evidence—but no final identity—and its cover material conflicts with the narrative on the event date.",
+      "whyItMatters": "This is a genuine multi-sensor nuclear-security record, not merely a later witness story; the missing native data and disposition are the decisive evidence gap.",
+      "keyQuote": "Video was obtained from the GSR tower that was closest to the object and subsequently sent to Sandia National Labs for further study.",
+      "quoteSource": "Pantex Unidentified Object Incident Report, internal p. 3 of 6 (PDF p. 4)",
+      "quoteConfidence": "verified",
+      "heroFact": "Radar, ground observers, CROWS camera, and released images—identity still unresolved.",
+      "significance": "High nuclear-security significance",
+      "sourceQuality": "Primary security packet with reproduced sensor imagery",
+      "sourceLabel": "DOE/NNSA security record",
+      "sourceLocator": "DOE-UAP-D005-NARRATIVE",
       "relatedCaseIds": [
         "BF-1967-MA-01",
         "BF-1949-LA-00",
@@ -513,31 +556,41 @@
         "assets/evidence/DOE-UAP-D005/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015__page_001.png",
         "assets/evidence/DOE-UAP-D005/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015__page_002.png",
         "assets/evidence/DOE-UAP-D005/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015__page_003.png",
+        "assets/evidence/DOE-UAP-D005/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015__page_004.png",
+        "assets/evidence/DOE-UAP-D005/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015__page_005.png",
+        "assets/evidence/DOE-UAP-D005/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015__page_006.png",
+        "assets/evidence/DOE-UAP-D005/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015__page_007.png",
         "assets/evidence/DOE-UAP-D005/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015__page_003__roi_03.jpg"
       ],
       "caseTypes": [
-        "nuclear-site"
+        "nuclear-site",
+        "security-incident",
+        "unidentified-airborne-object"
       ],
       "evidenceModes": [
-        "documentary-record"
+        "radar",
+        "visual",
+        "camera",
+        "documentary-record",
+        "released-imagery"
       ],
       "environment": [
         "nuclear-facility"
       ],
-      "outcome": "documented",
+      "outcome": "documented-unresolved-identity",
       "confidenceModel": {
         "record": "confirmed",
-        "anomaly": "not-assessed",
-        "provenance": "primary-record"
+        "anomaly": "unresolved-identity",
+        "provenance": "official-released-security-packet"
       },
       "temporal": {
-        "dateLabel": "2015",
+        "dateLabel": "1–2 SEP 2015",
         "year": 2015,
         "startDateTime": null,
         "endDateTime": null,
         "timezone": null,
         "durationSeconds": null,
-        "precision": "year",
+        "precision": "conflicting-day",
         "eventForm": "single-event"
       },
       "geospatial": {
@@ -555,53 +608,91 @@
       },
       "sourceRecords": [
         {
-          "citation": "Pantex Unidentified Object Incident Report",
-          "sourceType": "official-nuclear-security-incident-report",
-          "provenance": "DOE/NNSA released record",
-          "locator": "p. 2 of 6",
+          "citation": "DOE-UAP-D005-TRANSMITTAL · Pantex Unidentified Object Report transmittal",
+          "sourceType": "primary-record",
+          "provenance": "Consolidated Nuclear Security/Pantex letter to the NNSA Production Office",
+          "locator": "9 Sep 2015; PDF p. 1",
           "supports": [
-            "GSR-track",
-            "two-ground-observers",
-            "silence",
-            "direction-and-speed"
+            "official transmission",
+            "claim that the enclosure is the complete report",
+            "2 Sep 2015 event-date wording"
           ],
           "limitations": [
-            "excerpt-incomplete",
-            "no-imagery",
-            "final-identification-absent"
+            "recipient and contact details redacted",
+            "event date conflicts with the enclosed narrative"
+          ]
+        },
+        {
+          "citation": "DOE-UAP-D005-NARRATIVE · Pantex Unidentified Object Incident Report",
+          "sourceType": "primary-record",
+          "provenance": "Pantex protective-force security report released by DOE",
+          "locator": "Internal pp. 2–3 of 6; PDF pp. 3–4",
+          "supports": [
+            "GSR detections",
+            "protective-force response",
+            "ground observations",
+            "CROWS-camera tracking",
+            "tower video sent to Sandia",
+            "evidence transfer to FBI"
+          ],
+          "limitations": [
+            "1 Sep date conflicts with cover material",
+            "redactions",
+            "reported dimensions and colors vary",
+            "no final identification"
+          ]
+        },
+        {
+          "citation": "DOE-UAP-D005-IMAGERY · Pantex report maps and images",
+          "sourceType": "primary-record-imagery",
+          "provenance": "Images embedded in the released Pantex incident packet",
+          "locator": "Internal pp. 4–6 of 6; PDF pp. 5–7",
+          "supports": [
+            "released radar-track map",
+            "GSR-tower video frame",
+            "Sandia-labeled enhanced images"
+          ],
+          "limitations": [
+            "low-resolution reproductions",
+            "native files and metadata absent",
+            "no Sandia methodology or analytical conclusion",
+            "images alone do not establish identity"
           ]
         }
       ],
       "phenomena": {
         "shapes": [
-          "unidentified-small-airborne-object"
+          "diamond-like or rounded-top form reported"
         ],
         "objectCount": 1,
         "luminosity": null,
         "motion": [
           "northbound-10-to-15-mph",
-          "speed-increase",
+          "reported-speed-increase",
           "ENE-course-change"
         ],
         "effects": [
-          "no-sound",
-          "no-visible-propulsion"
+          "no-sound-reported",
+          "no-visible-propulsion-reported"
         ]
       },
       "observation": {
-        "witnessCount": 2,
+        "witnessCount": null,
         "witnessRoles": [
           "Protective Force lieutenant",
-          "Security Police Officer",
-          "ground-surveillance-radar operators"
+          "Security Police Officers",
+          "GSR operators",
+          "CROWS operators"
         ],
         "sensors": [
           "ground-surveillance-radar",
           "binoculars",
-          "unaided-visual"
+          "unaided-visual",
+          "CROWS camera",
+          "GSR-tower video"
         ],
         "durationSeconds": null,
-        "independentWitnessGroups": 2
+        "independentWitnessGroups": null
       },
       "mapGeometry": null,
       "coordinateGenerated": true,
