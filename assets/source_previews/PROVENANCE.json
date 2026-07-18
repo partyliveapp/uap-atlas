@@ -1,319 +1,385 @@
 {
- "generatedAt": "2026-07-15",
- "sweep": "atlas image verification sweep, 2026-07-15 (Claude, this session)",
- "note": "Original 46 corpus cases use rendered pages from the HONEY DEW / WAR.GOV release corpus and FOIA PDFs; entries here cover the 2026-07 expansion cases and prior-session replacements.",
- "entries": {
-  "BF-1947-RW-01": {
-   "file": "assets/source_previews/BF-1947-RW-01_source_image.jpg",
-   "kind": "archival-document-photo",
-   "subject": "Roswell Daily Record front page, July 8, 1947 ('RAAF Captures Flying Saucer')",
-   "status": "verified"
-  },
-  "BF-SF-05": {
-   "file": "assets/source_previews/BF-SF-05_source_image.jpg",
-   "kind": "archival-document",
-   "subject": "FBI Vault MJ-12 Eisenhower Briefing page with handwritten BOGUS annotation, file 65-8110-1",
-   "status": "verified"
-  },
-  "BF-1952-DC-01": {
-   "file": "assets/source_previews/BF-1952-DC-01_source_image.png",
-   "kind": "archival-document",
-   "subject": "Project Blue Book chart: Frequency of UFO Reports June-Sept 1952 with Washington D.C. incident annotations — UPGRADED: NARA-official S3 image set recovered via MAXW-PBB11 page-code crosswalk (catalog titles miscataloged); OIN reports, press clippings, CAA radar study hosted",
-   "status": "verified"
-  },
-  "BF-1957-LV-01": {
-   "file": "assets/source_previews/BF-1957-LV-01_source_image.jpg",
-   "kind": "archival-document",
-   "subject": "Project Blue Book (10073) record card, Levelland Nov 2-3 1957, 'ball lightning' conclusion",
-   "status": "verified"
-  },
-  "BF-1958-TR-01": {
-   "file": "assets/source_previews/BF-1958-TR-01_source_image.jpg",
-   "kind": "archival-document",
-   "subject": "O Globo newspaper page on the Trindade photographs and Navy testimony, 1958",
-   "status": "verified"
-  },
-  "BF-1978-KK-01": {
-   "file": "assets/source_previews/BF-1978-KK-01_source_image.jpg",
-   "kind": "archival-document",
-   "subject": "NZ MFA savingram, Wellington 23 Jan 1979: DSIR/RNZAF analysis of Kaikoura films and radar",
-   "status": "verified"
-  },
-  "BF-1948-AZ-01": {
-   "file": "assets/source_previews/BF-1948-AZ-01_source_image.jpg",
-   "kind": "archival-document",
-   "subject": "FBI Guy Hottel memo, March 22 1950 - second-hand retelling of the Aztec-genre saucers claim (moved here from SF-11)",
-   "status": "verified"
-  },
-  "BF-1946-GR-01": {
-   "file": "assets/source_previews/BF-1946-GR-01_source_image.jpg",
-   "kind": "period-photo",
-   "subject": "Swedish military listening equipment during the Lake Kolmjarv ghost-rocket search, 1946",
-   "status": "verified"
-  },
-  "BF-1944-FF-01": {
-   "file": "assets/source_previews/BF-1944-FF-01_source_image.png",
-   "kind": "period-photo",
-   "subject": "Widely circulated WWII bomber-formation photo with unidentified light dots; provenance debated",
-   "status": "verified-with-caveat"
-  },
-  "BF-1957-RB-01": {
-   "file": "assets/source_previews/BF-1957-RB-01_source_image.jpg",
-   "kind": "period-photo",
-   "subject": "USAF B-47 flight line, period context for the RB-47H ELINT case",
-   "status": "verified"
-  },
-  "BF-SF-02": {
-   "file": "assets/source_previews/BF-SF-02_source_image.jpg",
-   "kind": "artifact-photo",
-   "subject": "VZ-9AV Avrocar airframe at the National Museum of the USAF",
-   "status": "verified"
-  },
-  "BF-SF-10": {
-   "file": "assets/source_previews/BF-SF-10_source_image.png",
-   "kind": "broadcast-still",
-   "subject": "David Grusch testifying, House Oversight subcommittee, July 26 2023",
-   "status": "verified"
-  },
-  "BF-SF-08": {
-   "file": "assets/source_previews/BF-SF-08_source_image.png",
-   "kind": "secondary-document",
-   "subject": "Gildas Bourdais summary article page on the COMETA report",
-   "status": "verified-secondary"
-  },
-  "BF-1961-BH-01": {
-   "file": "assets/source_previews/BF-1961-BH-01_source_image.png",
-   "kind": "witness-artifact",
-   "subject": "Betty Hill star-map sketch with Marjorie Fish Zeta Reticuli interpretation (contested artifact)",
-   "status": "verified"
-  },
-  "BF-1965-KB-01": {
-   "file": "assets/source_previews/BF-1965-KB-01_source_image.jpg",
-   "kind": "replica-photo",
-   "subject": "Acorn-object replica displayed at Kecksburg, PA (TV-prop replica, not the object)",
-   "status": "verified-context"
-  },
-  "BF-1996-VG-01": {
-   "file": "assets/source_previews/BF-1996-VG-01_source_image.jpg",
-   "kind": "landmark-photo",
-   "subject": "Varginha's municipal flying-saucer water tower landmark",
-   "status": "verified-context"
-  },
-  "BF-1975-TW-01": {
-   "file": "assets/source_previews/BF-1975-TW-01_source_image.jpg",
-   "kind": "witness-photo",
-   "subject": "Travis Walton at a UFO conference",
-   "status": "verified"
-  },
-  "BF-1973-PG-01": {
-   "file": "assets/source_previews/BF-1973-PG-01_source_image.jpg",
-   "kind": "witness-photo",
-   "subject": "Convention photo, identification as Calvin Parker unconfirmed - replace when sheriff's-tape material is acquired",
-   "status": "unverified-identification"
-  },
-  "BF-2023-LG-01": {
-   "file": "assets/source_previews/BF-2023-LG-01_source_image.jpg",
-   "kind": "context-photo",
-   "subject": "Langley AFB runway 08 aerial, location context",
-   "status": "verified-context"
-  },
-  "BF-1947-KA-01": {
-   "file": "assets/source_previews/BF-1947-KA-01_source_image.png",
-   "kind": "reconstruction",
-   "subject": "CGI reconstruction of Arnold's nine crescent objects (standard enwiki illustration)",
-   "status": "verified-reconstruction"
-  },
-  "BF-1964-SC-01": {
-   "file": "assets/evidence/SOCORRO-1964/SOCORRO-1964-landing-site-photo-markers.png",
-   "kind": "archival-photograph",
-   "subject": "USAF investigation photograph of the Socorro landing site with numbered evidence markers, from the Blue Book case file; NARA NAID 302532129 assembly held locally",
-   "status": "verified"
-  },
-  "BF-1947-MI-01": {
-   "file": "assets/source_previews/BF-1947-MI-01_source_image.jpg",
-   "kind": "period-illustration",
-   "subject": "Fate-era pulp illustration of the Maury Island doughnut craft",
-   "status": "verified-illustration"
-  },
-  "BF-SF-12": {
-   "file": "assets/source_previews/BF-SF-12_source_image.jpg",
-   "kind": "prop-photo",
-   "subject": "Alien-autopsy style prop/museum recreation photo; apt for an admitted-recreation case, not the Santilli original",
-   "status": "verified-with-caveat"
-  },
-  "BF-SF-01": {
-   "file": "assets/source_previews/BF-SF-01_source_image.jpg",
-   "kind": "context-photo",
-   "subject": "Groom Lake / Papoose Lake public location imagery + Area 51 gate (Wikimedia)",
-   "status": "verified-context (prior session)"
-  },
-  "BF-1990-CV-01": {
-   "file": "assets/source_previews/BF-1990-CV-01_source_image.jpg",
-   "kind": "archival-photo",
-   "subject": "Calvine photograph + VuFoil + MoD desk note (enwiki-hosted source files)",
-   "status": "verified (prior session)"
-  },
-  "BF-1948-MT-01": {
-   "file": "assets/source_previews/BF-1948-MT-01_source_image.jpg",
-   "kind": "period-photo-set",
-   "subject": "Mantell portrait, F-51s, Skyhook release, reconstruction (Wikimedia/PD)",
-   "status": "verified (prior session)"
-  },
-  "BF-1987-GB-01": {
-   "file": "assets/source_previews/BF-1987-GB-01_source_image.jpg",
-   "kind": "artifact-photo",
-   "subject": "Gulf Breeze model photo + prior craft illustration",
-   "status": "verified (prior session)"
-  },
-  "BF-1980-CLD-01": {
-   "file": "assets/source_previews/BF-1980-CLD-01_source_image.jpg",
-   "kind": "illustration",
-   "subject": "Cash-Landrum reference illustration, labeled",
-   "status": "verified (prior session)"
-  },
-  "BF-1966-WS-01": {
-   "file": "assets/source_previews/BF-1966-WS-01_source_image.jpg",
-   "kind": "archival-set",
-   "subject": "Westall: Clayton Calendar drawing, Dandenong Journal pages, AFSR note",
-   "status": "verified (prior session)"
-  },
-  "BF-1967-SH-01": {
-   "file": "assets/source_previews/BF-1967-SH-01_source_image.jpg",
-   "kind": "context-set",
-   "subject": "Shag Harbour map, aerial, incident park",
-   "status": "verified (prior session)"
-  },
-  "BF-1977-CL-01": {
-   "file": "assets/source_previews/BF-1977-CL-01_source_image.jpg",
-   "kind": "archival-set",
-   "subject": "Operation Prato pages: object photos, sketches, flap map (Bob Pratt archive)",
-   "status": "verified"
-  },
-  "BF-1994-AR-01": {
-   "file": "assets/source_previews/BF-1994-AR-01_source_image.jpg",
-   "kind": "archival-set",
-   "subject": "Ariel School: child drawings, witness stills, grounds (Cynthia Hind/UFO AFRINEWS)",
-   "status": "verified"
-  },
-  "BF-1978-VL-01": {
-   "file": "assets/source_previews/BF-1978-VL-01_source_image.jpg",
-   "kind": "context-photo",
-   "subject": "Bass Strait context panel + DoT transcript reference",
-   "status": "verified-context (prior session)"
-  },
-  "BF-SF-03": {
-   "file": "assets/evidence/WINTERHAVEN-1952/WINTERHAVEN-1952-Brown-US1974483-sheet1.png",
-   "kind": "archival-document",
-   "subject": "T.T. Brown US Patent 1,974,483 'Electrostatic Motor' sheet 1, filed 1930 (PD)",
-   "status": "verified"
-  },
-  "BF-SF-04": {
-   "file": "assets/evidence/CHAPELHILL-1957/CHAPELHILL-1957-GR1-proceedings-title.png",
-   "kind": "primary-report",
-   "subject": "GR1 proceedings title page, Edition Open Access (full PDF hosted, CC)",
-   "status": "verified"
-  },
-  "BF-SF-06": {
-   "file": "assets/evidence/VICTOR-1997/VICTOR-1997-Area51-gate-context.jpg",
-   "kind": "location-photo",
-   "subject": "Area 51 gate, public location imagery — claimed-provenance context only",
-   "status": "verified-context"
-  },
-  "BF-SF-07": {
-   "file": "assets/evidence/ESTIMATE-1948/ESTIMATE-1948-Ruppelt-Report-half-title.png",
-   "kind": "archival-document",
-   "subject": "Half-title of Ruppelt's 'The Report on Unidentified Flying Objects' (1956, PD scan) — the insider account documenting the Estimate",
-   "status": "verified"
-  },
-  "BF-SF-13": {
-   "file": "assets/evidence/MEIER-1975/MEIER-1975-Photo66-Fuchsbuel-FAIRUSE.jpg",
-   "kind": "contested-photograph-fairuse",
-   "subject": "Meier photo Nr. 66, July 9 1975, Fuchsbuel-Hofhalden (c) FIGU — the 'beamship' image associated with the X-Files 'I Want to Believe' poster. NON-FREE: hosted low-resolution under fair-use identification of the contested work itself; not evidence of any craft.",
-   "status": "verified-fairuse"
-  },
-  "BF-1981-TP-01": {
-   "file": "assets/evidence/GEPAN-1981/GEPAN-1981-Note-Technique-16-Trans-en-Provence_page_001.png",
-   "kind": "archival-document",
-   "subject": "CNES/GEPAN Note Technique No 16 cover, 'Enquête 81/01 — Analyse d'une Trace' (1983)",
-   "status": "verified"
-  },
-  "BF-1980-PE-01": {
-   "file": "assets/evidence/LAJOYA-1980/LAJOYA-1980-DIA-message_Peru_page.png",
-   "kind": "archival-document",
-   "subject": "DIA/JCS message IR 6 876 0146 80: 'UFO SIGHTED IN PERU', USDAO Lima, June 1980 — the case's primary record",
-   "status": "verified"
-  },
-  "BF-2006-OH-01": {
-   "file": "assets/evidence/OHARE-2006/OHARE-2006-NARCAP-TR10-Case18-page1.png",
-   "kind": "primary-report",
-   "subject": "NARCAP TR-10 p.11: FAA tower-tape transcript of the gate C17 'flying disc' exchange; FAA FY2007 FOIA logs hosted",
-   "status": "verified"
-  },
-  "BF-1948-CW-01": {
-   "file": "assets/evidence/CHILES-1948/CHILES-1948-witness-sketch-Exhibit-E-rotated-preview.png",
-   "kind": "archival-document",
-   "subject": "Witness sketch 'Exhibit E' from the Blue Book Montgomery July 1948 case file (Incident 144), rotated for display; full 162p file + sketch pages hosted; NARA NAID 28931059 assembly held locally (860MB)",
-   "status": "verified"
-  },
-  "BF-1948-GD-01": {
-   "file": "assets/evidence/GORMAN-1948/GORMAN-1948-NDak-NG-F51D-Mustang.jpg",
-   "kind": "period-photo",
-   "subject": "F-51D Mustang in North Dakota NG markings — Gorman's unit (Commons/PD) — index-confirmed: 1948 Blue Book index shows the Gorman folder; folder itself not publicly surfaced (Fold3/NARA required)",
-   "status": "verified"
-  },
-  "BF-1950-GF-01": {
-   "file": "assets/evidence/GREATFALLS-1950/GREATFALLS-1950-BlueBook-record-card.png",
-   "kind": "archival-document",
-   "subject": "Project Blue Book record card, Great Falls 1950 (Commons/NARA scan); Mariana film hosted as evidence video",
-   "status": "verified"
-  },
-  "BF-1952-TM-01": {
-   "file": "assets/evidence/TREMONTON-1952/TREMONTON-1952-Newhouse-case-sheet.png",
-   "kind": "archival-document",
-   "subject": "Blue Book case sheet for CPO Newhouse with pasted film frame, 'pillow balloons or birds' explanation",
-   "status": "verified"
-  },
-  "BF-1933-MG-01": {
-   "file": "assets/evidence/MAGENTA-1933/MAGENTA-1933-Magenta-piazza-context.jpg",
-   "kind": "location-photo",
-   "subject": "Piazza Liberazione, Magenta, Lombardy — location context; RS/33 papers remain unobtainable",
-   "status": "verified-context"
-  },
-  "BF-1973-CY-01": {
-   "file": "assets/evidence/COYNE-1973/COYNE-1973-UH-1H-type-context.jpg",
-   "kind": "context-photo",
-   "subject": "UH-1H Iroquois, period type-context (US Army photo, PD); labeled context, not the incident aircraft",
-   "status": "verified-context"
-  },
-  "BF-2008-SV-01": {
-   "file": "assets/evidence/STEPHENVILLE-2008/STEPHENVILLE-2008-MUFON-report-cover.png",
-   "kind": "primary-report",
-   "subject": "MUFON Special Research Report cover, Stephenville 2008 (full PDF hosted)",
-   "status": "verified"
-  },
-  "BF-2014-CH-01": {
-   "file": "assets/evidence/CEFAA-2014/CEFAA-2014-Chilean-Navy-Cougar-platform.jpg",
-   "kind": "context-photo",
-   "subject": "Chilean Navy Cougar/Super Puma, US Navy photo — the platform type that filmed the 2014 IR video",
-   "status": "verified-context"
-  },
-  "BF-2019-OM-01": {
-   "file": "assets/evidence/OMAHA-2019/OMAHA-2019-USS-Omaha-LCS12.jpg",
-   "kind": "context-photo",
-   "subject": "USS Omaha (LCS-12) commissioning, US Navy photo — the ship that recorded the footage",
-   "status": "verified-context"
-  },
-  "BF-SF-09": {
-   "file": "assets/evidence/AAWSAP-2008/AAWSAP-2008-Skinwalker-Ranch-gate.jpg",
-   "kind": "location-photo",
-   "subject": "Skinwalker Ranch posted gate, Uintah Basin (Commons)",
-   "status": "verified"
-  },
-  "BF-SF-11": {
-   "file": "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-AFOSI-Cseh-form-p1.png",
-   "kind": "archival-document",
-   "subject": "AFOSI Multipurpose Internal OSI Form p.1, file 8017D93-0/29 (26 Nov 1980), signed Maj. Thomas A. Cseh, naming SA Doty and Dr. Bennewitz — FOIA scan via OpenMinds mirror",
-   "status": "verified"
+  "generatedAt": "2026-07-18",
+  "sweep": "atlas image verification sweep, 2026-07-15 (Claude, this session)",
+  "note": "Curated preview provenance for the original expansion and subsequent Atlas additions. Event-specific CIA-UAP-016 crops prevent duplicate child previews while retaining each full table page in the source index. Older baseline cases not listed here retain their existing case/source records.",
+  "entries": {
+    "BF-1947-RW-01": {
+      "file": "assets/source_previews/BF-1947-RW-01_source_image.jpg",
+      "kind": "archival-document-photo",
+      "subject": "Roswell Daily Record front page, July 8, 1947 ('RAAF Captures Flying Saucer')",
+      "status": "verified"
+    },
+    "BF-SF-05": {
+      "file": "assets/source_previews/BF-SF-05_source_image.jpg",
+      "kind": "archival-document",
+      "subject": "FBI Vault MJ-12 Eisenhower Briefing page with handwritten BOGUS annotation, file 65-8110-1",
+      "status": "verified"
+    },
+    "BF-1952-DC-01": {
+      "file": "assets/source_previews/BF-1952-DC-01_source_image.png",
+      "kind": "archival-document",
+      "subject": "Project Blue Book chart: Frequency of UFO Reports June-Sept 1952 with Washington D.C. incident annotations — VERIFIED: 37 MAXW-PBB11 pages recovered from NARA S3 despite mismatched catalog labels; NARA-PBB90-127–129 mapped to T1206 roll 90 and recovered at full resolution; OIN reports, press clippings, and CAA radar study hosted",
+      "status": "verified"
+    },
+    "BF-1957-LV-01": {
+      "file": "assets/source_previews/BF-1957-LV-01_source_image.jpg",
+      "kind": "archival-document",
+      "subject": "Project Blue Book (10073) record card, Levelland Nov 2-3 1957, 'ball lightning' conclusion",
+      "status": "verified"
+    },
+    "BF-1958-TR-01": {
+      "file": "assets/source_previews/BF-1958-TR-01_source_image.jpg",
+      "kind": "archival-document",
+      "subject": "O Globo newspaper page on the Trindade photographs and Navy testimony, 1958",
+      "status": "verified"
+    },
+    "BF-1978-KK-01": {
+      "file": "assets/source_previews/BF-1978-KK-01_source_image.jpg",
+      "kind": "archival-document",
+      "subject": "NZ MFA savingram, Wellington 23 Jan 1979: DSIR/RNZAF analysis of Kaikoura films and radar",
+      "status": "verified"
+    },
+    "BF-1948-AZ-01": {
+      "file": "assets/source_previews/BF-1948-AZ-01_source_image.jpg",
+      "kind": "archival-document",
+      "subject": "FBI Guy Hottel memo, March 22 1950 - second-hand retelling of the Aztec-genre saucers claim (moved here from SF-11)",
+      "status": "verified"
+    },
+    "BF-1946-GR-01": {
+      "file": "assets/source_previews/BF-1946-GR-01_source_image.jpg",
+      "kind": "period-photo",
+      "subject": "Swedish military listening equipment during the Lake Kolmjarv ghost-rocket search, 1946",
+      "status": "verified"
+    },
+    "BF-1944-FF-01": {
+      "file": "assets/source_previews/BF-1944-FF-01_source_image.png",
+      "kind": "period-photo",
+      "subject": "Widely circulated WWII bomber-formation photo with unidentified light dots; provenance debated",
+      "status": "verified-with-caveat"
+    },
+    "BF-1957-RB-01": {
+      "file": "assets/source_previews/BF-1957-RB-01_source_image.jpg",
+      "kind": "period-photo",
+      "subject": "USAF B-47 flight line, period context for the RB-47H ELINT case",
+      "status": "verified"
+    },
+    "BF-SF-02": {
+      "file": "assets/source_previews/BF-SF-02_source_image.jpg",
+      "kind": "artifact-photo",
+      "subject": "VZ-9AV Avrocar airframe at the National Museum of the USAF",
+      "status": "verified"
+    },
+    "BF-SF-10": {
+      "file": "assets/source_previews/BF-SF-10_source_image.png",
+      "kind": "broadcast-still",
+      "subject": "David Grusch testifying, House Oversight subcommittee, July 26 2023",
+      "status": "verified"
+    },
+    "BF-SF-08": {
+      "file": "assets/source_previews/BF-SF-08_source_image.png",
+      "kind": "secondary-document",
+      "subject": "Gildas Bourdais summary article page on the COMETA report",
+      "status": "verified-secondary"
+    },
+    "BF-1961-BH-01": {
+      "file": "assets/source_previews/BF-1961-BH-01_source_image.png",
+      "kind": "witness-artifact",
+      "subject": "Betty Hill star-map sketch with Marjorie Fish Zeta Reticuli interpretation (contested artifact)",
+      "status": "verified"
+    },
+    "BF-1965-KB-01": {
+      "file": "assets/source_previews/BF-1965-KB-01_source_image.jpg",
+      "kind": "replica-photo",
+      "subject": "Acorn-object replica displayed at Kecksburg, PA (TV-prop replica, not the object)",
+      "status": "verified-context"
+    },
+    "BF-1996-VG-01": {
+      "file": "assets/source_previews/BF-1996-VG-01_source_image.jpg",
+      "kind": "landmark-photo",
+      "subject": "Varginha's municipal flying-saucer water tower landmark",
+      "status": "verified-context"
+    },
+    "BF-1975-TW-01": {
+      "file": "assets/source_previews/BF-1975-TW-01_source_image.jpg",
+      "kind": "witness-photo",
+      "subject": "Travis Walton at a UFO conference",
+      "status": "verified"
+    },
+    "BF-1973-PG-01": {
+      "file": "assets/source_previews/BF-1973-PG-01_source_image.jpg",
+      "kind": "witness-photo",
+      "subject": "Convention photo, identification as Calvin Parker unconfirmed - replace when sheriff's-tape material is acquired",
+      "status": "unverified-identification"
+    },
+    "BF-2023-LG-01": {
+      "file": "assets/source_previews/BF-2023-LG-01_source_image.jpg",
+      "kind": "context-photo",
+      "subject": "Langley AFB runway 08 aerial, location context",
+      "status": "verified-context"
+    },
+    "BF-1947-KA-01": {
+      "file": "assets/source_previews/BF-1947-KA-01_source_image.png",
+      "kind": "reconstruction",
+      "subject": "CGI reconstruction of Arnold's nine crescent objects (standard enwiki illustration)",
+      "status": "verified-reconstruction"
+    },
+    "BF-1964-SC-01": {
+      "file": "assets/evidence/SOCORRO-1964/SOCORRO-1964-landing-site-photo-markers.png",
+      "kind": "archival-photograph",
+      "subject": "USAF investigation photograph of the Socorro landing site with numbered evidence markers, from the Blue Book case file; NARA NAID 302532129 assembly held locally",
+      "status": "verified"
+    },
+    "BF-1947-MI-01": {
+      "file": "assets/source_previews/BF-1947-MI-01_source_image.jpg",
+      "kind": "period-illustration",
+      "subject": "Fate-era pulp illustration of the Maury Island doughnut craft",
+      "status": "verified-illustration"
+    },
+    "BF-SF-12": {
+      "file": "assets/source_previews/BF-SF-12_source_image.jpg",
+      "kind": "prop-photo",
+      "subject": "Alien-autopsy style prop/museum recreation photo; apt for an admitted-recreation case, not the Santilli original",
+      "status": "verified-with-caveat"
+    },
+    "BF-SF-01": {
+      "file": "assets/source_previews/BF-SF-01_source_image.jpg",
+      "kind": "context-photo",
+      "subject": "Groom Lake / Papoose Lake public location imagery + Area 51 gate (Wikimedia)",
+      "status": "verified-context (prior session)"
+    },
+    "BF-1990-CV-01": {
+      "file": "assets/source_previews/BF-1990-CV-01_source_image.jpg",
+      "kind": "archival-photo",
+      "subject": "Calvine photograph + VuFoil + MoD desk note (enwiki-hosted source files)",
+      "status": "verified (prior session)"
+    },
+    "BF-1948-MT-01": {
+      "file": "assets/source_previews/BF-1948-MT-01_source_image.jpg",
+      "kind": "period-photo-set",
+      "subject": "Mantell portrait, F-51s, Skyhook release, reconstruction (Wikimedia/PD)",
+      "status": "verified (prior session)"
+    },
+    "BF-1987-GB-01": {
+      "file": "assets/source_previews/BF-1987-GB-01_source_image.jpg",
+      "kind": "artifact-photo",
+      "subject": "Gulf Breeze model photo + prior craft illustration",
+      "status": "verified (prior session)"
+    },
+    "BF-1980-CLD-01": {
+      "file": "assets/source_previews/BF-1980-CLD-01_source_image.jpg",
+      "kind": "illustration",
+      "subject": "Cash-Landrum reference illustration, labeled",
+      "status": "verified (prior session)"
+    },
+    "BF-1966-WS-01": {
+      "file": "assets/source_previews/BF-1966-WS-01_source_image.jpg",
+      "kind": "archival-set",
+      "subject": "Westall: Clayton Calendar drawing, Dandenong Journal pages, AFSR note",
+      "status": "verified (prior session)"
+    },
+    "BF-1967-SH-01": {
+      "file": "assets/source_previews/BF-1967-SH-01_source_image.jpg",
+      "kind": "context-set",
+      "subject": "Shag Harbour map, aerial, incident park",
+      "status": "verified (prior session)"
+    },
+    "BF-1977-CL-01": {
+      "file": "assets/source_previews/BF-1977-CL-01_source_image.jpg",
+      "kind": "archival-set",
+      "subject": "Operation Prato pages: object photos, sketches, flap map (Bob Pratt archive)",
+      "status": "verified"
+    },
+    "BF-1994-AR-01": {
+      "file": "assets/source_previews/BF-1994-AR-01_source_image.jpg",
+      "kind": "archival-set",
+      "subject": "Ariel School: child drawings, witness stills, grounds (Cynthia Hind/UFO AFRINEWS)",
+      "status": "verified"
+    },
+    "BF-1978-VL-01": {
+      "file": "assets/source_previews/BF-1978-VL-01_source_image.jpg",
+      "kind": "context-photo",
+      "subject": "Bass Strait context panel + DoT transcript reference",
+      "status": "verified-context (prior session)"
+    },
+    "BF-SF-03": {
+      "file": "assets/evidence/WINTERHAVEN-1952/WINTERHAVEN-1952-Brown-US1974483-sheet1.png",
+      "kind": "archival-document",
+      "subject": "T.T. Brown US Patent 1,974,483 'Electrostatic Motor' sheet 1, filed 1930 (PD)",
+      "status": "verified"
+    },
+    "BF-SF-04": {
+      "file": "assets/evidence/CHAPELHILL-1957/CHAPELHILL-1957-GR1-proceedings-title.png",
+      "kind": "primary-report",
+      "subject": "GR1 proceedings title page, Edition Open Access (full PDF hosted, CC)",
+      "status": "verified"
+    },
+    "BF-SF-06": {
+      "file": "assets/evidence/VICTOR-1997/VICTOR-1997-Area51-gate-context.jpg",
+      "kind": "location-photo",
+      "subject": "Area 51 gate, public location imagery — claimed-provenance context only",
+      "status": "verified-context"
+    },
+    "BF-SF-07": {
+      "file": "assets/evidence/ESTIMATE-1948/ESTIMATE-1948-Ruppelt-Report-half-title.png",
+      "kind": "archival-document",
+      "subject": "Half-title of Ruppelt's 'The Report on Unidentified Flying Objects' (1956, PD scan) — the insider account documenting the Estimate",
+      "status": "verified"
+    },
+    "BF-SF-13": {
+      "file": "assets/evidence/MEIER-1975/MEIER-1975-Photo66-Fuchsbuel-FAIRUSE.jpg",
+      "kind": "contested-photograph-fairuse",
+      "subject": "Meier photo Nr. 66, July 9 1975, Fuchsbuel-Hofhalden (c) FIGU — the 'beamship' image associated with the X-Files 'I Want to Believe' poster. NON-FREE: hosted low-resolution under fair-use identification of the contested work itself; not evidence of any craft.",
+      "status": "verified-fairuse"
+    },
+    "BF-1981-TP-01": {
+      "file": "assets/evidence/GEPAN-1981/GEPAN-1981-Note-Technique-16-Trans-en-Provence_page_001.png",
+      "kind": "archival-document",
+      "subject": "CNES/GEPAN Note Technique No 16 cover, 'Enquête 81/01 — Analyse d'une Trace' (1983)",
+      "status": "verified"
+    },
+    "BF-1980-PE-01": {
+      "file": "assets/evidence/LAJOYA-1980/LAJOYA-1980-DIA-message_Peru_page.png",
+      "kind": "archival-document",
+      "subject": "DIA/JCS message IR 6 876 0146 80: 'UFO SIGHTED IN PERU', USDAO Lima, June 1980 — the case's primary record",
+      "status": "verified"
+    },
+    "BF-2006-OH-01": {
+      "file": "assets/evidence/OHARE-2006/OHARE-2006-NARCAP-TR10-Case18-page1.png",
+      "kind": "primary-report",
+      "subject": "NARCAP TR-10 p.11: FAA tower-tape transcript of the gate C17 'flying disc' exchange; FAA FY2007 FOIA logs hosted",
+      "status": "verified"
+    },
+    "BF-1948-CW-01": {
+      "file": "assets/evidence/CHILES-1948/CHILES-1948-witness-sketch-Exhibit-E-rotated-preview.png",
+      "kind": "archival-document",
+      "subject": "Witness sketch 'Exhibit E' from the Blue Book Montgomery July 1948 case file (Incident 144), rotated for display; full 162p file + sketch pages hosted; NARA NAID 28931059 assembly held locally (860MB)",
+      "status": "verified"
+    },
+    "BF-1948-GD-01": {
+      "file": "assets/evidence/GORMAN-1948/GORMAN-1948-p037-no-control-tower-recording-exists.jpg",
+      "kind": "archival-document-page",
+      "subject": "North Dakota Air National Guard transmittal dated 16 October 1948 stating that Hector Airport’s CAA Control Tower had no recording device and therefore no copy of its conversation with Lt. Gorman was obtainable. Reconstructed folder p. 37; Fold3 6388084 / NARA image 0944.",
+      "status": "verified"
+    },
+    "BF-1950-GF-01": {
+      "file": "assets/evidence/GREATFALLS-1950/GREATFALLS-1950-BlueBook-record-card.png",
+      "kind": "archival-document",
+      "subject": "Project Blue Book record card, Great Falls 1950 (Commons/NARA scan); Mariana film hosted as evidence video",
+      "status": "verified"
+    },
+    "BF-1952-TM-01": {
+      "file": "assets/evidence/TREMONTON-1952/TREMONTON-1952-Newhouse-case-sheet.png",
+      "kind": "archival-document",
+      "subject": "Blue Book case sheet for CPO Newhouse with pasted film frame, 'pillow balloons or birds' explanation",
+      "status": "verified"
+    },
+    "BF-1933-MG-01": {
+      "file": "assets/evidence/MAGENTA-1933/MAGENTA-1933-Magenta-piazza-context.jpg",
+      "kind": "location-photo",
+      "subject": "Piazza Liberazione, Magenta, Lombardy — location context; RS/33 papers remain unobtainable",
+      "status": "verified-context"
+    },
+    "BF-1973-CY-01": {
+      "file": "assets/evidence/COYNE-1973/COYNE-1973-UH-1H-type-context.jpg",
+      "kind": "context-photo",
+      "subject": "UH-1H Iroquois, period type-context (US Army photo, PD); labeled context, not the incident aircraft",
+      "status": "verified-context"
+    },
+    "BF-2008-SV-01": {
+      "file": "assets/evidence/STEPHENVILLE-2008/STEPHENVILLE-2008-MUFON-report-cover.png",
+      "kind": "primary-report",
+      "subject": "MUFON Special Research Report cover, Stephenville 2008 (full PDF hosted)",
+      "status": "verified"
+    },
+    "BF-2014-CH-01": {
+      "file": "assets/evidence/CEFAA-2014/CEFAA-2014-Chilean-Navy-Cougar-platform.jpg",
+      "kind": "context-photo",
+      "subject": "Chilean Navy Cougar/Super Puma, US Navy photo — the platform type that filmed the 2014 IR video",
+      "status": "verified-context"
+    },
+    "BF-2019-OM-01": {
+      "file": "assets/evidence/OMAHA-2019/OMAHA-2019-USS-Omaha-LCS12.jpg",
+      "kind": "context-photo",
+      "subject": "USS Omaha (LCS-12) commissioning, US Navy photo — the ship that recorded the footage",
+      "status": "verified-context"
+    },
+    "BF-SF-09": {
+      "file": "assets/evidence/AAWSAP-2008/AAWSAP-2008-Skinwalker-Ranch-gate.jpg",
+      "kind": "location-photo",
+      "subject": "Skinwalker Ranch posted gate, Uintah Basin (Commons)",
+      "status": "verified"
+    },
+    "BF-SF-11": {
+      "file": "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-AFOSI-Cseh-form-p1.png",
+      "kind": "archival-document",
+      "subject": "AFOSI Multipurpose Internal OSI Form p.1, file 8017D93-0/29 (26 Nov 1980), signed Maj. Thomas A. Cseh, naming SA Doty and Dr. Bennewitz — FOIA scan via OpenMinds mirror",
+      "status": "verified"
+    },
+    "BF-1968-HIM-01": {
+      "file": "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__page_003.png",
+      "kind": "archival-series-table",
+      "subject": "CIA-UAP-016 report-table opening page used for the non-counted Himalayan series index; the underlying reporting source is redacted.",
+      "status": "verified"
+    },
+    "BF-1968-HIM-02": {
+      "file": "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__page_004.png",
+      "kind": "archival-document-page",
+      "subject": "CIA-UAP-016 table page containing the linked northeast Nepal and north Sikkim reports.",
+      "status": "verified"
+    },
+    "BF-1968-HIM-03": {
+      "file": "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__event_thimphu.png",
+      "kind": "archival-document-crop",
+      "subject": "Event-specific crop of the CIA-UAP-016 Thimphu row; the full source page is retained under the same token.",
+      "status": "verified"
+    },
+    "BF-1968-HIM-04": {
+      "file": "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__event_chang-la.png",
+      "kind": "archival-document-crop",
+      "subject": "Event-specific crop of the CIA-UAP-016 Chang La–Fukche–Koyul row; the full source page is retained under the same token.",
+      "status": "verified"
+    },
+    "BF-1968-HIM-05": {
+      "file": "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__event_ane-la.png",
+      "kind": "archival-document-crop",
+      "subject": "Event-specific crop of the CIA-UAP-016 Ane La row; adjacent row fragments are page context, and the full source page is retained.",
+      "status": "verified"
+    },
+    "BF-1968-HIM-06": {
+      "file": "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__event_demchok.png",
+      "kind": "archival-document-crop",
+      "subject": "Event-specific crop of the CIA-UAP-016 Fukche–Koyul–Demchok row; the full source page is retained under the same token.",
+      "status": "verified"
+    },
+    "BF-1968-HIM-07": {
+      "file": "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__page_006.png",
+      "kind": "archival-document-page",
+      "subject": "CIA-UAP-016 table page containing the Kaski report and disc-retrieval allegation. Record custody does not authenticate the underlying claim.",
+      "status": "verified"
+    },
+    "BF-1973-SS-01": {
+      "file": "assets/evidence/CIA-UAP-011/CIA-UAP-011_Sary_Shagan_Weapons_Testing_Range__page_003.png",
+      "kind": "archival-document-page",
+      "subject": "Rendered page from the locally held CIA-UAP-011 Sary Shagan intelligence record.",
+      "status": "verified"
+    },
+    "BF-2022-IQ-02": {
+      "file": "assets/evidence/DOW-UAP-D12/DOW-UAP-D12_Mission-Report-Iraq-May-2022__page_003.png",
+      "kind": "official-report-page",
+      "subject": "Rendered page from the public-copy DOW-UAP-D12 mission report; official-release provenance is retained although the official host returned HTTP 403 during acquisition.",
+      "status": "verified"
+    },
+    "BF-2023-BC-01": {
+      "file": "assets/evidence/FBI-SERIAL3-2023/Serial-3_Redacted__page_002.png",
+      "kind": "official-report-page",
+      "subject": "Rendered page from the redacted FBI Serial 3 report describing the restricted-facility bronze cigar-shaped object.",
+      "status": "verified"
+    },
+    "BF-2025-USIC-01": {
+      "file": "assets/evidence/ODNI-UAP-D001/1NFZL-MznfQvBEgiSsL91KBn0bSS1FGpz_ODNI-UAP-D001_USPER_Narrative_Senior_USIC__page_002.png",
+      "kind": "official-narrative-page",
+      "subject": "Rendered page from the ODNI-UAP-D001 senior-USIC narrative. The document records testimony; it does not independently validate the encounters.",
+      "status": "verified"
+    }
   }
- }
 }
