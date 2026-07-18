@@ -1656,13 +1656,15 @@
       "y": 16.1,
       "agency": "USAF / SAC",
       "domain": "NUCLEAR / MILITARY",
-      "status": "WITNESS + INCIDENT CLAIM",
-      "confidence": "PLAUSIBLE / DOCUMENT-NEEDED",
-      "summary": "A landmark nuclear-site UAP case alleging UFO activity near missile fields during a missile shutdown event, repeatedly cited in nuclear-UAP testimony and research.",
-      "official": "The wing history confirms the near-simultaneous Echo Flight shutdown and engineering investigation. The pages held here do not mention a UFO or connect an aerial observation to the fault.",
-      "gap": "Contemporary security logs, complete engineering annexes and records supporting later UFO-at-the-gate testimony are needed to establish temporal or causal linkage.",
+      "status": "DOCUMENTED MISSILE ALERT FAILURE; UFO LINK DISPUTED",
+      "confidence": "CONFIRMED RECORD / DISPUTED CAUSATION",
+      "summary": "A contemporaneous 341st Strategic Missile Wing history records that all ten Echo Flight launch facilities lost strategic alert nearly simultaneously on 16 March 1967. The surviving official engineering record did not establish a UFO cause; later witness accounts and UFO rumors remain separate testimony.",
+      "official": "The unit history confirms the coordinated alert failure and a large technical investigation. An August 1967 engineering summary said the only UFO association known to its author was rumor and reported that no unusual activity or sightings were documented in the investigation material then reviewed.",
+      "gap": "Missing or incomplete in the public package are original maintenance logs, alarm printouts, fault-isolation worksheets, security-police blotters, full witness interviews, communications traffic, and a complete custody chain for every reproduced page. The downloaded full package is a private mirror of Air Force FOIA material, not an Air Force-hosted original.",
       "sources": [
-        "MALMSTROM-1967 · FOIA missile-shutdown records / witness affidavits"
+        "MALMSTROM-1967-UNIT-HISTORY · 341st SMW unit history, Jan–Mar 1967",
+        "MALMSTROM-1967-ENGINEERING · Engineering summary, 23 Aug 1967",
+        "MALMSTROM-1967-FOIA-PACKAGE · USAF FOIA release package, private mirror"
       ],
       "image": "assets/source_previews/BF-1967-MA-01_source_image.jpg",
       "lon": -111.187,
@@ -1673,16 +1675,16 @@
       "geometryExpectation": "admin1",
       "coordinatePrecision": "site",
       "previousProjection": "atlas-svg-lower48-state-calibrated-naturalearth-x-mercator-y-100x62",
-      "keyFact": "The core issue is not only a missile shutdown; it is whether UAP witness claims intersected with nuclear command-and-control records that remain incomplete in public.",
-      "whyItMatters": "Nuclear missile reliability, security response, and witness-linked UAP claims converge here; the missing records are exactly the records that would settle the dispute.",
-      "keyQuote": "On 16 March 1967 at 0845, all sites in Echo (E) Flight, Malmstrom AFB, shutdown with No-Go indication of Channels 9 and 12.",
-      "quoteSource": "341st Strategic Missile Wing history, Jan–Mar 1967, p. 3",
-      "quoteConfidence": "verbatim-document-quote",
-      "heroFact": "The unresolved question is whether UAP witness claims intersected with nuclear command-and-control records still incomplete in public.",
-      "significance": "High significance",
-      "sourceQuality": "Primary record",
-      "sourceLabel": "AARO release",
-      "sourceLocator": "Malmstrom wing history, pp. 3–4; engineering-investigation references",
+      "keyFact": "The missile failure is documented; an extraordinary causal mechanism is not established by the surviving official records.",
+      "whyItMatters": "The confirmed ten-site failure must be kept separate from later testimony, rumor, and interference claims.",
+      "keyQuote": "All ten sites lost strategic alert nearly simultaneously. No other Wing I configuration lost strategic alert at that time.",
+      "quoteSource": "341st Strategic Missile Wing unit history, 1 January–30 March 1967, p. 32",
+      "quoteConfidence": "verified",
+      "heroFact": "Ten launch facilities lost alert nearly simultaneously; causation remains disputed.",
+      "significance": "High nuclear-command significance",
+      "sourceQuality": "Contemporaneous unit history plus later engineering record",
+      "sourceLabel": "USAF FOIA",
+      "sourceLocator": "MALMSTROM-1967-UNIT-HISTORY",
       "relatedCaseIds": [
         "BF-2015-PX-04",
         "BF-1949-LA-00",
@@ -1695,22 +1697,24 @@
         "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_010.jpg"
       ],
       "caseTypes": [
-        "military-encounter",
+        "missile-alert-failure",
         "nuclear-site",
-        "witness-report"
+        "ufo-association-disputed"
       ],
       "evidenceModes": [
-        "testimony"
+        "unit-history",
+        "engineering-record",
+        "later-testimony"
       ],
       "environment": [
         "nuclear-facility",
         "military-airspace"
       ],
-      "outcome": "documented",
+      "outcome": "documented-failure-disputed-cause",
       "confidenceModel": {
-        "record": "plausible",
-        "anomaly": "not-assessed",
-        "provenance": "primary-record"
+        "record": "confirmed",
+        "anomaly": "disputed-causation",
+        "provenance": "official-record-private-mirror"
       },
       "temporal": {
         "dateLabel": "MAR 1967",
@@ -1737,19 +1741,49 @@
       },
       "sourceRecords": [
         {
-          "citation": "341st Strategic Missile Wing history, Jan–Mar 1967",
-          "sourceType": "official-unit-history",
-          "provenance": "USAF FOIA release",
-          "locator": "pp. 3–4 in local excerpt",
+          "citation": "MALMSTROM-1967-UNIT-HISTORY · 341st Strategic Missile Wing unit history",
+          "sourceType": "primary-record",
+          "provenance": "Contemporaneous Air Force unit history reproduced in FOIA material",
+          "locator": "1 Jan–30 Mar 1967, p. 32; local preview Malmstrom_FOIA_page_005.jpg",
           "supports": [
-            "date-time",
-            "ten-site-shutdown",
-            "engineering-investigation"
+            "ten-site Echo Flight alert loss",
+            "near-simultaneous timing",
+            "technical-investigation scope"
           ],
           "limitations": [
-            "no-UFO-reference-in-held-pages",
-            "causation-not-established",
-            "annexes-incomplete"
+            "does not establish a UFO cause",
+            "preview is a reproduced page rather than the archival original"
+          ]
+        },
+        {
+          "citation": "MALMSTROM-1967-ENGINEERING · Engineering summary concerning Echo Flight",
+          "sourceType": "primary-record",
+          "provenance": "Contemporaneous Air Force engineering correspondence reproduced in FOIA material",
+          "locator": "23 Aug 1967; local previews Malmstrom_FOIA_page_007.jpg through page_010.jpg",
+          "supports": [
+            "official engineering assessment",
+            "documented treatment of UFO rumors",
+            "absence of recorded unusual sightings in material reviewed by the author"
+          ],
+          "limitations": [
+            "a later summary of the investigation",
+            "cannot substitute for missing raw maintenance and security records"
+          ]
+        },
+        {
+          "citation": "MALMSTROM-1967-FOIA-PACKAGE · USAF FOIA release package",
+          "sourceType": "archival-copy",
+          "provenance": "Air Force-released material downloaded from The Black Vault mirror",
+          "locator": "Local 88-page PDF; SHA-256 cac4e2c4141d55706c10c3270996129e24e24c96ec1d1f73959d392eccb2209c",
+          "supports": [
+            "document-set context",
+            "page relationships",
+            "FOIA custody claim"
+          ],
+          "limitations": [
+            "private mirror custody",
+            "scanned-image quality",
+            "government release does not validate later UFO interpretations"
           ]
         }
       ],
@@ -1932,13 +1966,15 @@
       "y": 14.75,
       "agency": "USAF / RAF",
       "domain": "MILITARY / NUCLEAR",
-      "status": "DOCUMENTED MEMO + WITNESS",
-      "confidence": "CONFIRMED RECORD",
-      "summary": "Multiple nights of reported lights/objects near RAF Woodbridge/Bentwaters produced witness testimony, physical-trace claims, and the Halt memorandum.",
-      "official": "The UK Ministry of Defence later stated no defence concern was judged to have occurred and no follow-up was deemed necessary; the Halt memorandum records the observations but makes no extraterrestrial claim.",
-      "gap": "Contemporaneous patrol logs, calibrated radiation baselines, complete witness statements and independently secured physical samples are absent.",
+      "status": "DOCUMENTED REPORT; NO-DEFENCE-INTEREST FINDING",
+      "confidence": "CONFIRMED RECORD / UNRESOLVED OBSERVATIONS",
+      "summary": "Lieutenant Colonel Charles Halt's 13 January 1981 memorandum documents reports of unexplained lights near RAF Woodbridge and a later observation in which Halt participated. The UK Ministry of Defence concluded the incident was not of defence significance and did not conduct a further investigation.",
+      "official": "The National Archives says Halt reported lights near the rear gate, servicemen investigated on two nights, and a parliamentary-response note found nothing of defence interest. It also states that a single-sheet report is the only record of the event itself in its custody, while related files are mainly later enquiries.",
+      "gap": "The archive lacks a contemporaneous full investigative file, complete security logs, original witness statements from every participant, validated radar data, complete photographic evidence, and a fully resolved timeline. Halt's memo is a report, not proof of the object's identity or performance.",
       "sources": [
-        "RENDLESHAM-1980 · UK DEFE file / Halt memorandum"
+        "RENDLESHAM-1980-HALT-MEMO · Halt memorandum, 13 Jan 1981",
+        "RENDLESHAM-1980-TNA · UK National Archives collection note",
+        "RENDLESHAM-1980-DEFE · MOD correspondence and later official finding"
       ],
       "image": "assets/source_previews/BF-1980-RF-01_source_image.jpg",
       "lon": 1.434,
@@ -1948,16 +1984,16 @@
       "geometryExpectation": "country",
       "coordinatePrecision": "site",
       "previousProjection": "atlas-svg-calibrated-naturalearth-x-mercator-y-100x62",
-      "keyFact": "The Halt memorandum moves Rendlesham from folklore into an official reporting trail, while the physical-trace claims still require better chain-of-custody.",
-      "whyItMatters": "The official memorandum creates a paper trail, but the strongest claims still depend on unreleased logs, measurements, and communications.",
-      "keyQuote": "The object was described as being metallic in appearance and triangular in shape, approximately two to three meters across the base and approximately two meters high.",
-      "quoteSource": "Halt memorandum, January 13, 1981, para. 1",
-      "quoteConfidence": "verbatim-document-quote",
-      "heroFact": "The Halt memorandum puts Rendlesham in an official reporting trail, while physical-trace claims still need better chain-of-custody.",
-      "significance": "High significance",
-      "sourceQuality": "Primary record",
-      "sourceLabel": "Defense record",
-      "sourceLocator": "Halt memorandum paras. 1–3; UK DEFE background note pp. 3–4",
+      "keyFact": "A primary military memo survives, but the official archive says it holds only one record of the event itself.",
+      "whyItMatters": "A genuine military memo survives, but the event file is much thinner than the later legend.",
+      "keyQuote": "A single sheet report is the only record of the event itself held by The National Archives.",
+      "quoteSource": "The National Archives, ‘UFO reports,’ section ‘Correspondence on the Rendlesham Forest incident’",
+      "quoteConfidence": "verified",
+      "heroFact": "Authentic memo, limited event file, unresolved observations.",
+      "significance": "High historical significance",
+      "sourceQuality": "Primary memo plus official archive description",
+      "sourceLabel": "USAF memo / UK Archives",
+      "sourceLocator": "RENDLESHAM-1980-HALT-MEMO",
       "relatedCaseIds": [
         "BF-1956-LB-01",
         "BF-1976-TH-01",
@@ -1971,24 +2007,24 @@
         "assets/evidence/RENDLESHAM-1980/Rendlesham_DEFE_page_010.jpg"
       ],
       "caseTypes": [
-        "military-encounter",
-        "nuclear-site",
-        "witness-report"
+        "military-witness",
+        "base-perimeter",
+        "archival-ufo-report"
       ],
       "evidenceModes": [
-        "testimony",
-        "physical-trace",
-        "documentary-record"
+        "memorandum",
+        "eyewitness-testimony",
+        "official-archive-description"
       ],
       "environment": [
         "nuclear-facility",
         "military-airspace"
       ],
-      "outcome": "documented",
+      "outcome": "documented-unresolved-observations",
       "confidenceModel": {
         "record": "confirmed",
-        "anomaly": "not-assessed",
-        "provenance": "primary-record"
+        "anomaly": "unresolved-observations",
+        "provenance": "primary-memo-and-official-archive"
       },
       "temporal": {
         "dateLabel": "DEC 1980",
@@ -2015,20 +2051,49 @@
       },
       "sourceRecords": [
         {
-          "citation": "Halt memorandum / UK DEFE file",
-          "sourceType": "official-memorandum-and-policy-file",
-          "provenance": "USAF memorandum preserved in UK Ministry of Defence records",
-          "locator": "Halt memo paras. 1–3; DEFE background note para. 2",
+          "citation": "RENDLESHAM-1980-HALT-MEMO · Memorandum: Unexplained Lights",
+          "sourceType": "primary-record",
+          "provenance": "Contemporaneous official memorandum by Lt Col Charles I. Halt",
+          "locator": "13 Jan 1981; paragraphs 1–5; local preview Halt_Memorandum.jpg",
           "supports": [
-            "first-night-description",
-            "later-light-observations",
-            "ground-and-radiation-checks",
-            "MOD-position"
+            "reported 26–28 Dec 1980 chronology",
+            "witness and site details",
+            "Halt's reported observations"
           ],
           "limitations": [
-            "no-calibrated-baseline",
-            "memo-written-after-events",
-            "no-physical-sample-chain"
+            "short summary memo",
+            "mixes subordinate reports with Halt's later firsthand account",
+            "does not identify the phenomena"
+          ]
+        },
+        {
+          "citation": "RENDLESHAM-1980-TNA · UFO reports",
+          "sourceType": "official-archive-description",
+          "provenance": "The National Archives collection guide",
+          "locator": "Section ‘Correspondence on the Rendlesham Forest incident’",
+          "supports": [
+            "archive custody",
+            "official no-defence-interest finding",
+            "single-event-record limitation"
+          ],
+          "limitations": [
+            "retrospective collection summary",
+            "not an independent technical analysis"
+          ]
+        },
+        {
+          "citation": "RENDLESHAM-1980-DEFE · MOD correspondence and briefing material",
+          "sourceType": "primary-record",
+          "provenance": "UK Ministry of Defence records in DEFE file series",
+          "locator": "Local previews Rendlesham_DEFE_page_007.jpg through page_010.jpg",
+          "supports": [
+            "later official handling",
+            "parliamentary and public-response context",
+            "no-defence-significance position"
+          ],
+          "limitations": [
+            "later administrative correspondence",
+            "does not reconstruct the event from raw sensor evidence"
           ]
         }
       ],
@@ -11325,11 +11390,11 @@
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": null,
-      "quoteSource": null,
-      "quoteConfidence": "not-yet-selected",
-      "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "keyQuote": "Langley Air Force Base did experience incursions of unauthorized unmanned aerial systems last year in December 2023.",
+      "quoteSource": "Deputy Pentagon Press Secretary Sabrina Singh, DOD press briefing, 15 October 2024",
+      "quoteConfidence": "verified",
+      "significance": "High defense significance",
+      "sourceQuality": "Primary official statements and hearing record",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-2023-LG-01",
@@ -11345,39 +11410,44 @@
       "geometryExpectation": "admin1",
       "agency": "USAF / NORAD",
       "domain": "MILITARY / INCURSION",
-      "status": "DOCUMENTED INCURSION FILE",
+      "status": "DOCUMENTED UNAUTHORIZED UAS INCURSIONS",
       "confidence": "CONFIRMED RECORD",
-      "summary": "For more than two weeks in December 2023, formations of unidentified small aircraft repeatedly penetrated restricted airspace over Langley AFB, forcing aircraft relocations. FOIA-released records and congressional attention in 2024 documented the military's inability to identify or stop the incursions — the UAS/UAP overlap in its rawest official form.",
-      "keyFact": "Sustained, documented incursions over a front-line fighter base that the Air Force could neither identify nor interdict — on the public record via FOIA.",
-      "official": "USAF and NORAD confirmed the events, characterized the objects as probable small unmanned aircraft, and acknowledged no operator was identified.",
-      "gap": "Sensor data from the incursions remains classified; the identification confidence behind 'drone' has never been shown.",
-      "whyItMatters": "Langley closes the atlas's arc where it began at Los Alamos in 1949: unknown objects over sensitive defense sites, and an institution documenting its own uncertainty.",
+      "summary": "The Defense Department confirms that unauthorized unmanned aerial systems repeatedly appeared over and around Joint Base Langley-Eustis in December 2023. The public record does not identify the operators or release the sensor data needed to characterize every object.",
+      "keyFact": "DOD publicly confirms repeated unauthorized UAS incursions; it has not publicly attributed the operators.",
+      "official": "A 15 October 2024 Pentagon briefing called the events incursions of unauthorized UAS and said they did not appear to exhibit hostile intent. A 30 April 2025 DOD account described the systems as being of unknown origin and acknowledged that the department then had limited ability to detect, track, characterize, disrupt, or defeat them.",
+      "gap": "Still missing are the complete incursion chronology, base and FAA sensor logs, radar tracks, imagery, electronic-signature data, response logs, airspace restrictions, recovered material if any, and an attribution finding. Unknown origin or operator does not by itself establish exotic technology.",
+      "whyItMatters": "A serious counter-UAS failure with unresolved attribution—not automatically exotic UAP.",
       "sources": [
-        "LANGLEY-2023 · FOIA-released incursion records / congressional record"
+        "LANGLEY-2023-DOD-BRIEFING · Pentagon press briefing, 15 Oct 2024",
+        "LANGLEY-2023-DOD-NEWS · DOD News account, 30 Apr 2025",
+        "LANGLEY-2023-HOUSE-HEARING-2025 · House hearing record, 29 Apr 2025"
       ],
-      "sourceLabel": "FOIA record",
-      "sourceLocator": "LANGLEY-2023",
+      "sourceLabel": "DOD / U.S. House",
+      "sourceLocator": "LANGLEY-2023-DOD-BRIEFING",
       "relatedCaseIds": [
         "BF-2019-OM-01",
         "BF-2024-NE-02",
         "BF-1949-LA-00"
       ],
-      "heroFact": "Sustained, documented incursions over a front-line fighter base that the Air Force could neither identify nor interdict — on the public record via FOIA.",
+      "heroFact": "Confirmed incursions, unidentified operators, incomplete public sensor record.",
       "image": "assets/source_previews/BF-2023-LG-01_source_image.jpg",
       "caseTypes": [
-        "military-encounter"
+        "unauthorized-uas-incursion",
+        "military-installation"
       ],
       "evidenceModes": [
-        "documentary-record"
+        "official-statement",
+        "operational-reporting",
+        "congressional-record"
       ],
       "environment": [
         "military-airspace"
       ],
-      "outcome": "documented",
+      "outcome": "documented-unattributed-uas-incursions",
       "confidenceModel": {
         "record": "confirmed",
-        "anomaly": "not-assessed",
-        "provenance": "primary-record"
+        "anomaly": "unresolved-attribution",
+        "provenance": "primary-official-record"
       },
       "temporal": {
         "dateLabel": "DEC 2023",
@@ -11404,12 +11474,48 @@
       },
       "sourceRecords": [
         {
-          "citation": "LANGLEY-2023 · FOIA-released incursion records / congressional record",
+          "citation": "LANGLEY-2023-DOD-BRIEFING · Deputy Pentagon Press Secretary Sabrina Singh Holds a Press Briefing",
           "sourceType": "primary-record",
-          "provenance": "Primary record",
-          "locator": "LANGLEY-2023",
-          "supports": [],
-          "limitations": []
+          "provenance": "Official DOD transcript",
+          "locator": "15 Oct 2024; Langley exchange beginning with the unauthorized-UAS question",
+          "supports": [
+            "unauthorized UAS classification",
+            "December 2023 timing",
+            "fluctuating incursion count",
+            "initial no-hostile-intent assessment"
+          ],
+          "limitations": [
+            "does not disclose operators, raw data, platform types, or full chronology"
+          ]
+        },
+        {
+          "citation": "LANGLEY-2023-DOD-NEWS · DOD Better Now at Defending Domestically Against Unmanned Systems",
+          "sourceType": "primary-record",
+          "provenance": "Official DOD News account",
+          "locator": "30 Apr 2025; opening paragraphs",
+          "supports": [
+            "series of UAS over and around the base",
+            "unknown-origin wording",
+            "documented detection and response limitations"
+          ],
+          "limitations": [
+            "retrospective public-affairs summary",
+            "does not supply raw sensor evidence or attribution"
+          ]
+        },
+        {
+          "citation": "LANGLEY-2023-HOUSE-HEARING-2025 · Restoring Trust Through Transparency: Reviewing the Department of Defense's UAP Policy",
+          "sourceType": "primary-record",
+          "provenance": "Government Publishing Office hearing record",
+          "locator": "House Committee on Oversight and Government Reform hearing, 29 Apr 2025; local 24-page GPO PDF",
+          "supports": [
+            "congressional oversight context",
+            "domestic counter-UAS policy testimony"
+          ],
+          "limitations": [
+            "post-event hearing record",
+            "does not independently provide the underlying 2023 sensor package"
+          ]
         }
       ],
       "phenomena": {
