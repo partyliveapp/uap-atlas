@@ -511,6 +511,12 @@ svg#atlasSvg:active{cursor:grabbing}
 .carousel-slot{width:100%;height:100%;display:grid;place-items:center;overflow:hidden}
 .carousel-stage img,.carousel-stage video{max-width:100%;max-height:100%;width:100%;height:100%;object-fit:contain;display:block}
 .carousel-stage img{cursor:zoom-in}
+.carousel-media-shell{position:relative;width:100%;height:100%;display:grid;place-items:center;background:rgba(255,255,255,.018)}
+.carousel-media-shell:before{content:'Loading evidence…';position:absolute;inset:0;display:grid;place-items:center;font:600 9px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:rgba(140,150,163,.58)}
+.carousel-media-shell.loaded:before{display:none}
+.carousel-media-shell img{position:relative;z-index:1;opacity:0;transition:opacity .16s ease}
+.carousel-media-shell.loaded img{opacity:1}
+.carousel-media-shell.failed:before{content:'Evidence image unavailable';color:rgba(226,172,73,.86)}
 .carousel-empty{height:220px;display:grid;place-items:center;font-size:13px;color:rgba(140,150,163,.6)}
 .carousel-nav{
   position:absolute;top:50%;transform:translateY(-50%);z-index:4;width:40px;height:40px;cursor:pointer;
@@ -1613,7 +1619,16 @@ function evidenceItems(c){
   }
   return items.sort((a,b)=>a.rank-b.rank || evidenceTypeLabel(a).localeCompare(evidenceTypeLabel(b)) || a.label.localeCompare(b.label));
 }
-function carouselMediaHtml(item){return item.kind==='video'?`<video class="carousel-media" controls src="${esc(item.src)}"></video>`:`<img class="carousel-media" src="${esc(item.src)}" alt="${esc(item.label)}" data-lightbox-src="${esc(item.src)}">`;}
+function carouselMediaHtml(item){return item.kind==='video'?`<video class="carousel-media" controls preload="metadata" src="${esc(item.src)}"></video>`:`<div class="carousel-media-shell"><img class="carousel-media" src="${esc(item.src)}" alt="${esc(item.label)}" data-lightbox-src="${esc(item.src)}" decoding="async"></div>`;}
+function settleCarouselMedia(slot){
+  const img=slot?.querySelector('img'); if(!img) return;
+  const shell=img.closest('.carousel-media-shell');
+  const done=()=>shell?.classList.add('loaded');
+  const fail=()=>shell?.classList.add('failed');
+  img.addEventListener('load',done,{once:true}); img.addEventListener('error',fail,{once:true});
+  if(img.complete){if(img.naturalWidth) done(); else fail();}
+  else if(img.decode){img.decode().then(done).catch(()=>{if(img.complete&&img.naturalWidth) done();});}
+}
 function carouselPositionLabel(item,index,total){return item.role==='lead'?`Lead · ${total}`:`Evidence ${index+1} · ${total}`;}
 function carouselContextHtml(item){const copy=item.role==='lead'?[item.provenance,item.evidenceStatus].filter(Boolean).join(' · '):'Supporting evidence — inspect source and provenance under Files / Sources'; const action=item.href?`<a class="carousel-action" href="${esc(linkUrl(item.href))}" target="_blank" rel="noopener">${esc(item.actionLabel||sourceActionLabel(item.kind,item.href))}</a>`:''; return `<span data-carousel-context-copy>${esc(copy)}</span>${action}`;}
 function evidenceCarousel(c){
@@ -1638,7 +1653,8 @@ function initCarousel(drawer){
   const root=drawer.querySelector('[data-carousel]'); if(!root) return;
   const items=JSON.parse(root.dataset.carousel); let idx=0;
   const slot=root.querySelector('.carousel-slot'), pos=root.querySelector('[data-carousel-position]'), cap=root.querySelector('[data-carousel-caption]'), typ=root.querySelector('[data-carousel-type]'), context=root.querySelector('[data-carousel-context]');
-  const show=i=>{idx=(i+items.length)%items.length; const it=items[idx]; slot.innerHTML=carouselMediaHtml(it); if(pos) pos.textContent=carouselPositionLabel(it,idx,items.length); cap.textContent=it.label; if(typ) typ.textContent=evidenceTypeLabel(it); if(context) context.innerHTML=carouselContextHtml(it); root.classList.toggle('has-lead',it.role==='lead'); root.querySelectorAll('[data-evidence-index]').forEach((b,n)=>b.classList.toggle('active',n===idx));};
+  settleCarouselMedia(slot);
+  const show=i=>{idx=(i+items.length)%items.length; const it=items[idx]; slot.innerHTML=carouselMediaHtml(it); settleCarouselMedia(slot); if(pos) pos.textContent=carouselPositionLabel(it,idx,items.length); cap.textContent=it.label; if(typ) typ.textContent=evidenceTypeLabel(it); if(context) context.innerHTML=carouselContextHtml(it); root.classList.toggle('has-lead',it.role==='lead'); root.querySelectorAll('[data-evidence-index]').forEach((b,n)=>b.classList.toggle('active',n===idx));};
   root.querySelectorAll('[data-carousel-step]').forEach(btn=>btn.addEventListener('click',()=>show(idx+Number(btn.dataset.carouselStep))));
   root.querySelectorAll('[data-evidence-index]').forEach(btn=>btn.addEventListener('click',()=>show(Number(btn.dataset.evidenceIndex))));
   root.addEventListener('click',e=>{const img=e.target.closest('[data-lightbox-src]'); if(img) openLightbox(img.dataset.lightboxSrc, img.alt);});
