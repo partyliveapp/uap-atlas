@@ -1,0 +1,134 @@
+{
+  "BF-1947-MI-01": [
+    {
+      "label": "FBI Vault — UFO files",
+      "url": "https://vault.fbi.gov/UFO",
+      "publisher": "Federal Bureau of Investigation",
+      "access": "Public; site may block automated clients",
+      "scope": "official-collection",
+      "note": "Official FBI release collection containing the 1947 flying-disc record trail. Search within the file set for Maury Island and Tacoma."
+    }
+  ],
+  "BF-1947-RW-01": [
+    {
+      "label": "U.S. Air Force — The Roswell Report: Fact versus Fiction in the New Mexico Desert",
+      "url": "https://www.af.mil/The-Roswell-Report/",
+      "publisher": "U.S. Air Force",
+      "access": "Public",
+      "scope": "official-report",
+      "note": "Official 1994–1997 Air Force explanation package; an institutional conclusion, not a neutral substitute for the underlying record."
+    }
+  ],
+  "BF-1948-CW-01": [
+    {
+      "label": "NARA Catalog — Chiles-Whitted / Incident Number 144",
+      "url": "https://catalog.archives.gov/id/28931059",
+      "publisher": "National Archives and Records Administration",
+      "access": "Public",
+      "scope": "official-catalog-record"
+    }
+  ],
+  "BF-1948-GD-01": [
+    {
+      "label": "Fold3 — Gorman case archival grouping",
+      "url": "https://www.fold3.com/image/6388048",
+      "publisher": "Fold3",
+      "access": "Archive-licensed; account may be required",
+      "scope": "archive-licensed",
+      "note": "Start of the verified 113-page T1206 grouping; Atlas source trail identifies Fold3 image IDs 6388048–6388160."
+    }
+  ],
+  "BF-1953-RP-00": [
+    {
+      "label": "CIA Reading Room — Robertson Panel record",
+      "url": "https://www.cia.gov/readingroom/collection/ufos-fact-or-fiction",
+      "publisher": "Central Intelligence Agency",
+      "access": "Public; legacy Reading Room redirects may be unstable",
+      "scope": "official-collection",
+      "note": "Official CIA declassified UFO collection. Search for Robertson Panel / Durant Report."
+    }
+  ],
+  "BF-1957-LV-01": [
+    {
+      "label": "NARA Catalog — Levelland Project BLUE BOOK file",
+      "url": "https://catalog.archives.gov/id/28974191",
+      "publisher": "National Archives and Records Administration",
+      "access": "Public",
+      "scope": "official-catalog-record"
+    }
+  ],
+  "BF-SF-02": [
+    {
+      "label": "NARA — Project 1794 declassified records",
+      "url": "https://catalog.archives.gov/id/6920770",
+      "publisher": "National Archives and Records Administration",
+      "access": "Public",
+      "scope": "official-record"
+    }
+  ],
+  "BF-1964-SC-01": [
+    {
+      "label": "NARA Catalog — Socorro Project BLUE BOOK file",
+      "url": "https://catalog.archives.gov/id/302532129",
+      "publisher": "National Archives and Records Administration",
+      "access": "Public",
+      "scope": "official-catalog-record"
+    }
+  ],
+  "BF-1978-VL-01": [
+    {
+      "label": "National Archives of Australia — Valentich disappearance search",
+      "url": "https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/SearchScreens/BasicSearch.aspx",
+      "publisher": "National Archives of Australia",
+      "access": "Public catalog",
+      "scope": "official-collection",
+      "note": "Search for Frederick Valentich, Bass Strait, and 21 October 1978."
+    }
+  ],
+  "BF-1981-TP-01": [
+    {
+      "label": "GEIPAN — official case-search portal",
+      "url": "https://www.cnes-geipan.fr/en",
+      "publisher": "CNES / GEIPAN",
+      "access": "Public",
+      "scope": "official-collection",
+      "note": "Search Trans-en-Provence or case 81/01 for the official GEPAN investigation record."
+    }
+  ],
+  "BF-SF-05": [
+    {
+      "label": "FBI Vault — Majestic 12 Part 1",
+      "url": "https://vault.fbi.gov/Majestic%2012/Majestic%2012%20Part%201%20of%201/view",
+      "publisher": "Federal Bureau of Investigation",
+      "access": "Public; site may block automated clients",
+      "scope": "official-record",
+      "note": "Official FBI-hosted copy includes the Bureau's bogus determination; custody does not authenticate the underlying MJ-12 documents."
+    }
+  ],
+  "BF-1990-CV-01": [
+    {
+      "label": "UK National Archives — UFO reports and released files",
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/postwar/ufo-reports/",
+      "publisher": "The National Archives (UK)",
+      "access": "Public",
+      "scope": "official-collection",
+      "note": "Official MoD UFO-files guide; the surviving Calvine image is a later public reproduction rather than the original negative."
+    }
+  ],
+  "BF-SF-10": [
+    {
+      "label": "House Oversight — 2023 UAP hearing",
+      "url": "https://oversight.house.gov/hearing/unidentified-anomalous-phenomena-implications-on-national-security-public-safety-and-government-transparency/",
+      "publisher": "U.S. House Committee on Oversight and Accountability",
+      "access": "Public",
+      "scope": "official-hearing-record"
+    },
+    {
+      "label": "GovInfo — UAP hearing transcript, Serial 118-53",
+      "url": "https://www.govinfo.gov/app/details/CHRG-118hhrg53022",
+      "publisher": "U.S. Government Publishing Office",
+      "access": "Public",
+      "scope": "official-transcript"
+    }
+  ]
+}
