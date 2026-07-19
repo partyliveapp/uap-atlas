@@ -508,7 +508,7 @@ svg#atlasSvg:active{cursor:grabbing}
 /* dossier media carousel — deliberate lead first, supporting evidence after */
 .drawer-evidence{margin:16px 0 12px;overflow:hidden;border-radius:14px;border:1px solid var(--hair);background:#020508;box-shadow:inset 0 1px 0 rgba(255,255,255,.03)}
 .drawer-evidence.has-lead{border-color:rgba(95,212,242,.18)}
-.carousel-stage{position:relative;height:clamp(220px,29vh,286px);display:grid;place-items:center;background:radial-gradient(circle at 50% 36%,rgba(95,212,242,.055),rgba(2,5,8,.95) 66%),#010204}
+.carousel-stage{position:relative;height:clamp(300px,42vh,420px);display:grid;place-items:center;background:radial-gradient(circle at 50% 36%,rgba(95,212,242,.055),rgba(2,5,8,.95) 66%),#010204}
 .carousel-slot{width:100%;height:100%;display:grid;place-items:center;overflow:hidden}
 .carousel-stage img,.carousel-stage video{max-width:100%;max-height:100%;width:100%;height:100%;object-fit:contain;display:block}
 .carousel-stage img{cursor:zoom-in}
@@ -526,19 +526,7 @@ svg#atlasSvg:active{cursor:grabbing}
 }
 .carousel-nav:hover{border-color:rgba(95,212,242,.4);background:rgba(8,16,24,.9)}
 .carousel-prev{left:11px}.carousel-next{right:11px}
-.carousel-caption{
-  position:absolute;left:10px;right:10px;bottom:126px;z-index:3;display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:center;
-  min-height:36px;padding:7px 10px;border-radius:var(--r-sm);border:0;background:rgba(2,5,8,.5);backdrop-filter:blur(10px);
-  font-size:10px;color:rgba(242,245,249,.78);
-}
-.carousel-caption b{font-family:var(--mono);font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
-.carousel-caption span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.carousel-type{font-family:var(--mono);font-style:normal;font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:rgba(242,245,249,.72);border:1px solid rgba(198,224,246,.1);border-radius:999px;padding:3px 7px;background:rgba(255,255,255,.04)}
-.carousel-context{position:absolute;left:10px;right:10px;bottom:72px;z-index:3;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;min-height:48px;padding:7px 10px;border:0;border-radius:var(--r-sm);background:rgba(2,5,8,.5);backdrop-filter:blur(10px)}
-.carousel-context span{font-size:10px;line-height:1.4;color:rgba(198,205,214,.62)}
-.carousel-action{display:inline-flex;align-items:center;justify-content:center;min-height:36px;padding:0 11px;border:1px solid rgba(95,212,242,.25);border-radius:var(--r-sm);background:rgba(95,212,242,.07);font-family:var(--mono);font-size:9px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#E8FAFF;text-decoration:none;white-space:nowrap}
-.carousel-action:hover{background:rgba(95,212,242,.13);border-color:rgba(95,212,242,.46)}
-.carousel-thumbs{position:absolute;left:10px;right:10px;bottom:10px;z-index:4;display:flex;gap:7px;padding:6px;overflow-x:auto;border:0;border-radius:var(--r-sm);background:rgba(2,5,8,.5);backdrop-filter:blur(10px);scrollbar-width:none}
+.carousel-thumbs{display:flex;gap:7px;padding:9px 10px;overflow-x:auto;border-top:1px solid rgba(160,210,255,.12);background:linear-gradient(180deg,rgba(13,24,36,.82),rgba(4,8,13,.88));box-shadow:inset 0 1px 0 rgba(255,255,255,.045);scrollbar-width:none}
 .carousel-thumbs::-webkit-scrollbar{display:none}
 .carousel-thumb{position:relative;flex:0 0 auto;width:66px;height:46px;padding:0;overflow:hidden;cursor:pointer;border-radius:var(--r-xs);border:1px solid rgba(198,224,246,.1);background:rgba(255,255,255,.035);opacity:.6;transition:opacity .15s ease,border-color .15s ease}
 .carousel-thumb:hover{opacity:.9}
@@ -861,8 +849,8 @@ body{overflow:hidden;-webkit-tap-highlight-color:transparent;}
   .drawer-header{margin:0 -16px 10px;padding:calc(13px + env(safe-area-inset-top)) 16px 13px;grid-template-columns:minmax(0,1fr) auto;background:rgba(5,10,16,.94);border-bottom:1px solid rgba(198,224,246,.08);}
   .drawer-heading .eyebrow{font-size:9px;line-height:1.35}.case-drawer .case-title{margin-top:5px;font-size:20px;line-height:1.12;letter-spacing:-.025em}.case-drawer .loc{font-size:11px;line-height:1.4;margin-top:5px;}
   .drawer-nav{align-self:start;gap:5px}.drawer-navbtn,.case-drawer .drawer-close{width:44px;height:44px;border-radius:12px}.drawer-pos{display:none}.case-drawer .drawer-close{display:none;}
-  .drawer-evidence{margin:12px 0;border-radius:14px}.carousel-stage{height:242px}.carousel-media{object-fit:contain;background:#010204}.carousel-nav{top:18%;width:44px;height:44px}.carousel-caption{left:10px;right:10px;bottom:138px;max-width:none;padding:8px 10px}.carousel-caption b{font-size:9px}.carousel-caption span{font-size:11px}.carousel-context{bottom:82px;font-size:10px;line-height:1.4}.carousel-action{min-height:40px;padding:0 10px;}
-  .carousel-thumbs{bottom:10px;gap:8px;padding:6px;overflow-x:auto}.carousel-thumb{min-width:88px;width:88px;height:60px;}
+  .drawer-evidence{margin:12px 0;border-radius:14px}.carousel-stage{height:clamp(300px,44vh,380px)}.carousel-media{object-fit:contain;background:#010204}.carousel-nav{top:50%;width:44px;height:44px}
+  .carousel-thumbs{gap:8px;padding:9px;overflow-x:auto}.carousel-thumb{min-width:88px;width:88px;height:60px;}
   .pills{margin:10px 0;gap:7px;overflow-x:auto;flex-wrap:nowrap;scrollbar-width:none}.pills .pill{flex:0 0 auto;min-height:30px;display:flex;align-items:center;}
   .drawer-tabs{position:sticky;top:calc(90px + env(safe-area-inset-top));z-index:10;margin:0 -16px 14px;padding:8px 16px;gap:6px;overflow-x:auto;background:rgba(3,7,12,.94);backdrop-filter:blur(18px);scrollbar-width:none}.drawer-tabs::-webkit-scrollbar{display:none}
   .drawer-tab{flex:0 0 auto;min-width:auto;height:42px;padding:0 13px;border-radius:10px;font-size:9.5px;}
@@ -1676,14 +1664,12 @@ function settleCarouselMedia(slot){
   if(img.complete){if(img.naturalWidth) done(); else fail();}
   else if(img.decode){img.decode().then(done).catch(()=>{if(img.complete&&img.naturalWidth) done();});}
 }
-function carouselPositionLabel(item,index,total){return item.role==='lead'?`Lead · ${total}`:`Evidence ${index+1} · ${total}`;}
-function carouselContextHtml(item){const copy=item.role==='lead'?[item.provenance,item.evidenceStatus].filter(Boolean).join(' · '):'Supporting evidence — inspect source and provenance under Files / Sources'; const action=item.href?`<a class="carousel-action" href="${esc(linkUrl(item.href))}" target="_blank" rel="noopener">${esc(item.actionLabel||sourceActionLabel(item.kind,item.href))}</a>`:''; return `<span data-carousel-context-copy>${esc(copy)}</span>${action}`;}
 function evidenceCarousel(c){
   const items=evidenceItems(c);
   if(!items.length) return '<div class="drawer-evidence"><div class="carousel-empty">No visual evidence file mapped for this case yet.</div></div>';
   const first=items[0];
   const thumbs=items.map((it,i)=>`<button class="carousel-thumb ${i===0?'active':''}" data-evidence-index="${i}" title="${esc(it.label)}"><img src="${esc(it.kind==='image'?it.src:(c.image||''))}" alt=""><span class="carousel-thumb-label">${esc(it.role==='lead'?'Lead':evidenceTypeLabel(it))}</span></button>`).join('');
-  return `<div class="drawer-evidence ${first.role==='lead'?'has-lead':''}" data-carousel="${esc(JSON.stringify(items))}"><div class="carousel-stage">${items.length>1?'<button class="carousel-nav carousel-prev" data-carousel-step="-1">‹</button>':''}<div class="carousel-slot">${carouselMediaHtml(first)}</div>${items.length>1?'<button class="carousel-nav carousel-next" data-carousel-step="1">›</button>':''}<div class="carousel-caption"><b data-carousel-position>${esc(carouselPositionLabel(first,0,items.length))}</b><span data-carousel-caption>${esc(first.label)}</span><em class="carousel-type" data-carousel-type>${esc(evidenceTypeLabel(first))}</em></div><div class="carousel-context" data-carousel-context>${carouselContextHtml(first)}</div>${items.length>1?`<div class="carousel-thumbs">${thumbs}</div>`:''}</div></div>`;
+  return `<div class="drawer-evidence ${first.role==='lead'?'has-lead':''}" data-carousel="${esc(JSON.stringify(items))}"><div class="carousel-stage">${items.length>1?'<button class="carousel-nav carousel-prev" data-carousel-step="-1">‹</button>':''}<div class="carousel-slot">${carouselMediaHtml(first)}</div>${items.length>1?'<button class="carousel-nav carousel-next" data-carousel-step="1">›</button>':''}</div>${items.length>1?`<div class="carousel-thumbs">${thumbs}</div>`:''}</div>`;
 }
 function sourceLinksHtml(c){
   const h=c.heroVisual;
@@ -1699,9 +1685,9 @@ function sourceLinksHtml(c){
 function initCarousel(drawer){
   const root=drawer.querySelector('[data-carousel]'); if(!root) return;
   const items=JSON.parse(root.dataset.carousel); let idx=0;
-  const slot=root.querySelector('.carousel-slot'), pos=root.querySelector('[data-carousel-position]'), cap=root.querySelector('[data-carousel-caption]'), typ=root.querySelector('[data-carousel-type]'), context=root.querySelector('[data-carousel-context]');
+  const slot=root.querySelector('.carousel-slot');
   settleCarouselMedia(slot);
-  const show=i=>{idx=(i+items.length)%items.length; const it=items[idx]; slot.innerHTML=carouselMediaHtml(it); settleCarouselMedia(slot); if(pos) pos.textContent=carouselPositionLabel(it,idx,items.length); cap.textContent=it.label; if(typ) typ.textContent=evidenceTypeLabel(it); if(context) context.innerHTML=carouselContextHtml(it); root.classList.toggle('has-lead',it.role==='lead'); root.querySelectorAll('[data-evidence-index]').forEach((b,n)=>b.classList.toggle('active',n===idx));};
+  const show=i=>{idx=(i+items.length)%items.length; const it=items[idx]; slot.innerHTML=carouselMediaHtml(it); settleCarouselMedia(slot); root.classList.toggle('has-lead',it.role==='lead'); root.querySelectorAll('[data-evidence-index]').forEach((b,n)=>b.classList.toggle('active',n===idx));};
   root.querySelectorAll('[data-carousel-step]').forEach(btn=>btn.addEventListener('click',()=>show(idx+Number(btn.dataset.carouselStep))));
   root.querySelectorAll('[data-evidence-index]').forEach(btn=>btn.addEventListener('click',()=>show(Number(btn.dataset.evidenceIndex))));
   root.addEventListener('click',e=>{const img=e.target.closest('[data-lightbox-src]'); if(img) openLightbox(img.dataset.lightboxSrc, img.alt);});
