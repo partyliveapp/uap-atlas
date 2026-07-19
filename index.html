@@ -804,6 +804,14 @@ body{overflow:hidden;-webkit-tap-highlight-color:transparent;}
   .legend::-webkit-scrollbar{display:none}.legend span{white-space:nowrap;}
   .map-tip{display:none;}
 
+  /* iOS-safe selected-case reticle: WebKit can drop filtered SVG groups after viewBox zoom. */
+  .selection-beacon,.selection-bracket,.selection-spark{filter:none!important;}
+  .selection-reticle{opacity:1;}
+  .selection-reticle-outer{stroke:rgba(240,248,255,.98);stroke-width:.18;}
+  .selection-reticle-inner{stroke:rgba(95,212,242,.96);stroke-width:.16;}
+  .selection-bracket{stroke-width:.21;}
+  .selection-label-bg{fill:rgba(3,7,12,.96);stroke:rgba(95,212,242,.86);}
+
   .mobile-case-peek{
     position:fixed;z-index:28;left:12px;right:12px;bottom:calc(var(--mobile-nav-h) + 10px);
     min-height:82px;align-items:center;gap:11px;padding:12px 12px 12px 14px;border:1px solid rgba(95,212,242,.22);border-radius:15px;
@@ -1315,6 +1323,7 @@ const sourceFileIndex = {"AARO-IMAGERY":["https://www.aaro.mil/UAP-Cases/Officia
 function clamp(v,min,max){return Math.max(min,Math.min(max,v));}
 function currentZoom(){return 100 / state.view.w;}
 function markerScale(){return clamp(1/state.zoom,0.22,1);}
+function selectionBeaconScale(){return markerScale()*(window.matchMedia('(max-width:1080px)').matches?1.28:1);}
 function selectedMarkerScale(){return markerScale()*1.85;}
 function setView(x,y,w){
   state.view={x,y,w,h:w*0.62};
@@ -1559,7 +1568,7 @@ function updateSelectionBeaconTransform(){
   const beacon=selectionLayer.querySelector('.selection-beacon');
   if(!beacon) return;
   const x=beacon.dataset.x, y=beacon.dataset.y;
-  if(x&&y) beacon.setAttribute('transform',`translate(${x},${y}) scale(${markerScale()})`);
+  if(x&&y) beacon.setAttribute('transform',`translate(${x},${y}) scale(${selectionBeaconScale()})`);
 }
 function selectionAnchorCase(){
   const c=cases.find(x=>x.id===state.selectedCaseId);
@@ -1578,7 +1587,7 @@ function renderSelectionBeacon(pulse=false){
   const w=clamp(String(c.id).length*.48+2.65,5.4,11.8);
   const labelX=-w/2;
   const wave=pulse?'<circle class="selection-wave" r="1.12"/>':'';
-  selectionLayer.innerHTML=`<g class="selection-beacon" data-x="${esc(c.x)}" data-y="${esc(c.y)}" transform="translate(${esc(c.x)},${esc(c.y)}) scale(${markerScale()})">${wave}<circle class="selection-reticle selection-reticle-outer" r="2.75"/><circle class="selection-reticle selection-reticle-inner" r="1.42"/><circle class="selection-spark" r=".2"/><line class="selection-label-stem" x1="0" y1="${lineStart}" x2="0" y2="${lineEnd}"/><g class="selection-label" transform="translate(${labelX},${labelY})"><rect class="selection-label-bg" x="0" y="0" width="${w}" height="2.35" rx=".56"/><text class="selection-label-kicker" x="${w/2}" y=".78">SELECTED</text><text class="selection-label-id" x="${w/2}" y="1.72">${esc(c.id)}</text></g><path class="selection-bracket" d="M -2.95 -1.55 L -2.95 -2.95 L -1.55 -2.95 M 1.55 -2.95 L 2.95 -2.95 L 2.95 -1.55 M 2.95 1.55 L 2.95 2.95 L 1.55 2.95 M -1.55 2.95 L -2.95 2.95 L -2.95 1.55"/></g>`;
+  selectionLayer.innerHTML=`<g class="selection-beacon" data-x="${esc(c.x)}" data-y="${esc(c.y)}" transform="translate(${esc(c.x)},${esc(c.y)}) scale(${selectionBeaconScale()})">${wave}<circle class="selection-reticle selection-reticle-outer" r="2.75"/><circle class="selection-reticle selection-reticle-inner" r="1.42"/><circle class="selection-spark" r=".2"/><line class="selection-label-stem" x1="0" y1="${lineStart}" x2="0" y2="${lineEnd}"/><g class="selection-label" transform="translate(${labelX},${labelY})"><rect class="selection-label-bg" x="0" y="0" width="${w}" height="2.35" rx=".56"/><text class="selection-label-kicker" x="${w/2}" y=".78">SELECTED</text><text class="selection-label-id" x="${w/2}" y="1.72">${esc(c.id)}</text></g><path class="selection-bracket" d="M -2.95 -1.55 L -2.95 -2.95 L -1.55 -2.95 M 1.55 -2.95 L 2.95 -2.95 L 2.95 -1.55 M 2.95 1.55 L 2.95 2.95 L 1.55 2.95 M -1.55 2.95 L -2.95 2.95 L -2.95 1.55"/></g>`;
 }
 
 
