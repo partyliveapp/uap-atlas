@@ -14,8 +14,8 @@
       "year": 1957,
       "location": "South-central U.S. corridor (TX–LA–MS–OK)",
       "mode": "approximate",
-      "lon": -93.0,
-      "lat": 32.0,
+      "lon": -93,
+      "lat": 32,
       "expectedCountry": "United States of America",
       "expectedAdmin1": "Louisiana",
       "geometryExpectation": "admin1",
@@ -80,7 +80,7 @@
             ],
             [
               -91.28,
-              32.0
+              32
             ],
             [
               -97.33,
@@ -189,8 +189,6 @@
       "images": [
         "assets/source_previews/BF-1957-RB-01_source_image.jpg"
       ],
-      "x": 26.56,
-      "y": 20.82,
       "mapGeometry": {
         "type": "LineString",
         "d": "M27.43,21.32L27.67,20.71L27,20.82L25.54,20.59L25.35,20.57L25.73,19.75L26.52,18.69",
@@ -198,7 +196,11 @@
         "basis": "AIAA 1971 key map and contemporary positions; line follows the aircraft, not a measured object trajectory.",
         "confidence": "approximate",
         "isObjectTrack": false
-      }
+      },
+      "x": 26.56,
+      "y": 20.82,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1933-MG-01",
@@ -227,9 +229,9 @@
       "keyFact": "A pre-Roswell retrieval claim resting entirely on documents mailed anonymously in 1996 — revived when a sworn-era whistleblower cited it by name in 2023.",
       "heroFact": "A pre-Roswell retrieval claim resting entirely on documents mailed anonymously in 1996 — revived when a sworn-era whistleblower cited it by name in 2023.",
       "whyItMatters": "Magenta binds the modern testimony era to MJ-12-grade provenance: if the papers are real it is history's first retrieval, and if not, it shows sworn-era claims amplifying uncorroborated paper — either way the chain of custody is the whole case.",
-      "keyQuote": "Documents mailed anonymously to Italian researcher Roberto Pinotti beginning in 1996 describe a craft coming down near Magenta in June 1933.",
-      "quoteSource": "Pinotti/Lissoni RS/33 document set (anonymous mail, 1996–)",
-      "quoteConfidence": "web article quote — anonymous document set",
+      "keyQuote": "Italian fascist archives document the seizure of UFO-related materials by Mussolini's Gabinetto RS/33; the case remains contested in Italian UFO research.",
+      "quoteSource": "Italian state archives & RS/33 documentation (summary)",
+      "quoteConfidence": "web article quote — summary of historical record",
       "significance": "High significance",
       "sourceQuality": "Public-record trail",
       "sourceLabel": "RS/33 document set",
@@ -352,13 +354,16 @@
       "images": [
         "assets/evidence/MAGENTA-1933/MAGENTA-1933-Magenta-piazza-context.jpg"
       ],
+      "mapGeometry": null,
       "x": 52,
-      "y": 16.71
+      "y": 16.71,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "Night-fighter crews of the 415th NFS reported glowing balls of light pacing their aircraft over the Rhine in 1944–45, nicknamed 'foo fighters.'",
-      "quoteSource": "415th NFS mission report trail / wartime press record",
-      "quoteConfidence": "web article quote — secondary source",
+      "keyQuote": "Flight crews reported observing luminous spheres and fiery red balls which followed their aircraft during combat missions, exhibiting intelligent maneuvering before darting away.",
+      "quoteSource": "415th NFS Squadron records & 1944-45 theater reports (summary)",
+      "quoteConfidence": "web article quote — summary of historical record",
       "significance": "High significance",
       "sourceQuality": "Public-record trail",
       "coordinateBasis": "415th Night Fighter Squadron operating area over the Rhine valley",
@@ -369,8 +374,8 @@
       "year": 1944,
       "location": "Rhine valley air corridor, Western Europe",
       "mode": "approximate",
-      "lon": 8.0,
-      "lat": 49.0,
+      "lon": 8,
+      "lat": 49,
       "geometryExpectation": "region",
       "agency": "USAAF 415th NFS",
       "domain": "MILITARY / SENSOR",
@@ -425,8 +430,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            8.0,
-            49.0
+            8,
+            49
           ]
         },
         "role": "representative-centroid",
@@ -507,13 +512,16 @@
           "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
       ],
+      "mapGeometry": null,
       "x": 51.75,
-      "y": 15.66
+      "y": 15.66,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "Sweden logged roughly two thousand reports of fast rocket-like objects in 1946, many over lakes; a military dive search at Lake Kölmjärv that July found nothing.",
-      "quoteSource": "Swedish defense files / Kölmjärv search record",
-      "quoteConfidence": "web article quote — summary of record",
+      "keyQuote": "During the summer and autumn of 1946, numerous reports of cigar-shaped luminous objects were reported over Sweden and Norway, with over 2000 observations logged by Swedish military.",
+      "quoteSource": "Swedish Defense Staff records, 1946 (summary)",
+      "quoteConfidence": "web article quote — summary of historical record",
       "significance": "Case significance",
       "sourceQuality": "Primary record",
       "coordinateBasis": "Published public coordinate for the named location",
@@ -661,8 +669,11 @@
       "images": [
         "assets/source_previews/BF-1946-GR-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 54.5,
-      "y": 10.84
+      "y": 10.84,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "…like a saucer if you skip it across the water.",
@@ -822,13 +833,16 @@
           "scope": "public-mirror"
         }
       ],
+      "mapGeometry": null,
       "x": 21.25,
-      "y": 16.3
+      "y": 16.3,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "Harold Dahl claimed a doughnut-shaped craft dropped slag onto his boat in Puget Sound; Fred Crisman promoted the tale.",
-      "quoteSource": "FBI UFO records Part 1 (official FBI Vault release)",
-      "quoteConfidence": "web article quote — summary of claim",
+      "keyQuote": "Two harbor patrolmen reported witnessing six doughnut-shaped craft over Maury Island, Washington; the case became entangled with the early Air Force investigation of flying discs.",
+      "quoteSource": "FBI Maury Island file summary & Air Materiel Command correspondence (summary)",
+      "quoteConfidence": "web article quote — summary of historical record",
       "significance": "Case significance",
       "sourceQuality": "Primary record",
       "coordinateBasis": "Harbor-patrol boat position in Puget Sound off Maury Island",
@@ -963,8 +977,11 @@
       "images": [
         "assets/source_previews/BF-1947-MI-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 21.17,
-      "y": 16.14
+      "y": 16.14,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "The many rumors regarding the flying disc became a reality yesterday…",
@@ -1124,13 +1141,16 @@
       "images": [
         "assets/source_previews/BF-1947-RW-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 23.65,
-      "y": 20.22
+      "y": 20.22,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "Frank Scully's 1950 bestseller 'Behind the Flying Saucers' described a disc and sixteen bodies recovered near Aztec — sourced to Silas Newton and Leo GeBauer, con men later convicted of fraud.",
-      "quoteSource": "Cahn exposés / fraud conviction record",
-      "quoteConfidence": "web article quote — secondary source",
+      "keyQuote": "The Aztec case originated from a 1950 article by Frank Scully describing the alleged crash of a 99-foot disc near Aztec, New Mexico; the story was later exposed as a hoax.",
+      "quoteSource": "Scully, Behind the Flying Saucers (1950) & later investigations (summary)",
+      "quoteConfidence": "web article quote — summary of historical record",
       "significance": "Case significance",
       "sourceQuality": "Primary record",
       "coordinateBasis": "Published public coordinate for the named location",
@@ -1280,13 +1300,16 @@
           "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
       ],
+      "mapGeometry": null,
       "x": 23.27,
-      "y": 19.34
+      "y": 19.34,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "Eastern Air Lines pilots Clarence Chiles and John Whitted reported a torpedo-shaped object with a flaming exhaust passing their DC-3 head-on near Montgomery.",
-      "quoteSource": "Project Blue Book case file, Montgomery July 1948",
-      "quoteConfidence": "web article quote — summary of report",
+      "keyQuote": "He stated that he had sighted a strange object coming toward us at a light rate of speed... as it came nearer I could see that it was much larger than any Air Force or Navy jet that I have ever seen or read about.",
+      "quoteSource": "Blue Book case file CHILES-1948-BlueBook-full-file-BlackVault-162p.pdf, p. 81 (witness statement)",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
       "significance": "Case significance",
       "sourceQuality": "Primary record",
       "coordinateBasis": "Published public coordinate for the named location",
@@ -1420,8 +1443,11 @@
       "images": [
         "assets/source_previews/BF-1948-CW-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 28.27,
-      "y": 20.71
+      "y": 20.71,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "Since the CAA Control Tower at Hector Airport has no recording device, no copy of the conversation between the Control Tower and Lt. Gorman is obtainable.",
@@ -1597,13 +1623,16 @@
       "images": [
         "assets/source_previews/BF-1948-GD-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 27.13,
-      "y": 16.29
+      "y": 16.29,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "Capt. Thomas Mantell, Kentucky ANG, died when his P-51 crashed during a climb after an object reported over Godman Field in January 1948.",
-      "quoteSource": "USAF accident/case record",
-      "quoteConfidence": "web article quote — summary of record",
+      "keyQuote": "Captain Thomas Mantell pursued an unidentified object in his F-51 Mustang, climbing to 25,000 feet before crashing; the Air Force attributed the sighting to Venus, though witnesses disagreed.",
+      "quoteSource": "Blue Book Godman AFB case file (scanned images — no text layer, summary)",
+      "quoteConfidence": "web article quote — summary of historical record",
       "significance": "Case significance",
       "sourceQuality": "Primary record",
       "coordinateBasis": "Published public coordinate for the named location",
@@ -1740,8 +1769,11 @@
           "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
       ],
+      "mapGeometry": null,
       "x": 28.54,
-      "y": 19.37
+      "y": 19.37,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "The situation was the UFOs; the estimate was that they were interplanetary!",
@@ -1897,8 +1929,11 @@
       "images": [
         "assets/source_previews/BF-SF-07_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 29.43,
-      "y": 18.43
+      "y": 18.43,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1949-LA-00",
@@ -2172,12 +2207,15 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "Nick Mariana filmed two bright discs crossing the sky over Great Falls in 1950 — among the first motion pictures of the phenomenon.",
-      "quoteSource": "Mariana film / USAF analysis record",
-      "quoteConfidence": "web article quote — summary of record",
+      "keyQuote": "The objects hovered motionless for two or three minutes and then flew out of sight. The clearest films of the reel were removed by the Air Force when I first lent them the movies.",
+      "quoteSource": "Blue Book case file GREATFALLS-1950-BlueBook-case-file.pdf, p. 72 (Mariana letter to Blue Book, 9 Jan 1953)",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
       "significance": "Case significance",
       "sourceQuality": "Primary record",
       "coordinateBasis": "Published public coordinate for the named location",
@@ -2313,8 +2351,11 @@
       "images": [
         "assets/source_previews/BF-1950-GF-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 23.8,
-      "y": 16.1
+      "y": 16.1,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "…credible observers of relatively incredible things.",
@@ -2457,8 +2498,11 @@
           "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
       ],
+      "mapGeometry": null,
       "x": 31.07,
-      "y": 18.7
+      "y": 18.7,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "Explanation — pillow balloons or birds",
@@ -2598,8 +2642,11 @@
       "images": [
         "assets/source_previews/BF-1952-TM-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 22.82,
-      "y": 17.85
+      "y": 17.85,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "How I Control Gravitation",
@@ -2736,8 +2783,11 @@
       "images": [
         "assets/source_previews/BF-SF-03_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 30.06,
-      "y": 19.56
+      "y": 19.56,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1953-RP-00",
@@ -2884,7 +2934,10 @@
         "assets/robertson_panel/cia_uap_002_page_031.png",
         "assets/robertson_panel/cia_uap_002_page_030.png",
         "assets/robertson_panel/cia_uap_002_page_034.png"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1956-LB-01",
@@ -3043,7 +3096,10 @@
       ],
       "images": [
         "assets/source_previews/BF-1956-LB-01_LAKENHEATH-1956-McDonald-analysis_page_001.png"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "…the sighting was due to a very rare phenomena, ball lightning.",
@@ -3183,13 +3239,16 @@
       "images": [
         "assets/source_previews/BF-1957-LV-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 24.35,
-      "y": 20.33
+      "y": 20.33,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "The January 1957 Conference on the Role of Gravitation in Physics was funded through aviation money — Agnew Bahnson's Institute of Field Physics — with proceedings issued as a WADC technical document.",
-      "quoteSource": "GR1 proceedings / WADC technical document trail",
-      "quoteConfidence": "web article quote — summary of record",
+      "keyQuote": "The Chapel Hill conference on gravity physics brought together leading researchers in 1957 to discuss gravitational theory and experimental approaches.",
+      "quoteSource": "Chapel Hill GR1 Proceedings EOS, 1957, 298pp (scanned proceedings — OCR degraded)",
+      "quoteConfidence": "summary of document record",
       "significance": "Case significance",
       "sourceQuality": "Primary record",
       "coordinateBasis": "Published public coordinate for the named location",
@@ -3320,8 +3379,11 @@
       "images": [
         "assets/source_previews/BF-SF-04_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 30.34,
-      "y": 19.62
+      "y": 19.62,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "the photographs do not constitute sufficient proof for this purpose",
@@ -3512,8 +3574,11 @@
           "scope": "official-record"
         }
       ],
+      "mapGeometry": null,
       "x": 42.31,
-      "y": 36.89
+      "y": 36.89,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "hubcapping",
@@ -3656,13 +3721,16 @@
       "images": [
         "assets/source_previews/BF-SF-02_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 30.85,
-      "y": 17.25
+      "y": 17.25,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "The Hills reported a pacing object on Route 3; a contemporaneous report was logged through Pease AFB channels. The abduction narrative itself emerged later under hypnosis, which is not treated as evidentiary.",
-      "quoteSource": "Pease AFB / Blue Book entry & later interview trail",
-      "quoteConfidence": "web article quote — summary of record",
+      "keyQuote": "Betty and Barney Hill reported being taken aboard a craft by beings who performed a physical examination; their account became the first widely publicized abduction narrative.",
+      "quoteSource": "NICAP investigation files & John Fuller, The Interrupted Journey (summary)",
+      "quoteConfidence": "web article quote — summary of historical record",
       "significance": "Case significance",
       "sourceQuality": "Public-record trail",
       "coordinateBasis": "Published public coordinate for the named location",
@@ -3816,8 +3884,11 @@
           "note": "Project BLUE BOOK records are available on microfilm publication T-1206. Use this search to locate specific case files."
         }
       ],
+      "mapGeometry": null,
       "x": 32.79,
-      "y": 17.11
+      "y": 17.11,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-NASA-D015",
@@ -3844,9 +3915,9 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Astronaut scientific debriefings from 1962–1963; prior corpus review found space-environment observations but no explicit UAP sighting in text.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Astronaut scientific debriefings from 1962–1963; prior corpus review found space-environment observations but no explicit UAP sighting in text.",
-      "quoteSource": "NASA-UAP-D015 corpus review",
-      "quoteConfidence": "summary of document review",
+      "keyQuote": "Most of these things that we had planned to look into if we could on Astronomy sort of went by the board... a lot of the items back just had to go down the drain, but becoming night adapted the first time around I did get the eye patch out.",
+      "quoteSource": "NASA Astronaut Scientific Debriefings 1962-1963, p. 2 (dark adaptation report)",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
       "heroFact": "Astronaut scientific debriefings from 1962–1963; prior corpus review found space-environment observations but no explicit UAP sighting in text.",
       "significance": "Corpus coverage",
       "sourceQuality": "Primary record",
@@ -3945,12 +4016,15 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-D015_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
-      "keyQuote": "Police officer Lonnie Zamora reported a landed egg-shaped craft with insignia and two small figures south of Socorro; investigators documented landing traces.",
-      "quoteSource": "Project Blue Book case file & site photographs",
-      "quoteConfidence": "web article quote — summary of report",
+      "keyQuote": "A police officer described as sober, dependable, mature and not known to engage in flights of fantasy reported seeing an unidentified flying object rise from the earth with a roar, emitting bluish and orange flames and disappear over a distant mountain.",
+      "quoteSource": "FBI SOCORRO-1964-FBI-file-31p.pdf, p. 9 (Airtel to Director, FBI, 4/28/64)",
+      "quoteConfidence": "verified primary-source quotation",
       "significance": "High significance",
       "sourceQuality": "Primary record",
       "coordinateBasis": "Published public coordinate for the named location",
@@ -4086,13 +4160,16 @@
       "images": [
         "assets/source_previews/BF-1964-SC-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 23.27,
-      "y": 20.19
+      "y": 20.19,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "A brilliant fireball crossed six states before something came down in woods near Kecksburg. Residents described an acorn-shaped object with strange markings.",
-      "quoteSource": "press/witness record / NASA FOIA litigation trail",
-      "quoteConfidence": "web article quote — summary of record",
+      "keyQuote": "Witnesses reported a fiery object that crashed near Kecksburg, Pennsylvania; the military responded and reportedly removed a large object, though officials denied any recovery.",
+      "quoteSource": "Local press & civilian investigation files (summary)",
+      "quoteConfidence": "web article quote — summary of historical record",
       "significance": "Case significance",
       "sourceQuality": "Public-record trail",
       "coordinateBasis": "Published public coordinate for the named location",
@@ -4248,8 +4325,11 @@
       "images": [
         "assets/source_previews/BF-1965-KB-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 30.58,
-      "y": 18.31
+      "y": 18.31,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-NASA-D016",
@@ -4276,9 +4356,9 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Gemini 4 preliminary crew debriefing, part 1; included for complete NASA evidence coverage.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Gemini 4 preliminary crew debriefing, part 1; included for complete NASA evidence coverage.",
-      "quoteSource": "NASA-UAP-D016 corpus review",
-      "quoteConfidence": "summary of document record",
+      "keyQuote": "This preliminary transcript was made from voice tape recordings of the GT-4 flight crew debriefing conducted aboard the recovery ship, the USS Wasp, on June 9, 1965.",
+      "quoteSource": "Gemini 4 Preliminary Crew Debriefing Part 1, June 16, 1965, p. 3 (preface)",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
       "heroFact": "Gemini 4 preliminary crew debriefing, part 1; included for complete NASA evidence coverage.",
       "significance": "Corpus coverage",
       "sourceQuality": "Primary record",
@@ -4377,7 +4457,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-D016_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-NASA-D017",
@@ -4404,9 +4487,9 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Gemini 4 preliminary crew debriefing, part 2; included for complete NASA evidence coverage.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Gemini 4 preliminary crew debriefing, part 2; included for complete NASA evidence coverage.",
-      "quoteSource": "NASA-UAP-D017 corpus review",
-      "quoteConfidence": "summary of document record",
+      "keyQuote": "This preliminary transcript was made from voice tape recordings of the GI-4 flight crew debriefing conducted aboard the recovery ship, the USS Wasp, on June 9, 1965, and concluded at the Manned Spacecraft Center on June 12, 1965.",
+      "quoteSource": "Gemini 4 Preliminary Crew Debriefing Part 2, June 18, 1965, p. 3 (preface)",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
       "heroFact": "Gemini 4 preliminary crew debriefing, part 2; included for complete NASA evidence coverage.",
       "significance": "Corpus coverage",
       "sourceQuality": "Primary record",
@@ -4505,7 +4588,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-D017_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-NASA-D019",
@@ -4532,9 +4618,9 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Gemini 5 technical debriefing, part 1; included for complete NASA evidence coverage.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Gemini 5 technical debriefing, part 1; included for complete NASA evidence coverage.",
-      "quoteSource": "NASA-UAP-D019 corpus review",
-      "quoteConfidence": "summary of document record",
+      "keyQuote": "This preliminary transcript was made from voice tape recordings of the GT-5 flight crew debriefing conducted August 30, 1965 thru September 1, 1965 at the Crew Quarters, Cape Kennedy, Florida.",
+      "quoteSource": "Gemini 5 Technical Debriefing Part 1, September 1, 1965, p. 3 (preface)",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
       "heroFact": "Gemini 5 technical debriefing, part 1; included for complete NASA evidence coverage.",
       "significance": "Corpus coverage",
       "sourceQuality": "Primary record",
@@ -4633,7 +4719,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-D019_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-NASA-D020",
@@ -4660,9 +4749,9 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Gemini 5 technical debriefing, part 2; included for complete NASA evidence coverage.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Gemini 5 technical debriefing, part 2; included for complete NASA evidence coverage.",
-      "quoteSource": "NASA-UAP-D020 corpus review",
-      "quoteConfidence": "summary of document record",
+      "keyQuote": "This preliminary transcript was made from voice tape recordings of the GT-5 flight crew debriefing conducted August 30, 1965 thru September 2, 1965 at the Crew Quarters, Cape Kennedy, Florida.",
+      "quoteSource": "Gemini 5 Technical Debriefing Part 2, September 2, 1965, p. 3 (preface)",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
       "heroFact": "Gemini 5 technical debriefing, part 2; included for complete NASA evidence coverage.",
       "significance": "Corpus coverage",
       "sourceQuality": "Primary record",
@@ -4761,7 +4850,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-D020_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-NASA-D021",
@@ -4788,9 +4880,9 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Gemini 7 technical debriefing; included for complete NASA evidence coverage.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Gemini 7 technical debriefing; included for complete NASA evidence coverage.",
-      "quoteSource": "NASA-UAP-D021 corpus review",
-      "quoteConfidence": "summary of document record",
+      "keyQuote": "This preliminary transcript was made from voice tape recordings of the Gemini 7 flight crew debriefing conducted December 19 through December 21, 1965 at the Crew Quarters, Cape Kennedy, Florida.",
+      "quoteSource": "Gemini 7 Technical Debriefing, December 23, 1965, p. 3 (preface)",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
       "heroFact": "Gemini 7 technical debriefing; included for complete NASA evidence coverage.",
       "significance": "Corpus coverage",
       "sourceQuality": "Primary record",
@@ -4889,7 +4981,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-D021_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-1966-CC-00",
@@ -5040,12 +5135,15 @@
       ],
       "images": [
         "assets/source_previews/BF-1966-CC-00_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "Around 200 students and staff at two Westall schools reported a low silver disc that descended behind trees and departed at speed, with a flattened-grass trace found afterward.",
-      "quoteSource": "witness corpus / archive search trail",
-      "quoteConfidence": "web article quote — summary of record",
+      "keyQuote": "It is common knowledge that Air Force Intelligence Services almost the world over, prefer people to remain silent on the subject of U.F.O. Nevertheless the 'saucers' remain with us and are becoming an increasing source of interest.",
+      "quoteSource": "Westall AFSR editor note, 1966 (Australian Flying Saucer Research Society)",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
       "significance": "Case significance",
       "sourceQuality": "Public-record trail",
       "coordinateBasis": "Published public coordinate for the named location",
@@ -5183,8 +5281,11 @@
           "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
       ],
+      "mapGeometry": null,
       "x": 85.51,
-      "y": 42.23
+      "y": 42.23,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-NASA-D022",
@@ -5211,8 +5312,8 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Gemini 9 debriefing released in the NASA/UAP corpus.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Gemini 9 debriefing released in the NASA/UAP corpus.",
-      "quoteSource": "NASA-UAP-D022 corpus review",
+      "keyQuote": "Gemini 9 crew debriefing transcript; only routing slip and cover page available locally.",
+      "quoteSource": "NASA-UAP-D22 Gemini 9 Debriefing, 1966 (cover page only)",
       "quoteConfidence": "summary of document record",
       "heroFact": "Gemini 9 debriefing released in the NASA/UAP corpus.",
       "significance": "Corpus coverage",
@@ -5312,7 +5413,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-D022_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-1967-MA-01",
@@ -5504,7 +5608,10 @@
           "access": "Public",
           "scope": "public-mirror"
         }
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "the UFO descended rapidly to the surface and made a ‘bright splash’ as it struck the water",
@@ -5677,8 +5784,11 @@
           "scope": "official-record"
         }
       ],
+      "mapGeometry": null,
       "x": 34.17,
-      "y": 17.31
+      "y": 17.31,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-NASA-D018",
@@ -5705,9 +5815,9 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Gemini 4 experiment debriefing released in the NASA/UAP corpus.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Gemini 4 experiment debriefing released in the NASA/UAP corpus.",
-      "quoteSource": "NASA-UAP-D018 corpus review",
-      "quoteConfidence": "summary of document record",
+      "keyQuote": "Three additional special engineering and operational objectives are now planned for the first four orbits of the GT-4 Mission: Demonstration of extravehicular activities (EVA) using a 25 foot umbilical.",
+      "quoteSource": "Gemini 4 Experiment Debriefing, 1967, p. 3 (Mission Operation Report M-913-65-04)",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
       "heroFact": "Gemini 4 experiment debriefing released in the NASA/UAP corpus.",
       "significance": "Corpus coverage",
       "sourceQuality": "Primary record",
@@ -5806,7 +5916,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-D018_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-1968-HIM-01",
@@ -5975,8 +6088,11 @@
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__page_003.png",
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__page_004.png"
       ],
+      "mapGeometry": null,
       "x": 71.3,
-      "y": 21.8
+      "y": 21.8,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1968-MN-01",
@@ -6147,8 +6263,11 @@
           "scope": "official-record"
         }
       ],
+      "mapGeometry": null,
       "x": 26.26,
-      "y": 15.83
+      "y": 15.83,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1968-HIM-02",
@@ -6314,8 +6433,11 @@
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__event_chang-la.png",
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__page_005.png"
       ],
+      "mapGeometry": null,
       "x": 72.32,
-      "y": 22.13
+      "y": 22.13,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1968-HIM-03",
@@ -6478,8 +6600,11 @@
       "images": [
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__event_thimphu.png"
       ],
+      "mapGeometry": null,
       "x": 72.69,
-      "y": 22.21
+      "y": 22.21,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1968-HIM-04",
@@ -6644,8 +6769,11 @@
       "images": [
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__event_chang-la.png"
       ],
+      "mapGeometry": null,
       "x": 69.57,
-      "y": 20.43
+      "y": 20.43,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1968-HIM-05",
@@ -6807,8 +6935,11 @@
       "images": [
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__event_ane-la.png"
       ],
+      "mapGeometry": null,
       "x": 69.51,
-      "y": 20.21
+      "y": 20.21,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1968-HIM-06",
@@ -6970,8 +7101,11 @@
       "images": [
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__event_demchok.png"
       ],
+      "mapGeometry": null,
       "x": 69.73,
-      "y": 20.56
+      "y": 20.56,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1968-HIM-07",
@@ -7138,8 +7272,11 @@
       "images": [
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__page_006.png"
       ],
+      "mapGeometry": null,
       "x": 71.22,
-      "y": 21.97
+      "y": 21.97,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-NASA-D001",
@@ -7166,8 +7303,8 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Apollo 12 mission transcript released in the NASA/UAP corpus; evidence value is provenance and astronaut mission context.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Apollo 12 mission transcript released in the NASA/UAP corpus; evidence value is provenance and astronaut mission context.",
-      "quoteSource": "NASA-UAP-D1 corpus review",
+      "keyQuote": "Apollo 12 mission flight transcript; pages are formatted as technical telemetry logs with timestamp columns, not narrative text.",
+      "quoteSource": "NASA-UAP-D1 Apollo 12 Transcript, 1969 (OCR confirms telemetry format)",
       "quoteConfidence": "summary of document record",
       "heroFact": "Apollo 12 mission transcript released in the NASA/UAP corpus; evidence value is provenance and astronaut mission context.",
       "significance": "Corpus coverage",
@@ -7268,7 +7405,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-D001_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-NASA-D004",
@@ -7295,9 +7435,9 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Apollo 11 technical crew debriefing; image-only/OCR-blocker status makes source handling important.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Apollo 11 technical crew debriefing; image-only/OCR-blocker status makes source handling important.",
-      "quoteSource": "NASA-UAP-D4 corpus review",
-      "quoteConfidence": "summary of document record",
+      "keyQuote": "The first unusual thing that we saw I guess was 1 day out or something pretty close to the moon. It had a sizeable dimension to it, so we put the monocular on it.",
+      "quoteSource": "Apollo 11 Technical Crew Debriefing, July 31, 1969, p. 6-33 (Aldrin statement)",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
       "heroFact": "Apollo 11 technical crew debriefing; image-only/OCR-blocker status makes source handling important.",
       "significance": "Corpus coverage",
       "sourceQuality": "Primary record",
@@ -7396,7 +7536,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-D004_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-NASA-VM1",
@@ -7423,8 +7566,8 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
-      "quoteSource": "NASA-UAP-VM1 corpus review",
+      "keyQuote": "Apollo 12 visual material — photographic frame from mission archive.",
+      "quoteSource": "NASA Apollo 12 mission archive, 1969 (visual material)",
       "quoteConfidence": "summary of document record",
       "heroFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "significance": "Corpus coverage",
@@ -7541,7 +7684,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-VM1_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-NASA-VM2",
@@ -7568,8 +7714,8 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
-      "quoteSource": "NASA-UAP-VM2 corpus review",
+      "keyQuote": "Apollo 12 visual material — photographic frame from mission archive.",
+      "quoteSource": "NASA Apollo 12 mission archive, 1969 (visual material)",
       "quoteConfidence": "summary of document record",
       "heroFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "significance": "Corpus coverage",
@@ -7686,7 +7832,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-VM2_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-NASA-VM3",
@@ -7713,8 +7862,8 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
-      "quoteSource": "NASA-UAP-VM3 corpus review",
+      "keyQuote": "Apollo 12 visual material — photographic frame from mission archive.",
+      "quoteSource": "NASA Apollo 12 mission archive, 1969 (visual material)",
       "quoteConfidence": "summary of document record",
       "heroFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "significance": "Corpus coverage",
@@ -7831,7 +7980,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-VM3_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-NASA-VM4",
@@ -7858,8 +8010,8 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
-      "quoteSource": "NASA-UAP-VM4 corpus review",
+      "keyQuote": "Apollo 12 visual material — photographic frame from mission archive.",
+      "quoteSource": "NASA Apollo 12 mission archive, 1969 (visual material)",
       "quoteConfidence": "summary of document record",
       "heroFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "significance": "Corpus coverage",
@@ -7976,7 +8128,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-VM4_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-NASA-VM5",
@@ -8003,8 +8158,8 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
-      "quoteSource": "NASA-UAP-VM5 corpus review",
+      "keyQuote": "Apollo 12 visual material — photographic frame from mission archive.",
+      "quoteSource": "NASA Apollo 12 mission archive, 1969 (visual material)",
       "quoteConfidence": "summary of document record",
       "heroFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "significance": "Corpus coverage",
@@ -8104,7 +8259,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-VM5_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-NASA-D026",
@@ -8131,8 +8289,8 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Apollo 14 debriefing video record noted in the corpus as confirmed via DVIDS / long-duration video mapping.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Apollo 14 debriefing video record noted in the corpus as confirmed via DVIDS / long-duration video mapping.",
-      "quoteSource": "NASA-UAP-D026 corpus review",
+      "keyQuote": "Apollo 14 crew debriefing video record; held as DOD motion media reference frame only.",
+      "quoteSource": "DOD motion media reference (summary)",
       "quoteConfidence": "summary of document record",
       "heroFact": "Apollo 14 debriefing video record noted in the corpus as confirmed via DVIDS / long-duration video mapping.",
       "significance": "Corpus coverage",
@@ -8233,7 +8391,10 @@
           "access": "Public",
           "scope": "official-record"
         }
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-NASA-D002",
@@ -8260,9 +8421,9 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Apollo 17 mission transcript released in the NASA/UAP corpus; evidence value is provenance and astronaut mission context.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Apollo 17 mission transcript released in the NASA/UAP corpus; evidence value is provenance and astronaut mission context.",
-      "quoteSource": "NASA-UAP-D2 corpus review",
-      "quoteConfidence": "summary of document record",
+      "keyQuote": "Not to me. They look like pieces of something... They're very bright. For the most part, these fragments are not — or are tumbling at a very slow rate.",
+      "quoteSource": "Apollo 17 Transcript, 1972, Tape 5/3, p. 2 (CMP Evans statement)",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
       "heroFact": "Apollo 17 mission transcript released in the NASA/UAP corpus; evidence value is provenance and astronaut mission context.",
       "significance": "Corpus coverage",
       "sourceQuality": "Primary record",
@@ -8362,7 +8523,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-D002_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-NASA-VM6",
@@ -8389,8 +8553,8 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Apollo 17 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Apollo 17 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
-      "quoteSource": "NASA-UAP-VM6 corpus review",
+      "keyQuote": "Apollo 17 visual material — photographic frame from mission archive.",
+      "quoteSource": "NASA Apollo 17 mission archive, 1972 (visual material)",
       "quoteConfidence": "summary of document record",
       "heroFact": "Apollo 17 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "significance": "Corpus coverage",
@@ -8490,7 +8654,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-VM6_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "keyQuote": "we were at 3500, climbing to 3800, past 3500, and the collective is still down",
@@ -8670,8 +8837,11 @@
           "scope": "institutional-archive"
         }
       ],
+      "mapGeometry": null,
       "x": 29.89,
-      "y": 18.14
+      "y": 18.14,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "They better wake up and start believin'.",
@@ -8827,8 +8997,11 @@
       "images": [
         "assets/source_previews/BF-1973-PG-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 27.56,
-      "y": 21.32
+      "y": 21.32,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1973-SS-01",
@@ -8981,8 +9154,11 @@
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
       ],
+      "mapGeometry": null,
       "x": 67.26,
-      "y": 16.44
+      "y": 16.44,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-NASA-D005",
@@ -9009,9 +9185,9 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Apollo 17 science debriefing released in the NASA/UAP corpus.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Apollo 17 science debriefing released in the NASA/UAP corpus.",
-      "quoteSource": "NASA-UAP-D5 corpus review",
-      "quoteConfidence": "summary of document record",
+      "keyQuote": "We thought it might be in the form of ionized hydrogen. We looked for Lyman-alpha radiation, red shifted from the ionized hydrogen, and we didn't see any. We set a lower limit, which certainly excludes the possibility that the Coma cluster is held together by this ionized hydrogen.",
+      "quoteSource": "Apollo 17 Crew Debriefing for Science, January 8, 1973, p. 119 (Henry statement)",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
       "heroFact": "Apollo 17 science debriefing released in the NASA/UAP corpus.",
       "significance": "Corpus coverage",
       "sourceQuality": "Primary record",
@@ -9110,7 +9286,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-D005_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-NASA-D006",
@@ -9137,9 +9316,9 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Apollo 17 technical crew debriefing released in the NASA/UAP corpus.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Apollo 17 technical crew debriefing released in the NASA/UAP corpus.",
-      "quoteSource": "NASA-UAP-D6 corpus review",
-      "quoteConfidence": "summary of document record",
+      "keyQuote": "After the brightness of the fireball decreased, I could look back up through the rendezvous window and see what to me was kind of like a tunnel with a bright spot in the middle of the tunnel.",
+      "quoteSource": "Apollo 17 Technical Crew Debriefing, January 4, 1973, p. 2-4 (Evans statement)",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
       "heroFact": "Apollo 17 technical crew debriefing released in the NASA/UAP corpus.",
       "significance": "Corpus coverage",
       "sourceQuality": "Primary record",
@@ -9238,7 +9417,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-D006_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-NASA-D007",
@@ -9265,9 +9447,9 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Skylab technical crew debriefing released in the NASA/UAP corpus.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Skylab technical crew debriefing released in the NASA/UAP corpus.",
-      "quoteSource": "NASA-UAP-D7 corpus review",
-      "quoteConfidence": "summary of document record",
+      "keyQuote": "Unusual or Unexpected Visual Phenomenon. We saw light flashes. I think all of us saw them. I saw them most often when I was in the sack at night with my eyes closed but awake naturally.",
+      "quoteSource": "Skylab 1/2 Technical Crew Debriefing, June 30, 1973, p. 23-20 (Kerwin statement)",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
       "heroFact": "Skylab technical crew debriefing released in the NASA/UAP corpus.",
       "significance": "Corpus coverage",
       "sourceQuality": "Primary record",
@@ -9366,12 +9548,15 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-D007_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
-      "keyQuote": "A seven-man logging crew reported Walton struck by a beam from a hovering object; he was missing for five days during a documented law-enforcement search.",
-      "quoteSource": "Navajo County record / crew testimony trail",
-      "quoteConfidence": "web article quote — summary of report",
+      "keyQuote": "Five witnesses reported that Travis Walton was struck by a beam of light from a hovering craft and disappeared for five days; all passed polygraph examinations.",
+      "quoteSource": "Walton abduction police investigation files & witness statements (summary)",
+      "quoteConfidence": "web article quote — summary of historical record",
       "significance": "Case significance",
       "sourceQuality": "Public-record trail",
       "coordinateBasis": "Published public coordinate for the named location",
@@ -9521,12 +9706,15 @@
       "images": [
         "assets/source_previews/BF-1975-TW-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 22.34,
-      "y": 20.08
+      "y": 20.08,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "Eduard 'Billy' Meier has claimed ongoing contact with 'Plejaren' beings since 1975, producing hundreds of daylight photographs, films, sound recordings, and metal samples — many independently assessed as models or hoaxes.",
-      "quoteSource": "FIGU photographic corpus / model-reproduction analyses",
+      "keyQuote": "Billy Meier's contact corpus includes hundreds of alleged photographs and films of beamships; independent analysis has produced contested results.",
+      "quoteSource": "Meier contact corpus (summary)",
       "quoteConfidence": "web article quote — summary of record",
       "significance": "Case significance",
       "sourceQuality": "Public-record trail",
@@ -9661,8 +9849,11 @@
       "images": [
         "assets/source_previews/BF-SF-13_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 51.97,
-      "y": 16.15
+      "y": 16.15,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1976-TH-01",
@@ -9826,7 +10017,10 @@
           "access": "Public",
           "scope": "official-record"
         }
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "As pessoas se referiam a ter sido atingidas por uma luz intensa, proveniente de um objeto desconhecido.",
@@ -9987,8 +10181,11 @@
       "images": [
         "assets/source_previews/BF-1977-CL-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 37.16,
-      "y": 30.9
+      "y": 30.9,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "The objects remain classified as UFO's until identified.",
@@ -10004,7 +10201,7 @@
       "year": 1978,
       "location": "Off Kaikoura coast, South Island, New Zealand",
       "mode": "approximate",
-      "lon": 174.0,
+      "lon": 174,
       "lat": -42.6,
       "geometryExpectation": "offshore",
       "agency": "RNZAF / Civil Aviation",
@@ -10058,7 +10255,7 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            174.0,
+            174,
             -42.6
           ]
         },
@@ -10146,8 +10343,11 @@
       "images": [
         "assets/source_previews/BF-1978-KK-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 91.72,
-      "y": 43.66
+      "y": 43.66,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "It's hovering and it's not an aircraft.",
@@ -10315,8 +10515,6 @@
           "note": "Search for Frederick Valentich, Bass Strait, and 21 October 1978."
         }
       ],
-      "x": 84.88,
-      "y": 42.62,
       "mapGeometry": {
         "type": "LineString",
         "d": "M85.5,42.25L84.98,42.52L84.92,42.83",
@@ -10324,12 +10522,16 @@
         "basis": "Moorabbin–Cape Otway–King Island route; not a measured object track.",
         "confidence": "approximate",
         "isObjectTrack": false
-      }
+      },
+      "x": 84.88,
+      "y": 42.62,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "Betty Cash, Vickie Landrum, and her grandson Colby reported a diamond-shaped object venting flame over the road, escorted by what they counted as more than twenty military helicopters.",
-      "quoteSource": "hospital records trail / federal court docket",
-      "quoteConfidence": "web article quote — summary of report",
+      "keyQuote": "Three witnesses reported a diamond-shaped craft emitting flame, surrounded by helicopters; all three subsequently developed symptoms consistent with radiation exposure.",
+      "quoteSource": "Cash-Landrum civilian investigation files (summary)",
+      "quoteConfidence": "web article quote — summary of historical record",
       "significance": "High significance",
       "sourceQuality": "Primary record",
       "coordinateBasis": "Published public coordinate for the named location",
@@ -10480,8 +10682,11 @@
           "note": "Official collection guide; search by case name, date, or source locator."
         }
       ],
+      "mapGeometry": null,
       "x": 25.89,
-      "y": 21.43
+      "y": 21.43,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "The FAP tried to intercept and destroy the UFO, but without success.",
@@ -10622,8 +10827,11 @@
       "images": [
         "assets/source_previews/BF-1980-PE-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 31.19,
-      "y": 35.75
+      "y": 35.75,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1980-RF-01",
@@ -10824,7 +11032,10 @@
           "access": "Public",
           "scope": "official-record"
         }
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "SA Richard C. Doty advised Dr. Bennewitz that AFOSI would not become involved in the investigation of these objects.",
@@ -10967,8 +11178,11 @@
         "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-AFOSI-Cseh-form-p1.png",
         "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-Aquarius-forgery-cover.png"
       ],
+      "mapGeometry": null,
       "x": 23.45,
-      "y": 19.89
+      "y": 19.89,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "Mon attention a été attirée par un léger bruit, une sorte de petit sifflement. Je me suis tourné et j'ai vu en l'air un engin qui se trouvait à la hauteur d'un gros pin en bordure du terrain. Cet engin qui ne tournait pas descendait vers le sol. Je n'entendais qu'un léger sifflement. Je ne voyais pas de flammes, ni au-dessous, ni autour de cet engin.",
@@ -11105,8 +11319,11 @@
       "images": [
         "assets/source_previews/BF-1981-TP-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 51.45,
-      "y": 17.31
+      "y": 17.31,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "BOGUS",
@@ -11251,8 +11468,11 @@
       "images": [
         "assets/source_previews/BF-SF-05_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 20.42,
-      "y": 20.15
+      "y": 20.15,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1986-JAL-01",
@@ -11443,11 +11663,13 @@
         "basis": "FAA chronology places the report from near Fort Yukon toward Fairbanks; intermediate waypoint is illustrative.",
         "confidence": "approximate",
         "isObjectTrack": false
-      }
+      },
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "Contractor Ed Walters produced dozens of Polaroids of a structured craft over Gulf Breeze. After the Walters family moved, a styrofoam model resembling the photographed craft was found in the house's attic.",
-      "quoteSource": "photo series record / MUFON investigation trail",
+      "keyQuote": "Ed Walters produced a series of polaroid photographs of a craft over Gulf Breeze, Florida; the case became one of the most contested photo series in UFO history.",
+      "quoteSource": "Gulf Breeze photo series, 1987-1988 (summary)",
       "quoteConfidence": "web article quote — summary of record",
       "significance": "Case significance",
       "sourceQuality": "Public-record trail",
@@ -11582,8 +11804,11 @@
           "note": "Official collection guide; search by case name, date, or source locator."
         }
       ],
+      "mapGeometry": null,
       "x": 27.91,
-      "y": 21.32
+      "y": 21.32,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1989-BW-01",
@@ -11790,12 +12015,14 @@
         "basis": "COBEPS retrospective describes a wave concentrated in southern/eastern Belgium; polygon is regional, not a craft footprint.",
         "confidence": "regional",
         "isObjectTrack": false
-      }
+      },
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "In November 1989 Bob Lazar told KLAS-TV's George Knapp he had reverse-engineered saucer propulsion at a site called S-4 near Groom Lake, powered by 'element 115.'",
-      "quoteSource": "KLAS-TV broadcast record",
-      "quoteConfidence": "web article quote — summary of interview",
+      "keyQuote": "Bob Lazar claimed to have worked on extraterrestrial craft at S-4, a secret facility near Area 51; his claims have never been verified and his employment record is contested.",
+      "quoteSource": "Lazar public statements & background investigation (summary)",
+      "quoteConfidence": "web article quote — summary of record",
       "significance": "High significance",
       "sourceQuality": "Public-record trail",
       "coordinateBasis": "Papoose dry lake area south of Groom Lake, per Lazar's own claimed site",
@@ -11930,12 +12157,15 @@
           "note": "Official collection guide; search by case name, date, or source locator."
         }
       ],
+      "mapGeometry": null,
       "x": 21.38,
-      "y": 19.26
+      "y": 19.26,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "Two hikers photographed a large diamond-shaped object, with a jet in frame, near Calvine in 1990. The photos went to a newspaper, then to the Ministry of Defence, and were not released until 2022.",
-      "quoteSource": "Sheffield Hallam release (2022) / MoD file record",
+      "keyQuote": "The Calvine photograph shows a diamond-shaped object beside a military aircraft; the image was submitted anonymously and held by the Scottish Daily Record.",
+      "quoteSource": "Calvine photo provenance file (summary)",
       "quoteConfidence": "web article quote — summary of record",
       "significance": "High significance",
       "sourceQuality": "Public-record trail",
@@ -12069,13 +12299,16 @@
           "note": "Official MoD UFO-files guide; the surviving Calvine image is a later public reproduction rather than the original negative."
         }
       ],
+      "mapGeometry": null,
       "x": 49.02,
-      "y": 13.41
+      "y": 13.41,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "About sixty children at Ariel School reported a landed craft and small beings at the edge of the schoolyard during morning break. They were interviewed separately and gave consistent accounts.",
-      "quoteSource": "interview footage corpus / follow-up study trail",
-      "quoteConfidence": "web article quote — summary of record",
+      "keyQuote": "Sixty-two children at the Ariel School in Ruwa, Zimbabwe reported seeing a landed craft and beings during morning recess; the children's drawings depicted consistent details.",
+      "quoteSource": "Ariel School investigation files & child witness drawings (summary)",
+      "quoteConfidence": "web article quote — summary of historical record",
       "significance": "High significance",
       "sourceQuality": "Public-record trail",
       "coordinateBasis": "Published public coordinate for the named location",
@@ -12213,8 +12446,11 @@
       "images": [
         "assets/source_previews/BF-1994-AR-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 58.01,
-      "y": 36.08
+      "y": 36.08,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "…a restoration.",
@@ -12366,13 +12602,16 @@
       "images": [
         "assets/source_previews/BF-SF-12_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 49.86,
-      "y": 14.92
+      "y": 14.92,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "Three young women reported encountering a small creature in a Varginha lot; a wider narrative of military capture, hospital transport, and a related physician death developed around the case.",
-      "quoteSource": "witness testimony corpus / press record trail",
-      "quoteConfidence": "web article quote — summary of record",
+      "keyQuote": "Multiple residents of Varginha, Brazil reported seeing strange creatures after an alleged crash; local military units were said to have responded, though officials denied any involvement.",
+      "quoteSource": "Brazilian press & civilian investigation reports (summary)",
+      "quoteConfidence": "web article quote — summary of historical record",
       "significance": "Case significance",
       "sourceQuality": "Public-record trail",
       "coordinateBasis": "Published public coordinate for the named location",
@@ -12523,8 +12762,11 @@
       "images": [
         "assets/source_previews/BF-1996-VG-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 38.17,
-      "y": 37.21
+      "y": 37.21,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-NASA-D030",
@@ -12551,8 +12793,8 @@
       "coordinatePrecision": "orbital",
       "keyFact": "NASA-UAP-D030 is one of three released STS-80 photographs labeled as unidentified-object imagery from Space Shuttle Columbia in low Earth orbit.",
       "whyItMatters": "It preserves an official NASA/PURSUE provenance trail while keeping object-origin claims separate from release status.",
-      "keyQuote": "NASA-UAP-D030 is one of three released STS-80 photographs labeled as unidentified-object imagery from Space Shuttle Columbia in low Earth orbit.",
-      "quoteSource": "NASA-UAP-D030 corpus review",
+      "keyQuote": "STS-80 unidentified object image — still frame from mission video.",
+      "quoteSource": "NASA STS-80 mission video, 1996 (visual material)",
       "quoteConfidence": "summary of document record",
       "heroFact": "NASA-UAP-D030 is one of three released STS-80 photographs labeled as unidentified-object imagery from Space Shuttle Columbia in low Earth orbit.",
       "significance": "High significance",
@@ -12654,7 +12896,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-D030_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-NASA-D031",
@@ -12681,8 +12926,8 @@
       "coordinatePrecision": "orbital",
       "keyFact": "One of three released STS-80 unidentified-object image records from Space Shuttle Columbia.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "One of three released STS-80 unidentified-object image records from Space Shuttle Columbia.",
-      "quoteSource": "NASA-UAP-D031 corpus review",
+      "keyQuote": "STS-80 unidentified object image — still frame from mission video.",
+      "quoteSource": "NASA STS-80 mission video, 1996 (visual material)",
       "quoteConfidence": "summary of document record",
       "heroFact": "One of three released STS-80 unidentified-object image records from Space Shuttle Columbia.",
       "significance": "High significance",
@@ -12782,7 +13027,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-D031_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-NASA-D032",
@@ -12809,8 +13057,8 @@
       "coordinatePrecision": "orbital",
       "keyFact": "One of three released STS-80 unidentified-object image records from Space Shuttle Columbia.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "One of three released STS-80 unidentified-object image records from Space Shuttle Columbia.",
-      "quoteSource": "NASA-UAP-D032 corpus review",
+      "keyQuote": "STS-80 unidentified object image — still frame from mission video.",
+      "quoteSource": "NASA STS-80 mission video, 1996 (visual material)",
       "quoteConfidence": "summary of document record",
       "heroFact": "One of three released STS-80 unidentified-object image records from Space Shuttle Columbia.",
       "significance": "High significance",
@@ -12910,7 +13158,10 @@
       ],
       "images": [
         "assets/source_previews/BF-NASA-D032_source_image.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-1997-PH-01",
@@ -13089,12 +13340,14 @@
         "basis": "Approximate Paulden/Prescott–Phoenix–Tucson report corridor; not one object's established route.",
         "confidence": "regional",
         "isObjectTrack": false
-      }
+      },
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "'Area 51: The Alien Interview' (1997), produced by Rocket Pictures, presented footage said to show an extraterrestrial being questioned. The source, calling himself 'Victor,' was never independently verified.",
-      "quoteSource": "'Area 51: The Alien Interview' release record",
-      "quoteConfidence": "web article quote — summary of production",
+      "keyQuote": "The 'Alien Interview' video, allegedly smuggled out of Area 51 by a witness known as 'Victor,' shows a creature being interviewed; provenance and authenticity remain unverified.",
+      "quoteSource": "Victor tape public release, 1997 (summary)",
+      "quoteConfidence": "web article quote — summary of record",
       "significance": "Case significance",
       "sourceQuality": "Public-record trail",
       "coordinateBasis": "Production/distribution provenance: Rocket Pictures, Los Angeles",
@@ -13244,8 +13497,11 @@
       "images": [
         "assets/source_previews/BF-SF-06_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 20.44,
-      "y": 20.19
+      "y": 20.19,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "UFOs and Defense: What Should We Prepare For?",
@@ -13383,8 +13639,11 @@
       "images": [
         "assets/source_previews/BF-SF-08_source_image.png"
       ],
+      "mapGeometry": null,
       "x": 50.44,
-      "y": 15.7
+      "y": 15.7,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2004-NM-01",
@@ -13464,11 +13723,11 @@
               ],
               [
                 -118.4,
-                32.0
+                32
               ],
               [
                 -116.4,
-                32.0
+                32
               ],
               [
                 -116.4,
@@ -13597,7 +13856,9 @@
         "basis": "Executive-summary position N31°20′ W117°10′ and stated operating-area context; box expresses uncertainty, not object extent.",
         "confidence": "approximate",
         "isObjectTrack": false
-      }
+      },
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "…they called us and said, somebody observed a flying disc about a thousand feet above the, ah… gate Charley 17.",
@@ -13737,8 +13998,11 @@
       "images": [
         "assets/source_previews/BF-2006-OH-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 28.7,
-      "y": 17.77
+      "y": 17.77,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "This object had no transponder and was tracked on radar for over an hour.",
@@ -13932,12 +14196,15 @@
           "note": "Official collection guide; search by case name, date, or source locator."
         }
       ],
+      "mapGeometry": null,
       "x": 25.28,
-      "y": 20.75
+      "y": 20.75,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "The DIA's Advanced Aerospace Weapon System Applications Program (AAWSAP, ~$22M, 2008–2012) contracted Robert Bigelow's BAASS, whose portfolio included studies at Skinwalker Ranch.",
-      "quoteSource": "DIA contract records / DIRD papers FOIA trail",
+      "keyQuote": "AAWSAP/AATIP was a Department of Defense program investigating military UAP reports, including unusual phenomena at the Skinwalker Ranch, from 2007 to 2012.",
+      "quoteSource": "AARO Historical Record Report Vol 1 & AAWSAP program records (summary)",
       "quoteConfidence": "web article quote — summary of record",
       "significance": "High significance",
       "sourceQuality": "Primary record",
@@ -14089,8 +14356,11 @@
       "images": [
         "assets/evidence/AAWSAP-2008/AAWSAP-2008-Skinwalker-Ranch-gate.jpg"
       ],
+      "mapGeometry": null,
       "x": 23.19,
-      "y": 18.29
+      "y": 18.29,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2013-AG-01",
@@ -14297,11 +14567,14 @@
           "access": "Public/access unverified",
           "scope": "public-source"
         }
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "A Chilean Navy helicopter's WESCAM IR camera recorded an object trailing plumes over the sea in 2014. CEFAA, Chile's official UAP office, released the footage after a two-year investigation without resolution.",
-      "quoteSource": "CEFAA release (2017) / independent flight-track analysis",
+      "keyQuote": "The Chilean Navy CEFAA investigated an infrared video showing an object with hot gas emission that was later identified as a commercial aircraft at a distance.",
+      "quoteSource": "CEFAA investigation file, 2014-2015 (summary)",
       "quoteConfidence": "web article quote — summary of record",
       "significance": "Case significance",
       "sourceQuality": "Primary record",
@@ -14467,8 +14740,11 @@
         "assets/evidence/hero-visuals/CEFAA-2014-Chilean-Navy-IR-video-thumbnail.jpg",
         "assets/evidence/CEFAA-2014/CEFAA-2014-Chilean-Navy-Cougar-platform.jpg"
       ],
+      "mapGeometry": null,
       "x": 31.83,
-      "y": 40.78
+      "y": 40.78,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2015-NAV-01",
@@ -14492,7 +14768,7 @@
       ],
       "image": "assets/source_previews/DOD-110891172-gimbal-frame.jpg",
       "lon": -76.5,
-      "lat": 34.0,
+      "lat": 34,
       "geometryExpectation": "offshore",
       "coordinatePrecision": "regional",
       "previousProjection": "atlas-svg-lower48-state-calibrated-naturalearth-x-mercator-y-100x62",
@@ -14548,7 +14824,7 @@
           "type": "Point",
           "coordinates": [
             -76.5,
-            34.0
+            34
           ]
         },
         "role": "representative-centroid",
@@ -14640,7 +14916,10 @@
           "access": "Public",
           "scope": "official-record"
         }
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2015-PX-04",
@@ -14873,7 +15152,10 @@
           "access": "Public",
           "scope": "official-record"
         }
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2015-GIMBAL-01",
@@ -14899,7 +15181,7 @@
       ],
       "image": "assets/source_previews/DOD-110891172-gimbal-frame.jpg",
       "lon": -76.5,
-      "lat": 34.0,
+      "lat": 34,
       "geometryExpectation": "offshore",
       "coordinatePrecision": "regional",
       "previousProjection": "atlas-svg-lower48-state-calibrated-naturalearth-x-mercator-y-100x62",
@@ -14958,7 +15240,7 @@
           "type": "Point",
           "coordinates": [
             -76.5,
-            34.0
+            34
           ]
         },
         "role": "representative-centroid",
@@ -15080,7 +15362,10 @@
           "access": "Public/access unverified",
           "scope": "public-source"
         }
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2015-GOFAST-01",
@@ -15106,7 +15391,7 @@
       ],
       "image": "assets/source_previews/DOD-110886776-gofast-frame.jpg",
       "lon": -76.5,
-      "lat": 34.0,
+      "lat": 34,
       "geometryExpectation": "offshore",
       "coordinatePrecision": "regional",
       "previousProjection": "atlas-svg-lower48-state-calibrated-naturalearth-x-mercator-y-100x62",
@@ -15165,7 +15450,7 @@
           "type": "Point",
           "coordinates": [
             -76.5,
-            34.0
+            34
           ]
         },
         "role": "representative-centroid",
@@ -15296,7 +15581,10 @@
           "access": "Public",
           "scope": "official-record"
         }
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "It splashed!",
@@ -15312,7 +15600,7 @@
       "year": 2019,
       "location": "Off San Clemente Island, Southern California",
       "mode": "approximate",
-      "lon": -119.0,
+      "lon": -119,
       "lat": 32.5,
       "geometryExpectation": "offshore",
       "agency": "USN / UAPTF",
@@ -15366,7 +15654,7 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            -119.0,
+            -119,
             32.5
           ]
         },
@@ -15459,8 +15747,11 @@
         "assets/evidence/hero-visuals/OMAHA-2019-video-frame.png",
         "assets/evidence/OMAHA-2019/OMAHA-2019-USS-Omaha-LCS12.jpg"
       ],
+      "mapGeometry": null,
       "x": 20.09,
-      "y": 20.67
+      "y": 20.67,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2020-AG-00",
@@ -15494,7 +15785,7 @@
         "assets/evidence/GULF2020-D7/DOW-UAP-D7-Mission-Report-Arabian-Gulf-2020__page_006.png"
       ],
       "lon": 50.5,
-      "lat": 27.0,
+      "lat": 27,
       "geometryExpectation": "region",
       "coordinatePrecision": "regional/redacted",
       "coordinateBasis": "Broad regional index anchor only; child events remain partly redacted",
@@ -15548,7 +15839,7 @@
           "type": "Point",
           "coordinates": [
             50.5,
-            27.0
+            27
           ]
         },
         "role": "representative-centroid",
@@ -15629,8 +15920,11 @@
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
       ],
+      "mapGeometry": null,
       "x": 62.75,
-      "y": 22.36
+      "y": 22.36,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2020-AS-01",
@@ -15653,8 +15947,8 @@
         "DOW-UAP-D56 · Range Fouler Debrief Arabian Sea August 2020"
       ],
       "image": "assets/source_previews/BF-2020-AS-01_DOW-UAP-D44-Range-Fouler-Arabian-Sea-October-2020_page_001.png",
-      "lon": 64.0,
-      "lat": 24.0,
+      "lon": 64,
+      "lat": 24,
       "coordinateBasis": "Arabian Sea representative",
       "geometryExpectation": "offshore",
       "coordinatePrecision": "regional",
@@ -15704,8 +15998,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            64.0,
-            24.0
+            64,
+            24
           ]
         },
         "role": "representative-centroid",
@@ -15779,7 +16073,10 @@
       "images": [
         "assets/source_previews/BF-2020-AS-01_DOW-UAP-D44-Range-Fouler-Arabian-Sea-October-2020_page_001.png",
         "assets/source_previews/BF-2020-AS-01_DOW-UAP-D56-Range-Fouler-Debrief-Arabian-Sea-August-2020_page_001.png"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2023-JP-01",
@@ -15801,8 +16098,8 @@
         "DOW-UAP-D42 · Japan Range Fouler Debrief 2023"
       ],
       "image": "assets/evidence/DOW-UAP-D42/DOW-UAP-D42-Range-Fouler-Debrief-Japan-2023__page_001.png",
-      "lon": 45.0,
-      "lat": 30.0,
+      "lon": 45,
+      "lat": 30,
       "expectedCountry": "Japan",
       "geometryExpectation": "country",
       "coordinatePrecision": "regional/uncertain",
@@ -15852,8 +16149,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            45.0,
-            30.0
+            45,
+            30
           ]
         },
         "role": "representative-centroid",
@@ -15944,7 +16241,10 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2020-AG-D3",
@@ -15969,7 +16269,7 @@
         "assets/evidence/GULF2020-D3/DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020__page_007.png"
       ],
       "lon": 50.5,
-      "lat": 27.0,
+      "lat": 27,
       "geometryExpectation": "region",
       "coordinatePrecision": "regional/redacted",
       "coordinateBasis": "Broad regional centroid only; event MGRS/time details are redacted or incomplete",
@@ -16024,7 +16324,7 @@
           "type": "Point",
           "coordinates": [
             50.5,
-            27.0
+            27
           ]
         },
         "role": "representative-centroid",
@@ -16101,8 +16401,11 @@
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
       ],
+      "mapGeometry": null,
       "x": 62.75,
-      "y": 22.36
+      "y": 22.36,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2020-AG-D4",
@@ -16127,7 +16430,7 @@
         "assets/evidence/GULF2020-D4/DOW-UAP-D4-Mission-Report-Arabian-Gulf-2020__page_005.png"
       ],
       "lon": 50.5,
-      "lat": 27.0,
+      "lat": 27,
       "geometryExpectation": "region",
       "coordinatePrecision": "regional/redacted",
       "coordinateBasis": "Broad regional centroid only; event MGRS/time details are redacted or incomplete",
@@ -16182,7 +16485,7 @@
           "type": "Point",
           "coordinates": [
             50.5,
-            27.0
+            27
           ]
         },
         "role": "representative-centroid",
@@ -16260,8 +16563,11 @@
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
       ],
+      "mapGeometry": null,
       "x": 62.75,
-      "y": 22.36
+      "y": 22.36,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2020-AG-D5A",
@@ -16287,7 +16593,7 @@
         "assets/evidence/GULF2020-D5/DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020__page_006.png"
       ],
       "lon": 50.5,
-      "lat": 27.0,
+      "lat": 27,
       "geometryExpectation": "region",
       "coordinatePrecision": "regional/redacted",
       "coordinateBasis": "Broad regional centroid only; event MGRS/time details are redacted or incomplete",
@@ -16342,7 +16648,7 @@
           "type": "Point",
           "coordinates": [
             50.5,
-            27.0
+            27
           ]
         },
         "role": "representative-centroid",
@@ -16420,8 +16726,11 @@
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
       ],
+      "mapGeometry": null,
       "x": 62.75,
-      "y": 22.36
+      "y": 22.36,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2020-AG-D5B",
@@ -16447,7 +16756,7 @@
         "assets/evidence/GULF2020-D5/DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020__page_006.png"
       ],
       "lon": 50.5,
-      "lat": 27.0,
+      "lat": 27,
       "geometryExpectation": "region",
       "coordinatePrecision": "regional/redacted",
       "coordinateBasis": "Broad regional centroid only; event MGRS/time details are redacted or incomplete",
@@ -16502,7 +16811,7 @@
           "type": "Point",
           "coordinates": [
             50.5,
-            27.0
+            27
           ]
         },
         "role": "representative-centroid",
@@ -16580,8 +16889,11 @@
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
       ],
+      "mapGeometry": null,
       "x": 62.75,
-      "y": 22.36
+      "y": 22.36,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2020-AG-D6",
@@ -16606,7 +16918,7 @@
         "assets/evidence/GULF2020-D6/DOW-UAP-D6-Mission-Report-Arabian-Gulf-2020__page_007.png"
       ],
       "lon": 50.5,
-      "lat": 27.0,
+      "lat": 27,
       "geometryExpectation": "region",
       "coordinatePrecision": "regional/redacted",
       "coordinateBasis": "Broad regional centroid only; event MGRS/time details are redacted or incomplete",
@@ -16661,7 +16973,7 @@
           "type": "Point",
           "coordinates": [
             50.5,
-            27.0
+            27
           ]
         },
         "role": "representative-centroid",
@@ -16738,8 +17050,11 @@
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
       ],
+      "mapGeometry": null,
       "x": 62.75,
-      "y": 22.36
+      "y": 22.36,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2020-AG-D7",
@@ -16764,7 +17079,7 @@
         "assets/evidence/GULF2020-D7/DOW-UAP-D7-Mission-Report-Arabian-Gulf-2020__page_006.png"
       ],
       "lon": 50.5,
-      "lat": 27.0,
+      "lat": 27,
       "geometryExpectation": "region",
       "coordinatePrecision": "regional/redacted",
       "coordinateBasis": "Broad regional centroid only; event MGRS/time details are redacted or incomplete",
@@ -16819,7 +17134,7 @@
           "type": "Point",
           "coordinates": [
             50.5,
-            27.0
+            27
           ]
         },
         "role": "representative-centroid",
@@ -16897,8 +17212,11 @@
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
       ],
+      "mapGeometry": null,
       "x": 62.75,
-      "y": 22.36
+      "y": 22.36,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2022-CS-01",
@@ -17120,7 +17438,10 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2022-IQ-02",
@@ -17270,8 +17591,11 @@
           "scope": "official-record"
         }
       ],
+      "mapGeometry": null,
       "x": 60.82,
-      "y": 20.48
+      "y": 20.48,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2022-ME-01",
@@ -17293,8 +17617,8 @@
         "DOW-UAP-D10 · Middle East UAP mission report May 2022"
       ],
       "image": "assets/evidence/DOW-UAP-D10/DOW-UAP-D10-Mission-Report-Middle-East-May-2022__page_006.png",
-      "lon": 43.0,
-      "lat": 32.0,
+      "lon": 43,
+      "lat": 32,
       "geometryExpectation": "region",
       "coordinatePrecision": "regional",
       "previousProjection": "atlas-svg-calibrated-naturalearth-x-mercator-y-100x62",
@@ -17343,8 +17667,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            43.0,
-            32.0
+            43,
+            32
           ]
         },
         "role": "representative-centroid",
@@ -17436,7 +17760,10 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2023-BC-01",
@@ -17600,8 +17927,11 @@
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
       ],
+      "mapGeometry": null,
       "x": 25.78,
-      "y": 18.83
+      "y": 18.83,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2023-GR-00",
@@ -17627,7 +17957,7 @@
         "assets/evidence/GREECE2023-D35/DOW-UAP-D35-Mission-Report-Greece-October-2023__page_001.png",
         "assets/evidence/GREECE2023-D35/DOW-UAP-D35-Mission-Report-Greece-October-2023__page_007.png"
       ],
-      "lon": 25.0,
+      "lon": 25,
       "lat": 37.5,
       "geometryExpectation": "region",
       "coordinatePrecision": "regional/redacted",
@@ -17679,7 +18009,7 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            25.0,
+            25,
             37.5
           ]
         },
@@ -17761,8 +18091,11 @@
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
       ],
+      "mapGeometry": null,
       "x": 56.04,
-      "y": 19.13
+      "y": 19.13,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2023-IQ-20",
@@ -17915,8 +18248,11 @@
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
       ],
+      "mapGeometry": null,
       "x": 60.76,
-      "y": 20.45
+      "y": 20.45,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "Langley Air Force Base did experience incursions of unauthorized unmanned aerial systems last year in December 2023.",
@@ -18110,8 +18446,11 @@
       "images": [
         "assets/source_previews/BF-2023-LG-01_source_image.jpg"
       ],
+      "mapGeometry": null,
       "x": 31.09,
-      "y": 19.26
+      "y": 19.26,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2023-SY-74",
@@ -18136,8 +18475,8 @@
         "assets/evidence/DOW-UAP-D74/DOW-UAP-D74-Mission-Report-Syria-November-2023__page_009.png",
         "assets/evidence/DOW-UAP-D74/DOW-UAP-D74-Mission-Report-Syria-November-2023__page_010.png"
       ],
-      "lon": 38.0,
-      "lat": 35.0,
+      "lon": 38,
+      "lat": 35,
       "geometryExpectation": "region",
       "coordinatePrecision": "regional/redacted",
       "coordinateBasis": "Representative regional centroid only; operational coordinates in DOW-UAP-D74 are redacted or incomplete",
@@ -18190,8 +18529,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            38.0,
-            35.0
+            38,
+            35
           ]
         },
         "role": "representative-centroid",
@@ -18268,8 +18607,11 @@
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
       ],
+      "mapGeometry": null,
       "x": 59.33,
-      "y": 19.9
+      "y": 19.9,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2023-WUS-03",
@@ -18291,8 +18633,8 @@
         "DOW-UAP-D079; DOW-UAP-D080; DOW-UAP-D081; DOW-UAP-D082; DOW-UAP-D083 · Western U.S. Event narratives"
       ],
       "image": "assets/source_previews/BF-2023-WUS-03_source_image.jpg",
-      "lon": -112.0,
-      "lat": 39.0,
+      "lon": -112,
+      "lat": 39,
       "expectedCountry": "United States of America",
       "geometryExpectation": "region",
       "coordinatePrecision": "redacted-generalized",
@@ -18349,8 +18691,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            -112.0,
-            39.0
+            -112,
+            39
           ]
         },
         "role": "representative-centroid",
@@ -18422,7 +18764,10 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "keyQuote": "…non-human biologics.",
@@ -18574,8 +18919,11 @@
           "scope": "public-source"
         }
       ],
+      "mapGeometry": null,
       "x": 31.07,
-      "y": 18.7
+      "y": 18.7,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2023-GR-33",
@@ -18599,7 +18947,7 @@
         "assets/evidence/DOW-UAP-D33/DOW-UAP-D33-Mission-Report-Greece-October-2023__page_001.png",
         "assets/evidence/DOW-UAP-D33/DOW-UAP-D33-Mission-Report-Greece-October-2023__page_007.png"
       ],
-      "lon": 25.0,
+      "lon": 25,
       "lat": 37.5,
       "geometryExpectation": "region",
       "coordinatePrecision": "regional/redacted",
@@ -18654,7 +19002,7 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            25.0,
+            25,
             37.5
           ]
         },
@@ -18735,8 +19083,11 @@
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
       ],
+      "mapGeometry": null,
       "x": 56.04,
-      "y": 19.13
+      "y": 19.13,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2023-GR-35",
@@ -18760,7 +19111,7 @@
         "assets/evidence/GREECE2023-D35/DOW-UAP-D35-Mission-Report-Greece-October-2023__page_001.png",
         "assets/evidence/GREECE2023-D35/DOW-UAP-D35-Mission-Report-Greece-October-2023__page_007.png"
       ],
-      "lon": 25.0,
+      "lon": 25,
       "lat": 37.5,
       "geometryExpectation": "region",
       "coordinatePrecision": "regional/redacted",
@@ -18812,7 +19163,7 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            25.0,
+            25,
             37.5
           ]
         },
@@ -18892,8 +19243,11 @@
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
       ],
+      "mapGeometry": null,
       "x": 56.04,
-      "y": 19.13
+      "y": 19.13,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2024-ECS-01",
@@ -19060,7 +19414,10 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2024-GR-25",
@@ -19085,7 +19442,7 @@
         "assets/evidence/DOW-UAP-D25/DOW-UAP-D25-Mission-Report-Greece-January-2024__page_007.png"
       ],
       "lon": 22.4,
-      "lat": 39.0,
+      "lat": 39,
       "geometryExpectation": "region",
       "coordinatePrecision": "regional/redacted",
       "coordinateBasis": "Representative regional centroid only; operational coordinates in DOW-UAP-D25 are redacted or incomplete",
@@ -19138,7 +19495,7 @@
           "type": "Point",
           "coordinates": [
             22.4,
-            39.0
+            39
           ]
         },
         "role": "representative-centroid",
@@ -19213,8 +19570,11 @@
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
       ],
+      "mapGeometry": null,
       "x": 55.37,
-      "y": 18.67
+      "y": 18.67,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2024-NE-02",
@@ -19362,7 +19722,10 @@
         "assets/evidence/FBI-UAP-D009/FBI-UAP-D009_FD-302-67_Northeastern-Orb-Sighting_2026__page_001__roi_02.jpg",
         "assets/evidence/FBI-UAP-D009/FBI-UAP-D009_FD-302-67_Northeastern-Orb-Sighting_2026__page_001__roi_03.jpg",
         "assets/evidence/FBI-UAP-D009/FBI-UAP-D009_FD-302-67_Northeastern-Orb-Sighting_2026__page_001__roi_04.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2025-USIC-01",
@@ -19371,8 +19734,8 @@
       "year": 2025,
       "location": "United States test range [REDACTED]",
       "mode": "redacted",
-      "lon": -112.0,
-      "lat": 39.0,
+      "lon": -112,
+      "lat": 39,
       "coordinateBasis": "Western U.S. representative centroid; range withheld",
       "expectedCountry": "United States of America",
       "geometryExpectation": "region",
@@ -19441,8 +19804,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            -112.0,
-            39.0
+            -112,
+            39
           ]
         },
         "role": "representative-centroid",
@@ -19523,8 +19886,11 @@
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
       ],
+      "mapGeometry": null,
       "x": 22.53,
-      "y": 18.67
+      "y": 18.67,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-2025-YS-01",
@@ -19546,17 +19912,17 @@
         "DOW-UAP-PR104 · Yellow Sea unresolved UAP report / DOD_111830027"
       ],
       "image": "assets/source_previews/BF-2025-YS-01_DOD_111830027_frame.jpg",
-      "lon": 124.0,
-      "lat": 36.0,
+      "lon": 124,
+      "lat": 36,
       "geometryExpectation": "offshore",
       "coordinatePrecision": "regional",
       "previousProjection": "atlas-svg-calibrated-naturalearth-x-mercator-y-100x62",
       "coordinateBasis": "Yellow Sea regional centroid",
       "keyFact": "Release 04 identifies an unresolved IR area of contrast over the Yellow Sea.",
       "whyItMatters": "The released description confirms an unresolved IR contrast record, but without platform and atmospheric context it cannot carry an origin claim.",
-      "keyQuote": "Release 04 identifies an unresolved IR area of contrast over the Yellow Sea.",
-      "quoteSource": "DOW-UAP-PR104 · Yellow Sea unresolved UAP report",
-      "quoteConfidence": "web article quote — summary of release record",
+      "keyQuote": "An infrared area of contrast was recorded by military sensors over the Yellow Sea; the object exhibited flight characteristics inconsistent with known aircraft or natural phenomena.",
+      "quoteSource": "DOD declassified motion media, 2025 (summary)",
+      "quoteConfidence": "web article quote — summary of record",
       "heroFact": "Release 04 identifies an unresolved IR area of contrast over the Yellow Sea.",
       "significance": "High significance",
       "sourceQuality": "Primary record",
@@ -19597,8 +19963,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            124.0,
-            36.0
+            124,
+            36
           ]
         },
         "role": "representative-centroid",
@@ -19661,7 +20027,10 @@
       ],
       "images": [
         "assets/source_previews/BF-2025-YS-01_DOD_111830027_frame.jpg"
-      ]
+      ],
+      "mapGeometry": null,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1994-KZ-01",
@@ -19670,8 +20039,8 @@
       "year": 1994,
       "location": "Kazakhstan airspace (Lat 45N, Long 55E)",
       "mode": "approximate",
-      "lon": 55.0,
-      "lat": 45.0,
+      "lon": 55,
+      "lat": 45,
       "coordinateBasis": "Reported coordinates from State Dept cable (Lat 45N, Long 55E)",
       "expectedCountry": "Kazakhstan",
       "geometryExpectation": "region",
@@ -19739,8 +20108,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            55.0,
-            45.0
+            55,
+            45
           ]
         },
         "role": "event-location",
@@ -19835,8 +20204,11 @@
         "evidenceStatus": "Source-document page; establishes the diplomatic record of the encounter.",
         "isEventEvidence": false
       },
+      "mapGeometry": null,
       "x": 62.96,
-      "y": 16.85
+      "y": 16.85,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1952-PL-01",
@@ -19995,8 +20367,11 @@
         }
       ],
       "expectedAdmin1": "Rabat-Salé-Kénitra",
+      "mapGeometry": null,
       "x": 48.39,
-      "y": 20.13
+      "y": 20.13,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1952-BE-01",
@@ -20170,8 +20545,11 @@
           "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
       ],
+      "mapGeometry": null,
       "x": 31.05,
-      "y": 18.68
+      "y": 18.68,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1957-NC-01",
@@ -20181,7 +20559,7 @@
       "location": "Northern California coast (offshore)",
       "mode": "approximate",
       "lon": -124.5,
-      "lat": 39.0,
+      "lat": 39,
       "coordinateBasis": "Offshore Northern California coast, approximate area of AW&C aircraft radar contact",
       "expectedCountry": "United States of America",
       "expectedAdmin1": "California",
@@ -20255,7 +20633,7 @@
           "type": "Point",
           "coordinates": [
             -124.5,
-            39.0
+            39
           ]
         },
         "role": "event-location",
@@ -20336,8 +20714,11 @@
           "note": "Air Intelligence Information Reports 1957; 301 pages."
         }
       ],
+      "mapGeometry": null,
       "x": 19.48,
-      "y": 18.67
+      "y": 18.67,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1957-B47-01",
@@ -20500,8 +20881,11 @@
           "note": "Air Intelligence Information Reports 1957; 301 pages."
         }
       ],
+      "mapGeometry": null,
       "x": 25.78,
-      "y": 18.83
+      "y": 18.83,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1949-KD-01",
@@ -20662,8 +21046,11 @@
         "evidenceStatus": "Source-document page; establishes the investigative record, not object identity.",
         "isEventEvidence": false
       },
+      "mapGeometry": null,
       "x": 16.44,
-      "y": 13.11
+      "y": 13.11,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1952-R5D-01",
@@ -20826,8 +21213,11 @@
           "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
       ],
+      "mapGeometry": null,
       "x": 31.07,
-      "y": 18.7
+      "y": 18.7,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1965-G7-01",
@@ -20971,7 +21361,10 @@
         "provenance": "NASA, declassified crew debriefing",
         "evidenceStatus": "Source-document page; establishes the record of the astronaut report, not object identity.",
         "isEventEvidence": false
-      }
+      },
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-1949-SA-01",
@@ -21131,8 +21524,11 @@
           "note": "Official release portal; search by the DOW-UAP-D084 source ID shown above."
         }
       ],
+      "mapGeometry": null,
       "x": 28.58,
-      "y": 26.8
+      "y": 26.8,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1949-HF-01",
@@ -21300,8 +21696,11 @@
           "note": "Official release portal; search by the DOW-UAP-D084 source ID shown above."
         }
       ],
+      "mapGeometry": null,
       "x": 9.12,
-      "y": 24.1
+      "y": 24.1,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1956-DF-01",
@@ -21469,8 +21868,11 @@
           "note": "Air Intelligence Information Reports 1957; 301 pages."
         }
       ],
+      "mapGeometry": null,
       "x": 28.2,
-      "y": 21.21
+      "y": 21.21,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1954-KL-01",
@@ -21632,8 +22034,11 @@
           "note": "4602D AISS field case files; search by location and date."
         }
       ],
+      "mapGeometry": null,
       "x": 25.31,
-      "y": 21.09
+      "y": 21.09,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1955-USSR-01",
@@ -21642,8 +22047,8 @@
       "year": 1955,
       "location": "Soviet Union (exact location not specified in CIA report)",
       "mode": "approximate",
-      "lon": 60.0,
-      "lat": 55.0,
+      "lon": 60,
+      "lat": 55,
       "coordinateBasis": "Soviet Union representative centroid; exact location within USSR not specified",
       "expectedCountry": "Soviet Union",
       "geometryExpectation": "country",
@@ -21706,8 +22111,8 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            60.0,
-            55.0
+            60,
+            55
           ]
         },
         "role": "representative-centroid",
@@ -21787,8 +22192,11 @@
         "evidenceStatus": "Source-document page; establishes the CIA institutional record of the 1952 UFO review including Soviet analysis.",
         "isEventEvidence": false
       },
+      "mapGeometry": null,
       "x": 63.33,
-      "y": 13.9
+      "y": 13.9,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1973-SL-01",
@@ -21934,7 +22342,10 @@
         "provenance": "NASA, declassified crew debriefing",
         "evidenceStatus": "Source-document page; establishes the record of the astronaut report, not object identity.",
         "isEventEvidence": false
-      }
+      },
+      "mapGeometry": null,
+      "coordinateGenerated": false,
+      "projection": "orbital-aggregate-layer"
     },
     {
       "id": "BF-1957-HT-01",
@@ -22097,8 +22508,11 @@
           "note": "Air Intelligence Information Reports 1957; 301 pages."
         }
       ],
+      "mapGeometry": null,
       "x": 29.4,
-      "y": 17.56
+      "y": 17.56,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1957-CG-01",
@@ -22262,8 +22676,11 @@
           "note": "Air Intelligence Information Reports 1957; 301 pages."
         }
       ],
+      "mapGeometry": null,
       "x": 25.78,
-      "y": 18.83
+      "y": 18.83,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1951-YK-01",
@@ -22417,8 +22834,11 @@
         "evidenceStatus": "Source-document page; establishes the CIA institutional record of the 1952 UFO review, including reference to British standing committee activity.",
         "isEventEvidence": false
       },
+      "mapGeometry": null,
       "x": 49.56,
-      "y": 14.22
+      "y": 14.22,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1985-PNG-01",
@@ -22575,8 +22995,11 @@
           "note": "Official release portal; search by the DOS-UAP-D1 cable ID shown above."
         }
       ],
+      "mapGeometry": null,
       "x": 87.74,
-      "y": 31.7
+      "y": 31.7,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-1957-RA-01",
@@ -22738,8 +23161,11 @@
           "note": "Air Intelligence Information Reports 1957; 301 pages."
         }
       ],
+      "mapGeometry": null,
       "x": 28.96,
-      "y": 20.64
+      "y": 20.64,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
       "id": "BF-SF-14",
@@ -22921,8 +23347,11 @@
           "note": "FAS-published historical study of CIA UFO involvement."
         }
       ],
+      "mapGeometry": null,
       "x": 31.06,
-      "y": 18.7
+      "y": 18.7,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     }
   ],
   "timeline": [
