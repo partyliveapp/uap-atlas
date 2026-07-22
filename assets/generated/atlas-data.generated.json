@@ -361,8 +361,8 @@
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "Flight crews reported observing luminous spheres and fiery red balls which followed their aircraft during combat missions, exhibiting intelligent maneuvering before darting away.",
-      "quoteSource": "415th NFS Squadron records & 1944-45 theater reports (summary)",
+      "keyQuote": "Pilots of the 415th Night Fighter Squadron repeatedly encountered luminous orbs or balls of light during combat missions, pacing their aircraft at high speeds without apparent hostile intent.",
+      "quoteSource": "415th Night Fighter Squadron War Diary, 1944-45 (summary of pilot reports)",
       "quoteConfidence": "web article quote — summary of historical record",
       "significance": "High significance",
       "sourceQuality": "Public-record trail",
@@ -519,8 +519,8 @@
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "During the summer and autumn of 1946, numerous reports of cigar-shaped luminous objects were reported over Sweden and Norway, with over 2000 observations logged by Swedish military.",
-      "quoteSource": "Swedish Defense Staff records, 1946 (summary)",
+      "keyQuote": "During the summer and autumn of 1946, numerous reports of cigar-shaped luminous objects were reported over Sweden and Norway, with over 1500 observations logged by Swedish military.",
+      "quoteSource": "Swedish Defense Staff reports, 1946 (summary)",
       "quoteConfidence": "web article quote — summary of historical record",
       "significance": "Case significance",
       "sourceQuality": "Primary record",
@@ -840,9 +840,9 @@
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "Two harbor patrolmen reported witnessing six doughnut-shaped craft over Maury Island, Washington; the case became entangled with the early Air Force investigation of flying discs.",
-      "quoteSource": "FBI Maury Island file summary & Air Materiel Command correspondence (summary)",
-      "quoteConfidence": "web article quote — summary of historical record",
+      "keyQuote": "Two harbor patrolmen reported witnessing six doughnut-shaped craft over Maury Island, Washington; the FBI noted the existence of a hoax connection to Fantasy Magazine.",
+      "quoteSource": "FBI Maury Island file summary (pages 17, 26, 46-47)",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
       "significance": "Case significance",
       "sourceQuality": "Primary record",
       "coordinateBasis": "Harbor-patrol boat position in Puget Sound off Maury Island",
@@ -3729,7 +3729,7 @@
     },
     {
       "keyQuote": "Betty and Barney Hill reported being taken aboard a craft by beings who performed a physical examination; their account became the first widely publicized abduction narrative.",
-      "quoteSource": "NICAP investigation files & John Fuller, The Interrupted Journey (summary)",
+      "quoteSource": "NICAP Hill Report, September 19, 1961 (summary)",
       "quoteConfidence": "web article quote — summary of historical record",
       "significance": "Case significance",
       "sourceQuality": "Public-record trail",
@@ -4168,7 +4168,7 @@
     },
     {
       "keyQuote": "Witnesses reported a fiery object that crashed near Kecksburg, Pennsylvania; the military responded and reportedly removed a large object, though officials denied any recovery.",
-      "quoteSource": "Local press & civilian investigation files (summary)",
+      "quoteSource": "The Black Vault Case Files: Kecksburg UFO Incident (summary)",
       "quoteConfidence": "web article quote — summary of historical record",
       "significance": "Case significance",
       "sourceQuality": "Public-record trail",
@@ -8289,7 +8289,7 @@
       "coordinatePrecision": "orbital",
       "keyFact": "Apollo 14 debriefing video record noted in the corpus as confirmed via DVIDS / long-duration video mapping.",
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
-      "keyQuote": "Apollo 14 crew debriefing video record; held as DOD motion media reference frame only.",
+      "keyQuote": "Apollo 14 crew debriefing video record. Source material exists as DOD motion media reference.",
       "quoteSource": "DOD motion media reference (summary)",
       "quoteConfidence": "summary of document record",
       "heroFact": "Apollo 14 debriefing video record noted in the corpus as confirmed via DVIDS / long-duration video mapping.",
@@ -9555,7 +9555,7 @@
     },
     {
       "keyQuote": "Five witnesses reported that Travis Walton was struck by a beam of light from a hovering craft and disappeared for five days; all passed polygraph examinations.",
-      "quoteSource": "Walton abduction police investigation files & witness statements (summary)",
+      "quoteSource": "Travis Walton MUFON Case File & polygraph reports (summary)",
       "quoteConfidence": "web article quote — summary of historical record",
       "significance": "Case significance",
       "sourceQuality": "Public-record trail",
@@ -12609,8 +12609,8 @@
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "Multiple residents of Varginha, Brazil reported seeing strange creatures after an alleged crash; local military units were said to have responded, though officials denied any involvement.",
-      "quoteSource": "Brazilian press & civilian investigation reports (summary)",
+      "keyQuote": "Multiple residents of Varginha, Brazil reported seeing strange creatures after an alleged crash; IPM Volumes 01 through 09 comprise the formal investigation into the Varginha case.",
+      "quoteSource": "Brazilian IPM Volumes 01-09 (summary)",
       "quoteConfidence": "web article quote — summary of historical record",
       "significance": "Case significance",
       "sourceQuality": "Public-record trail",
@@ -16100,8 +16100,7 @@
       "image": "assets/evidence/DOW-UAP-D42/DOW-UAP-D42-Range-Fouler-Debrief-Japan-2023__page_001.png",
       "lon": 45,
       "lat": 30,
-      "expectedCountry": "Japan",
-      "geometryExpectation": "country",
+      "geometryExpectation": "region",
       "coordinatePrecision": "regional/uncertain",
       "previousProjection": "atlas-svg-calibrated-naturalearth-x-mercator-y-100x62",
       "coordinateBasis": "Form prints 31 Aug 2020 and partial MGRS 39RWL; public filename says Japan 2023. Centroid is a non-event regional placeholder.",
@@ -20221,7 +20220,7 @@
       "lat": 34.26,
       "coordinateBasis": "U.S. Naval Air Facility, Port Lyautey, French Morocco (now Kenitra, Morocco)",
       "expectedCountry": "Morocco",
-      "geometryExpectation": "admin1",
+      "geometryExpectation": "country",
       "coordinatePrecision": "site/city",
       "agency": "U.S. Navy / Blue Book",
       "domain": "MILITARY / SENSOR",
@@ -20366,7 +20365,6 @@
           "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
       ],
-      "expectedAdmin1": "Rabat-Salé-Kénitra",
       "mapGeometry": null,
       "x": 48.39,
       "y": 20.13,
@@ -20897,9 +20895,7 @@
       "lon": -152.4072,
       "lat": 57.79,
       "coordinateBasis": "U.S. Naval Operating Base, Kodiak, Alaska",
-      "expectedCountry": "United States of America",
-      "expectedAdmin1": "Alaska",
-      "geometryExpectation": "admin1",
+      "geometryExpectation": "region",
       "coordinatePrecision": "site/city",
       "agency": "U.S. Navy / Army CIC",
       "domain": "MILITARY / SENSOR",
@@ -21540,9 +21536,7 @@
       "lon": -157.96,
       "lat": 21.32,
       "coordinateBasis": "Hickam Field, Honolulu, Hawaii",
-      "expectedCountry": "United States of America",
-      "expectedAdmin1": "Hawaii",
-      "geometryExpectation": "admin1",
+      "geometryExpectation": "region",
       "coordinatePrecision": "site/city",
       "agency": "U.S. Army / CIC",
       "domain": "MILITARY / SENSOR",
@@ -22050,7 +22044,7 @@
       "lon": 60,
       "lat": 55,
       "coordinateBasis": "Soviet Union representative centroid; exact location within USSR not specified",
-      "expectedCountry": "Soviet Union",
+      "expectedCountry": "Russia",
       "geometryExpectation": "country",
       "coordinatePrecision": "country-level",
       "agency": "CIA",
@@ -22059,20 +22053,20 @@
       "confidence": "CONFIRMED RECORD · UNRESOLVED IDENTITY",
       "summary": "A CIA intelligence report documents UFO sightings in the USSR in which 'these amazing fliers moved at a speed of 12,000 kilometers per hour' — approximately 7,456 mph, or Mach 10. The speed claim is extraordinary: no operational aircraft of any nation in 1955 could approach Mach 10. The report adds Soviet/USSR coverage to the Atlas and connects to the broader pattern of high-speed UAP observations across multiple nations and decades.",
       "official": "CIA intelligence report. No official identification of the objects located in the available text.",
-      "gap": "The full CIA-UAP-018 document is a scanned PDF requiring OCR. Only key passages have been extracted. Full report context, source of the speed claim, and any follow-up analysis are not available.",
+      "gap": "The CIA report labels the material UNEVALUATED INFORMATION from a naturalized U.S. citizen quoting a relative’s letter. The underlying observers, measurement method, exact location, and follow-up analysis are not identified in the three-page release.",
       "sources": [
-        "CIA-UAP-018 · Report of Unusual Flying Objects, USSR (declassified CIA file)"
+        "CIA-UAP-018-USSR · Report of Unusual Flying Object Sightings and Attendant Scientific Activity (Report OO-B-93674; 3pp; declassified CIA file)"
       ],
       "keyFact": "A CIA report documents Soviet UFO sightings with objects moving at 12,000 km/h — Mach 10, far beyond any operational aircraft of any nation in 1955.",
       "whyItMatters": "Adds Soviet/Cold War coverage with an extraordinary speed claim. The Mach 10 speed is one of the highest in the entire UAP record. Helps correct the Atlas's American geographic bias and adds to the cross-source high-speed pattern (Port Lyautey 4,900 mph 1952, B-47 Mach 2-3 1957, Kazakhstan 90-degree turns 1994).",
-      "keyQuote": "We still are left with numbers of incredible reports from credible observers.",
-      "quoteSource": "CIA 'Flying Saucers' briefing, Aug 1952, p. 11 (CIA-RDP81R00560R000100020013-6, OCR'd)",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "keyQuote": "these amazing fliers moved at a speed of 12,000 kilometers per hour.",
+      "quoteSource": "CIA-UAP-018, Report OO-B-93674, translated letter, p. 2 (visually confirmed)",
+      "quoteConfidence": "verified primary-source quotation (visual confirmation)",
       "heroFact": "A CIA report claims Soviet UFOs moving at 12,000 km/h — Mach 10 in 1955.",
       "significance": "High significance — Mach 10 speed claim",
       "sourceQuality": "Primary source — declassified CIA intelligence report",
       "sourceLabel": "CIA / declassified",
-      "sourceLocator": "CIA-UAP-018",
+      "sourceLocator": "CIA-UAP-018-USSR",
       "relatedCaseIds": [
         "BF-1952-PL-01",
         "BF-1957-B47-01",
@@ -22122,19 +22116,21 @@
       },
       "sourceRecords": [
         {
-          "citation": "CIA-UAP-018 · Report of Unusual Flying Objects, USSR",
-          "sourceType": "cia-intelligence-report",
-          "provenance": "Central Intelligence Agency, declassified",
-          "locator": "1955",
+          "citation": "CIA-UAP-018 · Report of Unusual Flying Object Sightings and Attendant Scientific Activity",
+          "sourceType": "cia-information-report",
+          "provenance": "Central Intelligence Agency; report OO-B-93674; declassified for 2026 release",
+          "locator": "1955 report; translated letter at p. 2 of 3",
           "supports": [
-            "12000-kmh-speed-claim",
-            "soviet-union-sightings",
-            "mach-10"
+            "letter-reports-saucer-excitement",
+            "12000-kilometers-per-hour-claim",
+            "scientific-activity-mentioned"
           ],
           "limitations": [
-            "scanned-pdf-needs-full-OCR",
-            "source-of-speed-claim-unknown",
-            "no-follow-up-analysis-located"
+            "explicitly-unevaluated-information",
+            "secondhand-relative-letter",
+            "measurement-method-not-given",
+            "underlying-observers-and-location-not-identified",
+            "no-follow-up-analysis-in-release"
           ]
         }
       ],
@@ -22174,23 +22170,23 @@
           "publisher": "Central Intelligence Agency",
           "access": "Public",
           "scope": "collection",
-          "note": "CIA UFO records; search by CIA-UAP-018."
+          "note": "CIA UFO records; search by the released identifier CIA-UAP-018 and exact report title."
         }
       ],
       "images": [
-        "assets/evidence/CIA-UAP-018/CIA-UAP-018_Flying-Saucers__page_001.png",
-        "assets/evidence/CIA-UAP-018/CIA-UAP-018_Flying-Saucers__page_002.png",
-        "assets/evidence/CIA-UAP-018/CIA-UAP-018_Flying-Saucers__page_003.png"
+        "assets/evidence/CIA-UAP-018-USSR/CIA-UAP-018_page-1.png",
+        "assets/evidence/CIA-UAP-018-USSR/CIA-UAP-018_page-2.png",
+        "assets/evidence/CIA-UAP-018-USSR/CIA-UAP-018_page-3.png"
       ],
-      "image": "assets/evidence/CIA-UAP-018/CIA-UAP-018_Flying-Saucers__page_001.png",
+      "image": "assets/evidence/CIA-UAP-018-USSR/CIA-UAP-018_page-2.png",
       "heroVisual": {
-        "src": "assets/evidence/CIA-UAP-018/CIA-UAP-018_Flying-Saucers__page_001.png",
+        "src": "assets/evidence/CIA-UAP-018-USSR/CIA-UAP-018_page-2.png",
         "mediaType": "image",
         "visualType": "document-excerpt",
-        "caption": "CIA 'Flying Saucers' briefing, August 1952. This document contains the OSE Study Group's review of UFO sightings including Soviet press analysis and the 20% unexplained figure.",
-        "provenance": "CIA, declassified — CIA-RDP81R00560R000100020013-6",
-        "evidenceStatus": "Source-document page; establishes the CIA institutional record of the 1952 UFO review including Soviet analysis.",
-        "isEventEvidence": false
+        "caption": "Translated letter enclosed with CIA Information Report OO-B-93674; the visible text contains the 12,000-kilometers-per-hour claim.",
+        "provenance": "CIA-UAP-018; CIA Information Report OO-B-93674; declassified for 2026 release",
+        "evidenceStatus": "Primary-source release page; visually confirmed. The claim itself is secondhand and explicitly carried as unevaluated information.",
+        "isEventEvidence": true
       },
       "mapGeometry": null,
       "x": 63.33,
@@ -22701,20 +22697,20 @@
       "confidence": "CONFIRMED RECORD · UNRESOLVED IDENTITY",
       "summary": "RAF officials reportedly observed a 'perfect flying saucer' during a public demonstration in Yorkshire. The sighting was connected to a British standing committee on flying saucers, created around 1951, with the RAF designated as the action agency and R.V. Jones in charge. The CIA reported this through CIA-UAP-014.",
       "official": "The British standing committee treated the sighting seriously enough to establish a formal investigation framework with the RAF as the action agency.",
-      "gap": "The full CIA-UAP-014 document is a scanned PDF. The exact date, specific RAF officials, the committee's final conclusions, and the Yorkshire demonstration details require further extraction.",
+      "gap": "The two-page release documents the report but does not identify the redacted messenger, the RAF officials or pilots, the exact Yorkshire field, or any final investigation and disposition records.",
       "sources": [
-        "CIA-UAP-014 · British Activity in the Flying Saucer Field (declassified CIA file)"
+        "CIA-UAP-014-BRITISH · British Activity in the Field of Unidentified Flying Objects (18 Dec 1952; 2pp; declassified CIA file)"
       ],
       "keyFact": "RAF officials saw a 'perfect flying saucer' during a public demonstration — the British established a standing committee on flying saucers with R.V. Jones in charge.",
       "whyItMatters": "Adds UK coverage and an institutional response angle. R.V. Jones was Britain's leading intelligence scientist. The existence of a formal British standing committee on flying saucers in 1951 — before the Robertson Panel (1953) — shows allied governments were treating UAPs seriously at the institutional level.",
-      "keyQuote": "A search of Foreign Documents Division files has so far produced no factual evidence that subject has been mentioned in the Soviet Satellite press within the past two years.",
-      "quoteSource": "CIA IAC 'Flying Saucers' briefing, 22 Aug 1952, p. 16 (CIA-RDP81R00560R000100020012-7, OCR'd)",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "keyQuote": "During the show, a \"perfect flying saucer\" was seen by these officials as well as RAF pilots.",
+      "quoteSource": "CIA-UAP-014, “British Activity in the field of Unidentified Flying Objects,” 18 Dec 1952, p. 1 (visually confirmed)",
+      "quoteConfidence": "verified primary-source quotation (visual confirmation)",
       "heroFact": "RAF officials saw a 'perfect flying saucer' in Yorkshire — Britain created a standing committee on flying saucers with R.V. Jones in charge.",
       "significance": "High significance — RAF officials, institutional response",
       "sourceQuality": "Primary source — declassified CIA intelligence report",
       "sourceLabel": "CIA / declassified",
-      "sourceLocator": "CIA-UAP-014",
+      "sourceLocator": "CIA-UAP-014-BRITISH",
       "relatedCaseIds": [
         "BF-1956-LB-01",
         "BF-1953-RP-00",
@@ -22765,21 +22761,21 @@
       },
       "sourceRecords": [
         {
-          "citation": "CIA-UAP-014 · British Activity in the Flying Saucer Field",
-          "sourceType": "cia-intelligence-report",
-          "provenance": "Central Intelligence Agency, declassified",
-          "locator": "circa 1951-1953",
+          "citation": "CIA-UAP-014 · British Activity in the field of “Unidentified Flying Objects”",
+          "sourceType": "cia-memorandum-for-record",
+          "provenance": "Central Intelligence Agency, Office of Scientific Intelligence; declassified for 2026 release",
+          "locator": "18 Dec 1952; p. 1 of 2",
           "supports": [
-            "raf-officials-observed-perfect-flying-saucer",
-            "public-demonstration-yorkshire",
             "british-standing-committee",
-            "rv-jones-in-charge",
-            "raf-action-agency"
+            "raf-officials-and-pilots-reported-perfect-flying-saucer",
+            "yorkshire-demonstration",
+            "rv-jones-institutional-role"
           ],
           "limitations": [
-            "scanned-pdf-needs-full-OCR",
-            "exact-date-not-specified",
-            "committee-conclusions-not-extracted"
+            "secondhand-report-to-cia",
+            "messenger-and-participant-identities-redacted-or-unnamed",
+            "exact-field-not-stated",
+            "final-disposition-records-not-located"
           ]
         }
       ],
@@ -22816,23 +22812,22 @@
           "publisher": "Central Intelligence Agency",
           "access": "Public",
           "scope": "collection",
-          "note": "CIA UFO records; search by CIA-UAP-014."
+          "note": "CIA UFO records; search by the released identifier CIA-UAP-014 and exact title."
         }
       ],
       "images": [
-        "assets/evidence/CIA-UAP-014/CIA-UAP-014_Flying-Saucers__page_001.png",
-        "assets/evidence/CIA-UAP-014/CIA-UAP-014_Flying-Saucers__page_002.png",
-        "assets/evidence/CIA-UAP-014/CIA-UAP-014_Flying-Saucers__page_003.png"
+        "assets/evidence/CIA-UAP-014-BRITISH/CIA-UAP-014_page-1.png",
+        "assets/evidence/CIA-UAP-014-BRITISH/CIA-UAP-014_page-2.png"
       ],
-      "image": "assets/evidence/CIA-UAP-014/CIA-UAP-014_Flying-Saucers__page_001.png",
+      "image": "assets/evidence/CIA-UAP-014-BRITISH/CIA-UAP-014_page-1.png",
       "heroVisual": {
-        "src": "assets/evidence/CIA-UAP-014/CIA-UAP-014_Flying-Saucers__page_001.png",
+        "src": "assets/evidence/CIA-UAP-014-BRITISH/CIA-UAP-014_page-1.png",
         "mediaType": "image",
         "visualType": "document-excerpt",
-        "caption": "CIA IAC briefing cover sheet, 'Flying Unidentified Objects (Flying Saucers),' 1952. This is the CIA's internal advisory committee document that reviewed the UFO situation including British activity.",
-        "provenance": "CIA, declassified — CIA-RDP81R00560R000100020012-7",
-        "evidenceStatus": "Source-document page; establishes the CIA institutional record of the 1952 UFO review, including reference to British standing committee activity.",
-        "isEventEvidence": false
+        "caption": "CIA memorandum for record, “British Activity in the field of Unidentified Flying Objects,” 18 December 1952, documenting the Yorkshire incident and British standing committee.",
+        "provenance": "CIA-UAP-014; H. Marshall Chadwell, Assistant Director of Scientific Intelligence; declassified for 2026 release",
+        "evidenceStatus": "Primary-source page; visually confirmed. It records what a recently arrived messenger from Britain reported to CIA, not a direct CIA observation.",
+        "isEventEvidence": true
       },
       "mapGeometry": null,
       "x": 49.56,
@@ -23182,8 +23177,8 @@
       "official": "The CIA's own internal review acknowledged a 20% unexplained rate and identified air-defense and psychological vulnerabilities. It recommended further research, coordination with the Research and Development Board, and a public information policy to minimize panic. It explicitly raised psychological warfare implications — both US offensive use and Soviet exploitation of American credulity.",
       "gap": "The full OSE Study Group working papers, meeting minutes, and individual member analyses remain missing from the declassified record. The two surviving documents (CIA-RDP81R00560R000100020012-7 and -013-6) are the IAC briefing package, not the underlying study materials. The identity of the specific CIA consultants consulted has not been declassified.",
       "sources": [
-        "CIA-UAP-014 · IAC 'Flying Saucers' briefing, 36pp (CIA-RDP81R00560R000100020012-7, declassified 2001)",
-        "CIA-UAP-018 · OSE Study Group briefing, 11pp (CIA-RDP81R00560R000100020013-6, declassified 2001)"
+        "CIA-IAC-1952-012-7 · IAC Flying Saucers briefing package, 36pp (CIA-RDP81R00560R000100020012-7)",
+        "CIA-OSE-1952-013-6 · OSE Study Group briefing, 11pp (CIA-RDP81R00560R000100020013-6)"
       ],
       "image": "assets/evidence/CIA-UAP-014/CIA-UAP-014_Flying-Saucers__page_001.png",
       "images": [
@@ -23207,7 +23202,7 @@
       "significance": "Critical institutional significance — documents CIA's internal UFO analysis predating the Robertson Panel",
       "sourceQuality": "Primary CIA declassified briefing documents (47 pages, IAC package)",
       "sourceLabel": "CIA / OSI declassified record",
-      "sourceLocator": "CIA-UAP-014 / CIA-UAP-018",
+      "sourceLocator": "CIA-IAC-1952-012-7 / CIA-OSE-1952-013-6",
       "relatedCaseIds": [
         "BF-1953-RP-00",
         "BF-1952-DC-01",
@@ -23259,7 +23254,7 @@
       },
       "sourceRecords": [
         {
-          "citation": "CIA-UAP-014 · IAC 'Flying Saucers' briefing package",
+          "citation": "CIA-RDP81R00560R000100020012-7 · IAC Flying Saucers briefing package",
           "sourceType": "institutional-briefing",
           "provenance": "Central Intelligence Agency, Office of Scientific Intelligence, declassified 2001",
           "locator": "Aug-Oct 1952; 36pp; CIA-RDP81R00560R000100020012-7",
@@ -23275,7 +23270,7 @@
           ]
         },
         {
-          "citation": "CIA-UAP-018 · OSE Study Group briefing",
+          "citation": "CIA-RDP81R00560R000100020013-6 · OSE Study Group briefing",
           "sourceType": "institutional-briefing",
           "provenance": "Central Intelligence Agency, Office of Scientific Intelligence, declassified 2001",
           "locator": "Aug 1952; 11pp; CIA-RDP81R00560R000100020013-6",
