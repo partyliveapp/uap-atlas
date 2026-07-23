@@ -350,7 +350,9 @@
     "assets/source_previews/BF-1944-FF-01_source_image.png",
     "assets/source_previews/BF-1944-FF-01_source_manifest.svg",
     "assets/source_previews/BF-1944-FF-01_source_image.jpg",
-    "source-files/evidence-depth/FOO-1944-evidence-depth.md"
+    "source-files/evidence-depth/FOO-1944-evidence-depth.md",
+    "source-files/archives/FOO-1944-official-transcriptions/CUFON-Foo-Fighter-Documents.html",
+    "source-files/archives/FOO-1944-official-transcriptions/custody-manifest.json"
   ],
   "GEPAN-1981": [
     "assets/evidence/GEPAN-1981/GEPAN-1981-Note-Technique-16-Trans-en-Provence_page_001.png",
@@ -378,7 +380,9 @@
     "assets/evidence/hero-visuals/GREATFALLS-1950-Mariana-film-frame-260s.jpg",
     "assets/evidence/GREATFALLS-1950/GREATFALLS-1950-BlueBook-record-card.png",
     "assets/evidence/GREATFALLS-1950/GREATFALLS-1950-Mariana-film.webm",
-    "assets/evidence/GREATFALLS-1950/GREATFALLS-1950-BlueBook-case-file.pdf"
+    "assets/evidence/GREATFALLS-1950/GREATFALLS-1950-BlueBook-case-file.pdf",
+    "assets/evidence/GREATFALLS-1950/GREATFALLS-1950-NARA-NAID-28938188-page-0972.jpg",
+    "source-files/archives/GREATFALLS-1950-NARA-NAID-28938188/custody-manifest.json"
   ],
   "GRUSCH-2023": [
     "assets/source_previews/BF-SF-10_source_image.png",
@@ -428,7 +432,11 @@
   ],
   "LAKENHEATH-1956": [
     "assets/source_previews/BF-1956-LB-01_LAKENHEATH-1956-McDonald-analysis_page_001.png",
-    "assets/source_previews/BF-1956-LB-01_CIA-UAP-015-Project_Blue_Book_Special_Report_No_14_page_001.png"
+    "assets/source_previews/BF-1956-LB-01_CIA-UAP-015-Project_Blue_Book_Special_Report_No_14_page_001.png",
+    "assets/evidence/LAKENHEATH-1956/LAKENHEATH-1956-NARA-NAID-28966873-page-0019.jpg",
+    "assets/evidence/LAKENHEATH-1956/LAKENHEATH-1956-NARA-NAID-28966873-page-0021.jpg",
+    "source-files/archives/LAKENHEATH-1956-NARA-NAID-28966873/nara-manifest.json",
+    "source-files/archives/LAKENHEATH-1956-NARA-NAID-28966873/custody-manifest.json"
   ],
   "LANGLEY-2023": [
     "assets/source_previews/BF-2023-LG-01_source_image.jpg"
@@ -457,7 +465,11 @@
     "assets/evidence/MANTELL/f51s.jpg",
     "assets/evidence/MANTELL/skyhook.jpg",
     "assets/evidence/MANTELL/reconstruction.png",
-    "assets/evidence/MANTELL/MANTELL-1948-BlueBook-Godman-case-file.pdf"
+    "assets/evidence/MANTELL/MANTELL-1948-BlueBook-Godman-case-file.pdf",
+    "assets/evidence/MANTELL/MANTELL-1948-NARA-NAID-28930550-page-0838.jpg",
+    "assets/evidence/MANTELL/MANTELL-1948-NARA-NAID-28930550-page-0867.jpg",
+    "source-files/archives/MANTELL-1948-NARA-NAID-28930550/nara-manifest.json",
+    "source-files/archives/MANTELL-1948-NARA-NAID-28930550/custody-manifest.json"
   ],
   "MAURY-1947": [
     "assets/source_previews/BF-1947-MI-01_source_image.jpg",
@@ -725,7 +737,14 @@
   "TREMONTON-1952": [
     "assets/evidence/hero-visuals/TREMONTON-1952-case-sheet-film-inset.jpg",
     "assets/evidence/TREMONTON-1952/TREMONTON-1952-Newhouse-case-sheet.png",
-    "assets/evidence/TREMONTON-1952/TREMONTON-1952-BlueBook-file-1377-1415.pdf"
+    "assets/evidence/TREMONTON-1952/TREMONTON-1952-BlueBook-file-1377-1415.pdf",
+    "assets/evidence/TREMONTON-1952/TREMONTON-1952-NARA-NAID-28943418-page-0053.jpg",
+    "assets/evidence/TREMONTON-1952/TREMONTON-1952-NARA-NAID-28943418-page-0073.jpg",
+    "assets/evidence/TREMONTON-1952/TREMONTON-1952-NARA-NAID-28943418-page-0084.jpg",
+    "source-files/archives/TREMONTON-1952-NARA-NAID-28943418/nara-manifest.json",
+    "source-files/archives/TREMONTON-1952-FILM-NARA-NAID-61937/nara-manifest.json",
+    "source-files/archives/TREMONTON-1952-NARA-NAID-28943418/custody-manifest.json",
+    "source-files/archives/TREMONTON-1952-FILM-NARA-NAID-61937/custody-manifest.json"
   ],
   "TRINDADE-1958": [
     "assets/source_previews/BF-1958-TR-01_source_image.jpg"

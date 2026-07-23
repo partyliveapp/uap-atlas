@@ -344,11 +344,11 @@
       ]
     },
     {
-      "keyQuote": "Pilots of the 415th Night Fighter Squadron repeatedly encountered luminous orbs or balls of light during combat missions, pacing their aircraft at high speeds without apparent hostile intent.",
-      "quoteSource": "415th Night Fighter Squadron War Diary, 1944-45 (summary of pilot reports)",
-      "quoteConfidence": "web article quote — summary of historical record",
+      "keyQuote": "“In Rastatt area sighted five or six red and green lights in a ‘T’ shape which followed A/C thru turns and closed to 1000 feet. Lights followed for several miles then went out. Our pilots have named these mysterious [unreadable] which they encounter over Germany at night ‘Foo-Fighters.’”",
+      "quoteSource": "CUFON transcription of the SECRET December 1944 War Diary, 415th Night Fighter Squadron, entry for 18 December; transcription says records were reproduced from official wartime documents.",
+      "quoteConfidence": "Medium — the official-record wording is preserved in an archival transcription, but an original scan and exact NARA/AFHRA catalog identifier were not recovered.",
       "significance": "High significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Strong transcription of official wartime records, but incomplete archival custody and no exact catalog identifier.",
       "coordinateBasis": "415th Night Fighter Squadron operating area over the Rhine valley",
       "coordinatePrecision": "theater",
       "id": "BF-1944-FF-01",
@@ -365,9 +365,9 @@
       "status": "HISTORICAL RECORD · INCOMPLETE",
       "confidence": "DOCUMENTED CLAIM · LIMITED CORROBORATION",
       "summary": "Night-fighter crews of the 415th NFS reported glowing balls of light pacing their aircraft over the Rhine in 1944–45, nicknamed 'foo fighters' and reported in the wartime press. Allied intelligence suspected German secret weapons; postwar review found the Germans had been seeing them too. No explanation was established.",
-      "keyFact": "The modern record's true opening entry: disciplined military aircrews reporting pacing luminous objects — three years before anyone said 'flying saucer.'",
+      "keyFact": "The surviving transcription contains dated 415th NFS war-diary entries for 15, 18, 23, 24 and 28 December 1944, not merely later magazine retellings. The entries describe lights following aircraft through turns, closing to about 1,000 feet, climbing, disappearing and sometimes lacking corresponding GCI returns.",
       "official": "Wartime intelligence filed the reports without resolution; postwar explanations (St. Elmo's fire, flak reflections, fatigue) were offered, none demonstrated.",
-      "gap": "Squadron-level mission reports naming foo fighter encounters are scattered across archives and have never been systematically compiled. Evidence-depth audit completed; context images/manifests are not treated as primary corroboration.",
+      "gap": "Primary gap: original scans of the 415th NFS December 1944 War Diary and underlying operations reports, with an exact NARA or AFHRA call number and custody chain.",
       "whyItMatters": "Foo fighters establish that the phenomenon's reporting record predates the 1947 media frame — and that both sides of a world war blamed each other for it.",
       "sources": [
         "FOO-1944 · 415th NFS mission report trail / wartime press record"
@@ -424,12 +424,20 @@
       },
       "sourceRecords": [
         {
-          "citation": "FOO-1944 · 415th NFS mission report trail / wartime press record",
-          "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
+          "citation": "SECRET War Diary, 415th Night Fighter Squadron, Ochey Air Base, France, December 1944 — dated entries transcribed by CUFON from official wartime documents; exact NARA/AFHRA identifier not yet recovered.",
+          "sourceType": "archival-transcription",
+          "provenance": "CUFON transcription of official wartime records",
           "locator": "FOO-1944",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Dated wartime operational reporting",
+            "Origin of the term “Foo-Fighters” within unit records",
+            "Repeated observations across multiple missions"
+          ],
+          "limitations": [
+            "Original document scans not secured",
+            "Exact NARA/AFHRA call number remains missing",
+            "One word in the selected quotation is unreadable in the transcription"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -469,7 +477,7 @@
         "durationSeconds": null,
         "independentWitnessGroups": null
       },
-      "evidenceDepthStatus": "structure-repaired-primary-gap-remains",
+      "evidenceDepthStatus": "official-transcription",
       "taxonomyOriginal": {
         "domain": "MILITARY / AIR WAR",
         "status": "WARTIME AIRCREW REPORTS",
@@ -487,12 +495,12 @@
       },
       "publicSources": [
         {
-          "label": "NARA — Project BLUE BOOK records",
-          "url": "https://www.archives.gov/research/military/air-force/ufos",
-          "publisher": "National Archives and Records Administration",
+          "label": "CUFON — Foo-Fighter wartime document transcriptions",
+          "url": "http://www.cufon.org/cufon/foo.htm",
+          "publisher": "Computer UFO Network",
           "access": "Public",
-          "scope": "collection",
-          "note": "Official Project BLUE BOOK guide; search by location and incident date."
+          "scope": "archival-transcription",
+          "note": "Transcriptions attributed to official wartime records; original scans and exact archive call number remain missing."
         }
       ]
     },
@@ -1573,11 +1581,11 @@
       ]
     },
     {
-      "keyQuote": "Captain Thomas Mantell pursued an unidentified object in his F-51 Mustang, climbing to 25,000 feet before crashing; the Air Force attributed the sighting to Venus, though witnesses disagreed.",
-      "quoteSource": "Blue Book Godman AFB case file (scanned images — no text layer, summary)",
-      "quoteConfidence": "web article quote — summary of historical record",
+      "keyQuote": "“The object appeared to be a metallic object, or possibly reflection of sun from a metallic object, and it was of tremendous size.”",
+      "quoteSource": "Witness statement in Project Blue Book Godman Field/Mantell case file, NARA NAID 28930550, digital image 0867.",
+      "quoteConfidence": "High — visually verified against the NARA scan; the statement describes appearance but does not establish object identity.",
       "significance": "Case significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Complete exact NARA case-file custody; decisive witness and analytical pages visually verified.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1948-MT-01",
@@ -1596,9 +1604,9 @@
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
       "summary": "Capt. Thomas Mantell, Kentucky ANG, died when his P-51 crashed during a climb after an object reported over Godman Field in January 1948. The later, well-supported explanation is a then-classified Skyhook balloon and hypoxia — but the death made UFOs a deadly serious Air Force matter overnight.",
-      "keyFact": "The first fatality in the official record — almost certainly a classified balloon plus hypoxia, and the event that hardened Air Force attitudes for a decade.",
+      "keyFact": "The exact 75-image Project Blue Book case file is now tied to NARA NAID 28930550. It contains contemporary witness statements, flight chronology, crash correspondence and photograph indexes; it also records uncertainty over the oxygen-loss sequence and notes that the reported phenomenon did not readily tally with Venus or a comet.",
       "official": "USAF ultimately attributed the object to a Skyhook balloon (classified at the time) and the crash to oxygen starvation above 25,000 feet; early 'Venus' explanations were abandoned.",
-      "gap": "The specific Skyhook flight record matching the track was reconstructed, not archived — a small but real remaining hole.",
+      "gap": "Primary gap: contemporaneous balloon-launch/Skyhook tracking records and a fully identified crash-investigation/photograph packet that can be cross-walked independently to the Blue Book file.",
       "whyItMatters": "Mantell is the cautionary case in both directions: secrecy (Skyhook) manufactured a mystery, and the mystery killed a pilot before the paperwork caught up.",
       "sources": [
         "MANTELL-1948 · USAF accident/case record"
@@ -1658,12 +1666,19 @@
       },
       "sourceRecords": [
         {
-          "citation": "MANTELL-1948 · USAF accident/case record",
+          "citation": "Project Blue Book case file, 'GODMAN FIELD, KENTUCKY, JANUARY 1948' — NARA NAID 28930550 (75 digital objects); witness statement image 0867 and analytical note image 0838.",
           "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "provenance": "National Archives Catalog, RG 341",
           "locator": "MANTELL-1948",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Contemporary object description",
+            "Flight chronology and witness statements",
+            "Internal analytical uncertainty"
+          ],
+          "limitations": [
+            "Does not by itself identify the object",
+            "Does not supply independently verified balloon-launch records"
+          ]
         }
       ],
       "phenomena": {
@@ -1704,6 +1719,14 @@
       },
       "publicSources": [
         {
+          "label": "NARA — Godman Field/Mantell Project Blue Book case file",
+          "url": "https://catalog.archives.gov/id/28930550",
+          "publisher": "National Archives and Records Administration",
+          "access": "Public",
+          "scope": "exact-file-unit",
+          "note": "Exact 75-object Project Blue Book case file."
+        },
+        {
           "label": "NARA — Project BLUE BOOK records",
           "url": "https://www.archives.gov/research/military/air-force/ufos",
           "publisher": "National Archives and Records Administration",
@@ -1711,7 +1734,8 @@
           "scope": "collection",
           "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
-      ]
+      ],
+      "evidenceDepthStatus": "primary-complete"
     },
     {
       "keyQuote": "The situation was the UFOs; the estimate was that they were interplanetary!",
@@ -2143,11 +2167,11 @@
       ]
     },
     {
-      "keyQuote": "The objects hovered motionless for two or three minutes and then flew out of sight. The clearest films of the reel were removed by the Air Force when I first lent them the movies.",
-      "quoteSource": "Blue Book case file GREATFALLS-1950-BlueBook-case-file.pdf, p. 72 (Mariana letter to Blue Book, 9 Jan 1953)",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "keyQuote": "“During a period of approximately five or six seconds, two of the objects hovered motionless, then proceeded with the flight. The first thirty five frames of the film were removed by the Air Force and Captain Russell does not know what has become of them.”",
+      "quoteSource": "Project Blue Book Great Falls case file, NARA NAID 28938188, digital image 0972 / local compiled PDF page 72.",
+      "quoteConfidence": "High — visually verified against the complete 113-page case-file copy; the passage reports custody loss as attributed in the file.",
       "significance": "Case significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Complete exact NARA case-file custody; decisive custody passage visually verified.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1950-GF-01",
@@ -2166,9 +2190,9 @@
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
       "summary": "Nick Mariana filmed two bright discs crossing the sky over Great Falls in 1950 — among the first motion pictures of the phenomenon. The Air Force analyzed the film twice and the Robertson Panel reviewed it; the F-94 reflection explanation conflicts with the documented aircraft timing, and Mariana maintained the clearest frames were not returned.",
-      "keyFact": "One of the two films the Robertson Panel actually examined — with a timing conflict in the official explanation and a missing-frames dispute that was never settled.",
+      "keyFact": "The local 113-page Blue Book file matches the 113 digital objects in exact NARA file unit NAID 28938188. It preserves the record card, witness correspondence, film-analysis material and the documented claim that the first 35 frames were removed and not returned.",
       "official": "USAF attributed the images to sun reflections off two F-94s known to be in the area; the timing reconciliation remains argued.",
-      "gap": "The allegedly withheld first frames and the original uncut reel were never accounted for.",
+      "gap": "Primary gap: the reportedly removed first 35 frames, an unambiguous chain-of-custody ledger for every film generation, and first-generation film suitable for modern photogrammetric reanalysis.",
       "whyItMatters": "Great Falls ties directly to this atlas's Robertson Panel record: it is half of the physical evidence that panel reviewed before recommending debunking.",
       "sources": [
         "GREATFALLS-1950 · Mariana film / USAF analysis record"
@@ -2222,12 +2246,19 @@
       },
       "sourceRecords": [
         {
-          "citation": "GREATFALLS-1950 · Mariana film / USAF analysis record",
+          "citation": "Project Blue Book case file, 'GREAT FALLS, MONT., AUGUST 1950' — NARA NAID 28938188 (113 digital objects); custody passage image 0972.",
           "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "provenance": "National Archives Catalog, RG 341",
           "locator": "GREATFALLS-1950",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Witness and film-analysis record",
+            "Contemporary case handling",
+            "Reported removal of first 35 frames"
+          ],
+          "limitations": [
+            "Missing first 35 frames are not recovered",
+            "Surviving public movie is not established as first-generation film"
+          ]
         }
       ],
       "phenomena": {
@@ -2270,6 +2301,14 @@
       },
       "publicSources": [
         {
+          "label": "NARA — Great Falls Project Blue Book case file",
+          "url": "https://catalog.archives.gov/id/28938188",
+          "publisher": "National Archives and Records Administration",
+          "access": "Public",
+          "scope": "exact-file-unit",
+          "note": "Exact 113-object Project Blue Book case file."
+        },
+        {
           "label": "NARA — Project BLUE BOOK records",
           "url": "https://www.archives.gov/research/military/air-force/ufos",
           "publisher": "National Archives and Records Administration",
@@ -2280,7 +2319,8 @@
       ],
       "images": [
         "assets/source_previews/BF-1950-GF-01_source_image.jpg"
-      ]
+      ],
+      "evidenceDepthStatus": "primary-complete"
     },
     {
       "keyQuote": "…credible observers of relatively incredible things.",
@@ -2425,11 +2465,11 @@
       ]
     },
     {
-      "keyQuote": "Explanation — pillow balloons or birds",
-      "quoteSource": "Project Blue Book case sheet, files 1377 & 1415, Tremonton, Utah, July 2, 1952",
-      "quoteConfidence": "confirmed primary-source quotation",
+      "keyQuote": "“The evidence remains rather contradictory and no single hypothesis of a natural phenomenon yet suggested seems to completely account for the UFO involved… no definite conclusion could be obtained.”",
+      "quoteSource": "R. M. L. Baker Jr., Photogrammetric Analysis of “Utah” Film, 16 May 1955, in Project Blue Book Tremonton case file, NARA NAID 28943418, digital image 0053.",
+      "quoteConfidence": "High — visually verified against the NARA scan. The same case file also contains a 1 June 1956 Air Force memo asserting the images were seagulls, so the record is internally contradictory.",
       "significance": "Case significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Complete exact NARA case-file custody plus exact NARA motion-picture item; conflicting analytical conclusions visually verified.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1952-TM-01",
@@ -2448,9 +2488,9 @@
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
       "summary": "Navy Chief Photographer Delbert Newhouse filmed a dozen maneuvering white objects near Tremonton, Utah. Navy photo analysts spent over a thousand hours on the film and reportedly judged the objects self-luminous and not birds; the Robertson Panel overrode that with a seagull explanation Newhouse rejected, noting he had seen the objects closely before filming.",
-      "keyFact": "The Navy's own photographic laboratory and the CIA's panel reached opposite conclusions about the same frames — the clearest documented analyst split of the era.",
+      "keyFact": "The exact 97-image Blue Book case file (NAID 28943418) and the digitized motion-picture item (NAID 61937) are now in custody. The file preserves the original reporting chain, multiple photogrammetric studies, Baker’s inconclusive 1955 analysis, a separate analysis describing ten unknown aerial objects, and a later 1956 Air Force memo asserting bird reflections/seagulls.",
       "official": "Robertson Panel: seagulls in sunlight. Navy Photographic Interpretation Center's contrary internal assessment survives only in summaries.",
-      "gap": "The full NPIC analysis report has never been located in released files.",
+      "gap": "Primary gap: the first-generation 16 mm camera film and complete laboratory chain-of-custody/measurement worksheets needed to determine which analysis used which film generation.",
       "whyItMatters": "Tremonton is the other half of the Robertson Panel's evidence base, and its analyst-versus-panel split prefigures every modern sensor-interpretation fight.",
       "sources": [
         "TREMONTON-1952 · Newhouse film / Robertson Panel record"
@@ -2504,12 +2544,31 @@
       },
       "sourceRecords": [
         {
-          "citation": "TREMONTON-1952 · Newhouse film / Robertson Panel record",
+          "citation": "Project Blue Book case file, 'Case Files: [Blank]' containing Tremonton/Newhouse material — NARA NAID 28943418 (97 digital objects); Baker analysis image 0053, 1956 seagull memo image 0073, photogrammetric conclusions image 0084.",
           "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "provenance": "National Archives Catalog, RG 341",
           "locator": "TREMONTON-1952",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Original reporting and analytical chain",
+            "Multiple conflicting official/contract analyses",
+            "Photogrammetric conclusions and later seagull assessment"
+          ],
+          "limitations": [
+            "Catalog title is blank/generic",
+            "Original first-generation film and full lab custody are not established"
+          ]
+        },
+        {
+          "citation": "Motion Picture Films from the 'Project Blue Book' Series, 1950–1967: TREMONTON, UTAH, 1952 — NARA NAID 61937 (digital MP4 derivative).",
+          "sourceType": "primary-visual-record",
+          "provenance": "National Archives Catalog, RG 341",
+          "locator": "TREMONTON-1952-FILM",
+          "supports": [
+            "Government-custody motion-picture derivative"
+          ],
+          "limitations": [
+            "Digital derivative is not the first-generation 16 mm original"
+          ]
         }
       ],
       "phenomena": {
@@ -2551,6 +2610,22 @@
       },
       "publicSources": [
         {
+          "label": "NARA — Tremonton/Newhouse Project Blue Book case file",
+          "url": "https://catalog.archives.gov/id/28943418",
+          "publisher": "National Archives and Records Administration",
+          "access": "Public",
+          "scope": "exact-file-unit",
+          "note": "Exact 97-object case file; catalog title is generic/blank."
+        },
+        {
+          "label": "NARA — Tremonton motion-picture item",
+          "url": "https://catalog.archives.gov/id/61937",
+          "publisher": "National Archives and Records Administration",
+          "access": "Public",
+          "scope": "exact-item",
+          "note": "Digitized government motion-picture derivative."
+        },
+        {
           "label": "NARA — Project BLUE BOOK records",
           "url": "https://www.archives.gov/research/military/air-force/ufos",
           "publisher": "National Archives and Records Administration",
@@ -2561,7 +2636,8 @@
       ],
       "images": [
         "assets/source_previews/BF-1952-TM-01_source_image.jpg"
-      ]
+      ],
+      "evidenceDepthStatus": "primary-complete"
     },
     {
       "keyQuote": "How I Control Gravitation",
@@ -2861,7 +2937,7 @@
       "confidence": "DOCUMENTED CLAIM · LIMITED CORROBORATION",
       "summary": "A radar-visual case involving RAF and USAF radar tracks and pilot response; later singled out in the Condon Report as a difficult case with high probability that at least one genuine UFO was involved.",
       "official": "Condon-era analysis did not reduce this case to a clean mundane explanation in the public report.",
-      "gap": "Original radar tapes, complete controller logs, and full intercept records remain the decisive missing layer. A DOW-UAP-D096 correspondence reference remains unarchived; no verified local file or public endpoint is mapped.",
+      "gap": "Primary gap: raw radar plots or scope photography, original operator logs/voice recordings, and the RAF interceptor mission record needed to reconstruct the sequence independently.",
       "sources": [
         "LAKENHEATH-1956 · Condon Case 2 / Lakenheath-Bentwaters radar-visual record",
         "CIA-UAP-015 · Project Blue Book Special Report No. 14"
@@ -2874,14 +2950,14 @@
       "geometryExpectation": "country",
       "coordinatePrecision": "regional/site",
       "previousProjection": "atlas-svg-calibrated-naturalearth-x-mercator-y-100x62",
-      "keyFact": "A radar-visual RAF/USAF case survived Condon-era scrutiny strongly enough that the report itself conceded a high probability of at least one genuine UFO being involved.",
+      "keyFact": "The exact 44-image Blue Book file at NARA NAID 28966873 includes contemporary radar extracts, weather data, internal review correspondence and later witness material. A second extract estimates one radar target near 4,000 mph and explains that the estimate was based on screen displacement per two-second antenna revolution.",
       "whyItMatters": "It is a rare case where an official debunking-era report preserved, rather than erased, a hard residual radar-visual case.",
-      "keyQuote": "the probability that at least one genuine UFO was involved appears to be fairly high",
-      "quoteSource": "LAKENHEATH-1956 · Condon Case 2 / Lakenheath-Bentwaters radar-visual record",
-      "quoteConfidence": "confirmed primary-source quotation",
+      "keyQuote": "“These objects appeared as normal targets on the GCA scope and… normal checks made to determine possible malfunction of the GCA radar failed to indicate anything was technically wrong.”",
+      "quoteSource": "Report NR. IH-1-56, Extract “A,” in Project Blue Book Bentwaters–Lakenheath case file, NARA NAID 28966873, digital image 0019.",
+      "quoteConfidence": "High — visually verified against the NARA scan. The statement supports normal-looking radar returns and equipment checks, not the identity of the targets.",
       "heroFact": "A radar-visual RAF/USAF case survived Condon scrutiny; the report conceded a high probability one genuine UFO was involved.",
       "significance": "High significance",
-      "sourceQuality": "Primary source",
+      "sourceQuality": "Complete exact NARA case-file custody; contemporary radar extracts and speed-method page visually verified.",
       "sourceLabel": "CIA archive",
       "sourceLocator": "LAKENHEATH-1956",
       "relatedCaseIds": [
@@ -2930,12 +3006,19 @@
       },
       "sourceRecords": [
         {
-          "citation": "LAKENHEATH-1956 · Condon Case 2 / Lakenheath-Bentwaters radar-visual record",
+          "citation": "Project Blue Book case file, 'BENTWATERS-LAKENHEATH, ENGLAND, AUGUST 1956' — NARA NAID 28966873 (44 digital objects); Report NR. IH-1-56 extracts, images 0019 and 0021.",
           "sourceType": "primary-record",
-          "provenance": "Primary source",
+          "provenance": "National Archives Catalog, RG 341",
           "locator": "LAKENHEATH-1956",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Contemporary radar-report extracts",
+            "Equipment-check statements",
+            "Speed-estimation method and weather context"
+          ],
+          "limitations": [
+            "No raw radar plots or recordings",
+            "Does not independently identify the targets"
+          ]
         },
         {
           "citation": "DOW-UAP-D096 · Project Blue Book correspondence",
@@ -2993,6 +3076,14 @@
       },
       "publicSources": [
         {
+          "label": "NARA — Bentwaters–Lakenheath Project Blue Book case file",
+          "url": "https://catalog.archives.gov/id/28966873",
+          "publisher": "National Archives and Records Administration",
+          "access": "Public",
+          "scope": "exact-file-unit",
+          "note": "Exact 44-object Project Blue Book case file."
+        },
+        {
           "label": "War Department — UFO records releases",
           "url": "https://www.war.gov/ufo",
           "publisher": "U.S. Department of War",
@@ -3003,7 +3094,8 @@
       ],
       "images": [
         "assets/source_previews/BF-1956-LB-01_LAKENHEATH-1956-McDonald-analysis_page_001.png"
-      ]
+      ],
+      "evidenceDepthStatus": "primary-complete"
     },
     {
       "keyQuote": "…the sighting was due to a very rare phenomena, ball lightning.",
