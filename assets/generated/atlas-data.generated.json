@@ -363,9 +363,9 @@
     {
       "keyQuote": "“In Rastatt area sighted five or six red and green lights in a ‘T’ shape which followed A/C thru turns and closed to 1000 feet. Lights followed for several miles then went out. Our pilots have named these mysterious [unreadable] which they encounter over Germany at night ‘Foo-Fighters.’”",
       "quoteSource": "CUFON transcription of the SECRET December 1944 War Diary, 415th Night Fighter Squadron, entry for 18 December; transcription says records were reproduced from official wartime documents.",
-      "quoteConfidence": "Medium — the official-record wording is preserved in an archival transcription, but an original scan and exact NARA/AFHRA catalog identifier were not recovered.",
+      "quoteConfidence": "Medium — the official-record wording is preserved in an archival transcription and exact AFHRA catalog custody is established, but the underlying microfilm images have not yet been secured.",
       "significance": "High significance",
-      "sourceQuality": "Strong transcription of official wartime records, but incomplete archival custody and no exact catalog identifier.",
+      "sourceQuality": "Exact AFHRA catalog custody recovered; surviving public diary text remains a transcription pending reel scans.",
       "coordinateBasis": "415th Night Fighter Squadron operating area over the Rhine valley",
       "coordinatePrecision": "theater",
       "id": "BF-1944-FF-01",
@@ -382,12 +382,13 @@
       "status": "HISTORICAL RECORD · INCOMPLETE",
       "confidence": "DOCUMENTED CLAIM · LIMITED CORROBORATION",
       "summary": "Night-fighter crews of the 415th NFS reported glowing balls of light pacing their aircraft over the Rhine in 1944–45, nicknamed 'foo fighters' and reported in the wartime press. Allied intelligence suspected German secret weapons; postwar review found the Germans had been seeing them too. No explanation was established.",
-      "keyFact": "The surviving transcription contains dated 415th NFS war-diary entries for 15, 18, 23, 24 and 28 December 1944, not merely later magazine retellings. The entries describe lights following aircraft through turns, closing to about 1,000 feet, climbing, disappearing and sometimes lacking corresponding GCI returns.",
+      "keyFact": "AFHRA’s catalog identifies the 415th Night Fighter Squadron war diary covering 10 February 1943–3 March 1945 as IRIS 60059, call SQ-FI-415-HI, microfilm reel 848, frames 1519–1631. Daily operations reports through 30 November 1944 are IRIS 60074, reel 848, frames 1763–1867; WWII notes are IRIS 1026183, reel 33170. The original scans are not yet secured.",
       "official": "Wartime intelligence filed the reports without resolution; postwar explanations (St. Elmo's fire, flak reflections, fatigue) were offered, none demonstrated.",
-      "gap": "Primary gap: original scans of the 415th NFS December 1944 War Diary and underlying operations reports, with an exact NARA or AFHRA call number and custody chain.",
+      "gap": "Primary gap: page images from AFHRA IRIS 60059, reel 848, frames 1519–1631, and any underlying December 1944 operations reports needed to compare the public transcriptions against the original record.",
       "whyItMatters": "Foo fighters establish that the phenomenon's reporting record predates the 1947 media frame — and that both sides of a world war blamed each other for it.",
       "sources": [
-        "FOO-1944 · 415th NFS mission report trail / wartime press record"
+        "FOO-1944 · 415th NFS mission report trail / wartime press record",
+        "FOO-1944-AFHRA-60059 · Exact war-diary and microfilm custody"
       ],
       "sourceLabel": "USAAF record trail",
       "sourceLocator": "FOO-1944",
@@ -441,18 +442,31 @@
       },
       "sourceRecords": [
         {
-          "citation": "SECRET War Diary, 415th Night Fighter Squadron, Ochey Air Base, France, December 1944 — dated entries transcribed by CUFON from official wartime documents; exact NARA/AFHRA identifier not yet recovered.",
+          "citation": "AFHRA catalog: 415th Night Fighter Squadron war diary, IRIS 60059, call SQ-FI-415-HI, reel 0000000848, frames 1519–1631, covering 10 Feb 1943–3 Mar 1945; daily operations reports IRIS 60074, call SQ-FI-415-SU-OP-S, reel 848, frames 1763–1867; WWII notes IRIS 1026183, call SQ-FI-415-SU-PE, reel 33170, frame 886 onward.",
+          "sourceType": "primary-archive-catalog",
+          "provenance": "Air Force Historical Research Agency index",
+          "locator": "FOO-1944-AFHRA-60059",
+          "supports": [
+            "Exact unit-record custody",
+            "War diary includes December 1944 date range",
+            "Exact call numbers, reels and frame ranges"
+          ],
+          "limitations": [
+            "Original microfilm scans not yet secured",
+            "December quotations still rely on public transcriptions pending image comparison"
+          ]
+        },
+        {
+          "citation": "SECRET War Diary, 415th Night Fighter Squadron, Ochey Air Base, France, December 1944 — dated entries transcribed by CUFON from official wartime documents.",
           "sourceType": "archival-transcription",
           "provenance": "CUFON transcription of official wartime records",
           "locator": "FOO-1944",
           "supports": [
             "Dated wartime operational reporting",
-            "Origin of the term “Foo-Fighters” within unit records",
             "Repeated observations across multiple missions"
           ],
           "limitations": [
             "Original document scans not secured",
-            "Exact NARA/AFHRA call number remains missing",
             "One word in the selected quotation is unreadable in the transcription"
           ]
         },
@@ -531,7 +545,7 @@
       "quoteSource": "Swedish Defense Staff reports, 1946 (summary)",
       "quoteConfidence": "web article quote — summary of historical record",
       "significance": "Case significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Verified Swedish archival collection lead and internal order citation; no item-level shelfmark or first-generation scan yet.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "region",
       "id": "BF-1946-GR-01",
@@ -549,12 +563,13 @@
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
       "summary": "Sweden logged roughly two thousand reports of fast rocket-like objects in 1946, many over lakes; a military dive search at Lake Kölmjärv that July found nothing. Swedish, British, and American intelligence all investigated — Soviet tests were suspected and never confirmed; a substantial fraction of reports resisted the meteor explanation.",
-      "keyFact": "A full year of state-investigated 'ghost rocket' reports — with lake searches, allied intelligence traffic, and no recovered object — one year before Roswell.",
+      "keyFact": "Sweden’s National Archives publicly identifies the Rymdprojektilkommittén record family as documents concerning space projectiles and the 1946 ‘ghost rockets’ investigation. An exact internal order citation, Fst/L 12/6 1946 NR 7:49, is recovered, but the item-level shelfmark and corresponding U.S. diplomatic file remain unresolved.",
       "official": "Swedish defense concluded most reports were misidentifications while explicitly leaving a residue unexplained; files have since been released.",
       "gap": "Correlation of the Swedish reports with released Soviet-era test records has never been completed. Evidence-depth audit completed; context images/manifests are not treated as primary corroboration.",
       "whyItMatters": "Ghost rockets show a modern state running the full investigative playbook — search, intelligence liaison, partial explanation — before the UFO era's vocabulary existed.",
       "sources": [
-        "GHOSTROCKETS-1946 · Swedish defense files / Kölmjärv search record"
+        "GHOSTROCKETS-1946 · Swedish defense files / Kölmjärv search record",
+        "GHOSTROCKETS-RIKSARKIVET-1946 · Rymdprojektilkommittén archival catalog lead"
       ],
       "sourceLabel": "Swedish defense file",
       "sourceLocator": "GHOSTROCKETS-1946",
@@ -604,12 +619,20 @@
       },
       "sourceRecords": [
         {
-          "citation": "GHOSTROCKETS-1946 · Swedish defense files / Kölmjärv search record",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
-          "locator": "GHOSTROCKETS-1946",
-          "supports": [],
-          "limitations": []
+          "citation": "Riksarkivet/Krigsarkivet · Rymdprojektilkommittén — documents regarding space projectiles; investigation into the ‘ghost rockets’ 1946. Related internal order citation: Fst/L 12/6 1946 NR 7:49.",
+          "sourceType": "archival-catalog-lead",
+          "provenance": "Swedish National Archives public subject/index pages",
+          "locator": "GHOSTROCKETS-RIKSARKIVET-1946",
+          "supports": [
+            "Swedish military archival custody family",
+            "Existence of a state investigation record group",
+            "Exact internal government order citation"
+          ],
+          "limitations": [
+            "No item-level shelfmark recovered",
+            "No first-generation scan secured",
+            "No exact NARA RG 59 diplomatic file identified"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -2241,7 +2264,7 @@
       "quoteSource": "Project Blue Book Great Falls case file, NARA NAID 28938188, digital image 0972 / local compiled PDF page 72.",
       "quoteConfidence": "High — visually verified against the complete 113-page case-file copy; the passage reports custody loss as attributed in the file.",
       "significance": "Case significance",
-      "sourceQuality": "Complete exact NARA case-file custody; decisive custody passage visually verified.",
+      "sourceQuality": "Exact NARA case-file and motion-picture-item custody; no camera original or complete generation ledger identified.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1950-GF-01",
@@ -2260,12 +2283,13 @@
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
       "summary": "Nick Mariana filmed two bright discs crossing the sky over Great Falls in 1950 — among the first motion pictures of the phenomenon. The Air Force analyzed the film twice and the Robertson Panel reviewed it; the F-94 reflection explanation conflicts with the documented aircraft timing, and Mariana maintained the clearest frames were not returned.",
-      "keyFact": "The local 113-page Blue Book file matches the 113 digital objects in exact NARA file unit NAID 28938188. It preserves the record card, witness correspondence, film-analysis material and the documented claim that the first 35 frames were removed and not returned.",
+      "keyFact": "The complete 113-page Blue Book file maps to NARA NAID 28938188 and preserves Mariana’s claim that the first 35 frames were removed and not returned. NARA’s exact motion-picture item is NAID 61935, local identifier 341-PBB-323; its catalog lists a 26-foot 16 mm black-and-white preservation element and reproduction elements, but no camera-original occurrence.",
       "official": "USAF attributed the images to sun reflections off two F-94s known to be in the area; the timing reconciliation remains argued.",
       "gap": "Primary gap: the reportedly removed first 35 frames, an unambiguous chain-of-custody ledger for every film generation, and first-generation film suitable for modern photogrammetric reanalysis.",
       "whyItMatters": "Great Falls ties directly to this atlas's Robertson Panel record: it is half of the physical evidence that panel reviewed before recommending debunking.",
       "sources": [
-        "GREATFALLS-1950 · Mariana film / USAF analysis record"
+        "GREATFALLS-1950 · Mariana film / USAF analysis record",
+        "GREATFALLS-1950-FILM · NARA motion-picture item NAID 61935"
       ],
       "sourceLabel": "USAF film analysis",
       "sourceLocator": "GREATFALLS-1950",
@@ -2328,6 +2352,22 @@
           "limitations": [
             "Missing first 35 frames are not recovered",
             "Surviving public movie is not established as first-generation film"
+          ]
+        },
+        {
+          "citation": "Project Blue Book Motion Picture Films: GREAT FALLS, MONTANA — NARA NAID 61935, local identifier 341-PBB-323; 26-foot 16 mm black-and-white preservation element plus reproduction elements and two digital reels.",
+          "sourceType": "primary-visual-record",
+          "provenance": "National Archives Catalog, RG 341",
+          "locator": "GREATFALLS-1950-FILM",
+          "supports": [
+            "Exact surviving motion-picture custody",
+            "Physical-generation metadata",
+            "Public digital derivatives"
+          ],
+          "limitations": [
+            "No camera-original element listed",
+            "Digital reels are later transfer derivatives",
+            "No record recovered that resolves the alleged missing first 35 frames"
           ]
         }
       ],
@@ -2549,7 +2589,7 @@
       "quoteSource": "R. M. L. Baker Jr., Photogrammetric Analysis of “Utah” Film, 16 May 1955, in Project Blue Book Tremonton case file, NARA NAID 28943418, digital image 0053.",
       "quoteConfidence": "High — visually verified against the NARA scan. The same case file also contains a 1 June 1956 Air Force memo asserting the images were seagulls, so the record is internally contradictory.",
       "significance": "Case significance",
-      "sourceQuality": "Complete exact NARA case-file custody plus exact NARA motion-picture item; conflicting analytical conclusions visually verified.",
+      "sourceQuality": "Exact NARA case-file and motion-picture custody with copy-generation evidence; camera original and full laboratory ledger remain unlocated.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1952-TM-01",
@@ -2568,7 +2608,7 @@
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
       "summary": "Navy Chief Photographer Delbert Newhouse filmed a dozen maneuvering white objects near Tremonton, Utah. Navy photo analysts spent over a thousand hours on the film and reportedly judged the objects self-luminous and not birds; the Robertson Panel overrode that with a seagull explanation Newhouse rejected, noting he had seen the objects closely before filming.",
-      "keyFact": "The exact 97-image Blue Book case file (NAID 28943418) and the digitized motion-picture item (NAID 61937) are now in custody. The file preserves the original reporting chain, multiple photogrammetric studies, Baker’s inconclusive 1955 analysis, a separate analysis describing ten unknown aerial objects, and a later 1956 Air Force memo asserting bird reflections/seagulls.",
+      "keyFact": "The exact 97-image Blue Book file is NARA NAID 28943418 and the motion-picture item is NAID 61937. NARA lists 42-foot 16 mm reference and preservation elements, while the digital transfer slate identifies its source as ‘16mm RSK (P Copy).’ The Navy analysis records that brittle film was duplicated and warns that the analysis film was ‘a duplicate of a copy.’",
       "official": "Robertson Panel: seagulls in sunlight. Navy Photographic Interpretation Center's contrary internal assessment survives only in summaries.",
       "gap": "Primary gap: the first-generation 16 mm camera film and complete laboratory chain-of-custody/measurement worksheets needed to determine which analysis used which film generation.",
       "whyItMatters": "Tremonton is the other half of the Robertson Panel's evidence base, and its analyst-versus-panel split prefigures every modern sensor-interpretation fight.",
@@ -2639,15 +2679,19 @@
           ]
         },
         {
-          "citation": "Motion Picture Films from the 'Project Blue Book' Series, 1950–1967: TREMONTON, UTAH, 1952 — NARA NAID 61937 (digital MP4 derivative).",
+          "citation": "Project Blue Book Motion Picture Films: TREMONTON, UTAH — NARA NAID 61937, local identifier 341-PBB-345; 42-foot 16 mm reference and preservation elements. Digital transfer slate: ‘Source: 16mm RSK (P Copy).’",
           "sourceType": "primary-visual-record",
           "provenance": "National Archives Catalog, RG 341",
           "locator": "TREMONTON-1952-FILM",
           "supports": [
-            "Government-custody motion-picture derivative"
+            "Government-custody motion-picture derivative",
+            "Physical-generation metadata",
+            "Transfer sourced from a positive copy"
           ],
           "limitations": [
-            "Digital derivative is not the first-generation 16 mm original"
+            "Digital derivative is not the first-generation 16 mm original",
+            "The historical Navy report says the analysis film was a duplicate of a copy",
+            "Complete laboratory custody ledger is not established"
           ]
         }
       ],
@@ -2878,9 +2922,9 @@
       "domain": "GOVERNMENT / INSTITUTIONAL",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "The CIA panel recommended mass-media debunking, use of psychologists and Walt Disney/media expertise, and surveillance of civilian UFO groups.",
-      "official": "The panel framed public UFO interest as a national-security and communication problem.",
-      "gap": "Two records in the file remain access-restricted; recommendation does not alone prove full implementation.",
+      "summary": "The CIA-convened Robertson Panel recommended a public education and debunking program using mass media, psychologists, training films and organizations including Walt Disney, while retaining a modest technical capability for residual cases and watching civilian UFO groups for possible influence or subversion.",
+      "official": "The panel's formal posture treated UFO reporting chiefly as an air-defense communications and public-perception problem. It recommended training and debunking, but also said a modest ATIC section should continue following cases of possible scientific-intelligence value.",
+      "gap": "The recommendation proves what the panel proposed, not how fully it was implemented. Still needed are tasking records, training products, media contacts, civilian-group monitoring reports and the two access-restricted records noted in the released file.",
       "sources": [
         "CIA-UAP-002 · Robertson Panel report, 42-page declassified CIA file"
       ],
@@ -2895,9 +2939,9 @@
       "previousProjection": "atlas-svg-lower48-state-calibrated-naturalearth-x-mercator-y-100x62",
       "keyFact": "The CIA did not merely study public UFO interest; the panel recommended an organized debunking and monitoring strategy using mass media, psychologists, and civilian-group surveillance.",
       "whyItMatters": "It documents narrative-management recommendations in primary-source form. That weakens any claim that public ridicule was purely organic.",
-      "keyQuote": "strip UFOs of their aura of mystery",
-      "quoteSource": "CIA-UAP-002 · Robertson Panel report",
-      "quoteConfidence": "confirmed primary-source quotation",
+      "keyQuote": "This education could be accomplished by mass media such as television, motion pictures, and popular articles.",
+      "quoteSource": "CIA-UAP-002 · Robertson Panel report, internal p. 20 (rendered PDF p. 30)",
+      "quoteConfidence": "verified against rendered primary-source page",
       "heroFact": "The CIA panel recommended organized UFO debunking and monitoring using mass media, psychologists, and civilian-group surveillance.",
       "significance": "High significance",
       "sourceQuality": "Primary source",
@@ -2955,8 +2999,18 @@
           "sourceType": "primary-record",
           "provenance": "Primary source",
           "locator": "CIA-UAP-002",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "organized-debunking-recommendation",
+            "mass-media-education",
+            "psychologist-and-training-film-support",
+            "continued-residual-case-review",
+            "civilian-group-monitoring"
+          ],
+          "limitations": [
+            "recommendation-not-proof-of-implementation",
+            "two-records-access-restricted",
+            "implementation-records-not-in-released-file"
+          ]
         }
       ],
       "phenomena": {
@@ -3033,7 +3087,8 @@
       "gap": "Primary gap: raw radar plots or scope photography, original operator logs/voice recordings, and the RAF interceptor mission record needed to reconstruct the sequence independently.",
       "sources": [
         "LAKENHEATH-1956 · Condon Case 2 / Lakenheath-Bentwaters radar-visual record",
-        "CIA-UAP-015 · Project Blue Book Special Report No. 14"
+        "CIA-UAP-015 · Project Blue Book Special Report No. 14",
+        "LAKENHEATH-1956-RAF-ORBS · RAF No. 23 Squadron and Waterbeach operational records"
       ],
       "image": "assets/source_previews/BF-1956-LB-01_LAKENHEATH-1956-McDonald-analysis_page_001.png",
       "lon": 0.5609,
@@ -3043,14 +3098,14 @@
       "geometryExpectation": "country",
       "coordinatePrecision": "regional/site",
       "previousProjection": "atlas-svg-calibrated-naturalearth-x-mercator-y-100x62",
-      "keyFact": "The exact 44-image Blue Book file at NARA NAID 28966873 includes contemporary radar extracts, weather data, internal review correspondence and later witness material. A second extract estimates one radar target near 4,000 mph and explains that the estimate was based on screen displacement per two-second antenna revolution.",
+      "keyFact": "The exact 44-image Blue Book file is NARA NAID 28966873. The missing RAF operational trail now has two exact catalog targets: No. 23 Squadron’s digitized Operations Record Book AIR 27/2742 and RAF Waterbeach station record AIR 28/1439. Their catalog metadata covers August 1956, but the relevant pages have not yet been inspected and cannot yet be claimed as incident records.",
       "whyItMatters": "It is a rare case where an official debunking-era report preserved, rather than erased, a hard residual radar-visual case.",
       "keyQuote": "“These objects appeared as normal targets on the GCA scope and… normal checks made to determine possible malfunction of the GCA radar failed to indicate anything was technically wrong.”",
       "quoteSource": "Report NR. IH-1-56, Extract “A,” in Project Blue Book Bentwaters–Lakenheath case file, NARA NAID 28966873, digital image 0019.",
       "quoteConfidence": "High — visually verified against the NARA scan. The statement supports normal-looking radar returns and equipment checks, not the identity of the targets.",
       "heroFact": "A radar-visual RAF/USAF case survived Condon scrutiny; the report conceded a high probability one genuine UFO was involved.",
       "significance": "High significance",
-      "sourceQuality": "Complete exact NARA case-file custody; contemporary radar extracts and speed-method page visually verified.",
+      "sourceQuality": "Complete exact NARA case-file custody plus exact RAF operational-record targets; raw radar and communications records remain missing.",
       "sourceLabel": "CIA archive",
       "sourceLocator": "LAKENHEATH-1956",
       "relatedCaseIds": [
@@ -3128,6 +3183,22 @@
           "locator": "LAKENHEATH-1956",
           "supports": [],
           "limitations": []
+        },
+        {
+          "citation": "UK National Archives operational-record targets: AIR 27/2742, No. 23 Squadron Summary of Events, 1956–1960 (digitized); AIR 28/1439, RAF Waterbeach station record, 1956–1960 (open, not digitized).",
+          "sourceType": "primary-archive-catalog",
+          "provenance": "The National Archives (UK) Discovery API",
+          "locator": "LAKENHEATH-1956-RAF-ORBS",
+          "supports": [
+            "Exact RAF squadron ORB target",
+            "Exact RAF Waterbeach station-record target",
+            "Date coverage includes August 1956"
+          ],
+          "limitations": [
+            "Relevant pages not yet inspected",
+            "Catalog coverage does not prove the incident is recorded",
+            "Raw radar plots, controller logs and voice recordings remain missing"
+          ]
         }
       ],
       "phenomena": {
@@ -5091,9 +5162,9 @@
       "domain": "GOVERNMENT / INSTITUTIONAL",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Internal statements recorded near-zero expectation of finding a saucer before the study was complete, while the final report still contained difficult cases.",
-      "official": "The Condon Report was later used to support closing Project Blue Book.",
-      "gap": "The relationship between internal pre-judgment, case analysis, and the public conclusion warrants explicit source comparison.",
+      "summary": "Before the Colorado study was complete, project administrator Robert Low wrote that it should appear objective to the public while presenting scientists with a group of non-believers having an almost zero expectation of finding a saucer. The later Condon Report was used by the Air Force to support ending Project Blue Book.",
+      "official": "The Air Force relied on the Condon Report's recommendation against further extensive UFO study when it terminated Project Blue Book in 1969. That policy decision does not by itself resolve whether the pre-study language shaped case selection, analysis or the final synthesis.",
+      "gap": "The local source package lacks a facsimile of the Low memorandum. Also missing from this dossier are the complete internal methodology and case-selection correspondence, responses to the memorandum, and the Air Force decision trail comparing the report's synthesis with unresolved case chapters.",
       "sources": [
         "CONDON-1966 · Robert Low memo / Condon Committee pre-judgment record",
         "DOW-UAP-D092 · DAF Project Blue Book review / Condon context"
@@ -5110,8 +5181,8 @@
       "keyFact": "The Condon study carried internal pre-judgment language before publication, yet the report still contained difficult cases and was later used to close Project Blue Book.",
       "whyItMatters": "It exposes a credibility problem at the exact study used to justify shutting down the Air Force public UFO investigation.",
       "keyQuote": "The trick would be, I think, to describe the project so that, to the public, it would appear a totally objective study but, to the scientific community, would present the image of a group of non-believers trying their best to be objective but having an almost zero expectation of finding a saucer.",
-      "quoteSource": "CONDON-1966 · Robert Low memo, Aug. 9, 1966",
-      "quoteConfidence": "confirmed primary-source quotation",
+      "quoteSource": "Robert Low memorandum, Aug. 9, 1966; exact wording preserved in the Atlas record, but a local facsimile is not archived",
+      "quoteConfidence": "document quotation — local facsimile not archived",
       "heroFact": "The Condon study carried pre-judgment language before publication, yet still became the basis for closing Project Blue Book.",
       "significance": "High significance",
       "sourceQuality": "Primary source",
@@ -5168,8 +5239,16 @@
           "sourceType": "primary-record",
           "provenance": "Primary source",
           "locator": "CONDON-1966",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "documented-pre-study-methodological-bias-concern",
+            "condon-report-policy-role",
+            "project-blue-book-closure-context"
+          ],
+          "limitations": [
+            "low-memo-facsimile-not-local",
+            "methodology-correspondence-incomplete",
+            "prejudgment-does-not-prove-case-results-were-fabricated"
+          ]
         },
         {
           "citation": "DOW-UAP-D092 · DAF Project Blue Book review / Condon context",
@@ -9960,9 +10039,9 @@
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Iranian F-4 aircraft attempted to intercept a luminous object; pilot reports included instrument and weapons-system interference during the encounter.",
-      "official": "The released USDAO/JCS message records the Iranian military account and equipment effects. It does not supply raw radar plots, maintenance records or a final identification.",
-      "gap": "Raw radar data, aircraft maintenance logs, named witness statements and radiation-test results referenced as pending are not in the released packet.",
+      "summary": "A declassified U.S. defense message records two Iranian F-4 intercept attempts, a reported radar lock at 27 nautical miles, communications and instrumentation failures near the object, and a weapons-control failure during a missile attempt. The message preserves the military report but not the raw operational data needed to reproduce it.",
+      "official": "The released USDAO/JCS message records the Iranian military account, radar-lock report and equipment effects, then states that more information would be forwarded when available. It gives no final object identification and includes no reproduced radar, maintenance or radiation-analysis results.",
+      "gap": "Still absent are raw radar plots or tapes, ground-controller and communications logs, F-4 maintenance and fault records, missile-system diagnostics, named crew statements, and the promised follow-up or radiation-test results.",
       "sources": [
         "TEHRAN-1976 · DIA/JCS/NSA Iran case file"
       ],
@@ -9976,9 +10055,9 @@
       "coordinateBasis": "Tehran public coordinate",
       "keyFact": "A defense/intelligence record preserved pilot-reported instrument and weapons interference during an attempted intercept rather than reducing the case to a routine misidentification.",
       "whyItMatters": "Military intercept records with reported system interference are operationally serious, especially when preserved in U.S. defense/intelligence reporting.",
-      "keyQuote": "The backseater acquired a radar lock on at 27 NM, 12 o'clock high position with the rate of closure at 150 NMPH.",
-      "quoteSource": "USDAO Tehran message, September 1976, report p. 2",
-      "quoteConfidence": "verified-document-transcription",
+      "keyQuote": "The backseater acquired a radar lock on at 27 NM, 12 o'clock position with the V.C. (rate of closure) at 150 NMPH.",
+      "quoteSource": "USDAO Tehran/JCS message, rendered report p. 3 (message p. 2)",
+      "quoteConfidence": "verified against declassified report image",
       "heroFact": "A defense/intelligence record preserved pilot-reported instrument and weapons interference during an attempted intercept.",
       "significance": "High significance",
       "sourceQuality": "Primary record",
@@ -10039,15 +10118,16 @@
           "provenance": "Declassified US government record mirrored by NSA",
           "locator": "report pp. 2–3",
           "supports": [
-            "intercepts",
-            "radar-lock-report",
-            "communications-and-weapons-effects",
-            "civilian-calls"
+            "two-reported-intercepts",
+            "reported-airborne-radar-lock",
+            "reported-communications-and-instrument-effects",
+            "reported-weapons-control-failure"
           ],
           "limitations": [
             "no-raw-radar",
-            "no-maintenance-records",
-            "follow-up-results-absent"
+            "no-maintenance-or-fault-records",
+            "no-follow-up-results",
+            "message-records-claims-not-object-identity"
           ]
         }
       ],
@@ -19680,9 +19760,9 @@
       "domain": "HISTORICAL / AERIAL",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "FBI records document site surveys, agent photography, witness video collection, and firsthand agent observations.",
-      "official": "No conclusive public resolution appears in the reviewed records.",
-      "gap": "Exact location, identities, per-file photo mapping, and complete analytical outcome remain withheld.",
+      "summary": "Seven released FBI records document witness-video collection, field interviews, agent surveillance, direct agent observations and a follow-up site survey. Agents described lights moving erratically and took five mostly blurry photographs; a later daylight survey found nothing unusual at ground or treetop level.",
+      "official": "The released FBI records establish that agents investigated and personally observed reported light activity. They do not publish an analytical identification or closure finding; the follow-up survey records no unusual ground or treetop feature and notes that the agents' five photographs were mostly blurry and provided little context.",
+      "gap": "The public packet withholds the exact site, witness and agent identities, dates and several operational details. Also absent are the referenced original witness videos, the five full-resolution agent photographs with per-file mapping and metadata, any laboratory or imagery analysis, chain-of-custody records and a disposition or closure memorandum.",
       "sources": [
         "FBI-UAP-D004; FBI-UAP-D005; FBI-UAP-D006; FBI-UAP-D007; FBI-UAP-D008; FBI-UAP-D009; FBI-UAP-D010 · Northeastern Orb surveillance records"
       ],
@@ -19696,9 +19776,9 @@
       "coordinateBasis": "Northeastern US redacted regional centroid; lower-48 calibrated to embedded Atlas USA geometry",
       "keyFact": "The FBI records matter because agents were not just receiving a civilian report; they conducted site surveys, collected imagery, and recorded firsthand observations.",
       "whyItMatters": "FBI firsthand observation and fieldwork make this an institutional investigation record, not just a civilian anecdote.",
-      "keyQuote": "erratic movements",
-      "quoteSource": "FBI-UAP-D004–D010 · Northeastern Orb surveillance records",
-      "quoteConfidence": "confirmed source-phrase quotation",
+      "keyQuote": "The light appeared to be at the northern edge of [REDACTED] and began to move horizontally with somewhat erratic movements.",
+      "quoteSource": "FBI-UAP-D007, FD-1057-06, rendered p. 3",
+      "quoteConfidence": "verified against rendered FBI record",
       "heroFact": "FBI records show agents conducted site surveys, collected imagery, and recorded firsthand observations—not just a civilian report.",
       "significance": "High significance",
       "sourceQuality": "Primary source",
@@ -19756,8 +19836,19 @@
           "sourceType": "primary-record",
           "provenance": "Primary source",
           "locator": "FBI-UAP-D004",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "fbi-field-investigation",
+            "agent-firsthand-observation",
+            "witness-video-collection",
+            "agent-photography",
+            "follow-up-site-survey"
+          ],
+          "limitations": [
+            "identities-and-location-redacted",
+            "original-videos-not-mapped",
+            "full-resolution-agent-photos-not-mapped",
+            "no-published-analysis-or-closure"
+          ]
         }
       ],
       "phenomena": {
@@ -19996,9 +20087,9 @@
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Release 04 identifies an unresolved IR area of contrast over the Yellow Sea.",
-      "official": "The released description avoids an object-origin conclusion.",
-      "gap": "Platform, range, atmospheric context, and complete sensor sequence remain necessary.",
+      "summary": "U.S. Indo-Pacific Command submitted 18 seconds of infrared video from a U.S. military platform to AARO. The public clip shows the sensor panning for roughly 14 seconds to keep an area of contrast resembling a six-pointed star near screen center; the release supplies no analytical attribution.",
+      "official": "The official DVIDS description explicitly says it is informational only and must not be read as an analytical judgment, investigative conclusion or factual determination about the event's validity, nature or significance. The linked release provides no object-origin conclusion.",
+      "gap": "Needed for independent assessment are the native 18-second file, platform and sensor type, range and slant-range data, azimuth/elevation, field of view, tracking mode, calibration, atmospheric and cloud conditions, stabilization metadata, surrounding frames and AARO's analytical work product.",
       "sources": [
         "DOW-UAP-PR104 · Yellow Sea unresolved UAP report / DOD_111830027"
       ],
@@ -20011,9 +20102,9 @@
       "coordinateBasis": "Yellow Sea regional centroid",
       "keyFact": "Release 04 identifies an unresolved IR area of contrast over the Yellow Sea.",
       "whyItMatters": "The released description confirms an unresolved IR contrast record, but without platform and atmospheric context it cannot carry an origin claim.",
-      "keyQuote": "An infrared area of contrast was recorded by military sensors over the Yellow Sea; the object exhibited flight characteristics inconsistent with known aircraft or natural phenomena.",
-      "quoteSource": "DOD declassified motion media, 2025 (summary)",
-      "quoteConfidence": "web article quote — summary of record",
+      "keyQuote": "The sensor pans to track an area of contrast resembling a six-pointed star, keeping it generally centered within the center of the screen.",
+      "quoteSource": "DVIDS Video 1014101 · DOW-UAP-PR104 official video description",
+      "quoteConfidence": "verified official web-record quotation",
       "heroFact": "Release 04 identifies an unresolved IR area of contrast over the Yellow Sea.",
       "significance": "High significance",
       "sourceQuality": "Primary record",
@@ -20069,8 +20160,18 @@
           "sourceType": "primary-record",
           "provenance": "Primary record",
           "locator": "DOW-UAP-PR104",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "official-release-record",
+            "infrared-military-sensor",
+            "eighteen-second-submission",
+            "six-pointed-area-of-contrast-description"
+          ],
+          "limitations": [
+            "informational-description-only",
+            "no-platform-or-sensor-identification",
+            "no-range-or-atmospheric-data",
+            "no-analytical-work-product"
+          ]
         }
       ],
       "phenomena": {

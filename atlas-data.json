@@ -2832,9 +2832,9 @@
       "domain": "GOVERNMENT / INSTITUTIONAL",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "The CIA panel recommended mass-media debunking, use of psychologists and Walt Disney/media expertise, and surveillance of civilian UFO groups.",
-      "official": "The panel framed public UFO interest as a national-security and communication problem.",
-      "gap": "Two records in the file remain access-restricted; recommendation does not alone prove full implementation.",
+      "summary": "The CIA-convened Robertson Panel recommended a public education and debunking program using mass media, psychologists, training films and organizations including Walt Disney, while retaining a modest technical capability for residual cases and watching civilian UFO groups for possible influence or subversion.",
+      "official": "The panel's formal posture treated UFO reporting chiefly as an air-defense communications and public-perception problem. It recommended training and debunking, but also said a modest ATIC section should continue following cases of possible scientific-intelligence value.",
+      "gap": "The recommendation proves what the panel proposed, not how fully it was implemented. Still needed are tasking records, training products, media contacts, civilian-group monitoring reports and the two access-restricted records noted in the released file.",
       "sources": [
         "CIA-UAP-002 · Robertson Panel report, 42-page declassified CIA file"
       ],
@@ -2849,9 +2849,9 @@
       "previousProjection": "atlas-svg-lower48-state-calibrated-naturalearth-x-mercator-y-100x62",
       "keyFact": "The CIA did not merely study public UFO interest; the panel recommended an organized debunking and monitoring strategy using mass media, psychologists, and civilian-group surveillance.",
       "whyItMatters": "It documents narrative-management recommendations in primary-source form. That weakens any claim that public ridicule was purely organic.",
-      "keyQuote": "strip UFOs of their aura of mystery",
-      "quoteSource": "CIA-UAP-002 · Robertson Panel report",
-      "quoteConfidence": "confirmed primary-source quotation",
+      "keyQuote": "This education could be accomplished by mass media such as television, motion pictures, and popular articles.",
+      "quoteSource": "CIA-UAP-002 · Robertson Panel report, internal p. 20 (rendered PDF p. 30)",
+      "quoteConfidence": "verified against rendered primary-source page",
       "heroFact": "The CIA panel recommended organized UFO debunking and monitoring using mass media, psychologists, and civilian-group surveillance.",
       "significance": "High significance",
       "sourceQuality": "Primary source",
@@ -2909,8 +2909,18 @@
           "sourceType": "primary-record",
           "provenance": "Primary source",
           "locator": "CIA-UAP-002",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "organized-debunking-recommendation",
+            "mass-media-education",
+            "psychologist-and-training-film-support",
+            "continued-residual-case-review",
+            "civilian-group-monitoring"
+          ],
+          "limitations": [
+            "recommendation-not-proof-of-implementation",
+            "two-records-access-restricted",
+            "implementation-records-not-in-released-file"
+          ]
         }
       ],
       "phenomena": {
@@ -5003,9 +5013,9 @@
       "domain": "GOVERNMENT / INSTITUTIONAL",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Internal statements recorded near-zero expectation of finding a saucer before the study was complete, while the final report still contained difficult cases.",
-      "official": "The Condon Report was later used to support closing Project Blue Book.",
-      "gap": "The relationship between internal pre-judgment, case analysis, and the public conclusion warrants explicit source comparison.",
+      "summary": "Before the Colorado study was complete, project administrator Robert Low wrote that it should appear objective to the public while presenting scientists with a group of non-believers having an almost zero expectation of finding a saucer. The later Condon Report was used by the Air Force to support ending Project Blue Book.",
+      "official": "The Air Force relied on the Condon Report's recommendation against further extensive UFO study when it terminated Project Blue Book in 1969. That policy decision does not by itself resolve whether the pre-study language shaped case selection, analysis or the final synthesis.",
+      "gap": "The local source package lacks a facsimile of the Low memorandum. Also missing from this dossier are the complete internal methodology and case-selection correspondence, responses to the memorandum, and the Air Force decision trail comparing the report's synthesis with unresolved case chapters.",
       "sources": [
         "CONDON-1966 · Robert Low memo / Condon Committee pre-judgment record",
         "DOW-UAP-D092 · DAF Project Blue Book review / Condon context"
@@ -5022,8 +5032,8 @@
       "keyFact": "The Condon study carried internal pre-judgment language before publication, yet the report still contained difficult cases and was later used to close Project Blue Book.",
       "whyItMatters": "It exposes a credibility problem at the exact study used to justify shutting down the Air Force public UFO investigation.",
       "keyQuote": "The trick would be, I think, to describe the project so that, to the public, it would appear a totally objective study but, to the scientific community, would present the image of a group of non-believers trying their best to be objective but having an almost zero expectation of finding a saucer.",
-      "quoteSource": "CONDON-1966 · Robert Low memo, Aug. 9, 1966",
-      "quoteConfidence": "confirmed primary-source quotation",
+      "quoteSource": "Robert Low memorandum, Aug. 9, 1966; exact wording preserved in the Atlas record, but a local facsimile is not archived",
+      "quoteConfidence": "document quotation — local facsimile not archived",
       "heroFact": "The Condon study carried pre-judgment language before publication, yet still became the basis for closing Project Blue Book.",
       "significance": "High significance",
       "sourceQuality": "Primary source",
@@ -5080,8 +5090,16 @@
           "sourceType": "primary-record",
           "provenance": "Primary source",
           "locator": "CONDON-1966",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "documented-pre-study-methodological-bias-concern",
+            "condon-report-policy-role",
+            "project-blue-book-closure-context"
+          ],
+          "limitations": [
+            "low-memo-facsimile-not-local",
+            "methodology-correspondence-incomplete",
+            "prejudgment-does-not-prove-case-results-were-fabricated"
+          ]
         },
         {
           "citation": "DOW-UAP-D092 · DAF Project Blue Book review / Condon context",
@@ -9746,9 +9764,9 @@
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Iranian F-4 aircraft attempted to intercept a luminous object; pilot reports included instrument and weapons-system interference during the encounter.",
-      "official": "The released USDAO/JCS message records the Iranian military account and equipment effects. It does not supply raw radar plots, maintenance records or a final identification.",
-      "gap": "Raw radar data, aircraft maintenance logs, named witness statements and radiation-test results referenced as pending are not in the released packet.",
+      "summary": "A declassified U.S. defense message records two Iranian F-4 intercept attempts, a reported radar lock at 27 nautical miles, communications and instrumentation failures near the object, and a weapons-control failure during a missile attempt. The message preserves the military report but not the raw operational data needed to reproduce it.",
+      "official": "The released USDAO/JCS message records the Iranian military account, radar-lock report and equipment effects, then states that more information would be forwarded when available. It gives no final object identification and includes no reproduced radar, maintenance or radiation-analysis results.",
+      "gap": "Still absent are raw radar plots or tapes, ground-controller and communications logs, F-4 maintenance and fault records, missile-system diagnostics, named crew statements, and the promised follow-up or radiation-test results.",
       "sources": [
         "TEHRAN-1976 · DIA/JCS/NSA Iran case file"
       ],
@@ -9762,9 +9780,9 @@
       "coordinateBasis": "Tehran public coordinate",
       "keyFact": "A defense/intelligence record preserved pilot-reported instrument and weapons interference during an attempted intercept rather than reducing the case to a routine misidentification.",
       "whyItMatters": "Military intercept records with reported system interference are operationally serious, especially when preserved in U.S. defense/intelligence reporting.",
-      "keyQuote": "The backseater acquired a radar lock on at 27 NM, 12 o'clock high position with the rate of closure at 150 NMPH.",
-      "quoteSource": "USDAO Tehran message, September 1976, report p. 2",
-      "quoteConfidence": "verified-document-transcription",
+      "keyQuote": "The backseater acquired a radar lock on at 27 NM, 12 o'clock position with the V.C. (rate of closure) at 150 NMPH.",
+      "quoteSource": "USDAO Tehran/JCS message, rendered report p. 3 (message p. 2)",
+      "quoteConfidence": "verified against declassified report image",
       "heroFact": "A defense/intelligence record preserved pilot-reported instrument and weapons interference during an attempted intercept.",
       "significance": "High significance",
       "sourceQuality": "Primary record",
@@ -9825,15 +9843,16 @@
           "provenance": "Declassified US government record mirrored by NSA",
           "locator": "report pp. 2–3",
           "supports": [
-            "intercepts",
-            "radar-lock-report",
-            "communications-and-weapons-effects",
-            "civilian-calls"
+            "two-reported-intercepts",
+            "reported-airborne-radar-lock",
+            "reported-communications-and-instrument-effects",
+            "reported-weapons-control-failure"
           ],
           "limitations": [
             "no-raw-radar",
-            "no-maintenance-records",
-            "follow-up-results-absent"
+            "no-maintenance-or-fault-records",
+            "no-follow-up-results",
+            "message-records-claims-not-object-identity"
           ]
         }
       ],
@@ -19181,9 +19200,9 @@
       "domain": "HISTORICAL / AERIAL",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "FBI records document site surveys, agent photography, witness video collection, and firsthand agent observations.",
-      "official": "No conclusive public resolution appears in the reviewed records.",
-      "gap": "Exact location, identities, per-file photo mapping, and complete analytical outcome remain withheld.",
+      "summary": "Seven released FBI records document witness-video collection, field interviews, agent surveillance, direct agent observations and a follow-up site survey. Agents described lights moving erratically and took five mostly blurry photographs; a later daylight survey found nothing unusual at ground or treetop level.",
+      "official": "The released FBI records establish that agents investigated and personally observed reported light activity. They do not publish an analytical identification or closure finding; the follow-up survey records no unusual ground or treetop feature and notes that the agents' five photographs were mostly blurry and provided little context.",
+      "gap": "The public packet withholds the exact site, witness and agent identities, dates and several operational details. Also absent are the referenced original witness videos, the five full-resolution agent photographs with per-file mapping and metadata, any laboratory or imagery analysis, chain-of-custody records and a disposition or closure memorandum.",
       "sources": [
         "FBI-UAP-D004; FBI-UAP-D005; FBI-UAP-D006; FBI-UAP-D007; FBI-UAP-D008; FBI-UAP-D009; FBI-UAP-D010 · Northeastern Orb surveillance records"
       ],
@@ -19197,9 +19216,9 @@
       "coordinateBasis": "Northeastern US redacted regional centroid; lower-48 calibrated to embedded Atlas USA geometry",
       "keyFact": "The FBI records matter because agents were not just receiving a civilian report; they conducted site surveys, collected imagery, and recorded firsthand observations.",
       "whyItMatters": "FBI firsthand observation and fieldwork make this an institutional investigation record, not just a civilian anecdote.",
-      "keyQuote": "erratic movements",
-      "quoteSource": "FBI-UAP-D004–D010 · Northeastern Orb surveillance records",
-      "quoteConfidence": "confirmed source-phrase quotation",
+      "keyQuote": "The light appeared to be at the northern edge of [REDACTED] and began to move horizontally with somewhat erratic movements.",
+      "quoteSource": "FBI-UAP-D007, FD-1057-06, rendered p. 3",
+      "quoteConfidence": "verified against rendered FBI record",
       "heroFact": "FBI records show agents conducted site surveys, collected imagery, and recorded firsthand observations—not just a civilian report.",
       "significance": "High significance",
       "sourceQuality": "Primary source",
@@ -19257,8 +19276,19 @@
           "sourceType": "primary-record",
           "provenance": "Primary source",
           "locator": "FBI-UAP-D004",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "fbi-field-investigation",
+            "agent-firsthand-observation",
+            "witness-video-collection",
+            "agent-photography",
+            "follow-up-site-survey"
+          ],
+          "limitations": [
+            "identities-and-location-redacted",
+            "original-videos-not-mapped",
+            "full-resolution-agent-photos-not-mapped",
+            "no-published-analysis-or-closure"
+          ]
         }
       ],
       "phenomena": {
@@ -19489,9 +19519,9 @@
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Release 04 identifies an unresolved IR area of contrast over the Yellow Sea.",
-      "official": "The released description avoids an object-origin conclusion.",
-      "gap": "Platform, range, atmospheric context, and complete sensor sequence remain necessary.",
+      "summary": "U.S. Indo-Pacific Command submitted 18 seconds of infrared video from a U.S. military platform to AARO. The public clip shows the sensor panning for roughly 14 seconds to keep an area of contrast resembling a six-pointed star near screen center; the release supplies no analytical attribution.",
+      "official": "The official DVIDS description explicitly says it is informational only and must not be read as an analytical judgment, investigative conclusion or factual determination about the event's validity, nature or significance. The linked release provides no object-origin conclusion.",
+      "gap": "Needed for independent assessment are the native 18-second file, platform and sensor type, range and slant-range data, azimuth/elevation, field of view, tracking mode, calibration, atmospheric and cloud conditions, stabilization metadata, surrounding frames and AARO's analytical work product.",
       "sources": [
         "DOW-UAP-PR104 · Yellow Sea unresolved UAP report / DOD_111830027"
       ],
@@ -19504,9 +19534,9 @@
       "coordinateBasis": "Yellow Sea regional centroid",
       "keyFact": "Release 04 identifies an unresolved IR area of contrast over the Yellow Sea.",
       "whyItMatters": "The released description confirms an unresolved IR contrast record, but without platform and atmospheric context it cannot carry an origin claim.",
-      "keyQuote": "An infrared area of contrast was recorded by military sensors over the Yellow Sea; the object exhibited flight characteristics inconsistent with known aircraft or natural phenomena.",
-      "quoteSource": "DOD declassified motion media, 2025 (summary)",
-      "quoteConfidence": "web article quote — summary of record",
+      "keyQuote": "The sensor pans to track an area of contrast resembling a six-pointed star, keeping it generally centered within the center of the screen.",
+      "quoteSource": "DVIDS Video 1014101 · DOW-UAP-PR104 official video description",
+      "quoteConfidence": "verified official web-record quotation",
       "heroFact": "Release 04 identifies an unresolved IR area of contrast over the Yellow Sea.",
       "significance": "High significance",
       "sourceQuality": "Primary record",
@@ -19562,8 +19592,18 @@
           "sourceType": "primary-record",
           "provenance": "Primary record",
           "locator": "DOW-UAP-PR104",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "official-release-record",
+            "infrared-military-sensor",
+            "eighteen-second-submission",
+            "six-pointed-area-of-contrast-description"
+          ],
+          "limitations": [
+            "informational-description-only",
+            "no-platform-or-sensor-identification",
+            "no-range-or-atmospheric-data",
+            "no-analytical-work-product"
+          ]
         }
       ],
       "phenomena": {
