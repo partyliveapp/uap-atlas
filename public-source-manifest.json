@@ -41,12 +41,12 @@
   ],
   "BF-1953-RP-00": [
     {
-      "label": "CIA Reading Room — Robertson Panel record",
-      "url": "https://www.cia.gov/readingroom/collection/ufos-fact-or-fiction",
-      "publisher": "Central Intelligence Agency",
-      "access": "Public; legacy Reading Room redirects may be unstable",
-      "scope": "official-collection",
-      "note": "Official CIA declassified UFO collection. Search for Robertson Panel / Durant Report."
+      "label": "War.gov — CIA Robertson Panel / Scientific Advisory Panel report",
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-002_Scientific-Advisory-Panel-on-Unidentified-Flying-Objects_Report_1952-1953.pdf",
+      "publisher": "U.S. Department of War / CIA declassified record",
+      "access": "Public; endpoint blocks some automated clients",
+      "scope": "official-record",
+      "note": "Exact released 42-page file. The recommendations are confirmed; this document alone does not prove every recommendation was implemented."
     }
   ],
   "BF-1957-LV-01": [
@@ -104,12 +104,12 @@
   ],
   "BF-1981-TP-01": [
     {
-      "label": "GEIPAN — official case-search portal",
-      "url": "https://www.cnes-geipan.fr/en",
+      "label": "GEIPAN — Trans-en-Provence case 1981-01-00849",
+      "url": "https://www.cnes-geipan.fr/fr/cas/1981-01-00849",
       "publisher": "CNES / GEIPAN",
       "access": "Public",
-      "scope": "official-collection",
-      "note": "Search Trans-en-Provence or case 81/01 for the official GEPAN investigation record."
+      "scope": "official-case-record",
+      "note": "Exact official case page with Note Technique 16, laboratory analyses, photographs, meteorology and police record attachments."
     }
   ],
   "BF-SF-05": [
@@ -165,12 +165,12 @@
   ],
   "BF-1961-BH-01": [
     {
-      "label": "NARA Catalog — Project BLUE BOOK (T-1206) search: Betty & Barney Hill",
-      "url": "https://catalog.archives.gov/search?q=T-1206%20Hill%20Betty%20Barney",
-      "publisher": "National Archives and Records Administration",
-      "access": "Public; requires search within microfilm publication",
-      "scope": "official-catalog-collection",
-      "note": "Project BLUE BOOK records are available on microfilm publication T-1206. Use this search to locate specific case files."
+      "label": "UNH Archives — Betty and Barney Hill Papers, MC 197",
+      "url": "https://archives.unh.edu/repositories/3/resources/107",
+      "publisher": "University of New Hampshire Special Collections",
+      "access": "Public",
+      "scope": "archival-finding-aid",
+      "note": "Exact collection finding aid for the Hills’ papers; personal archive, not an official determination of the encounter."
     }
   ],
   "BF-1957-RB-01": [
@@ -352,6 +352,178 @@
       "access": "Public",
       "scope": "institutional-research-report",
       "note": "Retrospective report and public military-record copies; original calibrated radar tapes remain unavailable."
+    }
+  ],
+  "BF-1956-LB-01": [
+    {
+      "label": "NARA Catalog — Bentwaters–Lakenheath Project BLUE BOOK file",
+      "url": "https://catalog.archives.gov/id/28966873",
+      "publisher": "National Archives and Records Administration",
+      "access": "Public",
+      "scope": "official-catalog-record",
+      "note": "Exact 1956 Project BLUE BOOK case-file unit; Atlas holds selected page images locally."
+    },
+    {
+      "label": "UK National Archives — No. 23 Squadron operations record book",
+      "url": "https://discovery.nationalarchives.gov.uk/details/r/C2505380",
+      "publisher": "The National Archives (UK)",
+      "access": "Public catalog",
+      "scope": "official-archival-lead",
+      "note": "Exact RAF squadron operational-record custody lead; not the recovered radar plots or communications transcript."
+    },
+    {
+      "label": "UK National Archives — RAF Waterbeach station operations record book",
+      "url": "https://discovery.nationalarchives.gov.uk/details/r/C4099443",
+      "publisher": "The National Archives (UK)",
+      "access": "Public catalog",
+      "scope": "official-archival-lead",
+      "note": "Exact station-record custody lead; catalog presence does not establish that the surviving file contains the missing raw radar record."
+    }
+  ],
+  "BF-1986-JAL-01": [
+    {
+      "label": "NARA Catalog — FAA Japan Airlines Flight 1628 records",
+      "url": "https://catalog.archives.gov/id/40587205",
+      "publisher": "National Archives and Records Administration",
+      "access": "Public",
+      "scope": "official-catalog-record",
+      "note": "Exact FAA archival record unit for the 1986 Alaska encounter."
+    },
+    {
+      "label": "NICAP archive — FAA JAL 1628 case packet",
+      "url": "https://www.nicap.org/docs/861117_flight1628.pdf",
+      "publisher": "NICAP public archive",
+      "access": "Public",
+      "scope": "official-record-mirror",
+      "note": "Accessible case-specific copy of FAA records; private mirror rather than NARA custody."
+    },
+    {
+      "label": "The Black Vault — FAA JAL 1628 document mirror",
+      "url": "https://documents.theblackvault.com/documents/ufos/jal1628/733667-001-015.pdf",
+      "publisher": "The Black Vault",
+      "access": "Public",
+      "scope": "official-record-mirror",
+      "note": "Case-specific FAA document copy; mirror custody."
+    }
+  ],
+  "BF-1987-GB-01": [
+    {
+      "label": "Rice University Archives — Gulf Breeze UFO photographs, Box 11 Folder 12",
+      "url": "https://archives.library.rice.edu/repositories/2/archival_objects/330044",
+      "publisher": "Woodson Research Center, Rice University",
+      "access": "Public",
+      "scope": "archival-catalog-record",
+      "note": "Exact archival object record in the Richard F. Haines papers; archival custody does not authenticate the photographs."
+    }
+  ],
+  "BF-1948-MT-01": [
+    {
+      "label": "NARA Catalog — Godman Field, Kentucky, January 1948 Project BLUE BOOK file",
+      "url": "https://catalog.archives.gov/id/28930550",
+      "publisher": "National Archives and Records Administration",
+      "access": "Public",
+      "scope": "official-catalog-record",
+      "note": "Exact 75-object case file. Custody confirms the contemporary record, not the object’s identity."
+    }
+  ],
+  "BF-1973-SS-01": [
+    {
+      "label": "War.gov — CIA Sary Shagan Weapons Testing Range report",
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-011-The_Sary_Shagan_Weapons_Testing_Range.pdf",
+      "publisher": "U.S. Department of War / CIA declassified record",
+      "access": "Public; endpoint blocks some automated clients",
+      "scope": "official-record",
+      "note": "Exact released intelligence report. It preserves a source report, not independent sensor confirmation."
+    }
+  ],
+  "BF-1994-KZ-01": [
+    {
+      "label": "War.gov — State Department cable DUSHANBE 00259, Kazakhstan encounter",
+      "url": "https://www.war.gov/medialink/ufo/release_1/dos-uap-d2-cable-2-kazakhstan-january-1994.pdf",
+      "publisher": "U.S. Department of War / Department of State record",
+      "access": "Public; endpoint blocks some automated clients",
+      "scope": "official-record",
+      "note": "Exact released diplomatic cable. Referenced photographs and follow-up investigation are absent."
+    }
+  ],
+  "BF-2022-CS-01": [
+    {
+      "label": "War.gov — Intelligence assessment of Colorado Springs / Cheyenne Mountain incident",
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/ICA-UAP-D001_Analysis_Colorado-Springs-UAP-Incident.pdf",
+      "publisher": "U.S. Department of War / Intelligence Community assessment",
+      "access": "Public; endpoint blocks some automated clients",
+      "scope": "official-analysis",
+      "note": "Exact official analysis. The backscattering explanation is explicitly low confidence and lacks released environmental modeling inputs."
+    }
+  ],
+  "BF-2023-BC-01": [
+    {
+      "label": "War.gov — FBI Serial 3 restricted-facility bronze cigar witness record",
+      "url": "https://www.war.gov/medialink/ufo/release_1/serial-3_redacted.pdf",
+      "publisher": "U.S. Department of War / FBI record",
+      "access": "Public; endpoint blocks some automated clients",
+      "scope": "official-record",
+      "note": "Exact released FD-302 witness record; location, identities and disposition remain redacted or unreleased."
+    }
+  ],
+  "BF-2023-IQ-20": [
+    {
+      "label": "War.gov — DOW-UAP-D20 released mission report",
+      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d20-mission-report-southern-united-states-2023.pdf",
+      "publisher": "U.S. Department of War",
+      "access": "Public; endpoint blocks some automated clients",
+      "scope": "official-record",
+      "note": "Exact DOW-UAP-D20 release. Publisher-facing title says Southern United States while the record contains CENTCOM/I2/SY operational context; geography remains redacted and contested."
+    }
+  ],
+  "BF-2023-SY-74": [
+    {
+      "label": "War.gov — DOW-UAP-D74 Syria mission report",
+      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d74-mission-report-syria-november-2023.pdf",
+      "publisher": "U.S. Department of War",
+      "access": "Public; endpoint blocks some automated clients",
+      "scope": "official-record",
+      "note": "Exact released mission report; native FMV, platform details and reproducible kinematic workpapers are not public."
+    }
+  ],
+  "BF-2024-ECS-01": [
+    {
+      "label": "War.gov — DOW-UAP-D28 released mission report",
+      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d28-mission-report-east-china-sea-2024.pdf",
+      "publisher": "U.S. Department of War",
+      "access": "Public; endpoint blocks some automated clients",
+      "scope": "official-record",
+      "note": "Exact DOW-UAP-D28 release. The publisher filename/metadata says East China Sea while the body carries Operation Inherent Resolve and redacted 38S MGRS context; the location conflict is preserved rather than silently resolved."
+    }
+  ],
+  "BF-1949-KD-01": [
+    {
+      "label": "War.gov — U.S. Army Flying Saucer Study, 1949",
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DOW-UAP-D084_USArmy-Flying-Saucer-Study_1949.pdf",
+      "publisher": "U.S. Department of War / U.S. Army CIC record",
+      "access": "Public; endpoint blocks some automated clients",
+      "scope": "official-record",
+      "note": "Exact 342-HS1 release containing the Kodiak report on pp. 51–52; the complete packet contains multiple incidents and does not supply a final identification."
+    }
+  ],
+  "BF-1954-KL-01": [
+    {
+      "label": "NARA Catalog — Killeen, Texas, November 14/16, 1954 field file",
+      "url": "https://catalog.archives.gov/id/310994070",
+      "publisher": "National Archives and Records Administration",
+      "access": "Public",
+      "scope": "official-catalog-record",
+      "note": "Exact 4602D AISS file unit with 155 digital objects; official custody does not validate an extraordinary interpretation."
+    }
+  ],
+  "BF-1957-B47-01": [
+    {
+      "label": "NARA Catalog — Air Intelligence Information Reports: 1957",
+      "url": "https://catalog.archives.gov/id/311001910",
+      "publisher": "National Archives and Records Administration",
+      "access": "Public",
+      "scope": "official-catalog-record",
+      "note": "Exact 301-object 4602D AISS compilation containing the B-47 encounter report; it is a collection-level file unit with a page-level internal locator, not a standalone case record."
     }
   ]
 }

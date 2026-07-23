@@ -298,5 +298,29 @@
       "mediaKind": "video",
       "note": "Documentary includes a substantial Westall segment and witness account with Ross Coulthart; contextual reporting, not a recovered RAAF or police record."
     }
+  ],
+  "BF-2019-OM-01": [
+    {
+      "label": "MYSTERY WIRE — Jeremy Corbell and George Knapp: New USS Omaha deck video",
+      "url": "https://www.youtube.com/watch?v=4wK39G-zD8s",
+      "publisher": "Mystery Wire / George Knapp / Jeremy Corbell",
+      "access": "Public",
+      "scope": "case-specific-analysis",
+      "role": "contextual-analysis",
+      "mediaKind": "video",
+      "note": "Case-specific coverage of the USS Omaha material; contextual reporting and analysis, not the official sensor record or a complete Navy investigative file."
+    }
+  ],
+  "BF-1961-BH-01": [
+    {
+      "label": "The Truth Behind Betty & Barney Hill's Haunting Experience — DEBRIEFED ep. 56",
+      "url": "https://www.youtube.com/watch?v=CSjpgxLuYyA",
+      "publisher": "Area52 Investigations",
+      "access": "Public video",
+      "scope": "case-specific-analysis",
+      "role": "contextual-analysis",
+      "mediaKind": "video",
+      "note": "Case-specific contextual analysis; not a primary record and not proof of the encounter narrative."
+    }
   ]
 }
